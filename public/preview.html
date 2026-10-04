@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>答题卡预览</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #eceff3; }
+  body { font: 14px/1.6 system-ui, -apple-system, "Noto Sans SC", sans-serif; color: #5b6472; }
+  #stage { padding: 8px; }
+  #stage svg { display: block; width: 100%; height: auto; background: #fff; box-shadow: 0 1px 3px rgba(16, 24, 40, .12); }
+  .msg { padding: 18px 16px; }
+  .msg.err { color: #b3261e; }
+</style>
+</head>
+<body>
+<div id="stage"><div class="msg">正在准备预览…</div></div>
+<script>
+/**
+ * 答题卡预览岛屿（Android 原生端内嵌）。
+ * 原生侧通过 EeaSheet.render(paramsJson) 触发重渲染；渲染完成后经 EeaPreviewBridge.onSheetStatus 回报行数状态。
+ * 参数与 /api/handwrite 请求体同构，由原生侧组装（含作文内容与控制项）。
+ */
+(function () {
+  var stage = document.getElementById('stage');
+  var bridge = window.EeaPreviewBridge || null;
+
+  function setMessage(text, isError) {
+    stage.innerHTML = '';
+    var div = document.createElement('div');
+    div.className = 'msg' + (isError ? ' err' : '');
+    div.textContent = text;
+    stage.appendChild(div);
+  }
+
+  function report(status) {
+    if (!bridge || typeof bridge.onSheetStatus !== 'function') return;
+    try {
+      bridge.onSheetStatus(JSON.stringify(status));
+    } catch (e) {
+      // 桥不可用不影响预览本身
+    }
+  }
+
+  function mount(result) {
+    stage.innerHTML = result.svg || '';
+    var node = stage.querySelector('svg');
+    if (!node) {
+      var missing = '返回内容里没有预览图。';
+      setMessage(missing, true);
+      report({ ok: false, error: missing });
+      return;
+    }
+    if (!node.getAttribute('viewBox') && result.width && result.height) {
+      node.setAttribute('viewBox', '0 0 ' + result.width + ' ' + result.height);
+    }
+    node.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+    node.removeAttribute('width');
+    node.removeAttribute('height');
+    node.style.width = '100%';
+    node.style.height = 'auto';
+    report({
+      ok: true,
+      usedLines: result.usedLines,
+      placedLines: result.placedLines,
+      availableLines: result.availableLines,
+      overflowLines: result.overflowLines,
+      fits: result.fits
+    });
+  }
+
+  function render(paramsJson) {
+    var payload;
+    try {
+      payload = JSON.parse(paramsJson);
+    } catch (e) {
+      var bad = '预览参数解析失败。';
+      setMessage(bad, true);
+      report({ ok: false, error: bad });
+      return;
+    }
+    setMessage('正在生成预览…');
+    fetch('/api/handwrite', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function (res) {
+      return res.text().then(function (text) {
+        var body = null;
+        try {
+          body = JSON.parse(text);
+        } catch (e) {
+          // 非 JSON 响应（本地服务异常）
+        }
+        if (!res.ok || !body || !body.ok) {
+          throw new Error((body && body.error) || ('本地服务返回 HTTP ' + res.status));
+        }
+        return body.data;
+      });
+    }).then(mount).catch(function (err) {
+      var msg = '预览生成失败：' + ((err && err.message) || err);
+      setMessage(msg, true);
+      report({ ok: false, error: msg });
+    });
+  }
+
+  window.EeaSheet = {
+    render: render,
+    clear: function () {
+      setMessage('等待生成预览…');
+    }
+  };
+
+  // 浏览器调试：preview.html#<encodeURIComponent(参数JSON)>
+  if (location.hash.length > 1) {
+    try {
+      render(decodeURIComponent(location.hash.slice(1)));
+    } catch (e) {
+      // 调试参数非法时保持占位提示
+    }
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>激活 · 考研英语作文助手</title>
+<style>
+  :root {
+    --bg: #f5f6f8; --panel: #fff; --line: #e2e6eb; --text: #1d2430;
+    --dim: #6b7280; --accent: #2563eb; --accent-soft: #eff5ff;
+    --ok: #15803d; --err: #b91c1c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+    width: 100%; max-width: 560px; padding: 36px 34px 30px;
+    box-shadow: 0 10px 30px rgba(29, 36, 48, .07);
+  }
+  h1 { font-size: 21px; display: flex; align-items: center; gap: 10px; }
+  h1 .logo { color: var(--accent); font-size: 26px; }
+  .sub { color: var(--dim); font-size: 13px; line-height: 1.7; margin: 10px 0 22px; }
+  label { display: block; font-size: 13px; color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  textarea {
+    width: 100%; min-height: 74px; resize: vertical;
+    font-family: Consolas, "Courier New", monospace; font-size: 14px; line-height: 1.6;
+    padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px;
+    background: #fbfcfe; color: var(--text);
+  }
+  textarea:focus { outline: none; border-color: var(--accent); background: #fff; }
+  .hint { font-size: 12px; color: var(--dim); margin-top: 6px; line-height: 1.6; }
+  .row { display: flex; gap: 10px; margin-top: 16px; align-items: center; }
+  .btn {
+    border: none; border-radius: 8px; padding: 11px 26px; font-size: 15px; cursor: pointer;
+    background: var(--accent); color: #fff; flex-shrink: 0;
+  }
+  .btn:hover { filter: brightness(1.06); }
+  .btn:disabled { opacity: .6; cursor: wait; }
+  .msg { margin-top: 14px; font-size: 13px; line-height: 1.7; display: none; padding: 10px 12px; border-radius: 8px; }
+  .msg.err { display: block; background: #fdeeee; color: var(--err); }
+  .msg.ok { display: block; background: #ecfdf3; color: var(--ok); }
+  .foot { margin-top: 22px; padding-top: 14px; border-top: 1px dashed var(--line); font-size: 12px; color: var(--dim); line-height: 1.8; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1><span class="logo">✍</span>考研英语作文助手 · 激活</h1>
+  <p class="sub">
+    本软件需要激活码才能使用。请把作者发给你的激活码整串复制进来，
+    粘贴时无需理会空格或换行，点击「激活」即可。
+  </p>
+  <form id="form">
+    <label for="code">激活码</label>
+    <textarea id="code" placeholder="EEA1…（整串粘贴即可）" autocomplete="off" spellcheck="false" autocapitalize="off"></textarea>
+    <p class="hint">提示：激活码形如「EEA1」开头的一长串字符；只有一行时直接粘贴即可。</p>
+    <div class="row">
+      <button type="submit" class="btn" id="btn">激活</button>
+      <span class="hint" id="busy"></span>
+    </div>
+  </form>
+  <div class="msg" id="msg"></div>
+  <div class="foot">
+    一个激活码对应一份授权。如未取得激活码，请联系作者获取。<br>
+    激活状态保存在本机系统目录（不在软件文件夹内），重装、拷贝软件不会带走激活状态。
+  </div>
+</div>
+<script>
+(function () {
+  var form = document.getElementById('form');
+  var codeEl = document.getElementById('code');
+  var btn = document.getElementById('btn');
+  var msg = document.getElementById('msg');
+  var busy = document.getElementById('busy');
+  var REASON_TEXT = {
+    revoked: '该激活码已被作者吊销，请联系作者。',
+    not_registered: '该激活码未在服务器登记（白名单模式），请联系作者。',
+    device_limit: '该激活码绑定的设备数已达上限，请先在服务器释放旧设备或联系作者。',
+    need_online: '本软件需要联网登记后才能使用：请检查网络后重新提交激活码。',
+    unreachable: '暂时无法连接激活服务器，请检查网络后重试。',
+  };
+  // 启动即被锁定时（如云端吊销/首次联网登记失败），先说明原因，避免用户盲贴码。
+  fetch('/api/license-status')
+    .then(function (r) { return r.json(); })
+    .then(function (j) {
+      var why = REASON_TEXT[j && j.cloudReason];
+      if (why) {
+        var tip = document.createElement('div');
+        tip.className = 'msg err';
+        tip.style.marginTop = '0';
+        tip.style.marginBottom = '16px';
+        tip.textContent = '提示：' + why;
+        document.getElementById('form').insertAdjacentElement('beforebegin', tip);
+      }
+    })
+    .catch(function () {});
+  function show(html, kind) {
+    msg.className = 'msg ' + (kind || 'ok');
+    msg.innerHTML = html;
+  }
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var code = codeEl.value.replace(/\s+/g, '');
+    if (!code) { show('请输入激活码。', 'err'); return; }
+    msg.className = 'msg'; busy.textContent = '正在校验…';
+    btn.disabled = true;
+    fetch('/api/activate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code: code })
+    })
+      .then(function (r) { return r.json().then(function (j) { return { status: r.status, j: j }; }); })
+      .then(function (res) {
+        busy.textContent = '';
+        btn.disabled = false;
+        if (res.status === 200 && res.j && res.j.ok) {
+          var d = res.j.data || {};
+          var when = d.permanent ? '永久有效' : ('有效期至 ' + (d.expiresAt ? d.expiresAt.slice(0, 10) : ''));
+          var dev = d.deviceName ? '，本机已登记为设备「' + d.deviceName + '」' : '';
+          show('激活成功，' + when + dev + '。<b>正在进入软件…</b>');
+          setTimeout(function () { location.href = '/index.html'; }, 900);
+        } else {
+          show((res.j && res.j.error) ? res.j.error : '激活失败，请重试。', 'err');
+        }
+      })
+      .catch(function () {
+        busy.textContent = '';
+        btn.disabled = false;
+        show('无法连接本地服务，请确认软件仍在运行后重试。', 'err');
+      });
+  });
+})();
+</script>
+</body>
+</html>

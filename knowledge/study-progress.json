@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "scopes": {
+    "e1": {
+      "plan": {
+        "tracks": [
+          "chart",
+          "picture",
+          "small"
+        ],
+        "dailyCount": 8,
+        "includeOptional": true,
+        "includeExtended": false
+      },
+      "currentUnit": 1,
+      "cards": {}
+    },
+    "e2": {
+      "plan": {
+        "tracks": [
+          "chart",
+          "picture",
+          "small"
+        ],
+        "dailyCount": 8,
+        "includeOptional": true,
+        "includeExtended": false
+      },
+      "currentUnit": 1,
+      "cards": {
+        "card-sk-small-p1-opening-21-01": {
+          "status": "mastered",
+          "reviewedAt": "2026-09-03T10:21:41.121Z"
+        },
+        "card-sk-small-p2s1-p26-01": {
+          "status": "mastered",
+          "reviewedAt": "2026-09-03T10:21:41.122Z"
+        },
+        "card-sk-slp-sm-p3-e2-04": {
+          "status": "mastered",
+          "reviewedAt": "2026-09-03T10:21:41.122Z"
+        },
+        "card-sk-slp-chart-open-e2-04": {
+          "status": "mastered",
+          "reviewedAt": "2026-09-04T09:50:09.741Z"
+        },
+        "card-sk-slp-chart-body-e2-09": {
+          "status": "mastered",
+          "reviewedAt": "2026-09-04T09:50:09.741Z"
+        },
+        "card-sk-slp-chart-close-e2-01": {
+          "status": "mastered",
+          "reviewedAt": "2026-09-04T09:50:09.741Z"
+        }
+      }
+    }
+  },
+  "updatedAt": "2026-09-04T09:50:09.742Z"
+}

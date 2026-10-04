@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>答题卡导出</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #eceff3; }
+  body { font: 13px/1.6 system-ui, -apple-system, "Noto Sans SC", sans-serif; color: #5b6472; }
+  #status { padding: 10px 12px; }
+</style>
+</head>
+<body>
+<div id="status">就绪</div>
+<script>
+/**
+ * PNG 光栅化岛屿（Android 原生端以不可见 WebView 加载）。
+ * 原生侧调用 EeaRaster.run(paramsJson, scale, fileName)：页面自行请求 /api/handwrite，
+ * 把 SVG 画进 canvas 后经 EEABridge.shareBase64 交回原生侧落盘分享。
+ * 光栅化步骤与桌面端 public/app.js 的 PNG 导出保持一致（scale 默认 2、白底、不裁剪）。
+ */
+(function () {
+  var statusEl = document.getElementById('status');
+  var bridge = window.EEABridge || null;
+
+  function setStatus(text) {
+    statusEl.textContent = text;
+  }
+
+  function fail(message) {
+    setStatus(message);
+    if (bridge && typeof bridge.onRasterError === 'function') {
+      try {
+        bridge.onRasterError(String(message));
+      } catch (e) {
+        // 桥不可用不影响错误展示
+      }
+    }
+  }
+
+  function share(fileName, dataUrl) {
+    if (bridge && typeof bridge.shareBase64 === 'function') {
+      bridge.shareBase64(fileName, dataUrl, 'image/png');
+      setStatus('已导出 ' + fileName);
+      return;
+    }
+    // 浏览器调试：直接触发下载
+    var a = document.createElement('a');
+    a.href = dataUrl;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setStatus('已下载 ' + fileName);
+  }
+
+  function raster(svgText, width, height, scale, fileName) {
+    var host = document.createElement('div');
+    host.style.position = 'fixed';
+    host.style.left = '-10000px';
+    host.style.top = '0';
+    host.innerHTML = svgText;
+    var node = host.querySelector('svg');
+    if (!node) {
+      fail('没有可导出的预览内容。');
+      return;
+    }
+    var w = width || (node.viewBox && node.viewBox.baseVal && node.viewBox.baseVal.width) || 794;
+    var h = height || (node.viewBox && node.viewBox.baseVal && node.viewBox.baseVal.height) || 1123;
+    // 克隆并写回显式尺寸，避免预览用的百分比宽度影响栅格化
+    var clone = node.cloneNode(true);
+    clone.setAttribute('width', String(w));
+    clone.setAttribute('height', String(h));
+    clone.style.width = '';
+    clone.style.height = '';
+
+    var blob = new Blob([new XMLSerializer().serializeToString(clone)], { type: 'image/svg+xml;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var img = new Image();
+    img.onload = function () {
+      try {
+        var canvas = document.createElement('canvas');
+        canvas.width = Math.round(w * scale);
+        canvas.height = Math.round(h * scale);
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        URL.revokeObjectURL(url);
+        share(fileName, canvas.toDataURL('image/png'));
+      } catch (err) {
+        URL.revokeObjectURL(url);
+        fail('PNG 导出失败：' + ((err && err.message) || err));
+      }
+    };
+    img.onerror = function () {
+      URL.revokeObjectURL(url);
+      fail('PNG 导出失败，请改用导出 PDF 或截图。');
+    };
+    img.src = url;
+  }
+
+  function run(paramsJson, scale, fileName) {
+    var payload;
+    try {
+      payload = JSON.parse(paramsJson);
+    } catch (e) {
+      fail('导出参数解析失败。');
+      return;
+    }
+    setStatus('正在生成答题卡…');
+    fetch('/api/handwrite', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function (res) {
+      return res.text().then(function (text) {
+        var body = null;
+        try {
+          body = JSON.parse(text);
+        } catch (e) {
+          // 非 JSON 响应（本地服务异常）
+        }
+        if (!res.ok || !body || !body.ok) {
+          throw new Error((body && body.error) || ('本地服务返回 HTTP ' + res.status));
+        }
+        return body.data;
+      });
+    }).then(function (d) {
+      if (!d || !d.svg) {
+        fail('返回内容里没有预览图。');
+        return;
+      }
+      raster(d.svg, d.width, d.height, scale || 2, fileName || '答题卡.png');
+    }).catch(function (err) {
+      fail('PNG 导出失败：' + ((err && err.message) || err));
+    });
+  }
+
+  window.EeaRaster = { run: run, rasterSvg: raster };
+
+  // 浏览器调试：raster.html#<encodeURIComponent(参数JSON)>|<scale>|<文件名>
+  if (location.hash.length > 1) {
+    try {
+      var parts = location.hash.slice(1).split('|');
+      run(decodeURIComponent(parts[0]), Number(parts[1]) || 2, parts[2] ? decodeURIComponent(parts[2]) : '答题卡.png');
+    } catch (e) {
+      // 调试参数非法时保持就绪状态
+    }
+  }
+})();
+</script>
+</body>
+</html>

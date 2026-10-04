@@ -1,0 +1,86 @@
+plugins {
+    id 'com.android.application'
+}
+
+// 发布签名：keystore.properties 由 scripts/build-android.mjs 生成（不入库）。
+// 未生成时不配置 signing，assembleRelease 会明确报错提示先跑构建脚本。
+def keystoreFile = rootProject.file('keystore.properties')
+def keystoreProps = new Properties()
+if (keystoreFile.exists()) {
+    keystoreFile.withInputStream { keystoreProps.load(it) }
+}
+
+android {
+    namespace 'cn.kaoyan.essay'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'cn.kaoyan.essay'
+        minSdk 24
+        targetSdk 34
+        versionCode 2
+        versionName '2.0.0'
+        ndk {
+            // 目前只出 arm64（现代安卓手机）；x86_64 模拟器后续按需追加
+            abiFilters 'arm64-v8a'
+        }
+        externalNativeBuild {
+            cmake {
+                cppFlags '-std=c++17'
+                arguments '-DANDROID_STL=c++_shared'
+            }
+        }
+    }
+
+    signingConfigs {
+        release {
+            if (keystoreFile.exists()) {
+                storeFile rootProject.file(keystoreProps['storeFile'])
+                storePassword keystoreProps['storePassword']
+                keyAlias keystoreProps['keyAlias']
+                keyPassword keystoreProps['keyPassword']
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
+            signingConfig signingConfigs.release
+        }
+    }
+
+    sourceSets {
+        main {
+            // 预编译 libnode.so 所在目录（libnode/bin/<ABI>/）
+            jniLibs.srcDirs 'libnode/bin/'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        // 原生界面用 ViewBinding 绑定布局，避免 findViewById 手写与空指针
+        viewBinding true
+    }
+}
+
+dependencies {
+    // 版本全部命中本机 Gradle 缓存，可离线构建
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.fragment:fragment:1.5.4'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    // org.json / HttpURLConnection 由 Android 平台自带
+}

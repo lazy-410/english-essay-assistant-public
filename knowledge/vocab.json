@@ -1,0 +1,1291 @@
+{
+  "meta": {
+    "version": 3,
+    "title": "考研英语作文综合知识库",
+    "source": "考研英语作文.pdf + 石雷鹏考研英语大小作文笔记",
+    "sourcePageCount": 47,
+    "sources": [
+      {
+        "source": "scan-handout",
+        "sourceLabel": "考研英语作文扫描讲义",
+        "totalPages": 47,
+        "scope": "图画作文、图表作文、小作文功能句、书写布局与词汇"
+      },
+      {
+        "source": "slp-big-e1",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语一（整理自：学长小谭）",
+        "totalPages": 70,
+        "scope": "图画作文（图画类大作文）"
+      },
+      {
+        "source": "slp-big-e2",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语二（整理自：学长小谭）",
+        "totalPages": 64,
+        "scope": "图表作文（图表类大作文）"
+      },
+      {
+        "source": "slp-small-e1",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语一（整理自：学长小谭）",
+        "totalPages": 62,
+        "scope": "应用文（小作文）。本文件收录英一英二共有的前六篇精讲/实训以及英一全部独有真题。"
+      },
+      {
+        "source": "slp-small-e2",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语二（整理自：学长小谭）",
+        "totalPages": 58,
+        "scope": "应用文（小作文）· 英语二独有真题。与英语一笔记共有的前六篇精讲/实训（精讲1 辞职道歉、实训1 道歉建议、精讲2 求助描述、实训2 描述建议、精讲3 招募通知、实训3 通知介绍）已收录在 slp-small-e1.json，此处不重复。"
+      }
+    ],
+    "counts": {
+      "pages": 47,
+      "entries": 378,
+      "rawEntries": 220,
+      "slpEntries": 158,
+      "vocab": 207
+    }
+  },
+  "vocab": [
+    {
+      "en": "Online learning",
+      "zh": "在线学习",
+      "page": 44,
+      "id": "vocab-p44-1"
+    },
+    {
+      "en": "Live commerce",
+      "zh": "直播带货",
+      "page": 44,
+      "id": "vocab-p44-2"
+    },
+    {
+      "en": "Mobile Internet",
+      "zh": "移动互联网",
+      "page": 44,
+      "id": "vocab-p44-3"
+    },
+    {
+      "en": "Netizen",
+      "zh": "网民",
+      "page": 44,
+      "id": "vocab-p44-4"
+    },
+    {
+      "en": "Citizen",
+      "zh": "公民",
+      "page": 44,
+      "id": "vocab-p44-5"
+    },
+    {
+      "en": "Online payment",
+      "zh": "在线支付",
+      "page": 44,
+      "id": "vocab-p44-6"
+    },
+    {
+      "en": "e-commerce",
+      "zh": "电子商务",
+      "page": 44,
+      "id": "vocab-p44-7"
+    },
+    {
+      "en": "artificial intelligence",
+      "zh": "人工智能",
+      "page": 44,
+      "id": "vocab-p44-8"
+    },
+    {
+      "en": "electronic product",
+      "zh": "电子产品",
+      "page": 44,
+      "id": "vocab-p44-9"
+    },
+    {
+      "en": "culture and civilization",
+      "zh": "文化和文明",
+      "page": 44,
+      "id": "vocab-p44-10"
+    },
+    {
+      "en": "food security",
+      "zh": "食品安全",
+      "page": 44,
+      "id": "vocab-p44-11"
+    },
+    {
+      "en": "infectious disease",
+      "zh": "传染病",
+      "page": 44,
+      "id": "vocab-p44-12"
+    },
+    {
+      "en": "population aging",
+      "zh": "人口老龄化",
+      "page": 44,
+      "id": "vocab-p44-13"
+    },
+    {
+      "en": "aging society",
+      "zh": "老龄化社会",
+      "page": 44,
+      "id": "vocab-p44-14"
+    },
+    {
+      "en": "spoil children",
+      "zh": "溺爱孩子",
+      "page": 44,
+      "id": "vocab-p44-15"
+    },
+    {
+      "en": "raise children",
+      "zh": "抚养孩子",
+      "page": 44,
+      "id": "vocab-p44-16"
+    },
+    {
+      "en": "taking care of the elderly parents",
+      "zh": "赡养老人",
+      "page": 44,
+      "id": "vocab-p44-17"
+    },
+    {
+      "en": "sense of responsibility",
+      "zh": "责任感",
+      "page": 44,
+      "id": "vocab-p44-18"
+    },
+    {
+      "en": "devotion",
+      "zh": "奉献",
+      "page": 44,
+      "id": "vocab-p44-19"
+    },
+    {
+      "en": "volunteer spirit",
+      "zh": "志愿者精神",
+      "page": 44,
+      "id": "vocab-p44-20"
+    },
+    {
+      "en": "credibility",
+      "zh": "信誉",
+      "page": 45,
+      "id": "vocab-p45-1"
+    },
+    {
+      "en": "charity",
+      "zh": "慈善",
+      "page": 45,
+      "id": "vocab-p45-2"
+    },
+    {
+      "en": "environment awareness",
+      "zh": "环境意识",
+      "page": 45,
+      "id": "vocab-p45-3"
+    },
+    {
+      "en": "garbage classification",
+      "zh": "垃圾分类",
+      "page": 45,
+      "id": "vocab-p45-4"
+    },
+    {
+      "en": "public transport",
+      "zh": "公共交通",
+      "page": 45,
+      "id": "vocab-p45-5"
+    },
+    {
+      "en": "subway",
+      "zh": "地铁",
+      "page": 45,
+      "id": "vocab-p45-6"
+    },
+    {
+      "en": "biodiversity",
+      "zh": "生物多样性",
+      "page": 45,
+      "id": "vocab-p45-7"
+    },
+    {
+      "en": "natural reserve",
+      "zh": "自然保护区",
+      "page": 45,
+      "id": "vocab-p45-8"
+    },
+    {
+      "en": "seek a job",
+      "zh": "找工作",
+      "page": 45,
+      "id": "vocab-p45-9"
+    },
+    {
+      "en": "urbanization",
+      "zh": "城市化",
+      "page": 45,
+      "id": "vocab-p45-10"
+    },
+    {
+      "en": "economic globalization",
+      "zh": "经济全球化",
+      "page": 45,
+      "id": "vocab-p45-11"
+    },
+    {
+      "en": "academic pressure",
+      "zh": "学业压力",
+      "page": 45,
+      "id": "vocab-p45-12"
+    },
+    {
+      "en": "quality education",
+      "zh": "素质教育",
+      "page": 45,
+      "id": "vocab-p45-13"
+    },
+    {
+      "en": "exam-oriented education",
+      "zh": "应试教育",
+      "page": 45,
+      "id": "vocab-p45-14"
+    },
+    {
+      "en": "lifelong learning",
+      "zh": "终身学习",
+      "page": 45,
+      "id": "vocab-p45-15"
+    },
+    {
+      "en": "peer competition",
+      "zh": "同龄人竞争",
+      "page": 45,
+      "id": "vocab-p45-16"
+    },
+    {
+      "en": "parental expectation",
+      "zh": "家长期望",
+      "page": 45,
+      "id": "vocab-p45-17"
+    },
+    {
+      "en": "youth independence",
+      "zh": "青年独立性",
+      "page": 45,
+      "id": "vocab-p45-18"
+    },
+    {
+      "en": "critical thinking",
+      "zh": "批判性思维",
+      "page": 45,
+      "id": "vocab-p45-19"
+    },
+    {
+      "en": "study-abroad trend",
+      "zh": "留学趋势",
+      "page": 45,
+      "id": "vocab-p45-20"
+    },
+    {
+      "en": "big data",
+      "zh": "大数据",
+      "page": 45,
+      "id": "vocab-p45-21"
+    },
+    {
+      "en": "facial recognition",
+      "zh": "人脸识别",
+      "page": 45,
+      "id": "vocab-p45-22"
+    },
+    {
+      "en": "digital divide",
+      "zh": "数字鸿沟",
+      "page": 46,
+      "id": "vocab-p46-1"
+    },
+    {
+      "en": "data privacy",
+      "zh": "数据隐私",
+      "page": 46,
+      "id": "vocab-p46-2"
+    },
+    {
+      "en": "smart city",
+      "zh": "智慧城市",
+      "page": 46,
+      "id": "vocab-p46-3"
+    },
+    {
+      "en": "technology addiction",
+      "zh": "科技依赖",
+      "page": 46,
+      "id": "vocab-p46-4"
+    },
+    {
+      "en": "5G technology",
+      "zh": "5G 技术",
+      "page": 46,
+      "id": "vocab-p46-5"
+    },
+    {
+      "en": "flexible employment",
+      "zh": "灵活就业",
+      "page": 46,
+      "id": "vocab-p46-6"
+    },
+    {
+      "en": "work-life balance",
+      "zh": "工作与生活平衡",
+      "page": 46,
+      "id": "vocab-p46-7"
+    },
+    {
+      "en": "career planning",
+      "zh": "职业规划",
+      "page": 46,
+      "id": "vocab-p46-8"
+    },
+    {
+      "en": "youth entrepreneurship",
+      "zh": "青年创业",
+      "page": 46,
+      "id": "vocab-p46-9"
+    },
+    {
+      "en": "economic resilience",
+      "zh": "经济韧性",
+      "page": 46,
+      "id": "vocab-p46-10"
+    },
+    {
+      "en": "shared economy",
+      "zh": "共享经济",
+      "page": 46,
+      "id": "vocab-p46-11"
+    },
+    {
+      "en": "digital economy",
+      "zh": "数字经济",
+      "page": 46,
+      "id": "vocab-p46-12"
+    },
+    {
+      "en": "inflation",
+      "zh": "通货膨胀",
+      "page": 46,
+      "id": "vocab-p46-13"
+    },
+    {
+      "en": "time management",
+      "zh": "时间管理",
+      "page": 46,
+      "id": "vocab-p46-14"
+    },
+    {
+      "en": "self-discipline",
+      "zh": "自律",
+      "page": 46,
+      "id": "vocab-p46-15"
+    },
+    {
+      "en": "resilience",
+      "zh": "韧性",
+      "page": 46,
+      "id": "vocab-p46-16"
+    },
+    {
+      "en": "innovation",
+      "zh": "创新意识",
+      "page": 46,
+      "id": "vocab-p46-17"
+    },
+    {
+      "en": "moral education",
+      "zh": "道德教育",
+      "page": 46,
+      "id": "vocab-p46-18"
+    },
+    {
+      "en": "honesty",
+      "zh": "诚信",
+      "page": 46,
+      "id": "vocab-p46-19"
+    },
+    {
+      "en": "responsibility",
+      "zh": "责任感",
+      "page": 46,
+      "id": "vocab-p46-20"
+    },
+    {
+      "en": "national identity",
+      "zh": "国家认同",
+      "page": 46,
+      "id": "vocab-p46-21"
+    },
+    {
+      "en": "low-carbon lifestyle",
+      "zh": "低碳生活",
+      "page": 46,
+      "id": "vocab-p46-22"
+    },
+    {
+      "en": "energy conservation",
+      "zh": "节能",
+      "page": 47,
+      "id": "vocab-p47-1"
+    },
+    {
+      "en": "food waste",
+      "zh": "食物浪费",
+      "page": 47,
+      "id": "vocab-p47-2"
+    },
+    {
+      "en": "recycling awareness",
+      "zh": "回收意识",
+      "page": 47,
+      "id": "vocab-p47-3"
+    },
+    {
+      "en": "climate change",
+      "zh": "气候变化",
+      "page": 47,
+      "id": "vocab-p47-4"
+    },
+    {
+      "en": "green consumption",
+      "zh": "绿色消费",
+      "page": 47,
+      "id": "vocab-p47-5"
+    },
+    {
+      "en": "environmental protection",
+      "zh": "环境保护",
+      "page": 47,
+      "id": "vocab-p47-6"
+    },
+    {
+      "en": "enlightening = thought-provoking = meaningful",
+      "zh": "有启发性的",
+      "page": 7,
+      "id": "vocab-undefined-p7-1"
+    },
+    {
+      "en": "drawings = pictures = cartoons",
+      "zh": "图画",
+      "page": 7,
+      "id": "vocab-undefined-p7-2"
+    },
+    {
+      "en": "delicate",
+      "zh": "精致的",
+      "page": 7,
+      "id": "vocab-undefined-p7-3"
+    },
+    {
+      "en": "vigorously",
+      "zh": "茁壮地",
+      "page": 7,
+      "id": "vocab-undefined-p7-4"
+    },
+    {
+      "en": "blossoming",
+      "zh": "开花",
+      "page": 7,
+      "id": "vocab-undefined-p7-5"
+    },
+    {
+      "en": "severe",
+      "zh": "恶劣的",
+      "page": 7,
+      "id": "vocab-undefined-p7-6"
+    },
+    {
+      "en": "withers",
+      "zh": "枯萎",
+      "page": 7,
+      "id": "vocab-undefined-p7-7"
+    },
+    {
+      "en": "petals",
+      "zh": "花瓣",
+      "page": 7,
+      "id": "vocab-undefined-p7-8"
+    },
+    {
+      "en": "contemporary",
+      "zh": "当代的，如今",
+      "page": 8,
+      "id": "vocab-undefined-p8-1"
+    },
+    {
+      "en": "in reality = in the real life",
+      "zh": "现实",
+      "page": 8,
+      "id": "vocab-undefined-p8-2"
+    },
+    {
+      "en": "Admittedly",
+      "zh": "诚然",
+      "page": 8,
+      "id": "vocab-undefined-p8-3"
+    },
+    {
+      "en": "phenomenon = fact = trend",
+      "zh": "现象",
+      "page": 8,
+      "id": "vocab-undefined-p8-4"
+    },
+    {
+      "en": "significance",
+      "zh": "重要性",
+      "page": 8,
+      "id": "vocab-undefined-p8-5"
+    },
+    {
+      "en": "independence",
+      "zh": "独立",
+      "page": 8,
+      "id": "vocab-undefined-p8-6"
+    },
+    {
+      "en": "inadequate",
+      "zh": "不足的",
+      "page": 8,
+      "id": "vocab-undefined-p8-7"
+    },
+    {
+      "en": "to my understanding = in my opinion = from my perspective",
+      "zh": "在我看来",
+      "page": 8,
+      "id": "vocab-undefined-p8-8"
+    },
+    {
+      "en": "can be likened to",
+      "zh": "能被比喻成",
+      "page": 8,
+      "id": "vocab-undefined-p8-9"
+    },
+    {
+      "en": "arouse = revoke = inspire = call up",
+      "zh": "唤起",
+      "page": 8,
+      "id": "vocab-undefined-p8-10"
+    },
+    {
+      "en": "obstacle",
+      "zh": "阻碍",
+      "page": 8,
+      "id": "vocab-undefined-p8-11"
+    },
+    {
+      "en": "hinders = harms = hampers",
+      "zh": "阻碍",
+      "page": 8,
+      "id": "vocab-undefined-p8-12"
+    },
+    {
+      "en": "ridiculous = satirical = ironic = sarcastic",
+      "zh": "讽刺的",
+      "page": 12,
+      "id": "vocab-undefined-p12-1"
+    },
+    {
+      "en": "superficial",
+      "zh": "肤浅的",
+      "page": 12,
+      "id": "vocab-undefined-p12-2"
+    },
+    {
+      "en": "celebrities",
+      "zh": "名人",
+      "page": 12,
+      "id": "vocab-undefined-p12-3"
+    },
+    {
+      "en": "renowned = famous = prestigious",
+      "zh": "著名的",
+      "page": 12,
+      "id": "vocab-undefined-p12-4"
+    },
+    {
+      "en": "diligence",
+      "zh": "勤奋",
+      "page": 12,
+      "id": "vocab-undefined-p12-5"
+    },
+    {
+      "en": "perseverance = persistence",
+      "zh": "持之以恒",
+      "page": 12,
+      "id": "vocab-undefined-p12-6"
+    },
+    {
+      "en": "optimism",
+      "zh": "乐观",
+      "page": 12,
+      "id": "vocab-undefined-p12-7"
+    },
+    {
+      "en": "running track",
+      "zh": "跑道",
+      "page": 16,
+      "id": "vocab-undefined-p16-1"
+    },
+    {
+      "en": "dashing",
+      "zh": "冲",
+      "page": 16,
+      "id": "vocab-undefined-p16-2"
+    },
+    {
+      "en": "exhausted",
+      "zh": "筋疲力尽的",
+      "page": 16,
+      "id": "vocab-undefined-p16-3"
+    },
+    {
+      "en": "virtue",
+      "zh": "美德",
+      "page": 16,
+      "id": "vocab-undefined-p16-4"
+    },
+    {
+      "en": "perseverance = persistence",
+      "zh": "持之以恒",
+      "page": 16,
+      "id": "vocab-undefined-p16-5"
+    },
+    {
+      "en": "everlasting",
+      "zh": "永久的",
+      "page": 16,
+      "id": "vocab-undefined-p16-6"
+    },
+    {
+      "en": "temporary",
+      "zh": "暂时的",
+      "page": 16,
+      "id": "vocab-undefined-p16-7"
+    },
+    {
+      "en": "strive",
+      "zh": "奋斗",
+      "page": 16,
+      "id": "vocab-undefined-p16-8"
+    },
+    {
+      "en": "starting up / creating their own businesses",
+      "zh": "创业",
+      "page": 23,
+      "id": "vocab-undefined-p23-1"
+    },
+    {
+      "en": "going abroad",
+      "zh": "出国",
+      "page": 23,
+      "id": "vocab-undefined-p23-2"
+    },
+    {
+      "en": "preparing for postgraduate entrance examination",
+      "zh": "考研",
+      "page": 23,
+      "id": "vocab-undefined-p23-3"
+    },
+    {
+      "en": "job hunting / looking for jobs",
+      "zh": "求职",
+      "page": 23,
+      "id": "vocab-undefined-p23-4"
+    },
+    {
+      "en": "confusion / puzzlement",
+      "zh": "迷茫",
+      "page": 23,
+      "id": "vocab-undefined-p23-5"
+    },
+    {
+      "en": "hesitate",
+      "zh": "犹豫",
+      "page": 23,
+      "id": "vocab-undefined-p23-6"
+    },
+    {
+      "en": "curve / line graph",
+      "zh": "折线图",
+      "page": 6,
+      "id": "vocab-undefined-p6-1"
+    },
+    {
+      "en": "bar chart / column chart",
+      "zh": "柱状图",
+      "page": 6,
+      "id": "vocab-undefined-p6-2"
+    },
+    {
+      "en": "pie chart",
+      "zh": "饼图",
+      "page": 6,
+      "id": "vocab-undefined-p6-3"
+    },
+    {
+      "en": "table / form",
+      "zh": "表格",
+      "page": 6,
+      "id": "vocab-undefined-p6-4"
+    },
+    {
+      "en": "increase, rise (rose), climb, jump, go up, grow, ascend",
+      "zh": "上升（动词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-1"
+    },
+    {
+      "en": "surge, shoot (shot) up, boom, soar, leap",
+      "zh": "快速上升（动词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-2"
+    },
+    {
+      "en": "an increase to/by, a rise, a growth, a jump, a surge, a boom, an upward trend",
+      "zh": "上升（名词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-3"
+    },
+    {
+      "en": "decrease, decline, descend, go down, fall, be reduced, drop, sink (sank), dip, shrink, diminish",
+      "zh": "下降（动词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-4"
+    },
+    {
+      "en": "dwindle",
+      "zh": "逐渐变小",
+      "page": 7,
+      "id": "vocab-undefined-p7-5"
+    },
+    {
+      "en": "slump, plunge",
+      "zh": "剧烈下降",
+      "page": 7,
+      "id": "vocab-undefined-p7-6"
+    },
+    {
+      "en": "a decrease, a decline, a fall, a drop, a slump in, a reduction in, a downward trend in",
+      "zh": "下降（名词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-7"
+    },
+    {
+      "en": "sharp/sharply, rapidly, dramatically, drastic/drastically, considerably, remarkably, extremely, strikingly, substantially, enormously, exponentially, significantly, greatly, steeply",
+      "zh": "表快速剧烈/明显",
+      "page": 7,
+      "id": "vocab-undefined-p7-8"
+    },
+    {
+      "en": "gradually, moderately, steadily, slightly, marginally, fractionally, step by step/little by little",
+      "zh": "逐步/适度/慢慢",
+      "page": 7,
+      "id": "vocab-undefined-p7-9"
+    },
+    {
+      "en": "fluctuation / wave",
+      "zh": "波动（名词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-10"
+    },
+    {
+      "en": "fluctuate/wave between...and...; fluctuate around...",
+      "zh": "波动（动词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-11"
+    },
+    {
+      "en": "level out/off; did not change at",
+      "zh": "平稳不变（动词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-12"
+    },
+    {
+      "en": "remain stable/steady/constant at; stay constant at; maintained the same level at",
+      "zh": "平稳不变（形容词）",
+      "page": 7,
+      "id": "vocab-undefined-p7-13"
+    },
+    {
+      "en": "the highest point; the peak; the top",
+      "zh": "最高值",
+      "page": 7,
+      "id": "vocab-undefined-p7-14"
+    },
+    {
+      "en": "the lowest point; the bottom",
+      "zh": "最低值",
+      "page": 7,
+      "id": "vocab-undefined-p7-15"
+    },
+    {
+      "en": "reach; attain; arrive at",
+      "zh": "达到",
+      "page": 7,
+      "id": "vocab-undefined-p7-16"
+    },
+    {
+      "en": "column chart",
+      "zh": "柱状图",
+      "page": 9,
+      "id": "vocab-undefined-p9-1"
+    },
+    {
+      "en": "subscriptions",
+      "zh": "购买量／订购",
+      "page": 9,
+      "id": "vocab-undefined-p9-2"
+    },
+    {
+      "en": "contrasts",
+      "zh": "对比",
+      "page": 9,
+      "id": "vocab-undefined-p9-3"
+    },
+    {
+      "en": "statistics = figures = data",
+      "zh": "数据统计",
+      "page": 9,
+      "id": "vocab-undefined-p9-4"
+    },
+    {
+      "en": "saturation",
+      "zh": "饱和",
+      "page": 9,
+      "id": "vocab-undefined-p9-5"
+    },
+    {
+      "en": "boom = prosperity",
+      "zh": "繁荣",
+      "page": 9,
+      "id": "vocab-undefined-p9-6"
+    },
+    {
+      "en": "manufacturers = makers = producers = companies = firms = corporations",
+      "zh": "制造商",
+      "page": 10,
+      "id": "vocab-undefined-p10-1"
+    },
+    {
+      "en": "are supposed to = are well-advised to",
+      "zh": "应该",
+      "page": 10,
+      "id": "vocab-undefined-p10-2"
+    },
+    {
+      "en": "comprehensive",
+      "zh": "综合性的",
+      "page": 10,
+      "id": "vocab-undefined-p10-3"
+    },
+    {
+      "en": "strategies",
+      "zh": "策略",
+      "page": 10,
+      "id": "vocab-undefined-p10-4"
+    },
+    {
+      "en": "consolidate",
+      "zh": "巩固",
+      "page": 10,
+      "id": "vocab-undefined-p10-5"
+    },
+    {
+      "en": "seniors",
+      "zh": "大四学生",
+      "page": 17,
+      "id": "vocab-undefined-p17-1"
+    },
+    {
+      "en": "juniors",
+      "zh": "大三学生",
+      "page": 17,
+      "id": "vocab-undefined-p17-2"
+    },
+    {
+      "en": "sophomores",
+      "zh": "大二学生",
+      "page": 17,
+      "id": "vocab-undefined-p17-3"
+    },
+    {
+      "en": "freshmen",
+      "zh": "大一学生",
+      "page": 17,
+      "id": "vocab-undefined-p17-4"
+    },
+    {
+      "en": "respectively",
+      "zh": "分别",
+      "page": 17,
+      "id": "vocab-undefined-p17-5"
+    },
+    {
+      "en": "authorities",
+      "zh": "权力部门",
+      "page": 17,
+      "id": "vocab-undefined-p17-6"
+    },
+    {
+      "en": "academic pursuit",
+      "zh": "学术追求",
+      "page": 17,
+      "id": "vocab-undefined-p17-7"
+    },
+    {
+      "en": "financial burden",
+      "zh": "财政负担",
+      "page": 17,
+      "id": "vocab-undefined-p17-8"
+    },
+    {
+      "en": "recall",
+      "zh": "回想起",
+      "page": 6,
+      "id": "vocab-undefined-p6-1"
+    },
+    {
+      "en": "for the purpose of",
+      "zh": "为了…目的",
+      "page": 6,
+      "id": "vocab-undefined-p6-2"
+    },
+    {
+      "en": "quitting = resigning",
+      "zh": "辞职",
+      "page": 6,
+      "id": "vocab-undefined-p6-3"
+    },
+    {
+      "en": "accumulate",
+      "zh": "积累",
+      "page": 6,
+      "id": "vocab-undefined-p6-4"
+    },
+    {
+      "en": "competence",
+      "zh": "能力",
+      "page": 6,
+      "id": "vocab-undefined-p6-5"
+    },
+    {
+      "en": "stand in my shoes",
+      "zh": "替我着想",
+      "page": 6,
+      "id": "vocab-undefined-p6-6"
+    },
+    {
+      "en": "luggage",
+      "zh": "行李",
+      "page": 9,
+      "id": "vocab-undefined-p9-1"
+    },
+    {
+      "en": "landlord",
+      "zh": "房东",
+      "page": 9,
+      "id": "vocab-undefined-p9-2"
+    },
+    {
+      "en": "solution",
+      "zh": "解决方法",
+      "page": 9,
+      "id": "vocab-undefined-p9-3"
+    },
+    {
+      "en": "inconvenience",
+      "zh": "不便",
+      "page": 9,
+      "id": "vocab-undefined-p9-4"
+    },
+    {
+      "en": "contribute to",
+      "zh": "为…做贡献",
+      "page": 13,
+      "id": "vocab-undefined-p13-1"
+    },
+    {
+      "en": "financial aid",
+      "zh": "财政帮助",
+      "page": 13,
+      "id": "vocab-undefined-p13-2"
+    },
+    {
+      "en": "remote",
+      "zh": "偏远的",
+      "page": 13,
+      "id": "vocab-undefined-p13-3"
+    },
+    {
+      "en": "candidate",
+      "zh": "候选人",
+      "page": 13,
+      "id": "vocab-undefined-p13-4"
+    },
+    {
+      "en": "impoverished",
+      "zh": "贫困的",
+      "page": 13,
+      "id": "vocab-undefined-p13-5"
+    },
+    {
+      "en": "afford",
+      "zh": "支付得起",
+      "page": 13,
+      "id": "vocab-undefined-p13-6"
+    },
+    {
+      "en": "tuition",
+      "zh": "学费",
+      "page": 13,
+      "id": "vocab-undefined-p13-7"
+    },
+    {
+      "en": "do my utmost = try my best",
+      "zh": "尽最大努力",
+      "page": 13,
+      "id": "vocab-undefined-p13-8"
+    },
+    {
+      "en": "recruit",
+      "zh": "招募",
+      "page": 19,
+      "id": "vocab-undefined-p19-1"
+    },
+    {
+      "en": "volunteers",
+      "zh": "志愿者",
+      "page": 19,
+      "id": "vocab-undefined-p19-2"
+    },
+    {
+      "en": "conference",
+      "zh": "会议",
+      "page": 19,
+      "id": "vocab-undefined-p19-3"
+    },
+    {
+      "en": "globalization",
+      "zh": "全球化",
+      "page": 19,
+      "id": "vocab-undefined-p19-4"
+    },
+    {
+      "en": "qualifications",
+      "zh": "资质",
+      "page": 19,
+      "id": "vocab-undefined-p19-5"
+    },
+    {
+      "en": "judge",
+      "zh": "评委",
+      "page": 24,
+      "id": "vocab-undefined-p24-1"
+    },
+    {
+      "en": "upcoming",
+      "zh": "即将到来的",
+      "page": 24,
+      "id": "vocab-undefined-p24-2"
+    },
+    {
+      "en": "speech contest",
+      "zh": "演讲比赛",
+      "page": 24,
+      "id": "vocab-undefined-p24-3"
+    },
+    {
+      "en": "contestant",
+      "zh": "选手",
+      "page": 24,
+      "id": "vocab-undefined-p24-4"
+    },
+    {
+      "en": "make suggestions",
+      "zh": "提出建议",
+      "page": 16,
+      "id": "vocab-undefined-p16-1"
+    },
+    {
+      "en": "inadequate = insufficient",
+      "zh": "不足的",
+      "page": 16,
+      "id": "vocab-undefined-p16-2"
+    },
+    {
+      "en": "reading session",
+      "zh": "读书会",
+      "page": 32,
+      "id": "vocab-undefined-p32-1"
+    },
+    {
+      "en": "recommend",
+      "zh": "推荐",
+      "page": 32,
+      "id": "vocab-undefined-p32-2"
+    },
+    {
+      "en": "cruelty",
+      "zh": "残酷",
+      "page": 32,
+      "id": "vocab-undefined-p32-3"
+    },
+    {
+      "en": "librarian",
+      "zh": "图书管理员",
+      "page": 35,
+      "id": "vocab-undefined-p35-1"
+    },
+    {
+      "en": "newly-enrolled",
+      "zh": "刚录取的",
+      "page": 35,
+      "id": "vocab-undefined-p35-2"
+    },
+    {
+      "en": "retrieval system",
+      "zh": "检索系统",
+      "page": 35,
+      "id": "vocab-undefined-p35-3"
+    },
+    {
+      "en": "tourist attractions = scenic spots",
+      "zh": "旅游景点",
+      "page": 38,
+      "id": "vocab-undefined-p38-1"
+    },
+    {
+      "en": "architectures",
+      "zh": "建筑物",
+      "page": 38,
+      "id": "vocab-undefined-p38-2"
+    },
+    {
+      "en": "primary school",
+      "zh": "小学",
+      "page": 44,
+      "id": "vocab-undefined-p44-1"
+    },
+    {
+      "en": "inquiry",
+      "zh": "问询",
+      "page": 44,
+      "id": "vocab-undefined-p44-2"
+    },
+    {
+      "en": "specifying",
+      "zh": "详细说明",
+      "page": 44,
+      "id": "vocab-undefined-p44-3"
+    },
+    {
+      "en": "charity",
+      "zh": "慈善",
+      "page": 26,
+      "id": "vocab-undefined-p26-1"
+    },
+    {
+      "en": "sale",
+      "zh": "义卖",
+      "page": 26,
+      "id": "vocab-undefined-p26-2"
+    },
+    {
+      "en": "funds",
+      "zh": "资金",
+      "page": 26,
+      "id": "vocab-undefined-p26-3"
+    },
+    {
+      "en": "participate in = take part in",
+      "zh": "参加",
+      "page": 26,
+      "id": "vocab-undefined-p26-4"
+    },
+    {
+      "en": "study abroad",
+      "zh": "出国留学",
+      "page": 29,
+      "id": "vocab-undefined-p29-1"
+    },
+    {
+      "en": "apartment",
+      "zh": "公寓",
+      "page": 29,
+      "id": "vocab-undefined-p29-2"
+    },
+    {
+      "en": "living habits",
+      "zh": "生活习惯",
+      "page": 29,
+      "id": "vocab-undefined-p29-3"
+    },
+    {
+      "en": "working out = doing exercise",
+      "zh": "锻炼",
+      "page": 29,
+      "id": "vocab-undefined-p29-4"
+    },
+    {
+      "en": "translation contest",
+      "zh": "翻译比赛",
+      "page": 32,
+      "id": "vocab-undefined-p32-1"
+    },
+    {
+      "en": "congratulate",
+      "zh": "祝贺",
+      "page": 32,
+      "id": "vocab-undefined-p32-2"
+    },
+    {
+      "en": "reply",
+      "zh": "回应",
+      "page": 32,
+      "id": "vocab-undefined-p32-3"
+    },
+    {
+      "en": "presentation",
+      "zh": "展示",
+      "page": 35,
+      "id": "vocab-undefined-p35-1"
+    },
+    {
+      "en": "key points",
+      "zh": "要点",
+      "page": 35,
+      "id": "vocab-undefined-p35-2"
+    },
+    {
+      "en": "time-honored",
+      "zh": "历史悠久的",
+      "page": 35,
+      "id": "vocab-undefined-p35-3"
+    },
+    {
+      "en": "do a survey",
+      "zh": "做调查",
+      "page": 56,
+      "id": "vocab-undefined-p56-1"
+    },
+    {
+      "en": "put forward",
+      "zh": "提出",
+      "page": 56,
+      "id": "vocab-undefined-p56-2"
+    },
+    {
+      "en": "ancient town",
+      "zh": "古镇",
+      "page": 56,
+      "id": "vocab-undefined-p56-3"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>激活码管理中心</title>
+  <style>
+    :root{color-scheme:light;--bg:#f4f7fb;--card:#fff;--ink:#172033;--muted:#697586;--line:#e5eaf1;--brand:#2563eb;--brand-dark:#1d4ed8;--green:#15803d;--orange:#b45309;--red:#b91c1c;--shadow:0 12px 30px rgba(31,51,83,.08)}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif}button,input{font:inherit}button{cursor:pointer;border:0}.shell{max-width:1280px;margin:0 auto;padding:28px 20px 48px}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:22px}.eyebrow{color:var(--brand);font-size:13px;font-weight:700;letter-spacing:.08em}.title{margin:7px 0 5px;font-size:30px;letter-spacing:-.03em}.subtitle{margin:0;color:var(--muted)}.top-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:22px}.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}.metric{padding:16px;border:1px solid var(--line);border-radius:14px;background:#fbfcfe}.metric-label{color:var(--muted);font-size:13px}.metric-value{margin-top:8px;font-size:24px;font-weight:750}.layout{display:grid;grid-template-columns:390px 1fr;gap:18px;align-items:start}.section-title{margin:0 0 5px;font-size:19px}.section-desc{margin:0 0 18px;color:var(--muted);font-size:13px;line-height:1.6}.field{margin:14px 0}.field label{display:block;font-size:13px;font-weight:700;margin-bottom:7px}.field input{width:100%;padding:11px 12px;border:1px solid #d7dee9;border-radius:10px;outline:none;background:#fff}.field input:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(37,99,235,.12)}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.check{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13px}.check input{width:auto}.primary,.secondary,.danger,.ghost{padding:10px 14px;border-radius:10px;font-weight:700}.primary{color:#fff;background:var(--brand)}.primary:hover{background:var(--brand-dark)}.secondary{color:#1e40af;background:#eaf1ff}.danger{color:#991b1b;background:#fee2e2}.ghost{color:#475569;background:#eef2f7}.wide{width:100%;margin-top:10px}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}.toolbar-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.switch{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}.switch input{accent-color:var(--brand)}.result{display:none;margin-top:18px;padding:14px;border:1px solid #bfdbfe;background:#eff6ff;border-radius:12px}.result.show{display:block}.result-head{display:flex;justify-content:space-between;gap:10px;align-items:center}.result-title{font-weight:750}.code-list{margin-top:10px;display:grid;gap:8px}.code-row{display:flex;align-items:center;gap:8px}.code-row code{flex:1;display:block;padding:9px;background:#fff;border:1px solid #dbeafe;border-radius:8px;overflow:auto;white-space:nowrap;font-size:12px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px}.table{width:100%;border-collapse:collapse;min-width:770px}.table th,.table td{padding:13px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:13px}.table th{background:#f8fafc;color:var(--muted);font-weight:700}.table tr:last-child td{border-bottom:0}.status{display:inline-flex;padding:4px 8px;border-radius:99px;font-size:12px;font-weight:700}.status.active{color:var(--green);background:#dcfce7}.status.registered{color:#1d4ed8;background:#dbeafe}.status.revoked{color:var(--red);background:#fee2e2}.status.expired{color:var(--orange);background:#fef3c7}.muted{color:var(--muted)}.devices{display:grid;gap:5px}.device{white-space:nowrap}.actions{display:flex;gap:6px;flex-wrap:wrap}.actions button{padding:7px 9px;border-radius:8px;font-size:12px;font-weight:700}.notice{min-height:22px;margin-top:14px;color:var(--muted);font-size:13px}.notice.error{color:var(--red)}.notice.ok{color:var(--green)}.foot{margin-top:16px;color:var(--muted);font-size:12px}.empty{text-align:center;padding:35px;color:var(--muted)}@media(max-width:900px){.summary{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.top{flex-direction:column}}@media(max-width:520px){.shell{padding:18px 12px 32px}.summary{gap:9px}.metric{padding:12px}.metric-value{font-size:20px}.title{font-size:25px}.row{grid-template-columns:1fr}.card{padding:17px}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <div><div class="eyebrow">ESSAY ASSISTANT · LICENSE</div><h1 class="title">激活码管理中心</h1><p class="subtitle">本机管理面板 · 云端设备绑定与授权状态</p></div>
+      <div class="top-actions"><button class="ghost" id="refresh">刷新状态</button><label class="switch"><input type="checkbox" id="strict"> 严格白名单</label></div>
+    </header>
+
+    <section class="summary">
+      <div class="metric"><div class="metric-label">服务状态</div><div class="metric-value" id="service">检查中</div></div>
+      <div class="metric"><div class="metric-label">云端激活码</div><div class="metric-value" id="code-count">-</div></div>
+      <div class="metric"><div class="metric-label">已绑定设备</div><div class="metric-value" id="device-count">-</div></div>
+      <div class="metric"><div class="metric-label">单码设备上限</div><div class="metric-value" id="quota">-</div></div>
+    </section>
+
+    <section class="layout">
+      <div class="card">
+        <h2 class="section-title">生成激活码</h2>
+        <p class="section-desc">生成后默认自动登记云端，并保存到你本机的授权台账。</p>
+        <form id="issue-form">
+          <div class="field"><label for="customer">客户/订单标识</label><input id="customer" maxlength="100" placeholder="例如：张三 / 订单10001"></div>
+          <div class="field"><label for="note">备注</label><input id="note" maxlength="180" placeholder="例如：2027 年费授权"></div>
+          <div class="row"><div class="field"><label for="count">生成数量</label><input id="count" type="number" min="1" max="10000" value="1"></div><div class="field"><label for="expiry">到期日期</label><input id="expiry" type="date"></div></div>
+          <label class="check"><input id="permanent" type="checkbox"> 永久有效</label>
+          <button class="primary wide" id="issue-button" type="submit">生成并登记</button>
+        </form>
+        <div class="result" id="result"><div class="result-head"><div class="result-title">本次生成的激活码</div><div><button class="secondary" id="copy-all" type="button">复制全部</button><button class="ghost" id="download" type="button">下载码表</button></div></div><div class="code-list" id="code-list"></div></div>
+        <div class="notice" id="notice"></div>
+        <div class="foot">私钥不会上传；管理操作默认通过 SSH 访问服务器。</div>
+      </div>
+
+      <div class="card">
+        <div class="toolbar"><div><h2 class="section-title">云端授权状态</h2><p class="section-desc" style="margin-bottom:0">已激活设备、最近在线时间和吊销状态。</p></div><div class="muted" id="updated">-</div></div>
+        <div class="table-wrap"><table class="table"><thead><tr><th>客户</th><th>状态</th><th>期限</th><th>设备</th><th>备注</th><th>操作</th></tr></thead><tbody id="rows"><tr><td colspan="6" class="empty">加载中…</td></tr></tbody></table></div>
+      </div>
+    </section>
+  </main>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    let currentCodes = [];
+    let currentData = null;
+    const text = (value, fallback = '-') => value === undefined || value === null || value === '' ? fallback : String(value);
+    function notice(message, kind = '') { const el = $('notice'); el.textContent = message; el.className = `notice ${kind}`; }
+    async function api(url, options) { const response = await fetch(url, options); const data = await response.json().catch(() => ({})); if (!response.ok || data.ok === false) throw new Error(data.error || data.status || `HTTP ${response.status}`); return data; }
+    function stateClass(state) { return ({'已激活':'active','已登记':'registered','已吊销':'revoked','已过期':'expired'})[state] || 'registered'; }
+    function stateOf(local, cloud) { if (cloud && cloud.revoked || local && local.revoked) return '已吊销'; if (local && !local.permanent && local.expiresAt && local.expiresAt.slice(0,10) < new Date().toISOString().slice(0,10)) return '已过期'; return cloud ? (cloud.deviceCount ? '已激活' : '已登记') : '未登记'; }
+    function findCloud(codes, hash) { return codes.find((x) => hash && (x.hash.startsWith(hash) || hash.startsWith(x.hash))) || null; }
+    function render(data) {
+      currentData = data; const cloud = data.cloud; const local = data.local || [];
+      $('code-count').textContent = cloud.codes.length; $('device-count').textContent = cloud.codes.reduce((n, x) => n + x.deviceCount, 0); $('quota').textContent = cloud.quota; $('strict').checked = Boolean(cloud.strict); $('service').textContent = '正常'; $('service').style.color = 'var(--green)'; $('updated').textContent = `更新于 ${new Date().toLocaleTimeString()}`;
+      const rows = []; local.forEach((entry) => rows.push({local:entry, cloud:findCloud(cloud.codes, entry.hash)})); cloud.codes.forEach((entry) => { if (!rows.some((row) => row.cloud && row.cloud.hash === entry.hash)) rows.push({local:null, cloud:entry}); });
+      const tbody = $('rows'); tbody.textContent = '';
+      if (!rows.length) { const tr = document.createElement('tr'); const td = document.createElement('td'); td.colSpan = 6; td.className = 'empty'; td.textContent = '暂无记录。生成或激活码被用户使用后会显示在这里。'; tr.append(td); tbody.append(tr); return; }
+      rows.forEach(({local, cloud: remote}) => { const tr = document.createElement('tr'); const state = stateOf(local, remote); const customer = document.createElement('td'); customer.textContent = text(local?.customer, '未填写'); const st = document.createElement('td'); const badge = document.createElement('span'); badge.className = `status ${stateClass(state)}`; badge.textContent = state; st.append(badge); const expiry = document.createElement('td'); expiry.textContent = local ? (local.permanent ? '永久' : text(local.expiresAt, '未知').slice(0,10)) : '未知'; const devices = document.createElement('td'); devices.textContent = `${remote?.deviceCount ?? 0}/${cloud.quota}`; if (remote?.devices?.length) { const list = document.createElement('div'); list.className = 'devices'; remote.devices.forEach((device) => { const d = document.createElement('div'); d.className = 'device'; d.textContent = `${text(device.name,'未知设备')} · ${text(device.lastSeen,'未知')}`; d.title = device.id; list.append(d); }); devices.append(list); } const note = document.createElement('td'); note.className = 'muted'; note.textContent = text(local?.note || remote?.note, ''); const actions = document.createElement('td'); const actionWrap = document.createElement('div'); actionWrap.className = 'actions'; const hash = local?.hash || remote?.hash; if (state === '已吊销') actionWrap.append(actionButton('恢复', 'restore', hash)); else actionWrap.append(actionButton('吊销', 'revoke', hash)); if (remote?.devices?.length) remote.devices.forEach((device) => actionWrap.append(actionButton('解绑', 'unbind', hash, device.id))); actions.append(actionWrap); tr.append(customer,st,expiry,devices,note,actions); tbody.append(tr); });
+    }
+    function actionButton(label, action, hash, deviceId = '') { const button = document.createElement('button'); button.className = action === 'revoke' ? 'danger' : 'ghost'; button.textContent = label; button.dataset.action = action; button.dataset.hash = hash; button.dataset.deviceId = deviceId; return button; }
+    async function refresh() { try { const data = await api('/api/list'); render(data); } catch (error) { $('service').textContent = '异常'; $('service').style.color = 'var(--red)'; notice(error.message, 'error'); } }
+    $('permanent').addEventListener('change', () => { $('expiry').disabled = $('permanent').checked; if ($('permanent').checked) $('expiry').value = ''; });
+    $('issue-form').addEventListener('submit', async (event) => { event.preventDefault(); const button = $('issue-button'); button.disabled = true; button.textContent = '生成中…'; notice(''); try { const data = await api('/api/issue', {method:'POST', headers:{'content-type':'application/json'}, body:JSON.stringify({customer:$('customer').value, note:$('note').value, count:Number($('count').value), expiry:$('permanent').checked ? '' : $('expiry').value})}); currentCodes = data.codes; const list = $('code-list'); list.textContent = ''; data.codes.forEach((code) => { const row = document.createElement('div'); row.className = 'code-row'; const codeEl = document.createElement('code'); codeEl.textContent = code; const copy = document.createElement('button'); copy.className = 'ghost'; copy.textContent = '复制'; copy.onclick = () => navigator.clipboard.writeText(code).then(() => notice('已复制激活码。','ok')); row.append(codeEl,copy); list.append(row); }); $('result').classList.add('show'); notice(`已生成 ${data.codes.length} 个激活码，并完成云端登记。`, 'ok'); await refresh(); } catch (error) { notice(error.message, 'error'); } finally { button.disabled = false; button.textContent = '生成并登记'; } });
+    $('copy-all').onclick = () => navigator.clipboard.writeText(currentCodes.join('\n')).then(() => notice('已复制全部激活码。','ok'));
+    $('download').onclick = () => { const blob = new Blob([currentCodes.join('\n')+'\n'], {type:'text/plain;charset=utf-8'}); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = `激活码-${new Date().toISOString().slice(0,10)}.txt`; link.click(); URL.revokeObjectURL(link.href); };
+    $('refresh').onclick = refresh;
+    $('strict').onchange = async () => { const mode = $('strict').checked ? 'on' : 'off'; try { await api('/api/action', {method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({action:'strict',mode})}); notice(`严格白名单已${mode === 'on' ? '开启' : '关闭'}。`,'ok'); await refresh(); } catch (error) { $('strict').checked = ! $('strict').checked; notice(error.message,'error'); } };
+    $('rows').addEventListener('click', async (event) => { const button = event.target.closest('button[data-action]'); if (!button) return; const action = button.dataset.action; if (action === 'revoke' && !confirm('确定吊销这个激活码吗？')) return; let deviceId = button.dataset.deviceId || ''; if (action === 'unbind' && !confirm(`确定解绑设备？\n${deviceId}`)) return; try { await api('/api/action', {method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({action,hash:button.dataset.hash,deviceId})}); notice('操作成功。','ok'); await refresh(); } catch (error) { notice(error.message,'error'); } });
+    (async () => { try { const health = await api('/api/health'); $('strict').checked = Boolean(health.cloud.strict); } catch (error) { notice(error.message,'error'); } await refresh(); })();
+  </script>
+</body>
+</html>

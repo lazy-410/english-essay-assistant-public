@@ -1,0 +1,1757 @@
+{
+  "meta": {
+    "version": 2,
+    "title": "写作知识库 V2",
+    "generatedAt": "deterministic",
+    "sources": [
+      {
+        "source": "scan-handout",
+        "sourceLabel": "考研英语作文扫描讲义",
+        "totalPages": 47,
+        "scope": "扫描讲义"
+      },
+      {
+        "source": "slp-big-e1",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语一",
+        "totalPages": 70,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-big-e2",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语二",
+        "totalPages": 64,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e1",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语一",
+        "totalPages": 62,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e2",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语二",
+        "totalPages": 58,
+        "scope": "石雷鹏笔记"
+      }
+    ],
+    "counts": {
+      "pages": 82,
+      "methods": 131,
+      "warnings": 23,
+      "entries": 378,
+      "skeletons": 378,
+      "productionSkeletons": 372,
+      "variants": 1103,
+      "examples": 189,
+      "structuredExamples": 39,
+      "catalogExamples": 139,
+      "slpEntries": 158
+    }
+  },
+  "methods": [
+    {
+      "id": "method-scan-handout-p1-01",
+      "category": "study",
+      "text": "只要你会换名词和形容词，就能少背，效率拉满",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-01-12.json",
+          "page": 1,
+          "pageTitle": "一、英语一大作文（建议160-200词左右）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p2-01",
+      "category": "warning",
+      "text": "蓝色根据具体题目修改。你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-01-12.json",
+          "page": 2,
+          "pageTitle": "大作文第二段正面品质"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p4-01",
+      "category": "study",
+      "text": "本页为版权水印页，无模板内容",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-01-12.json",
+          "page": 4,
+          "pageTitle": "版权水印页"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p5-01",
+      "category": "study",
+      "text": "蓝色根据具体题目修改",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-01-12.json",
+          "page": 5,
+          "pageTitle": "大作文第三段经济类＋正面品质"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p7-01",
+      "category": "study",
+      "text": "本页为作者补充说明，无独立模板句",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-01-12.json",
+          "page": 7,
+          "pageTitle": "大作文补充说明"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p8-01",
+      "category": "method",
+      "text": "本页为英语一与英语二大作文的总体说明与字数建议",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-01-12.json",
+          "page": 8,
+          "pageTitle": "二、英语一+二大作文（建议180-220词左右）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p11-01",
+      "category": "study",
+      "text": "校园类对应英语一品质类；一个条目保留讲义完整主体段，可按字数挑选其中几句",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-01-12.json",
+          "page": 11,
+          "pageTitle": "校园类（对应英语一品质类）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p13-01",
+      "category": "method",
+      "text": "这就是大作文第二段大家需要背的！从这几段中选取四句左右你认为最贴切的即可，我建议大家都背下来，然后根据实际作文题目要求，自己挑选这两段中的四句左右来写上去。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 13,
+          "pageTitle": "体育健康类 / 文化自信类（与经济类类似）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p13-02",
+      "category": "study",
+      "text": "大作文通用尾段（第三段用一个即可，改蓝色的主体词，比如把政府改成商家这种。然后做的事",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 13,
+          "pageTitle": "体育健康类 / 文化自信类（与经济类类似）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p14-01",
+      "category": "study",
+      "text": "也可以根据具体题目修改，比如教育，公共传播都可以换成其它行为词语。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 14,
+          "pageTitle": "大作文通用尾段（经济类）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p15-01",
+      "category": "warning",
+      "text": "避免受到其误导。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 15,
+          "pageTitle": "大作文通用尾段（校园类）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p18-01",
+      "category": "study",
+      "text": "这就是我给大家整理的大作文所有模版，可以看出只有红字部分需要大家",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 18,
+          "pageTitle": "大作文通用尾段（文化自信类，可以和经济类融合）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p19-01",
+      "category": "warning",
+      "text": "填写，其他只需要背下来，高级就完事了！所以此模版会比其他人的模版好套且还高级！，希望大家保护好自己的模版，别被偷了，千万不要外传，如有外传，火速出击。人传人会让此含金量下降，极有可能导致多扣分！祝大家大作文逼近满分！——考研的秘密·苦瓜",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 19,
+          "pageTitle": "大作文模板结束说明"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p19-02",
+      "category": "study",
+      "text": "大作文看似很多，其实有大量重复内容！所以其实并不多！",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 19,
+          "pageTitle": "大作文模板结束说明"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p19-03",
+      "category": "study",
+      "text": "小作文之前，我要给大家说一下大作文的情况，如果你已经背了这么多，就算考了模版里没有的角度，你脑子里积累的好句素材也足以改几个词就应对，大家加油！高效备考！",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 19,
+          "pageTitle": "大作文模板结束说明"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-01",
+      "category": "method",
+      "text": "小作文由于和大作文不一样，大作文只需改几个同词性的词，小作文需要自己根据题目去把功能句补充完整，且大家所选的功能句也不一样，就算选一样的，也会填入不同的内容来让功能句完整。所以小作文每套都一样（建议110-120词）",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-02",
+      "category": "warning",
+      "text": "一定要学会换个别词语！咱们学的是句子架构，而非僵硬的句子本身，功能句背完，可以应对各个类型，只需要注意格式即可。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-03",
+      "category": "study",
+      "text": "小作文以积累功能句的角度去备考！所以很推荐大家从小红书或者其他地方也积累一些自己心仪的句子~",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-04",
+      "category": "study",
+      "text": "小作文总结一句话就是：功能句拼多多，这里拿一句，那里拿一句，套完近10年真题会形成属于自己的模版。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-05",
+      "category": "study",
+      "text": "作文格式自行在小红书or b站等平台去看，本模版只有第一段第二段第三段的内容。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-06",
+      "category": "study",
+      "text": "第一段用两句，第二段用3-5句，第三段用1-2句。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-07",
+      "category": "study",
+      "text": "241（指的是各个段选几句）或者231或者152或者252的公式化打法。个别情况下第X段也可能多写or少写几句，并非严格遵守。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-08",
+      "category": "method",
+      "text": "小作文建议占篇幅的三分之二！第二段可以写多一些~",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p20-09",
+      "category": "study",
+      "text": "这是我经过26考研大量同学真实的备考情况，在最后总结出的最适合应试，最适合备考拿高分的小作文备考方式！纯纯公式化打法又没有模板化的情况，大部分功能句都需要由你们根据具体题目填充完整。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p21-01",
+      "category": "study",
+      "text": "第一段第二句功能句挑选：",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 21,
+          "pageTitle": "第一段功能句：第一段第一句功能句挑选"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p23-01",
+      "category": "study",
+      "text": "为确保即将举行的校园歌唱比赛顺利开展，现将相关安排通知如下。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 23,
+          "pageTitle": "第一段第二句功能句挑选（9-15）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p24-01",
+      "category": "study",
+      "text": "示例（2016 英语二）",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 24,
+          "pageTitle": "第一段第二句功能句挑选（16-21）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p24-02",
+      "category": "study",
+      "text": "The purpose of this letter is to extend my sincere gratitude for your constant help with my translation practice, which contributed a lot to my success in the recent contest.",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 24,
+          "pageTitle": "第一段第二句功能句挑选（16-21）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p24-03",
+      "category": "study",
+      "text": "本信的目的，是为你在我翻译练习中给予的长期帮助致以诚挚谢意，这对我在近期比赛中取得成功起到了重要作用。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 24,
+          "pageTitle": "第一段第二句功能句挑选（16-21）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p25-01",
+      "category": "method",
+      "text": "第一段第二句是「写作目的句」，题型决定动词：投诉用 complaint，祝贺用 congratulations，公告用 announcement，通知用 notice",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 25,
+          "pageTitle": "第一段第二句功能句挑选（21-26）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p26-01",
+      "category": "study",
+      "text": "秘密先说：第一段也可以写三句，大家可以根据自己积累的功能句配合题目自行选择~",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 26,
+          "pageTitle": "第一段第二句功能句挑选（27）／第二段功能句：通用第一句"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p26-02",
+      "category": "warning",
+      "text": "第一段已经给出功能句怎么用，后续真的不能给了，不然你们没法在实战中练习",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 26,
+          "pageTitle": "第一段第二句功能句挑选（27）／第二段功能句：通用第一句"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p26-03",
+      "category": "study",
+      "text": "比起套往年真题好用，我更希望你们在使用这份模版的过程中遇到困难，然后亲身实践和思考，去亲自解决它。只有这样遇到今年的题目才不至于很慌！",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 26,
+          "pageTitle": "第一段第二句功能句挑选（27）／第二段功能句：通用第一句"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p26-04",
+      "category": "warning",
+      "text": "先尝试自己写，写不出来，就可以把功能句给 AI，然后把题目给 AI，让他用这句去按照题目要求写，一定不要过度依赖！一定要自己多动脑思考，就算写的是错的，也没事！要的就是一个练习的过程！",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 26,
+          "pageTitle": "第一段第二句功能句挑选（27）／第二段功能句：通用第一句"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p26-05",
+      "category": "study",
+      "text": "当你越来越不依赖 AI 的时候，就是你越来越强的时候！",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 26,
+          "pageTitle": "第一段第二句功能句挑选（27）／第二段功能句：通用第一句"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p27-01",
+      "category": "method",
+      "text": "秘密先说：小作文第二段及其灵活，考察的很多都是综合类，你可能第二段从建议类选 2 句，从祝贺类选 1 句这种。而不是死盯着某个类去只用这里面的功能句。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 27,
+          "pageTitle": "第二段第一句功能句挑选（3-16）／建议类：第二段第二句功能句挑选"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p27-02",
+      "category": "study",
+      "text": "秘密先说：难道第二段第二句就一定写在第二句吗？也可以写在第三句",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 27,
+          "pageTitle": "第二段第一句功能句挑选（3-16）／建议类：第二段第二句功能句挑选"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p28-01",
+      "category": "study",
+      "text": "第二段第二句和第四句只需要把 First、what's more 这种前缀换一换就好了",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 28,
+          "pageTitle": "建议类：第二段第二句功能句挑选（1-7）／第二段第三句功能句挑选（1-4）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p28-02",
+      "category": "study",
+      "text": "红色「题目相关词」为一级占位符，黑色方括号为二级占位符，需按题目填具体内容",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 28,
+          "pageTitle": "建议类：第二段第二句功能句挑选（1-7）／第二段第三句功能句挑选（1-4）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p35-01",
+      "category": "study",
+      "text": "本页上半部分承接第二段第三句（第7条），随后进入第二段第四句功能句挑选，页面下方切换到「介绍类」",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 35,
+          "pageTitle": "祝贺类：第二段第四句功能句挑选／介绍类：第二段第二句功能句挑选"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p36-01",
+      "category": "method",
+      "text": "红色「题目相关词」是必须用题干原信息替换的占位符；黑色方括号是次级占位符，填具体内容",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 36,
+          "pageTitle": "介绍类：第二段第二句功能句挑选（续）／第二段第三句功能句挑选"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p37-01",
+      "category": "method",
+      "text": "红色「题目相关词」为一级占位符，需用题干原信息替换；黑色方括号为次级占位符，填具体内容",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 37,
+          "pageTitle": "介绍类：第二段第三句功能句挑选（3-7）／第二段第四句功能句挑选（1-7）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p40-01",
+      "category": "warning",
+      "text": "结尾段功能是表达期待与致谢，不要再引入新信息",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 40,
+          "pageTitle": "第三段功能句（5-21）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p40-02",
+      "category": "study",
+      "text": "一句致谢 + 一句期待即可收尾，按题型选对应的那一条",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 40,
+          "pageTitle": "第三段功能句（5-21）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p41-01",
+      "category": "study",
+      "text": "示例摘自小红书 Fiona 老师",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 41,
+          "pageTitle": "小作文格式（齐头式与缩进式）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p41-02",
+      "category": "study",
+      "text": "作者推荐齐头式：同样篇幅显得写得更满",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 41,
+          "pageTitle": "小作文格式（齐头式与缩进式）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p41-03",
+      "category": "method",
+      "text": "建议使用 0.7 的笔",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 41,
+          "pageTitle": "小作文格式（齐头式与缩进式）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p43-01",
+      "category": "study",
+      "text": "通知类与会议纪要类的卷面与书信不同：标题居中，日期与落款靠右",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 43,
+          "pageTitle": "通知类卷面范例（手写示例）"
+        }
+      ]
+    },
+    {
+      "id": "method-scan-handout-p44-01",
+      "category": "method",
+      "text": "本页为「题目相关词」词表，用于替换模板中的红色一级占位符",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 44,
+          "pageTitle": "题目相关词（一）"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-01",
+      "category": "study",
+      "text": "审题：题目读三遍，否则不动笔",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-02",
+      "category": "study",
+      "text": "a.英文指令",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-03",
+      "category": "study",
+      "text": "b.图画信息（环境＋相关人＋物＋动作）",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-04",
+      "category": "study",
+      "text": "c.文字说明",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-05",
+      "category": "warning",
+      "text": "如何避免跑题：图画信息与文字说明相结合（简单清晰的汉语思路＋正确高端的英文表达）",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-06",
+      "category": "study",
+      "text": "筛选标准：不是所有图画细节都需要描写，应选择与文字说明呼应的核心元素",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-07",
+      "category": "method",
+      "text": "验证方法：通过文字说明反向验证图画解读的合理性",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-08",
+      "category": "warning",
+      "text": "典型错误：将辅助性细节（如人物动作、背景元素）误认为主要描写对象",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-09",
+      "category": "warning",
+      "text": "错误示例与正确方向对照：龙舟比赛场景写防溺水（仅看图不看文字）→「龙舟比赛」指向传统文化主题；围观人群写防踩踏事故（脱离主题）→「咱们村」可延伸乡村发展话题；老人牵手写黄昏恋（过度解读细节）→「越来越热闹」可写文化振兴或生活改善",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-10",
+      "category": "warning",
+      "text": "图画作文思路 · 首段：描述图画/图表；文字材料概述。适配原则：根据考题类型灵活选择描述对象；核心要求：保持客观描述，避免在首段加入主观分析",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-11",
+      "category": "method",
+      "text": "图画作文思路 · 中间段：现象+特征+原因+意义+比喻+危害+对比+观点…（首/尾段选写）。灵活组合：各维度可单独使用也可混合使用；布局自由：分析维度之间没有固定顺序要求；跨段分配：部分内容可酌情分配至首段或尾段",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-12",
+      "category": "method",
+      "text": "图画作文思路 · 尾段：建议+展望+号召",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p6-13",
+      "category": "method",
+      "text": "大作文与小作文的功能句通用性 · 阅卷机制：大/小作文由不同老师批阅，功能句可安全复用；实践建议：建立通用功能句库，灵活应用于各类作文题型",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p7-01",
+      "category": "study",
+      "text": "审题要点 · 现实寓意：温室→父母的过度保护；花朵→被溺爱的孩子；风雨→社会现实的挑战",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 7,
+          "pageTitle": "精讲1：温室花朵（03 年）· 六大语法现象与首段描述"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p7-02",
+      "category": "warning",
+      "text": "错误立意警示：避免写成「农民生活悲惨」或「花熟了可以吃」等偏离主题的理解；必须紧扣文字说明「温室花朵经不起风雨」展开",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 7,
+          "pageTitle": "精讲1：温室花朵（03 年）· 六大语法现象与首段描述"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p16-01",
+      "category": "warning",
+      "text": "解读误区 · 正确主题：「终点又是新起点」的核心寓意",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 16,
+          "pageTitle": "精讲2：终点又是起点（04 年）· 单图描述与举例论证"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p16-02",
+      "category": "study",
+      "text": "典型误读：环境主题（将低矮树木误读为环境恶化）、残疾解读（将跑步单腿着地误认为残疾）、过度引申（苍蝇等细节不应过度解读）",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 16,
+          "pageTitle": "精讲2：终点又是起点（04 年）· 单图描述与举例论证"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p16-03",
+      "category": "study",
+      "text": "判断标准：漫画反映普遍生活哲理，非特殊社会问题",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 16,
+          "pageTitle": "精讲2：终点又是起点（04 年）· 单图描述与举例论证"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p19-01",
+      "category": "study",
+      "text": "现象描述：人们花费大量时间在网络世界",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 19,
+          "pageTitle": "实训2：网络的近与远（09 年）· 双刃剑辩证骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p19-02",
+      "category": "study",
+      "text": "现象表达：不得不承认，越来越多的人如今每天花费太多时间在网上聊天、浏览新闻或看视频",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 19,
+          "pageTitle": "实训2：网络的近与远（09 年）· 双刃剑辩证骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p19-03",
+      "category": "study",
+      "text": "现象评价：这种现象非常值得关注，因为人们可能沉溺于虚拟世界（be addicted to/indulge in），忽略了现实生活中的家人和朋友",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 19,
+          "pageTitle": "实训2：网络的近与远（09 年）· 双刃剑辩证骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p19-04",
+      "category": "method",
+      "text": "写作思路 · 对象调整：不必局限于批判年轻人，可改为 people 或 netizens 扩大论述范围",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 19,
+          "pageTitle": "实训2：网络的近与远（09 年）· 双刃剑辩证骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p19-05",
+      "category": "method",
+      "text": "写作思路 · 行为列举：上网活动可具体化为 chatting, playing games, watching videos 等多样化表达",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 19,
+          "pageTitle": "实训2：网络的近与远（09 年）· 双刃剑辩证骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p19-06",
+      "category": "method",
+      "text": "写作思路 · 负面效应：强调网络导致人际关系疏远（indifference in real-life relationships）",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 19,
+          "pageTitle": "实训2：网络的近与远（09 年）· 双刃剑辩证骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p23-01",
+      "category": "warning",
+      "text": "解读误区观察要点 · 环境：岔路口/多选择场景；主体：多排毕业生站立不动；选项：创业、出国、考研、求职四个方向",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 23,
+          "pageTitle": "13 年英语一：选择 · 岔路口类图画与职业词汇"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p23-02",
+      "category": "method",
+      "text": "表达技巧 · 数字准确：用「two Chinese characters」而非模糊的「若干」",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 23,
+          "pageTitle": "13 年英语一：选择 · 岔路口类图画与职业词汇"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p23-03",
+      "category": "method",
+      "text": "表达技巧 · 替代表达：不会写「岔路口」可用「multiple choices」替代",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 23,
+          "pageTitle": "13 年英语一：选择 · 岔路口类图画与职业词汇"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p23-04",
+      "category": "method",
+      "text": "表达技巧 · 动词选择：用「staring at」或「looking at」描述注视动作",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 23,
+          "pageTitle": "13 年英语一：选择 · 岔路口类图画与职业词汇"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e1-p23-05",
+      "category": "method",
+      "text": "实用建议：不会写的词汇可换简单表达或省略；从阅读理解题中寻找可用词汇（如 choose）",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 23,
+          "pageTitle": "13 年英语一：选择 · 岔路口类图画与职业词汇"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p6-01",
+      "category": "study",
+      "text": "审题：题目读三遍，否则不动笔",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p6-02",
+      "category": "study",
+      "text": "a.英文指令(Directions)：关注英文质量要求，这是首要审题事项",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p6-03",
+      "category": "study",
+      "text": "b.关注图表中的数字：必须准确提取图表中的关键数据信息",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p6-04",
+      "category": "warning",
+      "text": "c.文字说明：注意图表周边的文字标注和补充说明",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p6-05",
+      "category": "study",
+      "text": "数据较多时，如何选择重点? 起点、终点、拐点、最高值、最低值…",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p6-06",
+      "category": "study",
+      "text": "重点数据标准：最高值（图表中的顶点数据必须描述）、最低值（图表中的底部数据必须描述）、拐点（趋势发生明显变化的转折点数据）、特殊值（如零值或其他具有特殊意义的数据）",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p6-07",
+      "category": "method",
+      "text": "图形归类与本质：折线图（curve 曲线/line 线 graph）、柱状图（bar chart 柱子 or column 栏目 chart）→ 变化：趋势；饼图（pie chart）、表格(table/form) → 排序：对比；组合图 → 对比＋趋势",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p6-08",
+      "category": "study",
+      "text": "透析：固定时间段内，相同事物写变化；固定时间点/段，不同事物写对比或排序",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p7-01",
+      "category": "study",
+      "text": "【数量单位】dozen / hundred / thousand / million 百万 / billion 十亿 / trillion 万亿",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 7,
+          "pageTitle": "3.3 变化类词汇与句式（趋势描述五大句型）"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p7-02",
+      "category": "study",
+      "text": "小问题：「几百」怎么说？Two hundred; hundreds of",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 7,
+          "pageTitle": "3.3 变化类词汇与句式（趋势描述五大句型）"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p7-03",
+      "category": "study",
+      "text": "【时间点/段】in 1990 / from 1990 to 1992 / since 1990 (has been) / after 1992 / between 1990 and 1998 / during the period from...to... / ten years = a decade",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 7,
+          "pageTitle": "3.3 变化类词汇与句式（趋势描述五大句型）"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-big-e2-p7-04",
+      "category": "study",
+      "text": "【变化程度】原则：形容词修饰名词；副词修饰动词、形容词、副词、句子",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 7,
+          "pageTitle": "3.3 变化类词汇与句式（趋势描述五大句型）"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-01",
+      "category": "study",
+      "text": "审题：题目读三遍，否则不动笔",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-02",
+      "category": "study",
+      "text": "审题三事项：①背景 ②体裁+内容要求（描述）③语域（正式 I am／非正式 I'm）＋格式",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-03",
+      "category": "study",
+      "text": "三段式简易思路 · 首段1-2 句：a.写给熟人，首句寒暄，二句目的；b.写给陌生人或机构，写自我介绍和目的",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-04",
+      "category": "method",
+      "text": "三段式简易思路 · 中间段4-6 句：按题目要求写相应的内容，并辅以感谢、强调、对比、建议、说明等功能表达完成写作",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-05",
+      "category": "study",
+      "text": "三段式简易思路 · 尾段1 句：（再次）致歉、感谢、期待、展望等",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-06",
+      "category": "study",
+      "text": "小作文体裁总结 · 高频：书信 Letter/Email（最基础且常见）、通知 Notice/Announcement（含书面与口头，考查频率较高）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-07",
+      "category": "study",
+      "text": "小作文体裁总结 · 低频：海报 Poster（涉及美术设计，可能性低）、简历 Resume（本质是自我介绍）、假条 A Request for Leave（字数限制，可能性小）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-08",
+      "category": "warning",
+      "text": "小作文体裁总结 · 新增：会议纪要 minutes（最新大纲新增，但可用功能句应对）。注意 minutes 与「分钟」同形异义，此处表示「纪要」",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p5-09",
+      "category": "study",
+      "text": "石雷鹏老师作文背诵的「七步法」：抄写范文 → 英译汉 → 汉译英 → 对比找差异 → 专门背写出错或差异之处 → 背写全文至无错 → 举一反三，思考每句话如何用来写其他话题",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p6-01",
+      "category": "method",
+      "text": "审题要点 · 背景信息识别：前三句话为写作背景，可标注「背景」二字",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 6,
+          "pageTitle": "精讲1：辞职+道歉（05 年英一）· 首段与主体段"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p6-02",
+      "category": "method",
+      "text": "审题要点 · 题材确认：「Write a letter」明确写作题材为书信，且给老板写信需采用正式语气",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 6,
+          "pageTitle": "精讲1：辞职+道歉（05 年英一）· 首段与主体段"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p6-03",
+      "category": "study",
+      "text": "审题要点 · 内容要求：必须包含三个要素——告知辞职决定、说明理由、表达歉意",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 6,
+          "pageTitle": "精讲1：辞职+道歉（05 年英一）· 首段与主体段"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p6-04",
+      "category": "method",
+      "text": "写作技巧 · 背景处理原则：采用「打散加改写」方法，不可直接照抄原文",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 6,
+          "pageTitle": "精讲1：辞职+道歉（05 年英一）· 首段与主体段"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p6-05",
+      "category": "method",
+      "text": "写作技巧 · 评分重点：小作文重在说清事情，不需追求复杂词汇和高端句式，满足内容要求且语言无误即可得 8-9 分",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 6,
+          "pageTitle": "精讲1：辞职+道歉（05 年英一）· 首段与主体段"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p6-06",
+      "category": "warning",
+      "text": "写作技巧 · 格式注意事项：考试结尾提示语必须阅读，防止出现署名要求变更等细节调整（如「李明」可能改为「李刚」）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 6,
+          "pageTitle": "精讲1：辞职+道歉（05 年英一）· 首段与主体段"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p9-01",
+      "category": "study",
+      "text": "审题要点 · 核心任务：必须完成两个指令 1) make an apology（道歉）2) suggest a solution（提出解决方案）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p9-02",
+      "category": "method",
+      "text": "写作技巧 · 时间表达：可用 the past days/weeks/months/years 灵活调整时间跨度",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p9-03",
+      "category": "method",
+      "text": "写作技巧 · 定语从句：用 when 引导时间段，如 when I studied in Canada",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p9-04",
+      "category": "warning",
+      "text": "易错提醒 · 标点错误：称谓后用逗号，勿用冒号",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p9-05",
+      "category": "warning",
+      "text": "易错提醒 · 时态错误：回忆内容必须用过去式（studied/lived）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p9-06",
+      "category": "warning",
+      "text": "易错提醒 · 用词不当：避免使用 room 代替 house",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p13-01",
+      "category": "study",
+      "text": "对希望工程的理解 · 贡献理解：不一定是金钱捐赠，宣传希望工程也是贡献，反对「道德绑架」的说法",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 13,
+          "pageTitle": "精讲2：求助+描述（06 年英一）· 自我介绍与定语从句"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p13-02",
+      "category": "study",
+      "text": "贫困程度描述：whose family is so impoverished that... ；具体困境：cannot afford tuition",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 13,
+          "pageTitle": "精讲2：求助+描述（06 年英一）· 自我介绍与定语从句"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p19-01",
+      "category": "warning",
+      "text": "题目解析 · 背景信息处理：采用「拆分+改写」方法，避免直接照抄题干。例如可写「通知的目的是为某国际会议招募志愿者」或「我们很高兴得知关于全球化的国际会议将在我校举办」",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 19,
+          "pageTitle": "精讲3：招募+通知（10 年英一）· 通知格式规范"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p19-02",
+      "category": "study",
+      "text": "关键要素 · 主办方：Postgraduates' Association（研究生会）；核心内容：recruit volunteers for an international conference on globalization；要求：包含申请者基本资质(basic qualifications)和其他相关信息",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 19,
+          "pageTitle": "精讲3：招募+通知（10 年英一）· 通知格式规范"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p19-03",
+      "category": "method",
+      "text": "资质建议：外语能力（因涉及 international 和 globalization）、服务精神（热心、周到、有经验等）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 19,
+          "pageTitle": "精讲3：招募+通知（10 年英一）· 通知格式规范"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p19-04",
+      "category": "study",
+      "text": "其他信息：可补充会议时间地点、面试安排等",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 19,
+          "pageTitle": "精讲3：招募+通知（10 年英一）· 通知格式规范"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p19-05",
+      "category": "study",
+      "text": "格式要点：首行居中写「NOTICE」；可注明发布日期；正文分 2-3 段；落款用「Postgraduates' Association」（不可用个人姓名）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 19,
+          "pageTitle": "精讲3：招募+通知（10 年英一）· 通知格式规范"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p19-06",
+      "category": "method",
+      "text": "写作时间建议：考场上建议用 18 分钟左右完成小作文",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 19,
+          "pageTitle": "精讲3：招募+通知（10 年英一）· 通知格式规范"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p19-07",
+      "category": "method",
+      "text": "通知范文结构 · 开头：明确写作目的（如招募志愿者）；中间：会议基本信息（主题、时间地点等）、志愿者要求（资质、能力等）、报名方式；结尾：发通知单位（题干指定）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 19,
+          "pageTitle": "精讲3：招募+通知（10 年英一）· 通知格式规范"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p22-01",
+      "category": "method",
+      "text": "审题要点 · 功能句组合：提前准备汉语思路和对应英文表达，考场直接组合使用",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 22,
+          "pageTitle": "实训3：通知+介绍（15 年英二）· 夏令营通知骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p22-02",
+      "category": "study",
+      "text": "活动设计 · 学术讲座：可包含教授/外籍专家讲座；校园参观：志愿者带领高中生熟悉校园环境",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 22,
+          "pageTitle": "实训3：通知+介绍（15 年英二）· 夏令营通知骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p22-03",
+      "category": "warning",
+      "text": "活动设计 · 避免内容：谈情说爱、荒野求生等不恰当活动",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 22,
+          "pageTitle": "实训3：通知+介绍（15 年英二）· 夏令营通知骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p22-04",
+      "category": "study",
+      "text": "通知格式：首行居中写「NOTICE」；日期虚构合理日期（如 June 10, Friday）；段落间不空行，采用缩进式",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 22,
+          "pageTitle": "实训3：通知+介绍（15 年英二）· 夏令营通知骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p24-01",
+      "category": "study",
+      "text": "审题要点 · 题材：电子邮件（介于正式与非正式之间）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 24,
+          "pageTitle": "13 年英一：邀请+说明 · 邀请外教任评委"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p24-02",
+      "category": "method",
+      "text": "写作策略 · 认识收件人：可回忆往期课程建立联系（如「教授英语演讲课」）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 24,
+          "pageTitle": "13 年英一：邀请+说明 · 邀请外教任评委"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e1-p24-03",
+      "category": "method",
+      "text": "结构示范：称呼（具体教授姓名）→ 身份说明（作为比赛组织者）→ 明确邀请（担任主评委）→ 比赛详情（时间、地点等）→ 礼貌结尾",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 24,
+          "pageTitle": "13 年英一：邀请+说明 · 邀请外教任评委"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e2-p35-01",
+      "category": "study",
+      "text": "备考启示：掌握核心功能句可应对不同命题形式。英语一 17 年推荐景点题与本题内容可复用（历史特征→具体景点→文化价值）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e2",
+          "sourceFile": "slp-small-e2.json",
+          "page": 35,
+          "pageTitle": "17 年英二：受邀+介绍 · 接受邀请与要点介绍骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e2-p47-01",
+      "category": "warning",
+      "text": "背景构建 · 主题选择：应避免敏感内容（如跨国交友），推荐学术交流或学期规划等正式主题",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e2",
+          "sourceFile": "slp-small-e2.json",
+          "page": 47,
+          "pageTitle": "21 年英二：邀请+说明 · 线上会议邀请骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e2-p47-02",
+      "category": "study",
+      "text": "背景构建 · 主题设计：应确保内容积极正面，符合学术交流定位",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e2",
+          "sourceFile": "slp-small-e2.json",
+          "page": 47,
+          "pageTitle": "21 年英二：邀请+说明 · 线上会议邀请骨架"
+        }
+      ]
+    },
+    {
+      "id": "method-slp-small-e2-p47-03",
+      "category": "study",
+      "text": "背景构建 · 细节要求：必须包含会议具体信息和参与方式等核心要素",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e2",
+          "sourceFile": "slp-small-e2.json",
+          "page": 47,
+          "pageTitle": "21 年英二：邀请+说明 · 线上会议邀请骨架"
+        }
+      ]
+    }
+  ]
+}

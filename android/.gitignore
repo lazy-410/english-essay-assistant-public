@@ -1,0 +1,20 @@
+# 构建产物
+build/
+app/build/
+.cxx/
+.gradle/
+*.apk
+
+# 大体积第三方预编译库：由 scripts/setup-libnode.cmd 从 nodejs-mobile 发行包安装
+# （nodejs-mobile-android.zip 解压后 bin/ 与 include/ 拷贝到 app/libnode/）
+app/libnode/
+
+# 本地密钥与配置
+*.jks
+*.keystore
+local.properties
+keystore.properties
+
+# 构建生成的数据包（由 bundle 构建脚本产出，不直接入库）
+app/src/main/assets/bundle.zip
+app/src/main/assets/version.txt

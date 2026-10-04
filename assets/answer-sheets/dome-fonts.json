@@ -1,0 +1,133 @@
+{
+  "source": "D:\\Dome\\Font",
+  "count": 21,
+  "totalBytes": 2393360,
+  "fonts": [
+    {
+      "relativePath": "Caveat/Caveat-VariableFont_wght.ttf",
+      "publicPath": "fonts/dome/Caveat/Caveat-VariableFont_wght.ttf",
+      "bytes": 394064,
+      "sha256": "2849e2b28ab6c60e7fe090c759285a5a823acda2abee69c762b419117568752a"
+    },
+    {
+      "relativePath": "Caveat/static/Caveat-Bold.ttf",
+      "publicPath": "fonts/dome/Caveat/static/Caveat-Bold.ttf",
+      "bytes": 257316,
+      "sha256": "b42cc772f3528d9150c29d6051e2ed3fd472ad4e584c73fe1500ee628d6b1ac0"
+    },
+    {
+      "relativePath": "Caveat/static/Caveat-Medium.ttf",
+      "publicPath": "fonts/dome/Caveat/static/Caveat-Medium.ttf",
+      "bytes": 257840,
+      "sha256": "2003781246d27c3ea281fb2e7dbd98e9d6ce22baae7ee5e60f35d5969e918a4a"
+    },
+    {
+      "relativePath": "Caveat/static/Caveat-Regular.ttf",
+      "publicPath": "fonts/dome/Caveat/static/Caveat-Regular.ttf",
+      "bytes": 256968,
+      "sha256": "271ee7c4a60b1be2ba13a66990e7475c76c982ac6e906c9db25139976282f6b8"
+    },
+    {
+      "relativePath": "Caveat/static/Caveat-SemiBold.ttf",
+      "publicPath": "fonts/dome/Caveat/static/Caveat-SemiBold.ttf",
+      "bytes": 257920,
+      "sha256": "1f44700f4362468de6f8b4d87fed36ad101d14696272dd1b5eceaa5d64b5baa8"
+    },
+    {
+      "relativePath": "Coming_Soon/ComingSoon-Regular.ttf",
+      "publicPath": "fonts/dome/Coming_Soon/ComingSoon-Regular.ttf",
+      "bytes": 47128,
+      "sha256": "909aabcdb145da0c393ada544d8b133cf591fb512433a517018618ba96e59fa2"
+    },
+    {
+      "relativePath": "Covered_By_Your_Grace/CoveredByYourGrace-Regular.ttf",
+      "publicPath": "fonts/dome/Covered_By_Your_Grace/CoveredByYourGrace-Regular.ttf",
+      "bytes": 50072,
+      "sha256": "67ee4693d8b49edab0c81c8a4effc7ee6ac422a2a31fef361715ed6df3df26fc"
+    },
+    {
+      "relativePath": "Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf",
+      "publicPath": "fonts/dome/Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf",
+      "bytes": 33712,
+      "sha256": "911375b53a6086fc1cb40a69f3f98b85780280e8050ae0aa56dfd973abc9d426"
+    },
+    {
+      "relativePath": "Edu_SA_Beginner/static/EduSABeginner-Bold.ttf",
+      "publicPath": "fonts/dome/Edu_SA_Beginner/static/EduSABeginner-Bold.ttf",
+      "bytes": 20760,
+      "sha256": "15335709b0c10439e37de303e959f55b10be51c783a92e40815e4138779155c8"
+    },
+    {
+      "relativePath": "Edu_SA_Beginner/static/EduSABeginner-Medium.ttf",
+      "publicPath": "fonts/dome/Edu_SA_Beginner/static/EduSABeginner-Medium.ttf",
+      "bytes": 20808,
+      "sha256": "c77a1033b411dfadab12c054273b61275d5fc565efba8096106c2b411d52b453"
+    },
+    {
+      "relativePath": "Edu_SA_Beginner/static/EduSABeginner-Regular.ttf",
+      "publicPath": "fonts/dome/Edu_SA_Beginner/static/EduSABeginner-Regular.ttf",
+      "bytes": 20788,
+      "sha256": "879a877951b2f1c07eed35692daa9d39c894b5ce54cc42791d025da0864e54a8"
+    },
+    {
+      "relativePath": "Edu_SA_Beginner/static/EduSABeginner-SemiBold.ttf",
+      "publicPath": "fonts/dome/Edu_SA_Beginner/static/EduSABeginner-SemiBold.ttf",
+      "bytes": 20808,
+      "sha256": "d8dd1c35b7e9507e792efdea68f0e083d0fb411f268b803025d6b75e06e34f5d"
+    },
+    {
+      "relativePath": "Handlee/Handlee-Regular.ttf",
+      "publicPath": "fonts/dome/Handlee/Handlee-Regular.ttf",
+      "bytes": 37792,
+      "sha256": "9fa2f002d39596efc70913ec5ebec824250d3c131e50e448308c7f31e57eac5b"
+    },
+    {
+      "relativePath": "Just_Another_Hand/JustAnotherHand-Regular.ttf",
+      "publicPath": "fonts/dome/Just_Another_Hand/JustAnotherHand-Regular.ttf",
+      "bytes": 111116,
+      "sha256": "c4f456b0d727c7e6da6c22b9e253d5c697f07bf937b18ffc4f2b05ff78de69a9"
+    },
+    {
+      "relativePath": "Neucha/Neucha-Regular.ttf",
+      "publicPath": "fonts/dome/Neucha/Neucha-Regular.ttf",
+      "bytes": 115156,
+      "sha256": "6b04fa67b591d1570644135638612c0eb23c728efad92690d98b9cf25c39eb71"
+    },
+    {
+      "relativePath": "Nothing_You_Could_Do/NothingYouCouldDo-Regular.ttf",
+      "publicPath": "fonts/dome/Nothing_You_Could_Do/NothingYouCouldDo-Regular.ttf",
+      "bytes": 32020,
+      "sha256": "d866f985896d3280f4fce72db7e17302c24a0c1fdb0699b6b5ed3af14f944d57"
+    },
+    {
+      "relativePath": "Patrick_Hand/PatrickHand-Regular.ttf",
+      "publicPath": "fonts/dome/Patrick_Hand/PatrickHand-Regular.ttf",
+      "bytes": 212112,
+      "sha256": "496937dafcb18bf2c2f624ed02c8f7f4d47bd1e4e6e5646c42b6cfd873c6b13c"
+    },
+    {
+      "relativePath": "Satisfy/Satisfy-Regular.ttf",
+      "publicPath": "fonts/dome/Satisfy/Satisfy-Regular.ttf",
+      "bytes": 46976,
+      "sha256": "4b32302598dbc046768ae507e913c1468e7247cbeee3140540b445605a22c942"
+    },
+    {
+      "relativePath": "Sedgwick_Ave/SedgwickAve-Regular.ttf",
+      "publicPath": "fonts/dome/Sedgwick_Ave/SedgwickAve-Regular.ttf",
+      "bytes": 140620,
+      "sha256": "e4dfddad93d2f48f10e56c2144efb91eb2b28365426528bc5a0e6bf1ac644f7f"
+    },
+    {
+      "relativePath": "Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf",
+      "publicPath": "fonts/dome/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf",
+      "bytes": 35916,
+      "sha256": "2794e63b651f594ef980edde9a6d57223bd89afdcac7abe3c82cd11f61792e22"
+    },
+    {
+      "relativePath": "舒窈英文衡水体.ttf",
+      "publicPath": "fonts/dome/舒窈英文衡水体.ttf",
+      "bytes": 23468,
+      "sha256": "63de69df0867f43ae5b4e120210eae367cb3ebf042f4c2e682ea2e42e21274a5"
+    }
+  ]
+}

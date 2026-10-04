@@ -1,0 +1,44 @@
+{
+  "source": "D:/Dome/answer_sheet_generator.py",
+  "a4Target": [
+    28.0,
+    30.0,
+    567.0,
+    811.0
+  ],
+  "backgroundDpi": 400,
+  "templates": [
+    {
+      "key": "english1_a",
+      "label": "英语一 Part A（小作文）",
+      "exam": "英语一",
+      "part": "A",
+      "lineCount": 24,
+      "backgroundUrl": "/answer-sheet-assets/english1_a.png"
+    },
+    {
+      "key": "english1_b",
+      "label": "英语一 Part B（大作文）",
+      "exam": "英语一",
+      "part": "B",
+      "lineCount": 24,
+      "backgroundUrl": "/answer-sheet-assets/english1_b.png"
+    },
+    {
+      "key": "english2_a",
+      "label": "英语二 Part A（小作文）",
+      "exam": "英语二",
+      "part": "A",
+      "lineCount": 23,
+      "backgroundUrl": "/answer-sheet-assets/english2_a.png"
+    },
+    {
+      "key": "english2_b",
+      "label": "英语二 Part B（大作文）",
+      "exam": "英语二",
+      "part": "B",
+      "lineCount": 23,
+      "backgroundUrl": "/answer-sheet-assets/english2_b.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 品牌色板：品牌蓝 #2563EB + 中性灰阶。所有界面只引用这里的语义化名字。 -->
+<resources>
+    <color name="brand_blue">#2563EB</color>
+    <color name="brand_blue_dark">#1D4ED8</color>
+    <color name="brand_blue_container">#DBEAFE</color>
+    <color name="on_brand_container">#1E3A8A</color>
+
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F4F6FA</color>
+    <color name="surface_sunken">#EEF2F8</color>
+    <color name="outline">#D8DEE9</color>
+
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+
+    <color name="success">#059669</color>
+    <color name="success_container">#D1FAE5</color>
+    <color name="warning">#B45309</color>
+    <color name="warning_container">#FEF3C7</color>
+    <color name="danger">#DC2626</color>
+    <color name="danger_container">#FEE2E2</color>
+</resources>

@@ -1,0 +1,1880 @@
+{
+  "meta": {
+    "version": 2,
+    "title": "写作知识库 V2",
+    "generatedAt": "deterministic",
+    "sources": [
+      {
+        "source": "scan-handout",
+        "sourceLabel": "考研英语作文扫描讲义",
+        "totalPages": 47,
+        "scope": "扫描讲义"
+      },
+      {
+        "source": "slp-big-e1",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语一",
+        "totalPages": 70,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-big-e2",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语二",
+        "totalPages": 64,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e1",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语一",
+        "totalPages": 62,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e2",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语二",
+        "totalPages": 58,
+        "scope": "石雷鹏笔记"
+      }
+    ],
+    "counts": {
+      "pages": 82,
+      "methods": 131,
+      "warnings": 23,
+      "entries": 378,
+      "skeletons": 378,
+      "productionSkeletons": 372,
+      "variants": 1103,
+      "examples": 189,
+      "structuredExamples": 39,
+      "catalogExamples": 139,
+      "slpEntries": 158
+    }
+  },
+  "pages": [
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 1,
+      "title": "一、英语一大作文（建议160-200词左右）",
+      "kind": "big-essay-opening",
+      "entryIds": [
+        "big-open-p01-01",
+        "big-open-p01-02"
+      ],
+      "pageNotes": [
+        "只要你会换名词和形容词，就能少背，效率拉满"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 2,
+      "title": "大作文第二段正面品质",
+      "kind": "big-essay-body",
+      "entryIds": [
+        "big-body-p02-01"
+      ],
+      "pageNotes": [
+        "蓝色根据具体题目修改。你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 3,
+      "title": "大作文第二段反面品质",
+      "kind": "big-essay-body",
+      "entryIds": [
+        "big-body-p03-01"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 4,
+      "title": "版权水印页",
+      "kind": "transition",
+      "entryIds": [],
+      "pageNotes": [
+        "本页为版权水印页，无模板内容"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 5,
+      "title": "大作文第三段经济类＋正面品质",
+      "kind": "big-essay-closing",
+      "entryIds": [
+        "big-close-p05-01"
+      ],
+      "pageNotes": [
+        "蓝色根据具体题目修改"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 6,
+      "title": "大作文第三段反面品质",
+      "kind": "big-essay-closing",
+      "entryIds": [
+        "big-close-p06-01"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 7,
+      "title": "大作文补充说明",
+      "kind": "method",
+      "entryIds": [],
+      "pageNotes": [
+        "本页为作者补充说明，无独立模板句"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 8,
+      "title": "二、英语一+二大作文（建议180-220词左右）",
+      "kind": "method",
+      "entryIds": [],
+      "pageNotes": [
+        "本页为英语一与英语二大作文的总体说明与字数建议"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 9,
+      "title": "静态第一段",
+      "kind": "chart-essay",
+      "entryIds": [
+        "chart-p09-01",
+        "chart-p09-02"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 10,
+      "title": "动态第一段",
+      "kind": "chart-essay",
+      "entryIds": [
+        "chart-p10-01",
+        "chart-p10-02"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 11,
+      "title": "校园类（对应英语一品质类）",
+      "kind": "big-essay-body",
+      "entryIds": [
+        "big-body-campus-p11-01"
+      ],
+      "pageNotes": [
+        "校园类对应英语一品质类；一个条目保留讲义完整主体段，可按字数挑选其中几句"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-01-12.json",
+      "page": 12,
+      "title": "图表作文第三段",
+      "kind": "chart-essay",
+      "entryIds": [
+        "chart-p12-01"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 13,
+      "title": "体育健康类 / 文化自信类（与经济类类似）",
+      "kind": "big-essay-body",
+      "entryIds": [
+        "big-body-health-13-01",
+        "big-body-culture-13-01"
+      ],
+      "pageNotes": [
+        "这就是大作文第二段大家需要背的！从这几段中选取四句左右你认为最贴切的即可，我建议大家都背下来，然后根据实际作文题目要求，自己挑选这两段中的四句左右来写上去。",
+        "大作文通用尾段（第三段用一个即可，改蓝色的主体词，比如把政府改成商家这种。然后做的事"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 14,
+      "title": "大作文通用尾段（经济类）",
+      "kind": "big-essay-closing",
+      "entryIds": [
+        "big-closing-economy-positive-14-01",
+        "big-closing-economy-negative-14-01"
+      ],
+      "pageNotes": [
+        "也可以根据具体题目修改，比如教育，公共传播都可以换成其它行为词语。"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 15,
+      "title": "大作文通用尾段（校园类）",
+      "kind": "big-essay-closing",
+      "entryIds": [
+        "big-closing-campus-positive-15-01",
+        "big-closing-campus-negative-15-01"
+      ],
+      "pageNotes": [
+        "避免受到其误导。"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 16,
+      "title": "大作文通用尾段（环境生态类）",
+      "kind": "big-essay-closing",
+      "entryIds": [
+        "big-closing-environment-positive-16-01",
+        "big-closing-environment-negative-16-01"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 17,
+      "title": "大作文通用尾段（体育健康类）",
+      "kind": "big-essay-closing",
+      "entryIds": [
+        "big-closing-health-positive-17-01",
+        "big-closing-health-negative-17-01"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 18,
+      "title": "大作文通用尾段（文化自信类，可以和经济类融合）",
+      "kind": "big-essay-closing",
+      "entryIds": [
+        "big-closing-culture-positive-18-01",
+        "big-closing-culture-negative-18-01"
+      ],
+      "pageNotes": [
+        "这就是我给大家整理的大作文所有模版，可以看出只有红字部分需要大家"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 19,
+      "title": "大作文模板结束说明",
+      "kind": "transition",
+      "entryIds": [],
+      "pageNotes": [
+        "填写，其他只需要背下来，高级就完事了！所以此模版会比其他人的模版好套且还高级！，希望大家保护好自己的模版，别被偷了，千万不要外传，如有外传，火速出击。人传人会让此含金量下降，极有可能导致多扣分！祝大家大作文逼近满分！——考研的秘密·苦瓜",
+        "大作文看似很多，其实有大量重复内容！所以其实并不多！",
+        "小作文之前，我要给大家说一下大作文的情况，如果你已经背了这么多，就算考了模版里没有的角度，你脑子里积累的好句素材也足以改几个词就应对，大家加油！高效备考！"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 20,
+      "title": "三、通用小作文",
+      "kind": "method",
+      "entryIds": [],
+      "pageNotes": [
+        "小作文由于和大作文不一样，大作文只需改几个同词性的词，小作文需要自己根据题目去把功能句补充完整，且大家所选的功能句也不一样，就算选一样的，也会填入不同的内容来让功能句完整。所以小作文每套都一样（建议110-120词）",
+        "一定要学会换个别词语！咱们学的是句子架构，而非僵硬的句子本身，功能句背完，可以应对各个类型，只需要注意格式即可。",
+        "小作文以积累功能句的角度去备考！所以很推荐大家从小红书或者其他地方也积累一些自己心仪的句子~",
+        "小作文总结一句话就是：功能句拼多多，这里拿一句，那里拿一句，套完近10年真题会形成属于自己的模版。",
+        "作文格式自行在小红书or b站等平台去看，本模版只有第一段第二段第三段的内容。",
+        "第一段用两句，第二段用3-5句，第三段用1-2句。",
+        "241（指的是各个段选几句）或者231或者152或者252的公式化打法。个别情况下第X段也可能多写or少写几句，并非严格遵守。",
+        "小作文建议占篇幅的三分之二！第二段可以写多一些~",
+        "这是我经过26考研大量同学真实的备考情况，在最后总结出的最适合应试，最适合备考拿高分的小作文备考方式！纯纯公式化打法又没有模板化的情况，大部分功能句都需要由你们根据具体题目填充完整。"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 21,
+      "title": "第一段功能句：第一段第一句功能句挑选",
+      "kind": "small-essay-para1",
+      "entryIds": [
+        "small-p1-opening-21-01",
+        "small-p1-opening-21-02",
+        "small-p1-opening-21-03",
+        "small-p1-opening-21-04",
+        "small-p1-opening-21-05",
+        "small-p1-opening-21-06",
+        "small-p1-opening-21-07",
+        "small-p1-opening-21-08",
+        "small-p1-opening-21-09",
+        "small-p1-opening-21-10",
+        "small-p1-opening-21-11",
+        "small-p1-opening-21-12",
+        "small-p1-opening-21-13",
+        "small-p1-opening-21-14",
+        "small-p1-opening-21-15",
+        "small-p1-opening-21-16"
+      ],
+      "pageNotes": [
+        "第一段第二句功能句挑选："
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 22,
+      "title": "第一段第二句功能句挑选（1-8）",
+      "kind": "small-essay-para1",
+      "entryIds": [
+        "small-p1-purpose-22-01",
+        "small-p1-purpose-22-02",
+        "small-p1-purpose-22-03",
+        "small-p1-purpose-22-04",
+        "small-p1-purpose-22-05",
+        "small-p1-purpose-22-06",
+        "small-p1-purpose-22-07",
+        "small-p1-purpose-22-08"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 23,
+      "title": "第一段第二句功能句挑选（9-15）",
+      "kind": "small-essay-para1",
+      "entryIds": [
+        "small-p1-purpose-23-09",
+        "small-p1-purpose-23-10",
+        "small-p1-purpose-23-11",
+        "small-p1-purpose-23-12",
+        "small-p1-purpose-23-13",
+        "small-p1-purpose-23-14",
+        "small-p1-purpose-23-15"
+      ],
+      "pageNotes": [
+        "为确保即将举行的校园歌唱比赛顺利开展，现将相关安排通知如下。"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-13-24.json",
+      "page": 24,
+      "title": "第一段第二句功能句挑选（16-21）",
+      "kind": "small-essay-para1",
+      "entryIds": [
+        "small-p1-purpose-24-16",
+        "small-p1-purpose-24-17",
+        "small-p1-purpose-24-18",
+        "small-p1-purpose-24-19",
+        "small-p1-purpose-24-20",
+        "small-p1-purpose-24-21"
+      ],
+      "pageNotes": [
+        "示例（2016 英语二）",
+        "The purpose of this letter is to extend my sincere gratitude for your constant help with my translation practice, which contributed a lot to my success in the recent contest.",
+        "本信的目的，是为你在我翻译练习中给予的长期帮助致以诚挚谢意，这对我在近期比赛中取得成功起到了重要作用。"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 25,
+      "title": "第一段第二句功能句挑选（21-26）",
+      "kind": "small-essay-para1",
+      "entryIds": [
+        "small-p1s2-p25-21",
+        "small-p1s2-p25-22",
+        "small-p1s2-p25-23",
+        "small-p1s2-p25-24",
+        "small-p1s2-p25-25",
+        "small-p1s2-p25-26"
+      ],
+      "pageNotes": [
+        "第一段第二句是「写作目的句」，题型决定动词：投诉用 complaint，祝贺用 congratulations，公告用 announcement，通知用 notice"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 26,
+      "title": "第一段第二句功能句挑选（27）／第二段功能句：通用第一句",
+      "kind": "small-essay-para2",
+      "entryIds": [
+        "small-p1s2-p26-27",
+        "small-p2s1-p26-01",
+        "small-p2s1-p26-02"
+      ],
+      "pageNotes": [
+        "秘密先说：第一段也可以写三句，大家可以根据自己积累的功能句配合题目自行选择~",
+        "第一段已经给出功能句怎么用，后续真的不能给了，不然你们没法在实战中练习",
+        "比起套往年真题好用，我更希望你们在使用这份模版的过程中遇到困难，然后亲身实践和思考，去亲自解决它。只有这样遇到今年的题目才不至于很慌！",
+        "先尝试自己写，写不出来，就可以把功能句给 AI，然后把题目给 AI，让他用这句去按照题目要求写，一定不要过度依赖！一定要自己多动脑思考，就算写的是错的，也没事！要的就是一个练习的过程！",
+        "当你越来越不依赖 AI 的时候，就是你越来越强的时候！"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 27,
+      "title": "第二段第一句功能句挑选（3-16）／建议类：第二段第二句功能句挑选",
+      "kind": "small-essay-para2",
+      "entryIds": [
+        "small-p2s1-p27-03",
+        "small-p2s1-p27-04",
+        "small-p2s1-p27-05",
+        "small-p2s1-p27-06",
+        "small-p2s1-p27-07",
+        "small-p2s1-p27-08",
+        "small-p2s1-p27-09",
+        "small-p2s1-p27-10",
+        "small-p2s1-p27-11",
+        "small-p2s1-p27-12",
+        "small-p2s1-p27-13",
+        "small-p2s1-p27-14",
+        "small-p2s1-p27-15",
+        "small-p2s1-p27-16"
+      ],
+      "pageNotes": [
+        "秘密先说：小作文第二段及其灵活，考察的很多都是综合类，你可能第二段从建议类选 2 句，从祝贺类选 1 句这种。而不是死盯着某个类去只用这里面的功能句。",
+        "秘密先说：难道第二段第二句就一定写在第二句吗？也可以写在第三句"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 28,
+      "title": "建议类：第二段第二句功能句挑选（1-7）／第二段第三句功能句挑选（1-4）",
+      "kind": "small-essay-para2",
+      "entryIds": [
+        "small-advice-p28-01",
+        "small-advice-p28-02",
+        "small-advice-p28-03",
+        "small-advice-p28-04",
+        "small-advice-p28-05",
+        "small-advice-p28-06",
+        "small-advice-p28-07",
+        "small-p2s3-p28-01",
+        "small-p2s3-p28-02",
+        "small-p2s3-p28-03"
+      ],
+      "pageNotes": [
+        "第二段第二句和第四句只需要把 First、what's more 这种前缀换一换就好了",
+        "红色「题目相关词」为一级占位符，黑色方括号为二级占位符，需按题目填具体内容"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 29,
+      "title": "第二段第三句功能句挑选（5-7）／第二段第四句功能句挑选（1-7）／邀请类：第二段第二句功能句挑选",
+      "kind": "small-essay-para2",
+      "entryIds": [
+        "small-p2s3-p29-05",
+        "small-p2s3-p29-06",
+        "small-p2s3-p29-07",
+        "small-p2s4-p29-01",
+        "small-p2s4-p29-02",
+        "small-p2s4-p29-03",
+        "small-p2s4-p29-04",
+        "small-p2s4-p29-05",
+        "small-p2s4-p29-06",
+        "small-p2s4-p29-07",
+        "small-invite-p29-01"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 30,
+      "title": "邀请类：第二段第二句功能句挑选（2-7）／第二段第三句功能句挑选（1-5）",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-invite-p30-02",
+        "small-invite-p30-03",
+        "small-invite-p30-04",
+        "small-invite-p30-05",
+        "small-invite-p30-06",
+        "small-invite-p30-07",
+        "small-p2s3-p30-01",
+        "small-p2s3-p30-02",
+        "small-p2s3-p30-03",
+        "small-p2s3-p30-04",
+        "small-p2s3-p30-05"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 31,
+      "title": "邀请类：第二段第三句（6-7）／第二段第四句功能句挑选（1-7）／道歉类：第二段第二句功能句挑选（1-2）",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-invite-p31-06",
+        "small-invite-p31-07",
+        "small-invite-p31-s4-01",
+        "small-invite-p31-s4-02",
+        "small-invite-p31-s4-03",
+        "small-invite-p31-s4-04",
+        "small-invite-p31-s4-05",
+        "small-invite-p31-s4-06",
+        "small-invite-p31-s4-07",
+        "small-apology-p31-01",
+        "small-apology-p31-02"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 32,
+      "title": "道歉类：第二段第二句功能句挑选（3-7）／第二段第三句功能句挑选（1-6）",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-apology-p32-03",
+        "small-apology-p32-04",
+        "small-apology-p32-05",
+        "small-apology-p32-06",
+        "small-apology-p32-07",
+        "small-apology-p32-s3-01",
+        "small-apology-p32-s3-02",
+        "small-apology-p32-s3-03",
+        "small-apology-p32-s3-04",
+        "small-apology-p32-s3-05",
+        "small-apology-p32-s3-06"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 33,
+      "title": "道歉类：第二段第三句（7）／第二段第四句功能句挑选（1-7）／祝贺类：第二段第二句功能句挑选（1-2）",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-apology-p33-s3-07",
+        "small-apology-p33-s4-01",
+        "small-apology-p33-s4-02",
+        "small-apology-p33-s4-03",
+        "small-apology-p33-s4-04",
+        "small-apology-p33-s4-05",
+        "small-apology-p33-s4-06",
+        "small-apology-p33-s4-07",
+        "small-congrats-p33-s2-01"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 34,
+      "title": "祝贺类：第二段第二句功能句挑选（2-7）／第二段第三句功能句挑选（1-6）",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-congrats-p34-s2-02",
+        "small-congrats-p34-s2-03",
+        "small-congrats-p34-s2-04",
+        "small-congrats-p34-s2-05",
+        "small-congrats-p34-s2-06",
+        "small-congrats-p34-s2-07",
+        "small-congrats-p34-s3-01",
+        "small-congrats-p34-s3-02",
+        "small-congrats-p34-s3-03",
+        "small-congrats-p34-s3-04",
+        "small-congrats-p34-s3-05",
+        "small-congrats-p34-s3-06"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 35,
+      "title": "祝贺类：第二段第四句功能句挑选／介绍类：第二段第二句功能句挑选",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-congrats-p35-01",
+        "small-congrats-p35-02",
+        "small-congrats-p35-03",
+        "small-congrats-p35-04",
+        "small-congrats-p35-05",
+        "small-congrats-p35-06",
+        "small-congrats-p35-07",
+        "small-congrats-p35-08",
+        "small-intro-p35-09"
+      ],
+      "pageNotes": [
+        "本页上半部分承接第二段第三句（第7条），随后进入第二段第四句功能句挑选，页面下方切换到「介绍类」"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-25-36.json",
+      "page": 36,
+      "title": "介绍类：第二段第二句功能句挑选（续）／第二段第三句功能句挑选",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-intro-p36-01",
+        "small-intro-p36-02",
+        "small-intro-p36-03",
+        "small-intro-p36-04",
+        "small-intro-p36-05",
+        "small-intro-p36-06",
+        "small-intro-p36-07",
+        "small-intro-p36-08",
+        "small-intro-p36-09",
+        "small-intro-p36-10",
+        "small-intro-p36-11"
+      ],
+      "pageNotes": [
+        "红色「题目相关词」是必须用题干原信息替换的占位符；黑色方括号是次级占位符，填具体内容"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 37,
+      "title": "介绍类：第二段第三句功能句挑选（3-7）／第二段第四句功能句挑选（1-7）",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-intro-p37-01",
+        "small-intro-p37-02"
+      ],
+      "pageNotes": [
+        "红色「题目相关词」为一级占位符，需用题干原信息替换；黑色方括号为次级占位符，填具体内容"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 38,
+      "title": "通知类：第二段第二句功能句挑选／第二段第三句功能句挑选",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-notice-p38-01",
+        "small-notice-p38-02",
+        "small-notice-p38-03",
+        "small-notice-p38-04",
+        "small-notice-p38-05",
+        "small-notice-p38-06",
+        "small-notice-p38-07",
+        "small-notice-p38-08",
+        "small-notice-p38-09",
+        "small-notice-p38-10"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 39,
+      "title": "通知类：第二段第三句（5-6）／第二段第四句功能句挑选／第三段功能句",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "small-notice-p39-01",
+        "small-notice-p39-02",
+        "small-notice-p39-03",
+        "small-notice-p39-04",
+        "small-notice-p39-05",
+        "small-notice-p39-06",
+        "small-notice-p39-07",
+        "small-notice-p39-08",
+        "small-p3-p39-09",
+        "small-p3-p39-10",
+        "small-p3-p39-11",
+        "small-p3-p39-12"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 40,
+      "title": "第三段功能句（5-21）",
+      "kind": "small-essay-para3",
+      "entryIds": [
+        "small-p3-p40-05",
+        "small-p3-p40-06",
+        "small-p3-p40-07",
+        "small-p3-p40-08",
+        "small-p3-p40-09",
+        "small-p3-p40-10",
+        "small-p3-p40-11",
+        "small-p3-p40-12",
+        "small-p3-p40-13",
+        "small-p3-p40-14",
+        "small-p3-p40-15",
+        "small-p3-p40-16",
+        "small-p3-p40-17",
+        "small-p3-p40-18",
+        "small-p3-p40-19",
+        "small-p3-p40-20",
+        "small-p3-p40-21"
+      ],
+      "pageNotes": [
+        "结尾段功能是表达期待与致谢，不要再引入新信息",
+        "一句致谢 + 一句期待即可收尾，按题型选对应的那一条"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 41,
+      "title": "小作文格式（齐头式与缩进式）",
+      "kind": "layout",
+      "entryIds": [],
+      "pageNotes": [
+        "示例摘自小红书 Fiona 老师",
+        "作者推荐齐头式：同样篇幅显得写得更满",
+        "建议使用 0.7 的笔"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 42,
+      "title": "小作文格式对照（正误示例）",
+      "kind": "layout",
+      "entryIds": [],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 43,
+      "title": "通知类卷面范例（手写示例）",
+      "kind": "layout",
+      "entryIds": [],
+      "pageNotes": [
+        "通知类与会议纪要类的卷面与书信不同：标题居中，日期与落款靠右"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 44,
+      "title": "题目相关词（一）",
+      "kind": "vocab",
+      "entryIds": [],
+      "pageNotes": [
+        "本页为「题目相关词」词表，用于替换模板中的红色一级占位符"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 45,
+      "title": "题目相关词（二）",
+      "kind": "vocab",
+      "entryIds": [],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 46,
+      "title": "题目相关词（三）",
+      "kind": "vocab",
+      "entryIds": [],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "scan-handout",
+      "sourceFile": "raw-37-47.json",
+      "page": 47,
+      "title": "替换词汇表（四·环保主题）",
+      "kind": "vocab",
+      "entryIds": [],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e1",
+      "sourceFile": "slp-big-e1.json",
+      "page": 6,
+      "title": "第三章 图画作文 · 审题三事项与写作思路",
+      "kind": "method",
+      "entryIds": [],
+      "pageNotes": [
+        "审题：题目读三遍，否则不动笔",
+        "a.英文指令",
+        "b.图画信息（环境＋相关人＋物＋动作）",
+        "c.文字说明",
+        "如何避免跑题：图画信息与文字说明相结合（简单清晰的汉语思路＋正确高端的英文表达）",
+        "筛选标准：不是所有图画细节都需要描写，应选择与文字说明呼应的核心元素",
+        "验证方法：通过文字说明反向验证图画解读的合理性",
+        "典型错误：将辅助性细节（如人物动作、背景元素）误认为主要描写对象",
+        "错误示例与正确方向对照：龙舟比赛场景写防溺水（仅看图不看文字）→「龙舟比赛」指向传统文化主题；围观人群写防踩踏事故（脱离主题）→「咱们村」可延伸乡村发展话题；老人牵手写黄昏恋（过度解读细节）→「越来越热闹」可写文化振兴或生活改善",
+        "图画作文思路 · 首段：描述图画/图表；文字材料概述。适配原则：根据考题类型灵活选择描述对象；核心要求：保持客观描述，避免在首段加入主观分析",
+        "图画作文思路 · 中间段：现象+特征+原因+意义+比喻+危害+对比+观点…（首/尾段选写）。灵活组合：各维度可单独使用也可混合使用；布局自由：分析维度之间没有固定顺序要求；跨段分配：部分内容可酌情分配至首段或尾段",
+        "图画作文思路 · 尾段：建议+展望+号召",
+        "大作文与小作文的功能句通用性 · 阅卷机制：大/小作文由不同老师批阅，功能句可安全复用；实践建议：建立通用功能句库，灵活应用于各类作文题型"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e1",
+      "sourceFile": "slp-big-e1.json",
+      "page": 7,
+      "title": "精讲1：温室花朵（03 年）· 六大语法现象与首段描述",
+      "kind": "big-essay-opening",
+      "entryIds": [
+        "slp-pic-open-e1-01",
+        "slp-pic-open-e1-02",
+        "slp-pic-open-e1-03",
+        "slp-pic-open-e1-04"
+      ],
+      "pageNotes": [
+        "审题要点 · 现实寓意：温室→父母的过度保护；花朵→被溺爱的孩子；风雨→社会现实的挑战",
+        "错误立意警示：避免写成「农民生活悲惨」或「花熟了可以吃」等偏离主题的理解；必须紧扣文字说明「温室花朵经不起风雨」展开"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e1",
+      "sourceFile": "slp-big-e1.json",
+      "page": 8,
+      "title": "精讲1：温室花朵（03 年）· 主体段与尾段骨架",
+      "kind": "big-essay-body",
+      "entryIds": [
+        "slp-pic-body-e1-01",
+        "slp-pic-body-e1-02",
+        "slp-pic-body-e1-03",
+        "slp-pic-body-e1-04",
+        "slp-pic-body-e1-05",
+        "slp-pic-body-e1-06",
+        "slp-pic-body-e1-07",
+        "slp-pic-close-e1-01",
+        "slp-pic-close-e1-02",
+        "slp-pic-close-e1-03"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e1",
+      "sourceFile": "slp-big-e1.json",
+      "page": 12,
+      "title": "实训1：偶像崇拜（06 年）· 双图描述与批判骨架",
+      "kind": "big-essay-opening",
+      "entryIds": [
+        "slp-pic-open-e1-05",
+        "slp-pic-open-e1-06",
+        "slp-pic-open-e1-07",
+        "slp-pic-body-e1-08",
+        "slp-pic-body-e1-09",
+        "slp-pic-body-e1-10",
+        "slp-pic-body-e1-11",
+        "slp-pic-body-e1-12",
+        "slp-pic-close-e1-04",
+        "slp-pic-close-e1-05",
+        "slp-pic-close-e1-06"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e1",
+      "sourceFile": "slp-big-e1.json",
+      "page": 16,
+      "title": "精讲2：终点又是起点（04 年）· 单图描述与举例论证",
+      "kind": "big-essay-opening",
+      "entryIds": [
+        "slp-pic-open-e1-08",
+        "slp-pic-open-e1-09",
+        "slp-pic-open-e1-10",
+        "slp-pic-body-e1-13",
+        "slp-pic-body-e1-14",
+        "slp-pic-body-e1-15",
+        "slp-pic-close-e1-07"
+      ],
+      "pageNotes": [
+        "解读误区 · 正确主题：「终点又是新起点」的核心寓意",
+        "典型误读：环境主题（将低矮树木误读为环境恶化）、残疾解读（将跑步单腿着地误认为残疾）、过度引申（苍蝇等细节不应过度解读）",
+        "判断标准：漫画反映普遍生活哲理，非特殊社会问题"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e1",
+      "sourceFile": "slp-big-e1.json",
+      "page": 19,
+      "title": "实训2：网络的近与远（09 年）· 双刃剑辩证骨架",
+      "kind": "big-essay-body",
+      "entryIds": [
+        "slp-pic-open-e1-11",
+        "slp-pic-open-e1-12",
+        "slp-pic-body-e1-16",
+        "slp-pic-body-e1-17",
+        "slp-pic-body-e1-18",
+        "slp-pic-body-e1-19",
+        "slp-pic-body-e1-20",
+        "slp-pic-body-e1-21",
+        "slp-pic-close-e1-08",
+        "slp-pic-close-e1-09",
+        "slp-pic-close-e1-10"
+      ],
+      "pageNotes": [
+        "现象描述：人们花费大量时间在网络世界",
+        "现象表达：不得不承认，越来越多的人如今每天花费太多时间在网上聊天、浏览新闻或看视频",
+        "现象评价：这种现象非常值得关注，因为人们可能沉溺于虚拟世界（be addicted to/indulge in），忽略了现实生活中的家人和朋友",
+        "写作思路 · 对象调整：不必局限于批判年轻人，可改为 people 或 netizens 扩大论述范围",
+        "写作思路 · 行为列举：上网活动可具体化为 chatting, playing games, watching videos 等多样化表达",
+        "写作思路 · 负面效应：强调网络导致人际关系疏远（indifference in real-life relationships）"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e1",
+      "sourceFile": "slp-big-e1.json",
+      "page": 23,
+      "title": "13 年英语一：选择 · 岔路口类图画与职业词汇",
+      "kind": "big-essay-opening",
+      "entryIds": [
+        "slp-pic-open-e1-13",
+        "slp-pic-open-e1-14",
+        "slp-pic-open-e1-15",
+        "slp-pic-body-e1-22",
+        "slp-pic-body-e1-23",
+        "slp-pic-body-e1-24"
+      ],
+      "pageNotes": [
+        "解读误区观察要点 · 环境：岔路口/多选择场景；主体：多排毕业生站立不动；选项：创业、出国、考研、求职四个方向",
+        "表达技巧 · 数字准确：用「two Chinese characters」而非模糊的「若干」",
+        "表达技巧 · 替代表达：不会写「岔路口」可用「multiple choices」替代",
+        "表达技巧 · 动词选择：用「staring at」或「looking at」描述注视动作",
+        "实用建议：不会写的词汇可换简单表达或省略；从阅读理解题中寻找可用词汇（如 choose）"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 6,
+      "title": "第三章 图表作文 · 审题三事项与数据本质透析",
+      "kind": "method",
+      "entryIds": [],
+      "pageNotes": [
+        "审题：题目读三遍，否则不动笔",
+        "a.英文指令(Directions)：关注英文质量要求，这是首要审题事项",
+        "b.关注图表中的数字：必须准确提取图表中的关键数据信息",
+        "c.文字说明：注意图表周边的文字标注和补充说明",
+        "数据较多时，如何选择重点? 起点、终点、拐点、最高值、最低值…",
+        "重点数据标准：最高值（图表中的顶点数据必须描述）、最低值（图表中的底部数据必须描述）、拐点（趋势发生明显变化的转折点数据）、特殊值（如零值或其他具有特殊意义的数据）",
+        "图形归类与本质：折线图（curve 曲线/line 线 graph）、柱状图（bar chart 柱子 or column 栏目 chart）→ 变化：趋势；饼图（pie chart）、表格(table/form) → 排序：对比；组合图 → 对比＋趋势",
+        "透析：固定时间段内，相同事物写变化；固定时间点/段，不同事物写对比或排序"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 7,
+      "title": "3.3 变化类词汇与句式（趋势描述五大句型）",
+      "kind": "chart-essay",
+      "entryIds": [
+        "slp-chart-trend-e2-01",
+        "slp-chart-trend-e2-02",
+        "slp-chart-syntax-e2-01",
+        "slp-chart-syntax-e2-02",
+        "slp-chart-syntax-e2-03",
+        "slp-chart-syntax-e2-04",
+        "slp-chart-syntax-e2-05"
+      ],
+      "pageNotes": [
+        "【数量单位】dozen / hundred / thousand / million 百万 / billion 十亿 / trillion 万亿",
+        "小问题：「几百」怎么说？Two hundred; hundreds of",
+        "【时间点/段】in 1990 / from 1990 to 1992 / since 1990 (has been) / after 1992 / between 1990 and 1998 / during the period from...to... / ten years = a decade",
+        "【变化程度】原则：形容词修饰名词；副词修饰动词、形容词、副词、句子"
+      ],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 8,
+      "title": "3.4 对比/排序类词汇与句式",
+      "kind": "chart-essay",
+      "entryIds": [
+        "slp-chart-rank-e2-01",
+        "slp-chart-rank-e2-02",
+        "slp-chart-rank-e2-03",
+        "slp-chart-rank-e2-04"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 9,
+      "title": "精讲1：全球手机市场（10 年）· 首段与主体段骨架",
+      "kind": "chart-essay",
+      "entryIds": [
+        "slp-chart-open-e2-01",
+        "slp-chart-open-e2-02",
+        "slp-chart-open-e2-03",
+        "slp-chart-body-e2-01",
+        "slp-chart-body-e2-02",
+        "slp-chart-body-e2-03"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 10,
+      "title": "精讲1：全球手机市场（10 年）· 尾段骨架与替换词",
+      "kind": "chart-essay",
+      "entryIds": [
+        "slp-chart-close-e2-01",
+        "slp-chart-close-e2-02",
+        "slp-chart-close-e2-03"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 13,
+      "title": "实训1：中国汽车市场（11 年）· 首段与主体段（三对象对比）",
+      "kind": "chart-essay",
+      "entryIds": [
+        "slp-chart-open-e2-04",
+        "slp-chart-open-e2-05",
+        "slp-chart-open-e2-06",
+        "slp-chart-body-e2-04",
+        "slp-chart-body-e2-05",
+        "slp-chart-body-e2-06",
+        "slp-chart-body-e2-07"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 14,
+      "title": "实训1：中国汽车市场（11 年）· 尾段骨架",
+      "kind": "chart-essay",
+      "entryIds": [
+        "slp-chart-close-e2-04",
+        "slp-chart-close-e2-05",
+        "slp-chart-close-e2-06",
+        "slp-chart-close-e2-07"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 17,
+      "title": "精讲2：高校学生兼职（13 年）· 排序型图表完整骨架",
+      "kind": "chart-essay",
+      "entryIds": [
+        "slp-chart-open-e2-07",
+        "slp-chart-rank-e2-05",
+        "slp-chart-body-e2-08",
+        "slp-chart-body-e2-09",
+        "slp-chart-body-e2-10",
+        "slp-chart-close-e2-08",
+        "slp-chart-close-e2-09"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-big-e2",
+      "sourceFile": "slp-big-e2.json",
+      "page": 21,
+      "title": "实训2：春假假期花销（15 年）· 饼图排序骨架",
+      "kind": "chart-essay",
+      "entryIds": [
+        "slp-chart-open-e2-08",
+        "slp-chart-rank-e2-06",
+        "slp-chart-rank-e2-07",
+        "slp-chart-body-e2-11",
+        "slp-chart-body-e2-12",
+        "slp-chart-body-e2-13",
+        "slp-chart-close-e2-10",
+        "slp-chart-body-e2-14",
+        "slp-chart-rank-e2-08"
+      ],
+      "pageNotes": [],
+      "coverage": null
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 5,
+      "title": "2.1 审题＆简易思路 · 三段式框架",
+      "kind": "method",
+      "entryIds": [],
+      "pageNotes": [
+        "审题：题目读三遍，否则不动笔",
+        "审题三事项：①背景 ②体裁+内容要求（描述）③语域（正式 I am／非正式 I'm）＋格式",
+        "三段式简易思路 · 首段1-2 句：a.写给熟人，首句寒暄，二句目的；b.写给陌生人或机构，写自我介绍和目的",
+        "三段式简易思路 · 中间段4-6 句：按题目要求写相应的内容，并辅以感谢、强调、对比、建议、说明等功能表达完成写作",
+        "三段式简易思路 · 尾段1 句：（再次）致歉、感谢、期待、展望等",
+        "小作文体裁总结 · 高频：书信 Letter/Email（最基础且常见）、通知 Notice/Announcement（含书面与口头，考查频率较高）",
+        "小作文体裁总结 · 低频：海报 Poster（涉及美术设计，可能性低）、简历 Resume（本质是自我介绍）、假条 A Request for Leave（字数限制，可能性小）",
+        "小作文体裁总结 · 新增：会议纪要 minutes（最新大纲新增，但可用功能句应对）。注意 minutes 与「分钟」同形异义，此处表示「纪要」",
+        "石雷鹏老师作文背诵的「七步法」：抄写范文 → 英译汉 → 汉译英 → 对比找差异 → 专门背写出错或差异之处 → 背写全文至无错 → 举一反三，思考每句话如何用来写其他话题"
+      ],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 6,
+      "title": "精讲1：辞职+道歉（05 年英一）· 首段与主体段",
+      "kind": "small-essay-para1",
+      "entryIds": [
+        "slp-sm-p1-e1-01",
+        "slp-sm-p2-e1-01",
+        "slp-sm-p2-e1-02",
+        "slp-sm-p3-e1-01"
+      ],
+      "pageNotes": [
+        "审题要点 · 背景信息识别：前三句话为写作背景，可标注「背景」二字",
+        "审题要点 · 题材确认：「Write a letter」明确写作题材为书信，且给老板写信需采用正式语气",
+        "审题要点 · 内容要求：必须包含三个要素——告知辞职决定、说明理由、表达歉意",
+        "写作技巧 · 背景处理原则：采用「打散加改写」方法，不可直接照抄原文",
+        "写作技巧 · 评分重点：小作文重在说清事情，不需追求复杂词汇和高端句式，满足内容要求且语言无误即可得 8-9 分",
+        "写作技巧 · 格式注意事项：考试结尾提示语必须阅读，防止出现署名要求变更等细节调整（如「李明」可能改为「李刚」）"
+      ],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 9,
+      "title": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-p1-e1-02",
+        "slp-sm-p2-e1-03",
+        "slp-sm-p2-e1-04",
+        "slp-sm-p3-e1-02"
+      ],
+      "pageNotes": [
+        "审题要点 · 核心任务：必须完成两个指令 1) make an apology（道歉）2) suggest a solution（提出解决方案）",
+        "写作技巧 · 时间表达：可用 the past days/weeks/months/years 灵活调整时间跨度",
+        "写作技巧 · 定语从句：用 when 引导时间段，如 when I studied in Canada",
+        "易错提醒 · 标点错误：称谓后用逗号，勿用冒号",
+        "易错提醒 · 时态错误：回忆内容必须用过去式（studied/lived）",
+        "易错提醒 · 用词不当：避免使用 room 代替 house"
+      ],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 13,
+      "title": "精讲2：求助+描述（06 年英一）· 自我介绍与定语从句",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-p1-e1-03",
+        "slp-sm-p2-e1-05",
+        "slp-sm-p2-e1-06",
+        "slp-sm-p2-e1-07",
+        "slp-sm-p3-e1-03"
+      ],
+      "pageNotes": [
+        "对希望工程的理解 · 贡献理解：不一定是金钱捐赠，宣传希望工程也是贡献，反对「道德绑架」的说法",
+        "贫困程度描述：whose family is so impoverished that... ；具体困境：cannot afford tuition"
+      ],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 19,
+      "title": "精讲3：招募+通知（10 年英一）· 通知格式规范",
+      "kind": "layout",
+      "entryIds": [],
+      "pageNotes": [
+        "题目解析 · 背景信息处理：采用「拆分+改写」方法，避免直接照抄题干。例如可写「通知的目的是为某国际会议招募志愿者」或「我们很高兴得知关于全球化的国际会议将在我校举办」",
+        "关键要素 · 主办方：Postgraduates' Association（研究生会）；核心内容：recruit volunteers for an international conference on globalization；要求：包含申请者基本资质(basic qualifications)和其他相关信息",
+        "资质建议：外语能力（因涉及 international 和 globalization）、服务精神（热心、周到、有经验等）",
+        "其他信息：可补充会议时间地点、面试安排等",
+        "格式要点：首行居中写「NOTICE」；可注明发布日期；正文分 2-3 段；落款用「Postgraduates' Association」（不可用个人姓名）",
+        "写作时间建议：考场上建议用 18 分钟左右完成小作文",
+        "通知范文结构 · 开头：明确写作目的（如招募志愿者）；中间：会议基本信息（主题、时间地点等）、志愿者要求（资质、能力等）、报名方式；结尾：发通知单位（题干指定）"
+      ],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 22,
+      "title": "实训3：通知+介绍（15 年英二）· 夏令营通知骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-notice-e1-01",
+        "slp-sm-notice-e1-02",
+        "slp-sm-notice-e1-03",
+        "slp-sm-notice-e1-04"
+      ],
+      "pageNotes": [
+        "审题要点 · 功能句组合：提前准备汉语思路和对应英文表达，考场直接组合使用",
+        "活动设计 · 学术讲座：可包含教授/外籍专家讲座；校园参观：志愿者带领高中生熟悉校园环境",
+        "活动设计 · 避免内容：谈情说爱、荒野求生等不恰当活动",
+        "通知格式：首行居中写「NOTICE」；日期虚构合理日期（如 June 10, Friday）；段落间不空行，采用缩进式"
+      ],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 24,
+      "title": "13 年英一：邀请+说明 · 邀请外教任评委",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-invite-e1-01",
+        "slp-sm-invite-e1-02",
+        "slp-sm-invite-e1-03",
+        "slp-sm-p3-e1-04",
+        "slp-sm-p3-e1-05"
+      ],
+      "pageNotes": [
+        "审题要点 · 题材：电子邮件（介于正式与非正式之间）",
+        "写作策略 · 认识收件人：可回忆往期课程建立联系（如「教授英语演讲课」）",
+        "结构示范：称呼（具体教授姓名）→ 身份说明（作为比赛组织者）→ 明确邀请（担任主评委）→ 比赛详情（时间、地点等）→ 礼貌结尾"
+      ],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 16,
+      "title": "实训2：描述+建议（07 年英一）· 图书馆服务改进建议骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-advice-e1-01",
+        "slp-sm-advice-e1-02"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 32,
+      "title": "15 年英一：推荐+说明 · 推荐书籍骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-recom-e1-01",
+        "slp-sm-recom-e1-02"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 35,
+      "title": "16 年英一：通知+介绍 · 图书馆通知骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-notice-e1-05",
+        "slp-sm-notice-e1-06"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 38,
+      "title": "17 年英一：建议+介绍 · 景点推荐骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-spot-e1-01",
+        "slp-sm-spot-e1-02"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e1",
+      "sourceFile": "slp-small-e1.json",
+      "page": 44,
+      "title": "19 年英一：回复+说明 · 扶贫项目说明骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-reply-e1-01",
+        "slp-sm-reply-e1-02",
+        "slp-sm-p3-e1-06"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "05 年 辞职+道歉",
+          "06 年 求助+描述",
+          "07 年 描述+建议",
+          "08 年 道歉+建议",
+          "10 年 招募+通知",
+          "13 年 邀请+说明",
+          "15 年 推荐+说明",
+          "15 年英二 通知+介绍",
+          "16 年 通知+介绍",
+          "17 年 建议+介绍",
+          "19 年 回复+说明"
+        ],
+        "mergedAsDuplicate": [
+          "14 年 描述+建议：骨架与 07 年建议类一致（I am writing for the purpose of making suggestions + compared with students' demands, books are inadequate），已合并至 07 年条目",
+          "18 年 邀请+说明：骨架与 13 年邀请类一致（As 身份 + inviting you to be + is scheduled to），同义词簇已并入 13 年条目",
+          "20 年 回复+说明：与 19 年回复类同骨架（receive your inquiry + specifying details），同义词簇已并入 19 年条目",
+          "21 年 建议+说明：与 07 年建议类同骨架（making suggestions + it is advisable for ... to），已合并",
+          "22 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "23 年 邀请+说明：与 13 年邀请类同骨架，已合并",
+          "24 年 建议+说明：与 07 年建议类同骨架，已合并"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e2",
+      "sourceFile": "slp-small-e2.json",
+      "page": 26,
+      "title": "13 年英二：号召+鼓动 · 义卖号召骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-call-e2-01",
+        "slp-sm-call-e2-02",
+        "slp-sm-call-e2-03",
+        "slp-sm-p3-e2-01",
+        "slp-sm-p3-e2-02"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "13 年 号召+鼓动",
+          "14 年 咨询+说明",
+          "16 年 回复+建议",
+          "17 年 受邀+介绍",
+          "21 年 邀请+说明",
+          "23 年 建议+原因",
+          "24 年 说明+征询"
+        ],
+        "mergedAsDuplicate": [
+          "18 年 邀请+说明：骨架与 21 年邀请类完全一致（As 身份 + inviting you to participate + is scheduled to），同义词簇已并入 slp-sm-invite-e2-01/02",
+          "19 年 建议+说明：骨架与 23 年建议类一致（I deem that it is advisable for you to + 三益处），已并入 slp-sm-advice-e2-02/03",
+          "20 年 说明+提醒：提醒功能句与 21 年 it is advisable for you to ... in advance 同源，已并入 slp-sm-invite-e2-02",
+          "22 年 邀请+说明：与 21 年同题型同骨架，已并入邀请类条目"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e2",
+      "sourceFile": "slp-small-e2.json",
+      "page": 29,
+      "title": "14 年英二：咨询+说明 · 自我介绍与请教骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-consult-e2-01",
+        "slp-sm-consult-e2-02",
+        "slp-sm-consult-e2-03",
+        "slp-sm-p3-e2-05"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "13 年 号召+鼓动",
+          "14 年 咨询+说明",
+          "16 年 回复+建议",
+          "17 年 受邀+介绍",
+          "21 年 邀请+说明",
+          "23 年 建议+原因",
+          "24 年 说明+征询"
+        ],
+        "mergedAsDuplicate": [
+          "18 年 邀请+说明：骨架与 21 年邀请类完全一致（As 身份 + inviting you to participate + is scheduled to），同义词簇已并入 slp-sm-invite-e2-01/02",
+          "19 年 建议+说明：骨架与 23 年建议类一致（I deem that it is advisable for you to + 三益处），已并入 slp-sm-advice-e2-02/03",
+          "20 年 说明+提醒：提醒功能句与 21 年 it is advisable for you to ... in advance 同源，已并入 slp-sm-invite-e2-02",
+          "22 年 邀请+说明：与 21 年同题型同骨架，已并入邀请类条目"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e2",
+      "sourceFile": "slp-small-e2.json",
+      "page": 32,
+      "title": "16 年英二：回复+建议 · 致谢与学习建议骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-reply-e2-01",
+        "slp-sm-reply-e2-02",
+        "slp-sm-reply-e2-03",
+        "slp-sm-reply-e2-04",
+        "slp-sm-p3-e2-06"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "13 年 号召+鼓动",
+          "14 年 咨询+说明",
+          "16 年 回复+建议",
+          "17 年 受邀+介绍",
+          "21 年 邀请+说明",
+          "23 年 建议+原因",
+          "24 年 说明+征询"
+        ],
+        "mergedAsDuplicate": [
+          "18 年 邀请+说明：骨架与 21 年邀请类完全一致（As 身份 + inviting you to participate + is scheduled to），同义词簇已并入 slp-sm-invite-e2-01/02",
+          "19 年 建议+说明：骨架与 23 年建议类一致（I deem that it is advisable for you to + 三益处），已并入 slp-sm-advice-e2-02/03",
+          "20 年 说明+提醒：提醒功能句与 21 年 it is advisable for you to ... in advance 同源，已并入 slp-sm-invite-e2-02",
+          "22 年 邀请+说明：与 21 年同题型同骨架，已并入邀请类条目"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e2",
+      "sourceFile": "slp-small-e2.json",
+      "page": 35,
+      "title": "17 年英二：受邀+介绍 · 接受邀请与要点介绍骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-accept-e2-01",
+        "slp-sm-accept-e2-02",
+        "slp-sm-accept-e2-03",
+        "slp-sm-p3-e2-07"
+      ],
+      "pageNotes": [
+        "备考启示：掌握核心功能句可应对不同命题形式。英语一 17 年推荐景点题与本题内容可复用（历史特征→具体景点→文化价值）"
+      ],
+      "coverage": {
+        "included": [
+          "13 年 号召+鼓动",
+          "14 年 咨询+说明",
+          "16 年 回复+建议",
+          "17 年 受邀+介绍",
+          "21 年 邀请+说明",
+          "23 年 建议+原因",
+          "24 年 说明+征询"
+        ],
+        "mergedAsDuplicate": [
+          "18 年 邀请+说明：骨架与 21 年邀请类完全一致（As 身份 + inviting you to participate + is scheduled to），同义词簇已并入 slp-sm-invite-e2-01/02",
+          "19 年 建议+说明：骨架与 23 年建议类一致（I deem that it is advisable for you to + 三益处），已并入 slp-sm-advice-e2-02/03",
+          "20 年 说明+提醒：提醒功能句与 21 年 it is advisable for you to ... in advance 同源，已并入 slp-sm-invite-e2-02",
+          "22 年 邀请+说明：与 21 年同题型同骨架，已并入邀请类条目"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e2",
+      "sourceFile": "slp-small-e2.json",
+      "page": 56,
+      "title": "24 年英二：说明+征询 · 计划提出与意见征询骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-survey-e2-01",
+        "slp-sm-survey-e2-02",
+        "slp-sm-survey-e2-03"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "13 年 号召+鼓动",
+          "14 年 咨询+说明",
+          "16 年 回复+建议",
+          "17 年 受邀+介绍",
+          "21 年 邀请+说明",
+          "23 年 建议+原因",
+          "24 年 说明+征询"
+        ],
+        "mergedAsDuplicate": [
+          "18 年 邀请+说明：骨架与 21 年邀请类完全一致（As 身份 + inviting you to participate + is scheduled to），同义词簇已并入 slp-sm-invite-e2-01/02",
+          "19 年 建议+说明：骨架与 23 年建议类一致（I deem that it is advisable for you to + 三益处），已并入 slp-sm-advice-e2-02/03",
+          "20 年 说明+提醒：提醒功能句与 21 年 it is advisable for you to ... in advance 同源，已并入 slp-sm-invite-e2-02",
+          "22 年 邀请+说明：与 21 年同题型同骨架，已并入邀请类条目"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e2",
+      "sourceFile": "slp-small-e2.json",
+      "page": 47,
+      "title": "21 年英二：邀请+说明 · 线上会议邀请骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-invite-e2-01",
+        "slp-sm-invite-e2-02",
+        "slp-sm-invite-e2-03",
+        "slp-sm-p3-e2-03",
+        "slp-sm-p3-e2-04"
+      ],
+      "pageNotes": [
+        "背景构建 · 主题选择：应避免敏感内容（如跨国交友），推荐学术交流或学期规划等正式主题",
+        "背景构建 · 主题设计：应确保内容积极正面，符合学术交流定位",
+        "背景构建 · 细节要求：必须包含会议具体信息和参与方式等核心要素"
+      ],
+      "coverage": {
+        "included": [
+          "13 年 号召+鼓动",
+          "14 年 咨询+说明",
+          "16 年 回复+建议",
+          "17 年 受邀+介绍",
+          "21 年 邀请+说明",
+          "23 年 建议+原因",
+          "24 年 说明+征询"
+        ],
+        "mergedAsDuplicate": [
+          "18 年 邀请+说明：骨架与 21 年邀请类完全一致（As 身份 + inviting you to participate + is scheduled to），同义词簇已并入 slp-sm-invite-e2-01/02",
+          "19 年 建议+说明：骨架与 23 年建议类一致（I deem that it is advisable for you to + 三益处），已并入 slp-sm-advice-e2-02/03",
+          "20 年 说明+提醒：提醒功能句与 21 年 it is advisable for you to ... in advance 同源，已并入 slp-sm-invite-e2-02",
+          "22 年 邀请+说明：与 21 年同题型同骨架，已并入邀请类条目"
+        ]
+      }
+    },
+    {
+      "source": "slp-small-e2",
+      "sourceFile": "slp-small-e2.json",
+      "page": 53,
+      "title": "23 年英二：建议+原因 · 二选一建议骨架",
+      "kind": "small-essay-typed",
+      "entryIds": [
+        "slp-sm-advice-e2-01",
+        "slp-sm-advice-e2-02",
+        "slp-sm-advice-e2-03"
+      ],
+      "pageNotes": [],
+      "coverage": {
+        "included": [
+          "13 年 号召+鼓动",
+          "14 年 咨询+说明",
+          "16 年 回复+建议",
+          "17 年 受邀+介绍",
+          "21 年 邀请+说明",
+          "23 年 建议+原因",
+          "24 年 说明+征询"
+        ],
+        "mergedAsDuplicate": [
+          "18 年 邀请+说明：骨架与 21 年邀请类完全一致（As 身份 + inviting you to participate + is scheduled to），同义词簇已并入 slp-sm-invite-e2-01/02",
+          "19 年 建议+说明：骨架与 23 年建议类一致（I deem that it is advisable for you to + 三益处），已并入 slp-sm-advice-e2-02/03",
+          "20 年 说明+提醒：提醒功能句与 21 年 it is advisable for you to ... in advance 同源，已并入 slp-sm-invite-e2-02",
+          "22 年 邀请+说明：与 21 年同题型同骨架，已并入邀请类条目"
+        ]
+      }
+    }
+  ]
+}

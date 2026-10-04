@@ -1,0 +1,284 @@
+{
+  "batch": "01-12",
+  "pages": [
+    {
+      "page": 1,
+      "title": "一、英语一大作文（建议160-200词左右）",
+      "kind": "big-essay-opening",
+      "entries": [
+        {
+          "id": "big-open-p01-01",
+          "page": 1,
+          "section": "大作文第一段（图画类）",
+          "en": "The picture presents a thought-provoking scene in which {图片描述句}. Simple as the picture may seem, the message it conveys is profound, reminding us of the significance of {题目相关词} in real life.",
+          "zh": "这幅图呈现了一个发人深思的场景，画中{图片描述句}。图片看似简单，但它传递的信息却十分深刻，提醒我们{题目相关词}在现实生活中的重要意义。",
+          "slots": ["图片描述句", "题目相关词"],
+          "swappable": [],
+          "examples": [],
+          "notes": [
+            "注意！可不是让你把「图片描述句」这几个字翻译成英文！而是把题目中的图画用英文自己写、自己描述",
+            "题目相关词可以是不同的英文单词，不一定全篇的题目相关词都是一样的"
+          ]
+        },
+        {
+          "id": "big-open-p01-02",
+          "page": 1,
+          "section": "大作文第一段（材料类）",
+          "en": "The material presents a thought-provoking phenomenon concerning {题目相关词}. Simple as the material may seem, the message it conveys is profound, reminding us of the significance of {题目相关词} in real life.",
+          "zh": "这段材料呈现了一个与{题目相关词}有关的发人深思的现象。材料看似简单，但它传递的信息却十分深刻，提醒我们{题目相关词}在现实生活中的重要意义。",
+          "slots": ["题目相关词"],
+          "swappable": [],
+          "examples": [],
+          "notes": [
+            "也有可能考材料类，就是题目给你一段文字让你写，这个时候把这幅画改成这段材料就行了"
+          ]
+        }
+      ],
+      "pageNotes": [
+        "只要你会换名词和形容词，就能少背，效率拉满"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 2,
+      "title": "大作文第二段正面品质",
+      "kind": "big-essay-body",
+      "entries": [
+        {
+          "id": "big-body-p02-01",
+          "page": 2,
+          "section": "大作文第二段（正面品质）",
+          "en": "Viewed within the context of everyday life, it is hardly surprising that {题目相关词} can bring considerable benefits.",
+          "zh": "回到日常生活的语境中来看，{题目相关词}能够带来大量好处，并不值得意外。",
+          "slots": ["题目相关词"],
+          "swappable": ["日常生活"],
+          "examples": [],
+          "notes": [
+            "品质类需要根据具体题目，从语料包中替换这一段里的句子",
+            "自行挑选几句，而非全写，控制好字数",
+            "每个点都可以加个连词，按自己喜欢的去加，像 first and foremost、What's more 这种，全凭个人喜好自行添加 or 不加"
+          ]
+        }
+      ],
+      "pageNotes": [
+        "蓝色根据具体题目修改。你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 3,
+      "title": "大作文第二段反面品质",
+      "kind": "big-essay-body",
+      "entries": [
+        {
+          "id": "big-body-p03-01",
+          "page": 3,
+          "section": "大作文第二段（反面品质）",
+          "en": "Viewed within the context of everyday life, it is hardly surprising that {题目相关词} can produce considerable harm.",
+          "zh": "回到日常生活的语境中来看，{题目相关词}会造成不小的危害，并不值得意外。",
+          "slots": ["题目相关词"],
+          "swappable": ["日常生活"],
+          "examples": [],
+          "notes": [
+            "反面品质与正面品质结构一致，把「好处」替换为「危害」"
+          ]
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 4,
+      "title": "版权水印页",
+      "kind": "transition",
+      "entries": [],
+      "pageNotes": [
+        "本页为版权水印页，无模板内容"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 5,
+      "title": "大作文第三段经济类＋正面品质",
+      "kind": "big-essay-closing",
+      "entries": [
+        {
+          "id": "big-close-p05-01",
+          "page": 5,
+          "section": "大作文第三段（经济类＋正面品质）",
+          "en": "Regarding the future impact of {题目相关词}, we should not remain at the level of simple discussion, but should take more targeted measures for guidance.",
+          "zh": "对于{题目相关词}未来的影响，我们不应停留在简单讨论的层面，而应采取更有针对性的引导措施。",
+          "slots": ["题目相关词"],
+          "swappable": ["讨论层面", "针对性", "引导"],
+          "examples": [],
+          "notes": [
+            "最后一段无非就是「xx 应该做 xx」，题目考什么就把两个 xx 改得更符合题意"
+          ]
+        }
+      ],
+      "pageNotes": [
+        "蓝色根据具体题目修改"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 6,
+      "title": "大作文第三段反面品质",
+      "kind": "big-essay-closing",
+      "entries": [
+        {
+          "id": "big-close-p06-01",
+          "page": 6,
+          "section": "大作文第三段（反面品质）",
+          "en": "Regarding the future impact of {题目相关词}, we should not remain at the level of simple discussion, but should take more targeted measures to correct and restrain it.",
+          "zh": "对于{题目相关词}未来的影响，我们不应停留在简单讨论的层面，而应采取更有针对性的措施加以纠正和约束。",
+          "slots": ["题目相关词"],
+          "swappable": ["讨论层面", "针对性", "纠正", "约束"],
+          "examples": [],
+          "notes": [
+            "正面题用 guidance／promote，反面题用 correct／restrain"
+          ]
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 7,
+      "title": "大作文补充说明",
+      "kind": "method",
+      "entries": [],
+      "pageNotes": [
+        "本页为作者补充说明，无独立模板句"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 8,
+      "title": "二、英语一+二大作文（建议180-220词左右）",
+      "kind": "method",
+      "entries": [],
+      "pageNotes": [
+        "本页为英语一与英语二大作文的总体说明与字数建议"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 9,
+      "title": "静态第一段",
+      "kind": "chart-essay",
+      "entries": [
+        {
+          "id": "chart-p09-01",
+          "page": 9,
+          "section": "图表作文第一段（静态·饼图）",
+          "en": "The pie chart presents the distribution of {题目相关词}. As can be seen from the chart, {对象A} accounts for the largest proportion, at {数字A}, while {对象B} takes up only {数字B}.",
+          "zh": "这幅饼图呈现了{题目相关词}的分布情况。从图中可以看出，{对象A}占比最大，为{数字A}，而{对象B}仅占{数字B}。",
+          "slots": ["题目相关词", "对象A", "数字A", "对象B", "数字B"],
+          "swappable": [],
+          "examples": [],
+          "notes": [
+            "静态图表只写最大、最小与显著对比，不要罗列全部数字"
+          ]
+        },
+        {
+          "id": "chart-p09-02",
+          "page": 9,
+          "section": "图表作文第一段（静态·柱状图）",
+          "en": "The bar chart presents the distribution of {题目相关词}. As can be seen from the chart, {对象A} ranks first, with the figure reaching {数字A}.",
+          "zh": "这幅柱状图呈现了{题目相关词}的分布情况。从图中可以看出，{对象A}位居第一，数值达到{数字A}。",
+          "slots": ["题目相关词", "对象A", "数字A"],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 10,
+      "title": "动态第一段",
+      "kind": "chart-essay",
+      "entries": [
+        {
+          "id": "chart-p10-01",
+          "page": 10,
+          "section": "图表作文第一段（动态·折线图）",
+          "en": "This line chart presents the changes in {题目相关词} from {起始年份} to {结束年份}. As can be seen from the chart, the figure for {对象A} increased steadily over this period.",
+          "zh": "这幅折线图呈现了{题目相关词}从{起始年份}到{结束年份}的变化情况。从图中可以看出，{对象A}的数值在此期间稳步上升。",
+          "slots": ["题目相关词", "起始年份", "结束年份", "对象A"],
+          "swappable": ["稳步上升"],
+          "examples": [],
+          "notes": [
+            "动态图表用「动词＋程度副词＋时间状语」三件套描述趋势"
+          ]
+        },
+        {
+          "id": "chart-p10-02",
+          "page": 10,
+          "section": "图表作文第一段（动态·柱状图）",
+          "en": "This bar chart presents the changes in {题目相关词} from {起始年份} to {结束年份}. As can be seen from the chart, the figure increased steadily over this period.",
+          "zh": "这幅柱状图呈现了{题目相关词}从{起始年份}到{结束年份}的变化情况。从图中可以看出，该数值在此期间稳步上升。",
+          "slots": ["题目相关词", "起始年份", "结束年份"],
+          "swappable": ["稳步上升"],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 11,
+      "title": "校园类（对应英语一品质类）",
+      "kind": "big-essay-body",
+      "entries": [
+        {
+          "id": "big-body-campus-p11-01",
+          "page": 11,
+          "section": "大作文第二段（校园类／正面品质）",
+          "en": "Viewed within the context of everyday life, it is hardly surprising that {题目相关词} can bring considerable benefits. First, the exemplary role played by elders in daily conduct enables children to perceive the positive influence of {题目相关词} more directly and to internalize this quality gradually. Second, {题目相关词} allows individuals to cope with difficulties and challenges with greater ease. In addition, those who are long influenced by {题目相关词} tend to develop a clearer understanding of the future and more thoughtful plans for it.",
+          "zh": "回到日常生活的语境中来看，{题目相关词}能够带来大量好处，并不值得意外。首先，长辈在日常行为中的示范作用，会让孩子更直观地感受到{题目相关词}所带来的积极影响，并在潜移默化中接受这种品质。其次，{题目相关词}会使个人在面对困难和挑战时更游刃有余。除此之外，长期受到{题目相关词}影响的人，对未来有更清晰的认知和规划。",
+          "slots": ["题目相关词"],
+          "swappable": ["exemplary role played by elders in daily conduct", "perceive the positive influence", "internalize this quality gradually", "cope with difficulties and challenges", "a clearer understanding of the future and more thoughtful plans"],
+          "examples": [
+            {
+              "label": "讲义对应示例",
+              "en": "父母以身作则／长辈示范作用类正面品质",
+              "zh": "适合父母以身作则、坚持、自律、责任感等品质题"
+            }
+          ],
+          "notes": [
+            "讲义要求自行挑选几句，而非全写，控制好字数",
+            "蓝色表达必须根据具体题目替换，不能生硬照搬"
+          ]
+        }
+      ],
+      "pageNotes": [
+        "校园类对应英语一品质类；一个条目保留讲义完整主体段，可按字数挑选其中几句"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 12,
+      "title": "图表作文第三段",
+      "kind": "chart-essay",
+      "entries": [
+        {
+          "id": "chart-p12-01",
+          "page": 12,
+          "section": "图表作文第三段（总结展望）",
+          "en": "Considering the significance of {题目相关词}, it is reasonable to believe that this trend will continue in the years to come.",
+          "zh": "考虑到{题目相关词}的重要意义，我们有理由相信这一趋势在未来几年仍将延续。",
+          "slots": ["题目相关词"],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    }
+  ]
+}

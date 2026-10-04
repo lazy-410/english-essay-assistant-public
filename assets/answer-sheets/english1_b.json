@@ -1,0 +1,174 @@
+{
+  "key": "english1_b",
+  "label": "英语一 Part B（大作文）",
+  "exam": "英语一",
+  "part": "B",
+  "page": {
+    "width": 595.28,
+    "height": 841.89
+  },
+  "target": {
+    "x0": 28.0,
+    "y0": 30.0,
+    "x1": 567.0,
+    "y1": 811.0
+  },
+  "lines": {
+    "count": 24,
+    "items": [
+      {
+        "baseline": 103.7026,
+        "startX": 91.8386,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 133.3759,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 163.0487,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 192.7218,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 222.3946,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 252.0675,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 281.7407,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 311.4135,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 341.0866,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 370.7594,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 400.4323,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 430.1055,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 459.7782,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 489.4514,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 519.1243,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 548.7971,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 578.4702,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 608.1431,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 637.8162,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 667.4891,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 697.162,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 726.835,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 756.5079,
+        "startX": 60.9106,
+        "endX": 534.1183
+      },
+      {
+        "baseline": 786.1807,
+        "startX": 60.9106,
+        "endX": 534.1183
+      }
+    ],
+    "minGap": 29.6727,
+    "maxGap": 29.6733
+  },
+  "background": {
+    "url": "/answer-sheet-assets/english1_b.png",
+    "png": "public/answer-sheet-assets/english1_b.png",
+    "rgbDeflate": "assets/answer-sheets/english1_b.rgb.deflate",
+    "width": 3308,
+    "height": 4678,
+    "dpi": 400,
+    "colorSpace": "DeviceRGB",
+    "bitsPerComponent": 8,
+    "pngBytes": 172088,
+    "rgbDeflateBytes": 161143,
+    "pngSha256": "88fc573b4fbf04a38e3caa04e4d24801820211967dc78bf20cd8e292ffcad3f9",
+    "rgbDeflateSha256": "8a4f626eb68148827093fa84a3e16a03151fd23e76b2ce734ed7ebaeb1e01cad"
+  },
+  "source": {
+    "template": "D:/Dome/assets/answer_sheet_template.pdf",
+    "page": 1,
+    "side": "right",
+    "clip": [
+      645.9,
+      73.8,
+      1139.9,
+      787.3
+    ],
+    "a4Target": [
+      28.0,
+      30.0,
+      567.0,
+      811.0
+    ]
+  }
+}

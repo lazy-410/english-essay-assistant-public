@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "version": 3,
+    "title": "考研英语作文综合知识库",
+    "source": "考研英语作文.pdf + 石雷鹏考研英语大小作文笔记",
+    "sourcePageCount": 47,
+    "sources": [
+      {
+        "source": "scan-handout",
+        "sourceLabel": "考研英语作文扫描讲义",
+        "totalPages": 47,
+        "scope": "图画作文、图表作文、小作文功能句、书写布局与词汇"
+      },
+      {
+        "source": "slp-big-e1",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语一（整理自：学长小谭）",
+        "totalPages": 70,
+        "scope": "图画作文（图画类大作文）"
+      },
+      {
+        "source": "slp-big-e2",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语二（整理自：学长小谭）",
+        "totalPages": 64,
+        "scope": "图表作文（图表类大作文）"
+      },
+      {
+        "source": "slp-small-e1",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语一（整理自：学长小谭）",
+        "totalPages": 62,
+        "scope": "应用文（小作文）。本文件收录英一英二共有的前六篇精讲/实训以及英一全部独有真题。"
+      },
+      {
+        "source": "slp-small-e2",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语二（整理自：学长小谭）",
+        "totalPages": 58,
+        "scope": "应用文（小作文）· 英语二独有真题。与英语一笔记共有的前六篇精讲/实训（精讲1 辞职道歉、实训1 道歉建议、精讲2 求助描述、实训2 描述建议、精讲3 招募通知、实训3 通知介绍）已收录在 slp-small-e1.json，此处不重复。"
+      }
+    ],
+    "counts": {
+      "pages": 47,
+      "entries": 378,
+      "rawEntries": 220,
+      "slpEntries": 158,
+      "vocab": 207
+    }
+  },
+  "layouts": [
+    {
+      "page": 41,
+      "title": "小作文格式（齐头式与缩进式）",
+      "layoutSpec": {
+        "styles": [
+          {
+            "name": "齐头式",
+            "recommended": true,
+            "salutation": "顶格书写，后加英文逗号",
+            "bodyIndent": "各段首行不缩进，全部左侧齐头",
+            "paragraphGap": "段与段之间空一行",
+            "closing": "Yours sincerely, 与署名 Li Ming 分两行，左侧齐头",
+            "reason": "同样的篇幅，齐头式显得写得更满"
+          },
+          {
+            "name": "缩进式",
+            "recommended": false,
+            "salutation": "顶格书写，后加英文逗号",
+            "bodyIndent": "每段首行缩进约四个字母宽度",
+            "paragraphGap": "段间不空行",
+            "closing": "Yours sincerely, 与署名 Li Ming 偏右下书写"
+          }
+        ],
+        "paper": {
+          "type": "答题卡横线纸",
+          "writingPosition": "字写在横线之上，字母下缘贴线",
+          "margin": "左右均留出页边距，不顶到纸张边缘"
+        },
+        "specialTypes": [
+          {
+            "type": "通知类",
+            "rules": [
+              "标题居中书写，如 Notice",
+              "正文下方右侧写落款机构名",
+              "日期可另起一行"
+            ]
+          },
+          {
+            "type": "会议纪要类",
+            "rules": [
+              "标题居中",
+              "含日期行",
+              "落款写机构名"
+            ]
+          }
+        ],
+        "penTip": "建议使用 0.7 的笔"
+      },
+      "pageNotes": [
+        "示例摘自小红书 Fiona 老师",
+        "作者推荐齐头式：同样篇幅显得写得更满",
+        "建议使用 0.7 的笔"
+      ]
+    },
+    {
+      "page": 42,
+      "title": "小作文格式对照（正误示例）",
+      "layoutSpec": {
+        "comparison": {
+          "left": "齐头式示例",
+          "right": "缩进式示例",
+          "note": "两种格式都可得分，作者更推荐齐头式"
+        },
+        "checklist": {
+          "good": [
+            "称呼顶格并加逗号",
+            "段落分明、行距均匀",
+            "单词间距清楚",
+            "落款两行完整"
+          ],
+          "bad": [
+            "字迹过密",
+            "随意换行",
+            "称呼缩进不统一",
+            "涂改严重"
+          ]
+        }
+      },
+      "pageNotes": []
+    },
+    {
+      "page": 43,
+      "title": "通知类卷面范例（手写示例）",
+      "layoutSpec": {
+        "type": "通知类",
+        "title": {
+          "text": "Notice",
+          "align": "center",
+          "note": "标题单独一行居中书写"
+        },
+        "date": {
+          "align": "right",
+          "note": "日期写在标题下方右侧，或正文之后"
+        },
+        "body": {
+          "indent": "每段首行缩进",
+          "paragraphGap": "段间不空行"
+        },
+        "signature": {
+          "align": "right",
+          "note": "落款写机构名，如 The Students' Union，靠右书写"
+        },
+        "paper": {
+          "type": "答题卡横线纸",
+          "writingPosition": "字写在横线之上"
+        }
+      },
+      "pageNotes": [
+        "通知类与会议纪要类的卷面与书信不同：标题居中，日期与落款靠右"
+      ]
+    }
+  ]
+}

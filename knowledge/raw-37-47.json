@@ -1,0 +1,1098 @@
+{
+  "batch": "37-47",
+  "pages": [
+    {
+      "page": 37,
+      "title": "介绍类：第二段第三句功能句挑选（3-7）／第二段第四句功能句挑选（1-7）",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "small-intro-p37-01",
+          "page": 37,
+          "section": "介绍类 第二段第三句功能句挑选（第3条）",
+          "letterType": "介绍类",
+          "en": "In addition, it involves [方面 3], which further strengthens [整体功能].",
+          "zh": "此外，它还涉及[方面 3]，这进一步强化了[整体功能]。",
+          "slots": [
+            "[方面 3]",
+            "[整体功能]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-intro-p37-02",
+          "page": 37,
+          "section": "介绍类 第二段第四句功能句挑选（第1条）",
+          "letterType": "介绍类",
+          "en": "In short, {题目相关词} stands out for [突出优点], and is therefore highly valuable in [适用领域].",
+          "zh": "综上，{题目相关词}因[突出优点]而脱颖而出，在[适用领域]中具有较高价值。",
+          "slots": [
+            "题目相关词",
+            "[突出优点]",
+            "[适用领域]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [
+        "红色「题目相关词」为一级占位符，需用题干原信息替换；黑色方括号为次级占位符，填具体内容"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 38,
+      "title": "通知类：第二段第二句功能句挑选／第二段第三句功能句挑选",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "small-notice-p38-01",
+          "page": 38,
+          "section": "通知类 第二段第二句功能句挑选（第1条）",
+          "letterType": "通知类",
+          "en": "First, [时间信息] has been set as the official time for {题目相关词}, and all [参加对象] are required to attend on time.",
+          "zh": "首先，[时间信息]被确定为{题目相关词}的正式时间，届时要求全体[参加对象]准时参加。",
+          "slots": [
+            "[时间信息]",
+            "题目相关词",
+            "[参加对象]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-02",
+          "page": 38,
+          "section": "通知类 第二段第二句功能句挑选（第2条）",
+          "letterType": "通知类",
+          "en": "To begin with, {题目相关词} will take place at [地点信息], providing a fixed venue for all [参加对象].",
+          "zh": "首先，{题目相关词}将在[地点信息]举行，为全体[参加对象]提供固定场所。",
+          "slots": [
+            "题目相关词",
+            "[地点信息]",
+            "[参加对象]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-03",
+          "page": 38,
+          "section": "通知类 第二段第二句功能句挑选（第3条）",
+          "letterType": "通知类",
+          "en": "In terms of schedule, {题目相关词} is arranged from [起始时间] to [结束时间], during which [主要环节] will be carried out.",
+          "zh": "在时间安排上，{题目相关词}定于[起始时间]至[结束时间]进行，期间将开展[主要环节]。",
+          "slots": [
+            "题目相关词",
+            "[起始时间]",
+            "[结束时间]",
+            "[主要环节]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-04",
+          "page": 38,
+          "section": "通知类 第二段第二句功能句挑选（第4条）",
+          "letterType": "通知类",
+          "en": "As for the participants, {题目相关词} mainly targets [参加对象], who are kindly asked to follow the arrangements below.",
+          "zh": "至于参与人员，{题目相关词}主要面向[参加对象]，请相关人员注意以下安排。",
+          "slots": [
+            "题目相关词",
+            "[参加对象]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-05",
+          "page": 38,
+          "section": "通知类 第二段第二句功能句挑选（第5条）",
+          "letterType": "通知类",
+          "en": "With regard to the theme, {题目相关词} will focus on [活动主题或内容], aiming to address [目标问题].",
+          "zh": "在主题方面，{题目相关词}将围绕[活动主题或内容]展开，旨在回应[目标问题]。",
+          "slots": [
+            "题目相关词",
+            "[活动主题或内容]",
+            "[目标问题]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-06",
+          "page": 38,
+          "section": "通知类 第二段第二句功能句挑选（第6条）",
+          "letterType": "通知类",
+          "en": "From the organizational point of view, {题目相关词} is jointly held by [主办单位] and [协办单位], ensuring smooth coordination.",
+          "zh": "从组织层面来看，{题目相关词}由[主办单位]与[协办单位]联合举办，以保障整体协调有序。",
+          "slots": [
+            "题目相关词",
+            "[主办单位]",
+            "[协办单位]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-07",
+          "page": 38,
+          "section": "通知类 第二段第三句功能句挑选（第1条）",
+          "letterType": "通知类",
+          "en": "Furthermore, the main contents of {题目相关词} include [内容 1], [内容 2] and [内容 3], forming a clear structure.",
+          "zh": "此外，{题目相关词}的主要内容包括[内容 1]、[内容 2]和[内容 3]，整体结构清晰明了。",
+          "slots": [
+            "题目相关词",
+            "[内容 1]",
+            "[内容 2]",
+            "[内容 3]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-08",
+          "page": 38,
+          "section": "通知类 第二段第三句功能句挑选（第2条）",
+          "letterType": "通知类",
+          "en": "Moreover, {题目相关词} will be conducted in the form of [形式 1], followed by [形式 2], so as to enhance [预期效果].",
+          "zh": "再者，{题目相关词}将采用[形式 1]的方式开展，并配合[形式 2]，以增强[预期效果]。",
+          "slots": [
+            "题目相关词",
+            "[形式 1]",
+            "[形式 2]",
+            "[预期效果]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-09",
+          "page": 38,
+          "section": "通知类 第二段第三句功能句挑选（第3条）",
+          "letterType": "通知类",
+          "en": "In addition, key parts such as [重点环节 1] and [重点环节 2] will be highlighted to ensure substantial gains for [参加对象].",
+          "zh": "另外，活动将重点突出[重点环节 1]和[重点环节 2]，以确保[参加对象]切实受益。",
+          "slots": [
+            "[重点环节 1]",
+            "[重点环节 2]",
+            "[参加对象]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p38-10",
+          "page": 38,
+          "section": "通知类 第二段第三句功能句挑选（第4条）",
+          "letterType": "通知类",
+          "en": "What is more, {题目相关词} will integrate [要素 1] with [要素 2], offering participants a comprehensive experience.",
+          "zh": "更重要的是，{题目相关词}将融合[要素 1]与[要素 2]，为参与者提供较为全面的体验。",
+          "slots": [
+            "题目相关词",
+            "[要素 1]",
+            "[要素 2]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 39,
+      "title": "通知类：第二段第三句（5-6）／第二段第四句功能句挑选／第三段功能句",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "small-notice-p39-01",
+          "page": 39,
+          "section": "通知类 第二段第三句功能句挑选（第5条）",
+          "letterType": "通知类",
+          "en": "Besides, during {题目相关词}, [具体安排，如 group discussion or Q and A] will be arranged to encourage active participation.",
+          "zh": "此外，在{题目相关词}过程中将安排[具体安排，如分组讨论或答疑交流]，以鼓励大家积极参与。",
+          "slots": [
+            "题目相关词",
+            "[具体安排，如 group discussion or Q and A]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p39-02",
+          "page": 39,
+          "section": "通知类 第二段第三句功能句挑选（第6条）",
+          "letterType": "通知类",
+          "en": "At the same time, sufficient time will be reserved for [环节，如 free communication], so that [参加对象] can [具体收获].",
+          "zh": "同时，将预留充足时间用于[环节，如自由交流]，以便[参加对象]能够[具体收获]。",
+          "slots": [
+            "[环节，如 free communication]",
+            "[参加对象]",
+            "[具体收获]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p39-03",
+          "page": 39,
+          "section": "通知类 第二段第四句功能句挑选（第1条）",
+          "letterType": "通知类",
+          "en": "Last but not least, all [参加对象] are required to [注意事项或要求], so that {题目相关词} can proceed in an orderly way.",
+          "zh": "最后，要求全体[参加对象][注意事项或要求]，以确保{题目相关词}有序开展。",
+          "slots": [
+            "[参加对象]",
+            "[注意事项或要求]",
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p39-04",
+          "page": 39,
+          "section": "通知类 第二段第四句功能句挑选（第2条）",
+          "letterType": "通知类",
+          "en": "Last but not least, participants should [携带物品或准备事项], which is necessary for the smooth progress of {题目相关词}.",
+          "zh": "最后，请参与人员[携带物品或准备事项]，这是确保{题目相关词}顺利进行的必要条件。",
+          "slots": [
+            "[携带物品或准备事项]",
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p39-05",
+          "page": 39,
+          "section": "通知类 第二段第四句功能句挑选（第3条）",
+          "letterType": "通知类",
+          "en": "Last but not least, please pay special attention to [纪律或安全要求], so as to maintain a safe and tidy environment for {题目相关词}.",
+          "zh": "最后，请特别注意[纪律或安全要求]，以维持{题目相关词}的安全、有序环境。",
+          "slots": [
+            "[纪律或安全要求]",
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p39-06",
+          "page": 39,
+          "section": "通知类 第二段第四句功能句挑选（第4条）",
+          "letterType": "通知类",
+          "en": "Taken together, the above arrangements call for your active cooperation, without which {题目相关词} cannot achieve the expected results.",
+          "zh": "总的来看，以上安排需要大家积极配合，否则{题目相关词}难以达到预期效果。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p39-07",
+          "page": 39,
+          "section": "通知类 第二段第四句功能句挑选（第5条）",
+          "letterType": "通知类",
+          "en": "From now on, any changes related to {题目相关词} will be updated through [通知渠道], and all [参加对象] should keep informed in time.",
+          "zh": "自即日起，凡与{题目相关词}有关的变动将通过[通知渠道]发布，请全体[参加对象]及时关注。",
+          "slots": [
+            "题目相关词",
+            "[通知渠道]",
+            "[参加对象]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-notice-p39-08",
+          "page": 39,
+          "section": "通知类 第二段第四句功能句挑选（第6条）",
+          "letterType": "通知类",
+          "en": "Under these requirements, {题目相关词} is expected to run efficiently and create real value for [参加对象].",
+          "zh": "在上述要求下，{题目相关词}有望高效运行，并为[参加对象]带来实质性收获。",
+          "slots": [
+            "题目相关词",
+            "[参加对象]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p39-09",
+          "page": 39,
+          "section": "第三段功能句（第1条）",
+          "letterType": "",
+          "en": "I would appreciate it very much if you could [期待动作] by [时间节点].",
+          "zh": "如果你能在[时间节点]前[期待动作]，我将不胜感激。",
+          "slots": [
+            "[期待动作]",
+            "[时间节点]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p39-10",
+          "page": 39,
+          "section": "第三段功能句（第2条）",
+          "letterType": "",
+          "en": "It would be greatly appreciated if all [对象] could [期待动作] in accordance with the above arrangements.",
+          "zh": "若全体[对象]能够按照以上安排[期待动作]，将不胜感激。",
+          "slots": [
+            "[对象]",
+            "[期待动作]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p39-11",
+          "page": 39,
+          "section": "第三段功能句（第3条）",
+          "letterType": "",
+          "en": "You are kindly requested to [期待动作] so that {题目相关词} can be implemented more effectively.",
+          "zh": "请你/请各位[期待动作]，以便{题目相关词}能够得到更为有效的落实。",
+          "slots": [
+            "[期待动作]",
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p39-12",
+          "page": 39,
+          "section": "第三段功能句（第4条）",
+          "letterType": "",
+          "en": "Please make sure that you [期待动作] before [时间节点], ensuring that {题目相关词} proceeds smoothly.",
+          "zh": "请务必在[时间节点]前[期待动作]，以确保{题目相关词}顺利开展。",
+          "slots": [
+            "[期待动作]",
+            "[时间节点]",
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 40,
+      "title": "第三段功能句（5-21）",
+      "kind": "small-essay-para3",
+      "entries": [
+        {
+          "id": "small-p3-p40-05",
+          "page": 40,
+          "section": "第三段功能句（第5条）",
+          "letterType": "",
+          "en": "Should you have any questions about {题目相关词}, please feel free to contact me at any time.",
+          "zh": "如对{题目相关词}有任何疑问，请随时与我联系。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": [
+            "Should you 引导虚拟条件句倒装，相当于 If you should have"
+          ]
+        },
+        {
+          "id": "small-p3-p40-06",
+          "page": 40,
+          "section": "第三段功能句（第6条）",
+          "letterType": "",
+          "en": "If there is anything unclear about {题目相关词}, do not hesitate to let me know.",
+          "zh": "如果{题目相关词}还有任何不清楚之处，请不要犹豫，尽管告知我。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-07",
+          "page": 40,
+          "section": "第三段功能句（第7条）",
+          "letterType": "",
+          "en": "I would be more than happy to provide further details on {题目相关词} if necessary.",
+          "zh": "如有需要，我非常乐意就{题目相关词}提供更多细节。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-08",
+          "page": 40,
+          "section": "第三段功能句（第8条）",
+          "letterType": "",
+          "en": "For any further information concerning {题目相关词}, please contact me at your convenience.",
+          "zh": "如需了解{题目相关词}的更多信息，请在方便时与我联系。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-09",
+          "page": 40,
+          "section": "第三段功能句（第9条）",
+          "letterType": "",
+          "en": "Thank you for your time and consideration.",
+          "zh": "感谢你的时间与关注。",
+          "slots": [],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-10",
+          "page": 40,
+          "section": "第三段功能句（第10条）",
+          "letterType": "",
+          "en": "Thank you very much for your kind attention to {题目相关词}.",
+          "zh": "非常感谢你对{题目相关词}的关注。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-11",
+          "page": 40,
+          "section": "第三段功能句（第11条）",
+          "letterType": "",
+          "en": "I sincerely appreciate your help with {题目相关词}.",
+          "zh": "我诚挚感谢你在{题目相关词}方面给予的帮助。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-12",
+          "page": 40,
+          "section": "第三段功能句（第12条）",
+          "letterType": "",
+          "en": "Your understanding and cooperation in {题目相关词} would be highly appreciated.",
+          "zh": "你在{题目相关词}方面的理解与配合将不胜感激。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-13",
+          "page": 40,
+          "section": "第三段功能句（第13条）",
+          "letterType": "",
+          "en": "I am looking forward to your early reply.",
+          "zh": "期待你的早日回复。",
+          "slots": [],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-14",
+          "page": 40,
+          "section": "第三段功能句（第14条）",
+          "letterType": "",
+          "en": "I am looking forward to hearing from you soon.",
+          "zh": "期待很快收到你的来信。",
+          "slots": [],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-15",
+          "page": 40,
+          "section": "第三段功能句（第15条）",
+          "letterType": "",
+          "en": "I would appreciate it if you could reply to me before [时间节点].",
+          "zh": "如果你能在[时间节点]前回复我，我将不胜感激。",
+          "slots": [
+            "[时间节点]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-16",
+          "page": 40,
+          "section": "第三段功能句（第16条）",
+          "letterType": "",
+          "en": "Once again, please accept my sincere apology for [过失行为].",
+          "zh": "再次请接受我对[过失行为]的诚挚道歉。",
+          "slots": [
+            "[过失行为]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": [
+            "道歉类结尾专用，以再次致歉收束"
+          ]
+        },
+        {
+          "id": "small-p3-p40-17",
+          "page": 40,
+          "section": "第三段功能句（第17条）",
+          "letterType": "",
+          "en": "I do hope that you can understand my situation and forgive me for [过失行为].",
+          "zh": "我真诚希望你能理解我的处境，并原谅我的[过失行为]。",
+          "slots": [
+            "[过失行为]"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-18",
+          "page": 40,
+          "section": "第三段功能句（第18条）",
+          "letterType": "",
+          "en": "I do hope that you will be able to attend {题目相关词}.",
+          "zh": "我真诚希望你能够参加{题目相关词}。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": [
+            "邀请类结尾专用"
+          ]
+        },
+        {
+          "id": "small-p3-p40-19",
+          "page": 40,
+          "section": "第三段功能句（第19条）",
+          "letterType": "",
+          "en": "Your participation in {题目相关词} would be warmly welcomed.",
+          "zh": "我们热切欢迎你参与{题目相关词}。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        },
+        {
+          "id": "small-p3-p40-20",
+          "page": 40,
+          "section": "第三段功能句（第20条）",
+          "letterType": "",
+          "en": "All the students are expected to follow the arrangements above.",
+          "zh": "希望全体学生遵守以上安排。",
+          "slots": [],
+          "swappable": [],
+          "examples": [],
+          "notes": [
+            "通知类结尾专用"
+          ]
+        },
+        {
+          "id": "small-p3-p40-21",
+          "page": 40,
+          "section": "第三段功能句（第21条）",
+          "letterType": "",
+          "en": "Everyone is welcome to take an active part in {题目相关词}.",
+          "zh": "欢迎大家积极参与{题目相关词}。",
+          "slots": [
+            "题目相关词"
+          ],
+          "swappable": [],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [
+        "结尾段功能是表达期待与致谢，不要再引入新信息",
+        "一句致谢 + 一句期待即可收尾，按题型选对应的那一条"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 41,
+      "title": "小作文格式（齐头式与缩进式）",
+      "kind": "layout",
+      "entries": [],
+      "pageNotes": [
+        "示例摘自小红书 Fiona 老师",
+        "作者推荐齐头式：同样篇幅显得写得更满",
+        "建议使用 0.7 的笔"
+      ],
+      "vocab": [],
+      "layoutSpec": {
+        "styles": [
+          {
+            "name": "齐头式",
+            "recommended": true,
+            "salutation": "顶格书写，后加英文逗号",
+            "bodyIndent": "各段首行不缩进，全部左侧齐头",
+            "paragraphGap": "段与段之间空一行",
+            "closing": "Yours sincerely, 与署名 Li Ming 分两行，左侧齐头",
+            "reason": "同样的篇幅，齐头式显得写得更满"
+          },
+          {
+            "name": "缩进式",
+            "recommended": false,
+            "salutation": "顶格书写，后加英文逗号",
+            "bodyIndent": "每段首行缩进约四个字母宽度",
+            "paragraphGap": "段间不空行",
+            "closing": "Yours sincerely, 与署名 Li Ming 偏右下书写"
+          }
+        ],
+        "paper": {
+          "type": "答题卡横线纸",
+          "writingPosition": "字写在横线之上，字母下缘贴线",
+          "margin": "左右均留出页边距，不顶到纸张边缘"
+        },
+        "specialTypes": [
+          {
+            "type": "通知类",
+            "rules": [
+              "标题居中书写，如 Notice",
+              "正文下方右侧写落款机构名",
+              "日期可另起一行"
+            ]
+          },
+          {
+            "type": "会议纪要类",
+            "rules": [
+              "标题居中",
+              "含日期行",
+              "落款写机构名"
+            ]
+          }
+        ],
+        "penTip": "建议使用 0.7 的笔"
+      }
+    },
+    {
+      "page": 42,
+      "title": "小作文格式对照（正误示例）",
+      "kind": "layout",
+      "entries": [],
+      "pageNotes": [],
+      "vocab": [],
+      "layoutSpec": {
+        "comparison": {
+          "left": "齐头式示例",
+          "right": "缩进式示例",
+          "note": "两种格式都可得分，作者更推荐齐头式"
+        },
+        "checklist": {
+          "good": [
+            "称呼顶格并加逗号",
+            "段落分明、行距均匀",
+            "单词间距清楚",
+            "落款两行完整"
+          ],
+          "bad": [
+            "字迹过密",
+            "随意换行",
+            "称呼缩进不统一",
+            "涂改严重"
+          ]
+        }
+      }
+    },
+    {
+      "page": 43,
+      "title": "通知类卷面范例（手写示例）",
+      "kind": "layout",
+      "entries": [],
+      "pageNotes": [
+        "通知类与会议纪要类的卷面与书信不同：标题居中，日期与落款靠右"
+      ],
+      "vocab": [],
+      "layoutSpec": {
+        "type": "通知类",
+        "title": {
+          "text": "Notice",
+          "align": "center",
+          "note": "标题单独一行居中书写"
+        },
+        "date": {
+          "align": "right",
+          "note": "日期写在标题下方右侧，或正文之后"
+        },
+        "body": {
+          "indent": "每段首行缩进",
+          "paragraphGap": "段间不空行"
+        },
+        "signature": {
+          "align": "right",
+          "note": "落款写机构名，如 The Students' Union，靠右书写"
+        },
+        "paper": {
+          "type": "答题卡横线纸",
+          "writingPosition": "字写在横线之上"
+        }
+      }
+    },
+    {
+      "page": 44,
+      "title": "题目相关词（一）",
+      "kind": "vocab",
+      "entries": [],
+      "pageNotes": [
+        "本页为「题目相关词」词表，用于替换模板中的红色一级占位符"
+      ],
+      "vocab": [
+        {
+          "en": "Online learning",
+          "zh": "在线学习"
+        },
+        {
+          "en": "Live commerce",
+          "zh": "直播带货"
+        },
+        {
+          "en": "Mobile Internet",
+          "zh": "移动互联网"
+        },
+        {
+          "en": "Netizen",
+          "zh": "网民"
+        },
+        {
+          "en": "Citizen",
+          "zh": "公民"
+        },
+        {
+          "en": "Online payment",
+          "zh": "在线支付"
+        },
+        {
+          "en": "e-commerce",
+          "zh": "电子商务"
+        },
+        {
+          "en": "artificial intelligence",
+          "zh": "人工智能"
+        },
+        {
+          "en": "electronic product",
+          "zh": "电子产品"
+        },
+        {
+          "en": "culture and civilization",
+          "zh": "文化和文明"
+        },
+        {
+          "en": "food security",
+          "zh": "食品安全"
+        },
+        {
+          "en": "infectious disease",
+          "zh": "传染病"
+        },
+        {
+          "en": "population aging",
+          "zh": "人口老龄化"
+        },
+        {
+          "en": "aging society",
+          "zh": "老龄化社会"
+        },
+        {
+          "en": "spoil children",
+          "zh": "溺爱孩子"
+        },
+        {
+          "en": "raise children",
+          "zh": "抚养孩子"
+        },
+        {
+          "en": "taking care of the elderly parents",
+          "zh": "赡养老人"
+        },
+        {
+          "en": "sense of responsibility",
+          "zh": "责任感"
+        },
+        {
+          "en": "devotion",
+          "zh": "奉献"
+        },
+        {
+          "en": "volunteer spirit",
+          "zh": "志愿者精神"
+        }
+      ]
+    },
+    {
+      "page": 45,
+      "title": "题目相关词（二）",
+      "kind": "vocab",
+      "entries": [],
+      "pageNotes": [],
+      "vocab": [
+        {
+          "en": "credibility",
+          "zh": "信誉"
+        },
+        {
+          "en": "charity",
+          "zh": "慈善"
+        },
+        {
+          "en": "environment awareness",
+          "zh": "环境意识"
+        },
+        {
+          "en": "garbage classification",
+          "zh": "垃圾分类"
+        },
+        {
+          "en": "public transport",
+          "zh": "公共交通"
+        },
+        {
+          "en": "subway",
+          "zh": "地铁"
+        },
+        {
+          "en": "biodiversity",
+          "zh": "生物多样性"
+        },
+        {
+          "en": "natural reserve",
+          "zh": "自然保护区"
+        },
+        {
+          "en": "seek a job",
+          "zh": "找工作"
+        },
+        {
+          "en": "urbanization",
+          "zh": "城市化"
+        },
+        {
+          "en": "economic globalization",
+          "zh": "经济全球化"
+        },
+        {
+          "en": "academic pressure",
+          "zh": "学业压力"
+        },
+        {
+          "en": "quality education",
+          "zh": "素质教育"
+        },
+        {
+          "en": "exam-oriented education",
+          "zh": "应试教育"
+        },
+        {
+          "en": "lifelong learning",
+          "zh": "终身学习"
+        },
+        {
+          "en": "peer competition",
+          "zh": "同龄人竞争"
+        },
+        {
+          "en": "parental expectation",
+          "zh": "家长期望"
+        },
+        {
+          "en": "youth independence",
+          "zh": "青年独立性"
+        },
+        {
+          "en": "critical thinking",
+          "zh": "批判性思维"
+        },
+        {
+          "en": "study-abroad trend",
+          "zh": "留学趋势"
+        },
+        {
+          "en": "big data",
+          "zh": "大数据"
+        },
+        {
+          "en": "facial recognition",
+          "zh": "人脸识别"
+        }
+      ]
+    },
+    {
+      "page": 46,
+      "title": "题目相关词（三）",
+      "kind": "vocab",
+      "entries": [],
+      "pageNotes": [],
+      "vocab": [
+        {
+          "en": "digital divide",
+          "zh": "数字鸿沟"
+        },
+        {
+          "en": "data privacy",
+          "zh": "数据隐私"
+        },
+        {
+          "en": "smart city",
+          "zh": "智慧城市"
+        },
+        {
+          "en": "technology addiction",
+          "zh": "科技依赖"
+        },
+        {
+          "en": "5G technology",
+          "zh": "5G 技术"
+        },
+        {
+          "en": "flexible employment",
+          "zh": "灵活就业"
+        },
+        {
+          "en": "work-life balance",
+          "zh": "工作与生活平衡"
+        },
+        {
+          "en": "career planning",
+          "zh": "职业规划"
+        },
+        {
+          "en": "youth entrepreneurship",
+          "zh": "青年创业"
+        },
+        {
+          "en": "economic resilience",
+          "zh": "经济韧性"
+        },
+        {
+          "en": "shared economy",
+          "zh": "共享经济"
+        },
+        {
+          "en": "digital economy",
+          "zh": "数字经济"
+        },
+        {
+          "en": "inflation",
+          "zh": "通货膨胀"
+        },
+        {
+          "en": "time management",
+          "zh": "时间管理"
+        },
+        {
+          "en": "self-discipline",
+          "zh": "自律"
+        },
+        {
+          "en": "resilience",
+          "zh": "韧性"
+        },
+        {
+          "en": "innovation",
+          "zh": "创新意识"
+        },
+        {
+          "en": "moral education",
+          "zh": "道德教育"
+        },
+        {
+          "en": "honesty",
+          "zh": "诚信"
+        },
+        {
+          "en": "responsibility",
+          "zh": "责任感"
+        },
+        {
+          "en": "national identity",
+          "zh": "国家认同"
+        },
+        {
+          "en": "low-carbon lifestyle",
+          "zh": "低碳生活"
+        }
+      ]
+    },
+    {
+      "page": 47,
+      "title": "替换词汇表（四·环保主题）",
+      "kind": "vocab",
+      "entries": [],
+      "pageNotes": [],
+      "vocab": [
+        {
+          "en": "energy conservation",
+          "zh": "节能"
+        },
+        {
+          "en": "food waste",
+          "zh": "食物浪费"
+        },
+        {
+          "en": "recycling awareness",
+          "zh": "回收意识"
+        },
+        {
+          "en": "climate change",
+          "zh": "气候变化"
+        },
+        {
+          "en": "green consumption",
+          "zh": "绿色消费"
+        },
+        {
+          "en": "environmental protection",
+          "zh": "环境保护"
+        }
+      ]
+    }
+  ]
+}

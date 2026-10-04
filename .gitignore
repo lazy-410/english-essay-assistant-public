@@ -1,0 +1,13 @@
+# 个人密钥与本机状态：绝不上传
+config.json
+
+# 可复现的官方运行时（node.exe 由 https://nodejs.org 提供，不入库）
+runtime/
+
+# 运行时临时目录
+tmp/
+
+# 编辑器/系统杂项
+.DS_Store
+Thumbs.db
+*.log

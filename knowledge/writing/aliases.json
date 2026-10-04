@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "version": 2,
+    "title": "写作知识库 V2",
+    "generatedAt": "deterministic",
+    "sources": [
+      {
+        "source": "scan-handout",
+        "sourceLabel": "考研英语作文扫描讲义",
+        "totalPages": 47,
+        "scope": "扫描讲义"
+      },
+      {
+        "source": "slp-big-e1",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语一",
+        "totalPages": 70,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-big-e2",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语二",
+        "totalPages": 64,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e1",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语一",
+        "totalPages": 62,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e2",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语二",
+        "totalPages": 58,
+        "scope": "石雷鹏笔记"
+      }
+    ],
+    "counts": {
+      "pages": 82,
+      "methods": 131,
+      "warnings": 23,
+      "entries": 378,
+      "skeletons": 378,
+      "productionSkeletons": 372,
+      "variants": 1103,
+      "examples": 189,
+      "structuredExamples": 39,
+      "catalogExamples": 139,
+      "slpEntries": 158
+    }
+  },
+  "aliases": {
+    "task": {
+      "chart": [
+        "图表作文",
+        "chart-essay"
+      ],
+      "picture": [
+        "图画作文",
+        "big-essay"
+      ],
+      "small": [
+        "小作文",
+        "应用文"
+      ]
+    },
+    "function": {
+      "introduction": [
+        "引入",
+        "开头",
+        "首段"
+      ],
+      "description": [
+        "描述",
+        "数据",
+        "趋势"
+      ],
+      "reason": [
+        "原因",
+        "理由"
+      ],
+      "advice": [
+        "建议",
+        "措施"
+      ],
+      "closing": [
+        "结尾",
+        "收束",
+        "尾段"
+      ]
+    },
+    "applicability": {
+      "static-chart": [
+        "静态图",
+        "静态图表"
+      ],
+      "dynamic-chart": [
+        "动态图",
+        "动态图表"
+      ],
+      "single-picture": [
+        "单图"
+      ],
+      "double-picture": [
+        "双图"
+      ]
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "pages": [
+    {
+      "page": 13,
+      "title": "体育健康类 / 文化自信类（与经济类类似）",
+      "kind": "big-essay-body",
+      "entries": [
+        {
+          "id": "big-body-health-13-01",
+          "page": 13,
+          "section": "体育健康类",
+          "en": "received greater attention is supported by clear practical reasons. First, the continuous improvement of physical condition can directly enhance residents’ comfort and sense of happiness in daily life. Therefore, people naturally pay more attention to {题目相关词}. Second, when people around them actively participate in healthy activities, a strong exemplary effect can be formed, making {题目相关词} more easily accepted and recognized in everyday life. In addition, the continuous spread of health-related ideas through the media also strengthens public health awareness, allowing {题目相关词} to gradually become a social consensus.",
+          "zh": "置于日常生活的具体场景中，{题目相关词}之所以逐渐受到重视，背后有着清晰的现实原因。首先，身体状态的持续改善，能够直接提升居民的生活舒适度和幸福感，因此人们自然会更加关注{题目相关词}。其次，身边人积极参与健康行动，也会形成明显的示范效应，使{题目相关词}在日常生活中更容易被接受和认可。除此之外，媒体对健康理念的持续传播，也不断强化公众的健康意识，让{题目相关词}逐渐成为社会共识。",
+          "slots": ["题目相关词"],
+          "swappable": ["身体状态", "生活舒适度和幸福感", "健康行动", "示范效应", "健康理念", "健康意识"],
+          "examples": [],
+          "notes": ["蓝色根据具体题目修改对应单词。", "自行挑选几句，而非全写，控制好字数！"]
+        },
+        {
+          "id": "big-body-culture-13-01",
+          "page": 13,
+          "section": "文化自信类（与经济类类似）",
+          "en": "Placed against the background of contemporary social development, why {题目相关词} has been receiving increasing attention is supported by profound cultural reasons. First, Chinese culture has a long and rich history, and its accumulated spiritual traditions and aesthetic ideas provide a stable cultural foundation for {题目相关词}. Second, as traditional culture is increasingly integrated into festivals, campus education and public life, {题目相关词} is no longer merely an abstract concept in books, but has become something people can personally encounter and genuinely experience. More importantly, more and more young people have begun to understand, spread and identify with their national culture, allowing {题目相关词} to gain stronger vitality in the new era.",
+          "zh": "置于当代社会的发展背景中，{题目相关词}之所以能够不断获得关注，背后有着深厚的文化原因。首先，中华文化源远流长，长期积淀下来的精神传统和审美观念，为{题目相关词}提供了稳定的文化根基。其次，随着传统文化不断融入节日活动、校园教育和公共生活，{题目相关词}不再只是书本中的抽象概念，而是变成了人们可以亲身接触和真实感受的生活内容。更重要的是，越来越多年轻人开始主动了解、传播并认同本民族文化，使{题目相关词}在新时代背景下获得了更强的生命力。",
+          "slots": ["题目相关词"],
+          "swappable": ["当代社会", "中华文化", "精神传统和审美观念", "节日活动、校园教育和公共生活", "传统文化", "本民族文化", "新时代"],
+          "examples": [],
+          "notes": ["自行挑选几句，而非全写，控制好字数！", "蓝色根据具体题目修改对应单词。"]
+        }
+      ],
+      "pageNotes": ["这就是大作文第二段大家需要背的！从这几段中选取四句左右你认为最贴切的即可，我建议大家都背下来，然后根据实际作文题目要求，自己挑选这两段中的四句左右来写上去。", "大作文通用尾段（第三段用一个即可，改蓝色的主体词，比如把政府改成商家这种。然后做的事"],
+      "vocab": []
+    },
+    {
+      "page": 14,
+      "title": "大作文通用尾段（经济类）",
+      "kind": "big-essay-closing",
+      "entries": [
+        {
+          "id": "big-closing-economy-positive-14-01",
+          "page": 14,
+          "section": "经济类",
+          "en": "Regarding the future direction of {题目相关词}, we should not remain at the level of simple discussion, but should adopt more targeted measures for guidance. First, from the overall perspective of social development, the government needs to recognize the practical influence that {题目相关词} may produce and point it in a reasonable direction through policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision.",
+          "zh": "围绕{题目相关词}的未来走向，不能只停留在简单讨论层面，而应采取更有针对性的引导措施。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能产生的现实影响，并通过政策安排为其指明合理方向。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众形成更深入、更准确的理解。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": ["最后一段是非常好写的，无非就是xx应该做xx，题目考什么就把两个xx改的更符合题意。", "蓝色根据具体题目修改对应单词。", "你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目。"]
+        },
+        {
+          "id": "big-closing-economy-negative-14-01",
+          "page": 14,
+          "section": "经济类负面",
+          "en": "Regarding the future impact of {题目相关词}, we should not remain at the level of simple discussion, but should take more targeted measures to correct and restrain it. First, from the overall perspective of social development, the government needs to recognize the practical harm that {题目相关词} may produce and reduce its negative influence through appropriate policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding of its potential risks through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision, so as to avoid being misled by it.",
+          "zh": "围绕{题目相关词}未来可能产生的影响，我们不能只停留在简单讨论层面，而应采取更有针对性的措施加以纠正和约束。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能造成的现实危害，并通过适当的政策安排减少其负面影响。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众更深入、更准确地认识其潜在风险。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响，从而",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": ["也可以根据具体题目修改，比如教育，公共传播都可以换成其它行为词语。"],
+      "vocab": []
+    },
+    {
+      "page": 15,
+      "title": "大作文通用尾段（校园类）",
+      "kind": "big-essay-closing",
+      "entries": [
+        {
+          "id": "big-closing-campus-positive-15-01",
+          "page": 15,
+          "section": "校园类",
+          "en": "Regarding the future direction of {题目相关词}, we should not remain at the level of simple discussion, but should adopt more targeted measures for guidance. First, from the overall perspective of social development, the government needs to recognize the practical influence that {题目相关词} may produce and point it in a reasonable direction through policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision.",
+          "zh": "围绕{题目相关词}的未来走向，不能只停留在简单讨论层面，而应采取更有针对性的引导措施。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能产生的现实影响，并通过政策安排为其指明合理方向。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众形成更深入、更准确的理解。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": ["最后一段是非常好写的，无非就是xx应该做xx，题目考什么就把两个xx改的更符合题意。", "蓝色根据具体题目修改对应单词。", "你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目。"]
+        },
+        {
+          "id": "big-closing-campus-negative-15-01",
+          "page": 15,
+          "section": "校园类负面",
+          "en": "Regarding the future impact of {题目相关词}, we should not remain at the level of simple discussion, but should take more targeted measures to correct and restrain it. First, from the overall perspective of social development, the government needs to recognize the practical harm that {题目相关词} may produce and reduce its negative influence through appropriate policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding of its potential risks through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision, so as to avoid being misled by it.",
+          "zh": "围绕{题目相关词}未来可能产生的影响，我们不能只停留在简单讨论层面，而应采取更有针对性的措施加以纠正和约束。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能造成的现实危害，并通过适当的政策安排减少其负面影响。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众更深入、更准确地认识其潜在风险。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响，从而避免受到其误导。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": ["避免受到其误导。"],
+      "vocab": []
+    },
+    {
+      "page": 16,
+      "title": "大作文通用尾段（环境生态类）",
+      "kind": "big-essay-closing",
+      "entries": [
+        {
+          "id": "big-closing-environment-positive-16-01",
+          "page": 16,
+          "section": "环境生态类",
+          "en": "Regarding the future direction of {题目相关词}, we should not remain at the level of simple discussion, but should adopt more targeted measures for guidance. First, from the overall perspective of social development, the government needs to recognize the practical influence that {题目相关词} may produce and point it in a reasonable direction through policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision.",
+          "zh": "围绕{题目相关词}的未来走向，不能只停留在简单讨论层面，而应采取更有针对性的引导措施。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能产生的现实影响，并通过政策安排为其指明合理方向。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众形成更深入、更准确的理解。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": ["最后一段是非常好写的，无非就是xx应该做xx，题目考什么就把两个xx改的更符合题意。", "蓝色根据具体题目修改对应单词。", "你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目。"]
+        },
+        {
+          "id": "big-closing-environment-negative-16-01",
+          "page": 16,
+          "section": "环境生态类负面",
+          "en": "Regarding the future impact of {题目相关词}, we should not remain at the level of simple discussion, but should take more targeted measures to correct and restrain it. First, from the overall perspective of social development, the government needs to recognize the practical harm that {题目相关词} may produce and reduce its negative influence through appropriate policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding of its potential risks through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision, so as to avoid being misled by it.",
+          "zh": "围绕{题目相关词}未来可能产生的影响，我们不能只停留在简单讨论层面，而应采取更有针对性的措施加以纠正和约束。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能造成的现实危害，并通过适当的政策安排减少其负面影响。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众更深入、更准确地认识其潜在风险。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响，从而避免受到其误导。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 17,
+      "title": "大作文通用尾段（体育健康类）",
+      "kind": "big-essay-closing",
+      "entries": [
+        {
+          "id": "big-closing-health-positive-17-01",
+          "page": 17,
+          "section": "体育健康类",
+          "en": "Regarding the future direction of {题目相关词}, we should not remain at the level of simple discussion, but should adopt more targeted measures for guidance. First, from the overall perspective of social development, the government needs to recognize the practical influence that {题目相关词} may produce and point it in a reasonable direction through policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision.",
+          "zh": "围绕{题目相关词}的未来走向，不能只停留在简单讨论层面，而应采取更有针对性的引导措施。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能产生的现实影响，并通过政策安排为其指明合理方向。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众形成更深入、更准确的理解。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": ["最后一段是非常好写的，无非就是xx应该做xx，题目考什么就把两个xx改的更符合题意。", "蓝色根据具体题目修改对应单词。", "你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目。"]
+        },
+        {
+          "id": "big-closing-health-negative-17-01",
+          "page": 17,
+          "section": "体育健康类负面",
+          "en": "Regarding the future impact of {题目相关词}, we should not remain at the level of simple discussion, but should take more targeted measures to correct and restrain it. First, from the overall perspective of social development, the government needs to recognize the practical harm that {题目相关词} may produce and reduce its negative influence through appropriate policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding of its potential risks through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision, so as to avoid being misled by it.",
+          "zh": "围绕{题目相关词}未来可能产生的影响，我们不能只停留在简单讨论层面，而应采取更有针对性的措施加以纠正和约束。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能造成的现实危害，并通过适当的政策安排减少其负面影响。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众更深入、更准确地认识其潜在风险。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响，从而避免受到其误导。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 18,
+      "title": "大作文通用尾段（文化自信类，可以和经济类融合）",
+      "kind": "big-essay-closing",
+      "entries": [
+        {
+          "id": "big-closing-culture-positive-18-01",
+          "page": 18,
+          "section": "文化自信类（可以和经济类融合）",
+          "en": "Regarding the future direction of {题目相关词}, we should not remain at the level of simple discussion, but should adopt more targeted measures for guidance. First, from the overall perspective of social development, the government needs to recognize the practical influence that {题目相关词} may produce and point it in a reasonable direction through policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision.",
+          "zh": "围绕{题目相关词}的未来走向，不能只停留在简单讨论层面，而应采取更有针对性的引导措施。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能产生的现实影响，并通过政策安排为其指明合理方向。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众形成更深入、更准确的理解。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": ["最后一段是非常好写的，无非就是xx应该做xx，题目考什么就把两个xx改的更符合题意。", "蓝色根据具体题目修改对应单词。", "你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目。"]
+        },
+        {
+          "id": "big-closing-culture-negative-18-01",
+          "page": 18,
+          "section": "文化自信类负面",
+          "en": "Regarding the future impact of {题目相关词}, we should not remain at the level of simple discussion, but should take more targeted measures to correct and restrain it. First, from the overall perspective of social development, the government needs to recognize the practical harm that {题目相关词} may produce and reduce its negative influence through appropriate policy arrangements. Second, schools and media should assume responsibility for education and communication, helping the public form a deeper and more accurate understanding of its potential risks through continuous publicity. Meanwhile, individuals should not be swayed by short-term emotions or immediate interests. Instead, they should view the influence of {题目相关词} on future life with a rational attitude and a long-term vision, so as to avoid being misled by it.",
+          "zh": "围绕{题目相关词}未来可能产生的影响，我们不能只停留在简单讨论层面，而应采取更有针对性的措施加以纠正和约束。首先，政府有必要从社会发展的整体角度出发，认识到{题目相关词}可能造成的现实危害，并通过适当的政策安排减少其负面影响。其次，学校和媒体应承担起教育与传播责任，通过持续宣传帮助公众更深入、更准确地认识其潜在风险。与此同时，个人也不能被短期情绪或眼前利益左右，而应以理性态度和长远眼光看待{题目相关词}对未来生活的影响，从而避免受到其误导。",
+          "slots": ["题目相关词"],
+          "swappable": ["政府", "政策安排", "学校和媒体", "教育与传播", "持续宣传", "个人", "短期情绪", "眼前利益"],
+          "examples": [],
+          "notes": []
+        }
+      ],
+      "pageNotes": ["这就是我给大家整理的大作文所有模版，可以看出只有红字部分需要大家"],
+      "vocab": []
+    },
+    {
+      "page": 19,
+      "title": "大作文模板结束说明",
+      "kind": "transition",
+      "entries": [],
+      "pageNotes": ["填写，其他只需要背下来，高级就完事了！所以此模版会比其他人的模版好套且还高级！，希望大家保护好自己的模版，别被偷了，千万不要外传，如有外传，火速出击。人传人会让此含金量下降，极有可能导致多扣分！祝大家大作文逼近满分！——考研的秘密·苦瓜", "大作文看似很多，其实有大量重复内容！所以其实并不多！", "小作文之前，我要给大家说一下大作文的情况，如果你已经背了这么多，就算考了模版里没有的角度，你脑子里积累的好句素材也足以改几个词就应对，大家加油！高效备考！"],
+      "vocab": []
+    },
+    {
+      "page": 20,
+      "title": "三、通用小作文",
+      "kind": "method",
+      "entries": [],
+      "pageNotes": ["小作文由于和大作文不一样，大作文只需改几个同词性的词，小作文需要自己根据题目去把功能句补充完整，且大家所选的功能句也不一样，就算选一样的，也会填入不同的内容来让功能句完整。所以小作文每套都一样（建议110-120词）", "一定要学会换个别词语！咱们学的是句子架构，而非僵硬的句子本身，功能句背完，可以应对各个类型，只需要注意格式即可。", "小作文以积累功能句的角度去备考！所以很推荐大家从小红书或者其他地方也积累一些自己心仪的句子~", "小作文总结一句话就是：功能句拼多多，这里拿一句，那里拿一句，套完近10年真题会形成属于自己的模版。", "作文格式自行在小红书or b站等平台去看，本模版只有第一段第二段第三段的内容。", "第一段用两句，第二段用3-5句，第三段用1-2句。", "241（指的是各个段选几句）或者231或者152或者252的公式化打法。个别情况下第X段也可能多写or少写几句，并非严格遵守。", "小作文建议占篇幅的三分之二！第二段可以写多一些~", "这是我经过26考研大量同学真实的备考情况，在最后总结出的最适合应试，最适合备考拿高分的小作文备考方式！纯纯公式化打法又没有模板化的情况，大部分功能句都需要由你们根据具体题目填充完整。"],
+      "vocab": []
+    },
+    {
+      "page": 21,
+      "title": "第一段功能句：第一段第一句功能句挑选",
+      "kind": "small-essay-para1",
+      "entries": [
+        {"id":"small-p1-opening-21-01","page":21,"section":"第一段第一句功能句挑选","en":"I hope this message finds you well.","zh":"希望你一切安好。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-02","page":21,"section":"第一段第一句功能句挑选","en":"I am so delighted to receive your letter.","zh":"非常高兴收到你的来信。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-03","page":21,"section":"第一段第一句功能句挑选","en":"It is a great pleasure for me to write this letter to you.","zh":"能给你写这封信，我感到十分高兴。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-04","page":21,"section":"第一段第一句功能句挑选","en":"I hope everything is going smoothly with your study and life.","zh":"希望你的学习和生活一切顺利。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-05","page":21,"section":"第一段第一句功能句挑选","en":"I hope you are doing well these days.","zh":"希望你最近一切顺利。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-06","page":21,"section":"第一段第一句功能句挑选","en":"It is really nice to hear from you again.","zh":"很高兴再次收到你的消息。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-07","page":21,"section":"第一段第一句功能句挑选","en":"I hope you are enjoying good health and a pleasant life.","zh":"希望你身体健康，生活愉快。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-08","page":21,"section":"第一段第一句功能句挑选","en":"I hope everything is going well on your side.","zh":"希望你那边一切顺利。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-09","page":21,"section":"第一段第一句功能句挑选","en":"I feel honored to be able to write to you today.","zh":"今天能够给你写信，我感到很荣幸。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-10","page":21,"section":"第一段第一句功能句挑选","en":"I am truly glad to get in touch with you.","zh":"能够和你取得联系，我由衷感到高兴。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-11","page":21,"section":"第一段第一句功能句挑选","en":"We greatly appreciate all students for sparing your precious time to pay attention to this notice.","zh":"我们十分感谢全体同学抽出宝贵时间关注本通知。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-12","page":21,"section":"第一段第一句功能句挑选","en":"Our sincere gratitude goes to you for your willingness to read and comply with the arrangements in this notice.","zh":"诚挚感谢各位愿意阅读并遵照本通知中的相关安排。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-13","page":21,"section":"第一段第一句功能句挑选","en":"We would like to extend our thanks to every student for sparing your time amid busy schedules to pay attention to this notice.","zh":"谨向每位同学致谢，感谢大家百忙之中来关注本通知。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-14","page":21,"section":"第一段第一句功能句挑选","en":"I have documented the content of the previous seminar, and the key points of the meeting minutes are listed as follows.","zh":"我已记录上次课程研讨会的内容，本次会议纪要的核心要点整理如下。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-15","page":21,"section":"第一段第一句功能句挑选","en":"The content of the last graduation project team meeting has been recorded, and the detailed meeting minutes are presented below.","zh":"我已记录上次毕设项目组会议的内容，具体会议纪要内容如下所示。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-opening-21-16","page":21,"section":"第一段第一句功能句挑选","en":"I have compiled the content of the previous academic exchange meeting, and the structured meeting minutes are provided as follows.","zh":"我已整理上次学术交流会的内容，条理化的会议纪要内容详见下文。","slots":[],"swappable":[],"examples":[],"notes":[]}
+      ],
+      "pageNotes": ["第一段第二句功能句挑选："],
+      "vocab": []
+    },
+    {
+      "page": 22,
+      "title": "第一段第二句功能句挑选（1-8）",
+      "kind": "small-essay-para1",
+      "entries": [
+        {"id":"small-p1-purpose-22-01","page":22,"section":"第一段第二句功能句挑选","en":"I am writing to you regarding the matter of {题目相关词}.","zh":"我写信是关于{题目相关词}这一事项。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2010 英语二）","en":"I am writing to you regarding the matter of my sincere thanks for your warm reception during my stay in the United States and my invitation for you to visit China in due course.","zh":"我写信是关于两件事：一是对你在我赴美期间热情接待的诚挚感谢，二是诚挚邀请你在方便的时候来中国访问。"}],"notes":[]},
+        {"id":"small-p1-purpose-22-02","page":22,"section":"第一段第二句功能句挑选","en":"I am writing to express my sincere gratitude for your help.","zh":"我写信是为表达我对你帮助的诚挚感谢。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-purpose-22-03","page":22,"section":"第一段第二句功能句挑选","en":"I am writing to invite you to take part in {题目相关词}.","zh":"我写信是邀请你参加{题目相关词}。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2021 英语二）","en":"I am writing to invite you to take part in our upcoming online meeting about study and campus life at our university.","zh":"我写信是邀请你参加我们即将举行的，以本校学习和校园生活为主题的线上会议。"}],"notes":[]},
+        {"id":"small-p1-purpose-22-04","page":22,"section":"第一段第二句功能句挑选","en":"Please allow me to extend my warmest congratulations to you.","zh":"请允许我向你致以最诚挚的祝贺。","slots":[],"swappable":[],"examples":[],"notes":[]},
+        {"id":"small-p1-purpose-22-05","page":22,"section":"第一段第二句功能句挑选","en":"I am writing on behalf of our class to discuss {题目相关词}.","zh":"我代表我们班给你写信，讨论{题目相关词}。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2014 英语一）","en":"I am writing on behalf of our class to discuss how we might improve students’ physical condition on campus.","zh":"我代表我们班给您写信，讨论我们可以如何提升校园内学生的身体素质。"}],"notes":[]},
+        {"id":"small-p1-purpose-22-06","page":22,"section":"第一段第二句功能句挑选","en":"With this letter, I would like to share my views on {题目相关词}.","zh":"借此来信，我想与你分享我对{题目相关词}的看法。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2023 英语二）","en":"With this letter, I would like to share my views on whether you should choose the art exhibition or the robot show this Sunday.","zh":"借此来信，我想和你分享我对本周日该选择参加艺术展还是机器人展的看法。"}],"notes":[]},
+        {"id":"small-p1-purpose-22-07","page":22,"section":"第一段第二句功能句挑选","en":"In order to further promote {题目相关词}, our school has decided to issue the following notice.","zh":"为了进一步推进{题目相关词}，学校决定发布如下通知。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2015 英语二）","en":"In order to further promote the summer camp for high school students that our university is going to host, our school has decided to issue the following notice.","zh":"为了进一步推进我校即将举办的高中生夏令营，学校决定发布如下通知。"}],"notes":[]},
+        {"id":"small-p1-purpose-22-08","page":22,"section":"第一段第二句功能句挑选","en":"To ensure the smooth implementation of {题目相关词}, the following arrangements are hereby announced.","zh":"为确保{题目相关词}顺利开展，现将相关安排通知如下。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2020 英语一）","en":"To ensure the smooth implementation of the upcoming campus singing contest, the following arrangements are hereby announced.","zh":""}],"notes":[]}
+      ],
+      "pageNotes": [],
+      "vocab": []
+    },
+    {
+      "page": 23,
+      "title": "第一段第二句功能句挑选（9-15）",
+      "kind": "small-essay-para1",
+      "entries": [
+        {"id":"small-p1-purpose-23-09","page":23,"section":"第一段第二句功能句挑选","en":"To raise students’ awareness of {题目相关词}, the school will carry out the following activities.","zh":"为提升学生对{题目相关词}的认识，学校将开展以下活动。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2022 英语二）","en":"To raise students’ awareness of campus food festival and traditional Chinese food culture, the school will carry out the following activities.","zh":"为提升学生对校园美食节及中国传统饮食文化的认识，学校将开展以下活动。"}],"notes":[]},
+        {"id":"small-p1-purpose-23-10","page":23,"section":"第一段第二句功能句挑选","en":"The purpose of this letter is to discuss {题目相关词} with you in detail.","zh":"这封信的目的是想与你详细讨论{题目相关词}。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2024 英语二）","en":"The purpose of this letter is to discuss our survey plan on the protection of old houses in the ancient town with you in detail.","zh":"这封信的目的是想与你详细讨论我们关于古镇老宅保护调研计划的具体安排。"}],"notes":[]},
+        {"id":"small-p1-purpose-23-11","page":23,"section":"第一段第二句功能句挑选","en":"The primary aim of this letter is to offer some suggestions on {题目相关词}.","zh":"本信的首要目的，是就{题目相关词}提出若干建议。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2014 英语一）","en":"The primary aim of this letter is to offer some suggestions on improving students’ physical condition at our university.","zh":"本信的首要目的是就如何提升我校学生的身体素质提出若干建议。"}],"notes":[]},
+        {"id":"small-p1-purpose-23-12","page":23,"section":"第一段第二句功能句挑选","en":"Through this letter, I would like to call your attention to {题目相关词}.","zh":"借此来信，我想引起你对{题目相关词}的重视。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2007 英语一）","en":"Through this letter, I would like to call your attention to the current problems with our university library’s services.","zh":"借此来信，我想引起您对本校图书馆当前服务问题的重视。"}],"notes":[]},
+        {"id":"small-p1-purpose-23-13","page":23,"section":"第一段第二句功能句挑选","en":"The central purpose of this letter is to seek your advice on {题目相关词}.","zh":"此信的核心目的，是就{题目相关词}向你征求意见。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2014 英语二）","en":"The central purpose of this letter is to seek your advice on how I can better adapt to our shared apartment life abroad.","zh":"此信的核心目的，是就我如何更好地适应今后在国外合租生活向你征求意见。"}],"notes":[]},
+        {"id":"small-p1-purpose-23-14","page":23,"section":"第一段第二句功能句挑选","en":"This letter is meant to convey my heartfelt thanks for your support with {题目相关词}.","zh":"这封信旨在对你在{题目相关词}方面给予的支持表达由衷感谢。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2010 英语二）","en":"This letter is meant to convey my heartfelt thanks for your warm reception during my visit to the United States as a member of the Sino-American cultural exchange program.","zh":"这封信旨在对我作为中美文化交流项目成员赴美期间你给予的热情接待表达由衷感谢。"}],"notes":[]},
+        {"id":"small-p1-purpose-23-15","page":23,"section":"第一段第二句功能句挑选","en":"The purpose of this letter is to extend my sincere gratitude for your help with {题目相关词}.","zh":"本信的目的，是为你在{题目相关词}上给予的帮助致以诚挚谢意。","slots":["题目相关词"],"swappable":[],"examples":[],"notes":[]}
+      ],
+      "pageNotes": ["为确保即将举行的校园歌唱比赛顺利开展，现将相关安排通知如下。"],
+      "vocab": []
+    },
+    {
+      "page": 24,
+      "title": "第一段第二句功能句挑选（16-21）",
+      "kind": "small-essay-para1",
+      "entries": [
+        {"id":"small-p1-purpose-24-16","page":24,"section":"第一段第二句功能句挑选","en":"This letter is intended to offer a sincere apology for the problems caused by {题目相关词}.","zh":"这封信旨在就{题目相关词}所带来的问题向你致以诚挚的歉意。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2018 英语二）","en":"This letter is intended to offer a sincere apology for the problems caused by my having to cancel my visit to you at the last minute.","zh":"这封信旨在就我在最后时刻不得不取消对您的拜访所带来的种种问题向您致以诚挚的歉意。"}],"notes":[]},
+        {"id":"small-p1-purpose-24-17","page":24,"section":"第一段第二句功能句挑选","en":"In this letter, I would like to explain the reasons behind {题目相关词} and ask for your understanding.","zh":"在信中，我想解释{题目相关词}背后的原因，并请求你的理解。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2018 英语二）","en":"In this letter, I would like to explain the reasons behind my change of travel plan and ask for your understanding.","zh":"在信中，我想向您说明我更改行程计划的原因，并请求您的理解。"}],"notes":[]},
+        {"id":"small-p1-purpose-24-18","page":24,"section":"第一段第二句功能句挑选","en":"The purpose of this letter is to invite you to take an active part in {题目相关词}.","zh":"本信的目的，是邀请你积极参加{题目相关词}。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2013 英语二）","en":"The purpose of this letter is to invite you to take an active part in our class charity sale for children in need.","zh":"本信的目的是邀请你积极参加我们班为贫困儿童举办的义卖活动。"}],"notes":[]},
+        {"id":"small-p1-purpose-24-19","page":24,"section":"第一段第二句功能句挑选","en":"Through this letter, I sincerely invite you to join us in {题目相关词}.","zh":"借此来信，我诚挚邀请你参与我们组织的{题目相关词}。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2022 英语二）","en":"Through this letter, I sincerely invite you to join us in the upcoming campus food festival for international and Chinese students.","zh":"借此来信，我诚挚邀请你参加即将举行的、面向中外学生的校园美食节。"}],"notes":[]},
+        {"id":"small-p1-purpose-24-20","page":24,"section":"第一段第二句功能句挑选","en":"The purpose of this letter is to recommend {题目相关词} as a valuable opportunity for you.","zh":"本信旨在向你推荐{题目相关词}这一宝贵机会。","slots":["题目相关词"],"swappable":[],"examples":[{"label":"示例（2023 英语二）","en":"The purpose of this letter is to recommend the robot show on Sunday as a valuable opportunity for you to experience cutting-edge technology.","zh":"本信旨在向你推荐周日的机器人展，这对你体验前沿科技是一次十分宝贵的机会。"}],"notes":[]},
+        {"id":"small-p1-purpose-24-21","page":24,"section":"第一段第二句功能句挑选","en":"In this letter, I would like to introduce {题目相关词} to you as an excellent option.","zh":"","slots":["题目相关词"],"swappable":[],"examples":[],"notes":[]}
+      ],
+      "pageNotes": ["示例（2016 英语二）", "The purpose of this letter is to extend my sincere gratitude for your constant help with my translation practice, which contributed a lot to my success in the recent contest.", "本信的目的，是为你在我翻译练习中给予的长期帮助致以诚挚谢意，这对我在近期比赛中取得成功起到了重要作用。"],
+      "vocab": []
+    }
+  ]
+}

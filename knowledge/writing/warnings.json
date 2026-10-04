@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "version": 2,
+    "title": "写作知识库 V2",
+    "generatedAt": "deterministic",
+    "sources": [
+      {
+        "source": "scan-handout",
+        "sourceLabel": "考研英语作文扫描讲义",
+        "totalPages": 47,
+        "scope": "扫描讲义"
+      },
+      {
+        "source": "slp-big-e1",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语一",
+        "totalPages": 70,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-big-e2",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语二",
+        "totalPages": 64,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e1",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语一",
+        "totalPages": 62,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e2",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语二",
+        "totalPages": 58,
+        "scope": "石雷鹏笔记"
+      }
+    ],
+    "counts": {
+      "pages": 82,
+      "methods": 131,
+      "warnings": 23,
+      "entries": 378,
+      "skeletons": 378,
+      "productionSkeletons": 372,
+      "variants": 1103,
+      "examples": 189,
+      "structuredExamples": 39,
+      "catalogExamples": 139,
+      "slpEntries": 158
+    }
+  },
+  "warnings": [
+    {
+      "id": "warning-method-scan-handout-p2-01",
+      "category": "warning",
+      "text": "蓝色根据具体题目修改。你想不生硬，你就得换啊，必须得多加积累练习，不能既要又要，不可能说是一个神秘大模板拿到后直接啥也不学啥也不练，就直接能完美贴合所有题目",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-01-12.json",
+          "page": 2,
+          "pageTitle": "大作文第二段正面品质"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-scan-handout-p15-01",
+      "category": "warning",
+      "text": "避免受到其误导。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 15,
+          "pageTitle": "大作文通用尾段（校园类）"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-scan-handout-p19-01",
+      "category": "warning",
+      "text": "填写，其他只需要背下来，高级就完事了！所以此模版会比其他人的模版好套且还高级！，希望大家保护好自己的模版，别被偷了，千万不要外传，如有外传，火速出击。人传人会让此含金量下降，极有可能导致多扣分！祝大家大作文逼近满分！——考研的秘密·苦瓜",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 19,
+          "pageTitle": "大作文模板结束说明"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-scan-handout-p20-02",
+      "category": "warning",
+      "text": "一定要学会换个别词语！咱们学的是句子架构，而非僵硬的句子本身，功能句背完，可以应对各个类型，只需要注意格式即可。",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-13-24.json",
+          "page": 20,
+          "pageTitle": "三、通用小作文"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-scan-handout-p26-02",
+      "category": "warning",
+      "text": "第一段已经给出功能句怎么用，后续真的不能给了，不然你们没法在实战中练习",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 26,
+          "pageTitle": "第一段第二句功能句挑选（27）／第二段功能句：通用第一句"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-scan-handout-p26-04",
+      "category": "warning",
+      "text": "先尝试自己写，写不出来，就可以把功能句给 AI，然后把题目给 AI，让他用这句去按照题目要求写，一定不要过度依赖！一定要自己多动脑思考，就算写的是错的，也没事！要的就是一个练习的过程！",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-25-36.json",
+          "page": 26,
+          "pageTitle": "第一段第二句功能句挑选（27）／第二段功能句：通用第一句"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-scan-handout-p40-01",
+      "category": "warning",
+      "text": "结尾段功能是表达期待与致谢，不要再引入新信息",
+      "sourceRefs": [
+        {
+          "source": "scan-handout",
+          "sourceFile": "raw-37-47.json",
+          "page": 40,
+          "pageTitle": "第三段功能句（5-21）"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-big-e1-p6-05",
+      "category": "warning",
+      "text": "如何避免跑题：图画信息与文字说明相结合（简单清晰的汉语思路＋正确高端的英文表达）",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-big-e1-p6-08",
+      "category": "warning",
+      "text": "典型错误：将辅助性细节（如人物动作、背景元素）误认为主要描写对象",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-big-e1-p6-09",
+      "category": "warning",
+      "text": "错误示例与正确方向对照：龙舟比赛场景写防溺水（仅看图不看文字）→「龙舟比赛」指向传统文化主题；围观人群写防踩踏事故（脱离主题）→「咱们村」可延伸乡村发展话题；老人牵手写黄昏恋（过度解读细节）→「越来越热闹」可写文化振兴或生活改善",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-big-e1-p6-10",
+      "category": "warning",
+      "text": "图画作文思路 · 首段：描述图画/图表；文字材料概述。适配原则：根据考题类型灵活选择描述对象；核心要求：保持客观描述，避免在首段加入主观分析",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 6,
+          "pageTitle": "第三章 图画作文 · 审题三事项与写作思路"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-big-e1-p7-02",
+      "category": "warning",
+      "text": "错误立意警示：避免写成「农民生活悲惨」或「花熟了可以吃」等偏离主题的理解；必须紧扣文字说明「温室花朵经不起风雨」展开",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 7,
+          "pageTitle": "精讲1：温室花朵（03 年）· 六大语法现象与首段描述"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-big-e1-p16-01",
+      "category": "warning",
+      "text": "解读误区 · 正确主题：「终点又是新起点」的核心寓意",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 16,
+          "pageTitle": "精讲2：终点又是起点（04 年）· 单图描述与举例论证"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-big-e1-p23-01",
+      "category": "warning",
+      "text": "解读误区观察要点 · 环境：岔路口/多选择场景；主体：多排毕业生站立不动；选项：创业、出国、考研、求职四个方向",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e1",
+          "sourceFile": "slp-big-e1.json",
+          "page": 23,
+          "pageTitle": "13 年英语一：选择 · 岔路口类图画与职业词汇"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-big-e2-p6-04",
+      "category": "warning",
+      "text": "c.文字说明：注意图表周边的文字标注和补充说明",
+      "sourceRefs": [
+        {
+          "source": "slp-big-e2",
+          "sourceFile": "slp-big-e2.json",
+          "page": 6,
+          "pageTitle": "第三章 图表作文 · 审题三事项与数据本质透析"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-small-e1-p5-08",
+      "category": "warning",
+      "text": "小作文体裁总结 · 新增：会议纪要 minutes（最新大纲新增，但可用功能句应对）。注意 minutes 与「分钟」同形异义，此处表示「纪要」",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 5,
+          "pageTitle": "2.1 审题＆简易思路 · 三段式框架"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-small-e1-p6-06",
+      "category": "warning",
+      "text": "写作技巧 · 格式注意事项：考试结尾提示语必须阅读，防止出现署名要求变更等细节调整（如「李明」可能改为「李刚」）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 6,
+          "pageTitle": "精讲1：辞职+道歉（05 年英一）· 首段与主体段"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-small-e1-p9-04",
+      "category": "warning",
+      "text": "易错提醒 · 标点错误：称谓后用逗号，勿用冒号",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-small-e1-p9-05",
+      "category": "warning",
+      "text": "易错提醒 · 时态错误：回忆内容必须用过去式（studied/lived）",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-small-e1-p9-06",
+      "category": "warning",
+      "text": "易错提醒 · 用词不当：避免使用 room 代替 house",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 9,
+          "pageTitle": "实训1：道歉+建议（08 年英一）· 道歉与解决方案骨架"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-small-e1-p19-01",
+      "category": "warning",
+      "text": "题目解析 · 背景信息处理：采用「拆分+改写」方法，避免直接照抄题干。例如可写「通知的目的是为某国际会议招募志愿者」或「我们很高兴得知关于全球化的国际会议将在我校举办」",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 19,
+          "pageTitle": "精讲3：招募+通知（10 年英一）· 通知格式规范"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-small-e1-p22-03",
+      "category": "warning",
+      "text": "活动设计 · 避免内容：谈情说爱、荒野求生等不恰当活动",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e1",
+          "sourceFile": "slp-small-e1.json",
+          "page": 22,
+          "pageTitle": "实训3：通知+介绍（15 年英二）· 夏令营通知骨架"
+        }
+      ]
+    },
+    {
+      "id": "warning-method-slp-small-e2-p47-01",
+      "category": "warning",
+      "text": "背景构建 · 主题选择：应避免敏感内容（如跨国交友），推荐学术交流或学期规划等正式主题",
+      "sourceRefs": [
+        {
+          "source": "slp-small-e2",
+          "sourceFile": "slp-small-e2.json",
+          "page": 47,
+          "pageTitle": "21 年英二：邀请+说明 · 线上会议邀请骨架"
+        }
+      ]
+    }
+  ]
+}

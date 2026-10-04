@@ -1,0 +1,2932 @@
+{
+ "meta": {
+  "title": "大作文题图标准答案",
+  "note": "由黄皮书/题库范文/石雷鹏讲义/真题题干与双次视觉转录交叉核定；captionTexts 与 chart.points 均经出处复核。",
+  "count": 37
+ },
+ "exams": {
+  "e1-2005-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "大儿子",
+    "二儿子",
+    "三儿子",
+    "小女儿",
+    "老父亲",
+    "养老“足球赛”"
+   ],
+   "scene": "漫画中四个足球球门围成一个方形区域，四个子女分别占据一个球门，老父亲蜷缩在中间的空地上，被子女们像足球一样推来踢去，无人愿意承担赡养责任。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "大儿子",
+     "doing": "站在球门前，做出踢球或防守的动作"
+    },
+    {
+     "panel": 1,
+     "who": "二儿子",
+     "doing": "站在球门前，双手交叉抱胸或张开双臂防守"
+    },
+    {
+     "panel": 1,
+     "who": "三儿子",
+     "doing": "站在或撑在球门上，背对画面"
+    },
+    {
+     "panel": 1,
+     "who": "小女儿",
+     "doing": "站在球门上，单手叉腰或抬腿踢球"
+    },
+    {
+     "panel": 1,
+     "who": "老父亲",
+     "doing": "蜷缩在地上或半空中，双手抱头，表情痛苦害怕"
+    }
+   ],
+   "keyObjects": [
+    "足球球门",
+    "老父亲"
+   ],
+   "theme": "子女之间互相推诿赡养责任，将老人当作足球踢来踢去，反映了养老问题中的家庭矛盾和社会问题。",
+   "themeEvidence": [
+    "养老“足球赛”"
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "四个子女的具体动作和位置在两次视觉转录中不一致，容易混淆",
+    "老父亲是被踢在地上还是半空中存在歧义",
+    "球门的数量和摆放方式（竖立或横放）可能误读"
+   ],
+   "conflicts": [
+    "两次视觉转录对人物动作描述不一致：第一次描述大儿子双手前伸、二儿子抱胸、三儿子撑球门、小女儿叉腰指向前方；第二次描述大儿子抬腿踢球、二儿子张开双臂防守、三儿子背对、小女儿抬腿踢球",
+    "老父亲的位置：第一次描述蜷缩在地上，第二次描述被踢在半空中"
+   ],
+   "needsReview": [
+    "四个子女的具体动作和位置需进一步确认",
+    "老父亲的具体状态（在地上还是半空中）需确认",
+    "球门的数量和摆放方式需确认"
+   ],
+   "evidenceUsed": [
+    "vision"
+   ],
+   "examId": "e1-2005-b",
+   "status": "needs-web",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": false,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e1-2019-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "累了，我不爬了。",
+    "别呀！休息一下再接着爬。",
+    "途中"
+   ],
+   "scene": "山间石阶山路上，背景为山峰与草丛。两名登山者途中歇脚：一人坐在石阶上休息，双手抱膝，神情疲惫沮丧，背包放在身旁；另一人站在旁边（背着背包），递给他一瓶水，并开口鼓励他休息后再接着爬。图中另写有“途中”两个汉字，以及两人的对话文字。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "坐在石阶上的登山者",
+     "doing": "坐着休息，双手抱膝，表情疲惫沮丧，背包放在一旁，说“累了，我不爬了。”"
+    },
+    {
+     "panel": 1,
+     "who": "站立的同伴（登山者）",
+     "doing": "站在旁边（背着背包），递给坐者一瓶水，鼓励他休息一下再接着爬"
+    }
+   ],
+   "keyObjects": [
+    "石阶/山路",
+    "山峰",
+    "背包（坐者身旁、同伴背上）",
+    "水瓶（同伴递给坐者）",
+    "草丛",
+    "图中“途中”二字"
+   ],
+   "theme": "坚持不懈、意志坚定是实现远大目标不可或缺的品质：接近成功时人往往最疲惫、最想放弃，此时只有咬牙坚持、持续努力才能抵达终点，而放弃则意味着前功尽弃。",
+   "themeEvidence": [
+    "The picture intends to illustrate the irreplaceable role persistence plays in realizing great ambitions.",
+    "What is needed then is a sustained effort to conquer them rather than an excuse to give up.",
+    "As an old Chinese saying goes, the last leg of a journey marks the halfway point. The closer we get to the finishing line, the more fatigued and lazier we feel.",
+    "In other words, the virtue of persistence is the key to success and thus needs to be cultivated consciously.",
+    "persistence can be likened to a road, leading to success."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "图中“途中”二字笔画简单、位置不显眼，易被漏读或误认成其他字。",
+    "两人左右位置及角色易混：坐者（疲惫抱怨者）与站者（递水鼓励者）哪一人在左、哪一人在右。",
+    "两句台词的归属易颠倒：“累了，我不爬了。”为坐着的人所说；“别呀！休息一下再接着爬。”为同伴所说。",
+    "背包位置易误判：坐者身旁放有背包，同伴身上也可能背有背包，需辨别是否为一或两个背包。",
+    "同伴递出的物品（瓶装饮料/水）在画面中较小，易被忽略或误认。",
+    "易与同年份其他“坚持/途中”主题题目混淆，需按本题人物、台词核图。"
+   ],
+   "conflicts": [
+    "同伴的台词“别呀！休息一下再接着爬。”仅见于视觉转录（两次一致），范文与讲义只作转述（“encouraging him to continue after the rest”），未给出中文原句。",
+    "某次视觉转录中出现“轮胎状物体”，疑为对背包或石阶的误读，范文/讲义均无对应物，未采信。"
+   ],
+   "needsReview": [
+    "“途中”二字在图中的确切位置（图题区还是画面内）待确认。",
+    "同伴台词“别呀！休息一下再接着爬。”的中文原文需以原图再核一次标点与用字。",
+    "两人左右站位、背包数量与归属，需对照原图最终确认。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2019-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2010-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "Mobile-phone subscriptions (2000-2008)",
+    "subscription number",
+    "Developing countries",
+    "Developed countries",
+    "4 billion",
+    "3 billion",
+    "2 billion",
+    "1 billion",
+    "0",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008 (year)"
+   ],
+   "scene": "一张柱状图，标题为 Mobile-phone subscriptions (2000-2008)，纵轴为 subscription number（单位十亿），横轴为年份 2000 至 2008；图例区分 Developing countries 与 Developed countries 两组柱子，展示两组手机订阅数随年份的变化。",
+   "people": [],
+   "keyObjects": [
+    "柱状图",
+    "纵轴 subscription number",
+    "横轴年份 2000-2008",
+    "图例 Developing countries",
+    "图例 Developed countries"
+   ],
+   "theme": "发展中国家手机订阅数增长迅猛，而发达国家增长平缓，原因在于发展中国家市场尚未饱和、潜在客户众多且经济繁荣，发达国家市场已饱和、增长空间有限。",
+   "themeEvidence": [
+    "from 2000 to 2008, the mobile-phone subscription number grew sharply from 0.5 billion to 4 billion in developing countries",
+    "during the same period, there was only a moderate increase (from 0.7 billion to 1 billion) in developed countries",
+    "In developing countries, the mobile phone market hadn't reached saturation, Considering the population size there, the number of potential customers would be enormous.",
+    "However, in developed countries, there was a saturated market, leaving little room for growth."
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "Mobile-phone subscriptions (2000-2008)",
+    "unit": "billion",
+    "points": [
+     {
+      "label": "Developing countries 2000",
+      "value": "0.5 billion"
+     },
+     {
+      "label": "Developing countries 2008",
+      "value": "4 billion"
+     },
+     {
+      "label": "Developed countries 2000",
+      "value": "0.7 billion"
+     },
+     {
+      "label": "Developed countries 2008",
+      "value": "1 billion"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "两组柱子颜色相近，易混淆 Developing countries 与 Developed countries 的对应关系",
+    "纵轴单位 billion 易被忽略，数值易误读为百万或亿",
+    "2000 年两组起点数值接近（0.5 与 0.7），易看反",
+    "2008 年发展中国家数值（4 billion）与纵轴顶端刻度易混",
+    "年份跨度 2000-2008 易误记为 2000-2009"
+   ],
+   "conflicts": [
+    "视觉转录 unstablePoints 显示 2008 年发展中国家约为 3 billion、发达国家约为 1.1 billion，与范文/权威参考书给出的 4 billion 和 1 billion 不一致；按规则以范文/参考书为准。",
+    "视觉转录 unstablePoints 显示 2000 年发展中国家约 0.4、发达国家约 0.6，与范文给出的 0.5 和 0.7 不一致；以范文为准。"
+   ],
+   "needsReview": [
+    "图中各年份逐点数值（2001-2007）未在范文/题干/讲义中出现，且两次视觉读数不完全一致，未列入 chart.points。",
+    "2008 年发展中国家数值究竟为 3 billion 还是 4 billion，视觉与范文冲突，建议核对原图。",
+    "2000 年两组起点数值究竟为 0.4/0.6 还是 0.5/0.7，建议核对原图。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2010-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e1-2006-b": {
+   "essayType": "picture",
+   "panels": 2,
+   "captionTexts": [
+    "把崇拜写在脸上",
+    "花300元做个“小贝头”",
+    "注：Beckham(贝克汉姆)——英国足球名星。"
+   ],
+   "scene": "两幅照片构成一组对比：左图是一名年轻人的面部特写，脸颊上写着“BECKHAM”字样；右图是一名年轻人坐在理发店里，理发师站在其身后为其打理头发，做成贝克汉姆式的发型。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "一名年轻人",
+     "doing": "面部特写，脸上写着“BECKHAM”"
+    },
+    {
+     "panel": 2,
+     "who": "一名年轻人（顾客）",
+     "doing": "坐在理发店里，花300元做“小贝头”"
+    },
+    {
+     "panel": 2,
+     "who": "理发师",
+     "doing": "站在顾客身后，为其打理头发"
+    }
+   ],
+   "keyObjects": [
+    "脸上的“BECKHAM”字样",
+    "理发店",
+    "300元",
+    "小贝头（贝克汉姆式发型）"
+   ],
+   "theme": "盲目崇拜偶像（追星）现象，讽刺只关注明星外表而忽视其内在品质的盲目崇拜。",
+   "themeEvidence": [
+    "这些是两幅简单但具有讽刺性的照片。",
+    "Such two persons can be associated with a host of boys and girls who are crazy fans of stars.",
+    "However, some of them focus eyesight only on stars’ superficial lifestyles, ignoring their merits.",
+    "This sort of blind worship may constitute an obstacle, hindering young people’s progress and growth."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "左图脸颊上的英文字母末尾部分被截断，易误读为“BECKHA”而非“BECKHAM”",
+    "两图中人物眼部均被打码遮挡，易误判人物身份或表情",
+    "右图理发师与顾客易混淆，需区分站者与坐者",
+    "“小贝头”为贝克汉姆式发型，易误解为其他含义",
+    "300元为花费金额，易与图中其他数字混淆"
+   ],
+   "conflicts": [
+    "vision.stableTexts 将左图文字读作“BECKHA”，而 slp 讲义与范文均作“BECKHAM”，以讲义/范文为准。"
+   ],
+   "needsReview": [
+    "左图人物脸上文字的确切拼写（BECKHAM 末尾字母是否完整）",
+    "右图理发师与顾客的具体动作细节"
+   ],
+   "evidenceUsed": [
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2006-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": false,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2007-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [],
+   "scene": "足球场上，一名守门员蹲在球门前准备防守，身旁有足球；其脑海中的思想气泡里浮现出两种想象场景：一种是独自面对空荡荡的大球门，另一种是球门前挤满多名射门者、从不同方向向他射门。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "守门员",
+     "doing": "蹲在球门前准备防守"
+    },
+    {
+     "panel": 1,
+     "who": "踢球者",
+     "doing": "正在踢球"
+    },
+    {
+     "panel": 1,
+     "who": "思想气泡中的守门员",
+     "doing": "独自蹲在空球门前"
+    },
+    {
+     "panel": 1,
+     "who": "思想气泡中的守门员",
+     "doing": "在球门前面对多名射门者"
+    },
+    {
+     "panel": 1,
+     "who": "思想气泡中的踢球者们",
+     "doing": "从不同方向向守门员射门"
+    }
+   ],
+   "keyObjects": [
+    "足球门",
+    "球网",
+    "足球",
+    "球场地面",
+    "思想气泡"
+   ],
+   "theme": "",
+   "themeEvidence": [],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "两次视觉转录对画面结构判断不一致：一次读为三个独立画面（panels=3），一次读为单幅画面加两个思想气泡（panels=1），需确认题图究竟是几幅。",
+    "守门员与踢球者均为足球运动员形象，衣着相似，容易混淆身份。",
+    "思想气泡中的球门大小与射门者数量是核心对比点，容易看反（大球门/小球门、一人/多人）。",
+    "图中可能印有中文标注文字，但两次视觉转录均未稳定读出，需人工核对。"
+   ],
+   "conflicts": [
+    "vision.runs 两次转录对 panels 数量冲突：一次为 3，一次为 1。"
+   ],
+   "needsReview": [
+    "题图实际画面数量（1 幅还是 3 幅）未确定。",
+    "图中是否印有中文文字（如标题或标注）未确定，captionTexts 暂空。",
+    "寓意（theme）缺少范文/讲义解读句支撑，暂空。",
+    "本题缺少 yellowBook、bankEssay、slp、promptTail 等权威文字证据，仅凭视觉转录不足以核定标准答案。"
+   ],
+   "evidenceUsed": [
+    "vision"
+   ],
+   "examId": "e1-2007-b",
+   "status": "needs-web",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": false,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e1-2008-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "你一条腿，我一条腿；\n你我一起，走南闯北。"
+   ],
+   "scene": "户外平地上，两个人并排站立，各自的一条腿被绑在一起，身体前倾，呈共同奔跑或行走的姿态；背景有黑色横向色块，地面有少量草丛或水坑。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "左侧人物",
+     "doing": "身体前倾，一条腿与右侧人物绑在一起，呈奔跑或行走姿态"
+    },
+    {
+     "panel": 1,
+     "who": "右侧人物",
+     "doing": "身体前倾，一条腿与左侧人物绑在一起，呈奔跑或行走姿态"
+    }
+   ],
+   "keyObjects": [
+    "绑腿绳"
+   ],
+   "theme": "",
+   "themeEvidence": [],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "两人腿部绑在一起，易被误读为普通并肩行走而非协作奔跑",
+    "图中文字为中文，易被误当作英文引语",
+    "背景黑色横向色块与地面草丛/水坑细节易被忽略或误读"
+   ],
+   "conflicts": [
+    "两次视觉转录对人物动作描述不一致：一次为两人各绑一条腿呈奔跑/行走姿态，另一次为互相搂着、各自抬起一条腿共同支撑或跳跃前行",
+    "两次视觉转录对关键物品描述不一致：一次仅见绑腿绳，另一次出现木棍搭成的架子、云朵状图形等"
+   ],
+   "needsReview": [
+    "寓意（theme）缺少范文/讲义解读句支撑，无法确定",
+    "图中文字是否为完整原文、有无遗漏或错字，需进一步核对",
+    "人物具体动作与关键物品（绑腿绳/木棍架子等）需以权威题图为准"
+   ],
+   "evidenceUsed": [
+    "vision"
+   ],
+   "examId": "e1-2008-b",
+   "status": "needs-web",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": false,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e1-2009-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "网络的“近”与“远”"
+   ],
+   "scene": "一幅单幅漫画：画面中央是一张巨大的蜘蛛网，蛛网被划分成多个区域，每个区域里都有人独自坐在电脑（显示器）前上网，彼此被蛛网隔开。虽然他们都在同一张网中、空间上很近，却各自面对屏幕，没有面对面交流。图上有汉字点明主题，内容为网络的“近”与“远”。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "众多不同年龄的人（视觉转录约12人，各区域各一人，具体身份无法辨认）",
+     "doing": "各自坐在电脑前上网、盯着屏幕，被蛛网分隔，互不面对面交谈"
+    }
+   ],
+   "keyObjects": [
+    "巨大的蜘蛛网",
+    "电脑/显示器",
+    "键盘",
+    "桌子",
+    "椅子"
+   ],
+   "theme": "互联网在拉近人们之间距离的同时，也让人在现实中的面对面交流与情感联系变得疏远，网络是一把双刃剑。",
+   "themeEvidence": [
+    "①首先，若干汉字能被注意到，其内容是，网络的\"近\"和\"远\"。",
+    "③尽管他们很近，但这些人从来没有面对面交流过。 Although they are quite near, they never/scarcely/hardly chat with each other face to face talk=communicate.",
+    "It is the Internet that shortens the distance, but it is also the Internet that causes the interpersonal relation to be \"far\" in real life.",
+    "To my understanding, the Internet can be likened to a double-edged sword."
+   ],
+   "chart": {
+    "type": "null",
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "图上汉字中“近”与“远”的先后顺序及引号写法容易看错或写反（视觉两次均读作“网络的‘近’与‘远’”，讲义首段练笔中亦出现“far 和 near”的倒序表述）。",
+    "蛛网可能被误读为单纯装饰背景或电脑之间的实际网络连线/电缆。",
+    "画面人物数量多且分散在各扇形区域，容易被误判成多幅小图（视觉转录即输出为12个panels），实际是单幅多人物漫画。",
+    "各区域人物的表情、屏幕内容与细小涂鸦符号（如疑似问号、@符号）模糊，容易误读出并不存在的文字信息。",
+    "标题中的“近”“远”是加引号的比喻义（指人际关系的亲近与疏远），容易按物理距离的字面义理解。",
+    "范文中的 hundreds of individuals / different ages 属概括或夸张表述，不能据此确认图中具体人数与年龄构成。"
+   ],
+   "conflicts": [
+    "视觉转录将单幅漫画判为12个panels并列出一一对应的人物，与“单幅多人漫画”的实际画面结构冲突；本次按单幅图（panels=1）核定。",
+    "讲义首段练笔句①与句②关于“汉字被注意到”的描述重复且顺序颠倒（句①说汉字内容为网络的“近”和“远”，句②又说汉字说明网络的“near”与“far”），属讲义编排问题，不影响画面核心信息。",
+    "范文称人数为 hundreds of individuals、并称人物 different ages，视觉读数仅约12人且无法辨认年龄，二者数量级不一致，以前者仅为概括性描述处理。",
+    "视觉转录出现“问号符号”“类似@的符号”等元素，范文与讲义均未提及，暂列为存疑信息。"
+   ],
+   "needsReview": [
+    "图题汉字的确切写法与顺序（网络的“近”与“远” / “远”与“近”），需以原图为准核对引号形式与字序。",
+    "图中人物的确切数量、年龄与性别构成（视觉读数约12人，无法逐一定位身份）。",
+    "各人物所处区域是否有可辨认的屏幕文字或对话气泡内容（视觉转录中的问号、@等符号未能确认）。",
+    "画面中被蛛网分隔的区域数量与布局（是否均匀分格）仍需原图核对。"
+   ],
+   "evidenceUsed": [
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2009-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": false,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2010-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "文化火锅，既美味又营养",
+    "佛",
+    "梁祝",
+    "解构",
+    "人类",
+    "功夫",
+    "毕昇",
+    "儒",
+    "礼",
+    "后现代",
+    "启蒙",
+    "天鹅湖",
+    "京剧",
+    "道",
+    "仁",
+    "莎士比亚",
+    "爱因斯坦",
+    "老舍"
+   ],
+   "scene": "画面中央是一只传统的铜火锅，中间有烟囱、底部有支架，锅口冒着热气。火锅里装的不是普通食材，而是一块块写有文字的方块状/石块状物体，上面分别写着中外文化、哲学、艺术、科学、文学等领域的词语（如佛、儒、道、仁、礼、解构、后现代、启蒙、天鹅湖、京剧、梁祝、莎士比亚、爱因斯坦、老舍、毕昇、功夫等），画面配有一行标题文字「文化火锅，既美味又营养」。画面中没有任何人物。",
+   "people": [],
+   "keyObjects": [
+    "传统铜火锅（中间有烟囱、底部有支架）",
+    "锅内写有文字的方块状/食材状物体",
+    "火锅上方冒出的热气"
+   ],
+   "theme": "以「文化火锅」比喻多元文化的融合：不同国家、民族的文化元素如同各色食材汇聚一锅，相互交融、相辅相成，呈现出丰富而有益的面貌；多元文化融合是当今时代的显著特征，吸收外来而互补的文化对世界文化的传承与发展、对人类社会物质与精神文明的进步都大有裨益。",
+   "themeEvidence": [
+    "The picture presents a steaming \"cultural hotpot\" with all kinds of foodstuffs in it, such as Buddhism, postmodernism, the Butterfly Lovers and Einstein. Mixing together, these cultural ingredients look tremendously delicious and nutritious.",
+    "What lies behind the picture is clear: Multicultural integration is a noteworthy feature of the time and is of great benefit to the inheritance and development of world culture.",
+    "All countries have been benefiting greatly from absorbing different but complementary cultures, which accelerates the development of both material and spiritual civilization of human society."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "锅内的文字又多又小，容易被整体当作「食材」而漏掉具体词条，或把词条读错（如「毕昇」易误作「毕升」）。",
+    "标题文字「文化火锅，既美味又营养」位于画面上方/下方边缘，容易被忽略。",
+    "视觉转录中出现「人类」一词，与其他文化领域词条性质不同，需复核究竟是「人类」还是「人本/人权」等近似词。",
+    "易把图误读为「饮食/美食」主题，而忽略其文化融合的寓意。",
+    "图中并无人物，不要凭印象添加人物动作。"
+   ],
+   "conflicts": [],
+   "needsReview": [
+    "vision.stableTexts 中的「人类」一词是否确为图上原文（与其余文化类词条略有差异），建议再以高清题图核对。",
+    "图上文字条目的完整清单（是否还存在两次转录都未捕捉到的词条）需以原图逐项复核。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e1-2010-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e1-2011-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "旅程之“余”"
+   ],
+   "scene": "湖面上有一条小船，船头有一人戴草帽/斗笠撑船划船，船尾坐着几名游客，正在把垃圾随手扔进湖里；船后方的湖面上已经漂浮着大量垃圾，包括鱼骨头、瓶子、易拉罐、纸盒、塑料袋、碗等，原本优美的湖景被垃圾破坏。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "戴草帽/斗笠的船夫",
+     "doing": "在船头撑船/划船"
+    },
+    {
+     "panel": 1,
+     "who": "船尾游客",
+     "doing": "坐在船上，向湖中随手扔垃圾"
+    }
+   ],
+   "keyObjects": [
+    "小船",
+    "船桨/撑杆",
+    "草帽/斗笠",
+    "湖面",
+    "漂浮的垃圾（鱼骨头、瓶子、易拉罐、纸盒、塑料袋、碗等）"
+   ],
+   "theme": "批评游客不文明行为导致景区环境破坏，呼吁保护环境、文明旅游。",
+   "themeEvidence": [
+    "Just as the caption \"What's ‘Left’ after the Travel\" implies, the cartoon is a poignant criticism of tourists with uncivil conducts that lead to environmental damage.",
+    "Such behavior comes primarily from tourists' lack of environmental awareness, thinking of just casually littering garbage as no big deal.",
+    "everyone should realize the importance of protecting the environment and start small by no littering at will and stopping others from doing that timely."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "船头人物可能被误读为游客，实际应为撑船/划船的船夫。",
+    "船尾游客人数可能被误读为2人或3人，视觉转录不一致。",
+    "图中垃圾种类细小繁多，易漏读或误读（如鱼骨头、碗、鞋子等）。",
+    "标题“旅程之‘余’”中的“余”可能被误读为“鱼”或其他字。"
+   ],
+   "conflicts": [
+    "视觉转录中船尾游客人数不一致：一次为3人（游客1、游客2、游客3），另一次为“几个人”，范文只提到two tourists。",
+    "视觉转录中船夫头戴物不一致：一次为草帽，另一次为斗笠。",
+    "视觉转录中垃圾物品不完全一致：一次提到塑料袋，另一次提到鞋子。"
+   ],
+   "needsReview": [
+    "船尾游客的确切人数（范文称two tourists，视觉转录有3人或“几个人”）。",
+    "船夫头戴物是草帽还是斗笠。",
+    "图中垃圾的具体种类和数量。",
+    "标题“旅程之‘余’”是否为图上唯一文字，是否有其他细小文字。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "vision"
+   ],
+   "examId": "e1-2011-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e1-2012-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "全完了！",
+    "幸好还剩点儿。"
+   ],
+   "scene": "画面为空白背景，地上有一个倒下的瓶子，瓶中的水洒出了一半。两名男子面对这一情景反应截然不同：左侧男子神情沮丧，捂着脸（或扶额）哀叹；右侧男子面带庆幸的微笑，俯身伸手去够地上的瓶子。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "左侧男子",
+     "doing": "神情沮丧，捂脸/扶额，哀叹水全洒了"
+    },
+    {
+     "panel": 1,
+     "who": "右侧男子",
+     "doing": "面带微笑，俯身伸手去够倒下的瓶子，庆幸还剩一些水"
+    }
+   ],
+   "keyObjects": [
+    "倒下的瓶子",
+    "洒出的水"
+   ],
+   "theme": "面对逆境时，乐观与悲观会把人引向截然相反的道路；悲观无益，乐观有助于我们摆脱绝望、发现希望。",
+   "themeEvidence": [
+    "This portrayal reveals that in adverse situations, being optimistic or being pessimistic directs people towards two opposite paths.",
+    "When obstacles confront us, assuming the worst only spells more failures, while interpreting them in a positive light always spurs us to look for a silver lining and concentrate upon addressing problems.",
+    "When adversity strikes, instead of being blinded by pessimism, we should learn to examine it from a comprehensive perspective so as to break free of despair and discover hope."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "左侧人物动作易混：一次视觉转录为「双手捂脸」，另一次为「单手扶额」，需核对原图。",
+    "右侧人物动作易混：一次为「蹲下身子」，另一次为「弯腰」，需核对原图。",
+    "图中文字为中文，范文中的英文引语（\"It's all gone!\" / \"Luckily there's still some left.\"）是英译，不能当作图上原文。",
+    "瓶子倾倒后剩余水量约为一半，注意不要误读为全空或全满。"
+   ],
+   "conflicts": [
+    "两次视觉转录对左侧人物动作描述不一致（双手捂脸 vs 单手扶额），对右侧人物姿态描述不一致（蹲下 vs 弯腰）。",
+    "范文以英文引语呈现人物台词，而图中实际文字为中文（全完了！/幸好还剩点儿。），二者为译文关系而非冲突。"
+   ],
+   "needsReview": [
+    "左侧人物究竟是双手捂脸还是单手扶额，需以原图为准。",
+    "右侧人物究竟是蹲下还是弯腰，需以原图为准。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "vision"
+   ],
+   "examId": "e1-2012-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e1-2013-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "选择",
+    "毕业生",
+    "求职",
+    "考研",
+    "出国",
+    "创业"
+   ],
+   "scene": "一条宽阔的道路在前方分成四个岔路口，一群毕业生（约九人）排成一排站在岔路口前，面向前方的四个方向观望，脸上带着迷茫的神情。图中标有“毕业生”字样，四个岔路方向分别标有“求职”“考研”“出国”“创业”，下方有“选择”二字。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "一群毕业生（约九人）",
+     "doing": "站在岔路口前，面向前方的四个方向观望，神情迷茫"
+    }
+   ],
+   "keyObjects": [
+    "岔路口",
+    "写有“毕业生”的牌子",
+    "四个方向的路标（求职、考研、出国、创业）",
+    "挎包/背包"
+   ],
+   "theme": "大学毕业生在毕业后面对求职、考研、出国、创业等多条道路时感到迷茫，需要做出审慎而明智的选择，这一选择对个人未来发展意义重大。",
+   "themeEvidence": [
+    "Undoubtedly this picture describes a dilemma all college graduates have to face — which path to take and pursue after graduation.",
+    "This choice is of great significance to our future development. Therefore it's imperative for us to make a prudent and sensible decision.",
+    "尽管他们有多个选择，但这些年轻人却不知道怎么选，脸上带着巨大迷茫。"
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "图中四个方向的中文标签（求职、考研、出国、创业）字迹较小，易被误读或漏读",
+    "“毕业生”三字可能分散在人物或牌子上，易被误认为其他文字",
+    "人物数量较多且相似，易误数或误判具体动作",
+    "“选择”二字位于图下方，易与图中其他文字混淆"
+   ],
+   "conflicts": [
+    "范文（bankEssay/yellowBook）将图下方文字引作英文“Choice-making”，而讲义（slp）与视觉转录均显示图上原文为中文“选择”，应以中文原文为准。"
+   ],
+   "needsReview": [
+    "图中“毕业生”三字的具体位置与呈现方式（是牌子还是分散文字）尚不完全确定",
+    "人物确切数量（视觉读数为约九人）未在范文/讲义中明确，仅供参考"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2013-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2014-b": {
+   "essayType": "picture",
+   "panels": 2,
+   "captionTexts": [
+    "三十年前",
+    "现在",
+    "相携"
+   ],
+   "scene": "两幅漫画并排。左图表现「三十年前」：一位年轻的母亲牵着年幼女儿的手走在路上，母亲一手提着手提包，小女孩背着书包，两人都面带笑容。右图表现「现在」：女儿已长大成人，挽着年迈母亲的手臂同行，女儿一手挎着包，年迈的母亲被女儿搀扶着，两人同样面带笑容。画面背景简单，仅有一条道路/地面线条。图中有「三十年前」「现在」的时间标注，以及两个汉字「相携」。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "年轻的母亲",
+     "doing": "牵着年幼女儿的手走在路上，另一只手提着手提包，面带微笑"
+    },
+    {
+     "panel": 1,
+     "who": "年幼的女儿",
+     "doing": "背着书包，被母亲牵着手同行，面带微笑"
+    },
+    {
+     "panel": 2,
+     "who": "成年的女儿",
+     "doing": "挽着年迈母亲的手臂同行，挎着包，面带微笑"
+    },
+    {
+     "panel": 2,
+     "who": "年迈的母亲",
+     "doing": "被女儿挽着手臂、搀扶着同行，面带微笑"
+    }
+   ],
+   "keyObjects": [
+    "手提包",
+    "书包",
+    "挎包",
+    "道路/地面线条",
+    "汉字「相携」",
+    "时间标注「三十年前」「现在」"
+   ],
+   "theme": "通过母女二人相隔三十年的两幅画面，赞颂「相携」——即家庭成员之间相互扶持的爱，体现中国人尊老爱幼、孝亲爱幼的传统美德，以及由此构成的幸福家庭。",
+   "themeEvidence": [
+    "Finally, two Chinese characters interpret the intended meaning, namely, \"mutual supporting\".",
+    "This common scene is particularly worth attention for the reason that the drawer focuses on the traditional Chinese virtues filial piety and loving kids, which characterize a happy family.",
+    "The two photos reflect the deep love between the mother and the daughter, bringing comforting relief from frequently reported stay-at-home children and elder mistreatment cases.",
+    "①首先，两个汉字可以被注意到，其内容是：相携。"
+   ],
+   "chart": {
+    "type": "null",
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "两幅图中母女角色与动作方向易颠倒：左图是母亲牵年幼女儿的手，右图是成年女儿挽年迈母亲的手臂，不可写成母亲一直牵着女儿。",
+    "左图人物关系易误读为姐姐与妹妹或老师与学生，需按「母亲与女儿」认定。",
+    "图中两个汉字最易被误读（如误作「相谐」「相拥」「相伴」），需核对是否为「相携」。",
+    "右图年迈母亲是否竖起大拇指仅在单次视觉转录中出现，另一次未读到，不能确认为画面内容。",
+    "「三十年前」「现在」两组时间标注字号小、位置固定，易被漏读或张冠李戴（把「现在」安到左图）。",
+    "随身物品易混：左图为母亲的手提包与女儿的书包，右图为女儿的挎包，不宜互相替换。"
+   ],
+   "conflicts": [
+    "视觉转录第一次提到右图老年女子「一只手竖起大拇指」，第二次转录未提到该动作，两次不一致，故未写入 scene。",
+    "范文（bankEssay/yellowBook）称两幅为 photos、以英译引语转述画面；讲义（slp）称其为 drawings 并转述图中汉字原文「相携」，描述方式不同但不冲突，captionTexts 以讲义转述为准。"
+   ],
+   "needsReview": [
+    "图上时间标注的确切文字与位置：视觉转录为「三十年前……」「现在……」（带省略号），是否真带省略号、是否另有其他字样待核。",
+    "右图年迈母亲是否确有竖大拇指的动作（两次视觉读数不一致）。",
+    "图中除「相携」两个汉字外，是否还有其他小字（如落款、题字）。",
+    "两幅图是否各自另有一句话式说明文字，仅靠现有转录无法确认。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2014-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2015-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "手机时代的聚会"
+   ],
+   "scene": "一张圆桌旁坐着四个年轻人聚餐，桌上摆着饭菜，但四人都低头盯着各自的手机，彼此几乎没有交流，食物几乎未动。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "四个围坐桌旁的年轻人",
+     "doing": "各自低头盯着自己的手机，互不交谈，桌上的饭菜未动"
+    }
+   ],
+   "keyObjects": [
+    "圆桌",
+    "饭菜（食物）",
+    "智能手机"
+   ],
+   "theme": "智能手机的过度使用破坏了面对面交流，导致人际疏离，人们应理性对待手机、重视现实中的情感交流。",
+   "themeEvidence": [
+    "The warm face-to-face communication which was taken for granted has been violently ruined by smart phones and become a luxury.",
+    "The smart phone is really the most controversial modern invention, bringing enjoyable relaxation and great convenience on one hand and causing problematic phone addiction and consequent interpersonal isolation on the other hand.",
+    "We should not squander the limited and precious time with friends and relatives on a lifeless machine, Due importance should be attached to the contact in real life."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "图中人物性别/人数易误读：两次视觉转录对人物性别描述不一致（一为两男两女，一为三男一女），范文只笼统说 four friends，未指明性别。",
+    "图中中文标题易被误记为「手机时代的聚会」以外的说法（如「手机时代的聚餐」），需以讲义转述的「手机时代的聚会」为准。",
+    "桌上食物种类细小，难以精确辨认，勿凭想象补全菜品。"
+   ],
+   "conflicts": [
+    "视觉转录对人物性别描述不一致（两男两女 vs 三男一女），范文/讲义均未指明性别，故 people 只写「四个年轻人」。",
+    "讲义 topic 写作「手机时代的聚餐」，而首段练笔转述图中文字为「手机时代的聚会」，captionTexts 采用后者。"
+   ],
+   "needsReview": [
+    "图中人物确切性别与人数分布（视觉两次读数不一致，范文未指明）。",
+    "桌上食物的具体种类。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e1-2015-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2016-b": {
+   "essayType": "picture",
+   "panels": 2,
+   "captionTexts": [
+    "儿子，你给我好好学习！",
+    "与其只提要求，不如做个榜样"
+   ],
+   "scene": "两幅对比漫画。左图：父亲悠闲地坐在沙发上看电视，一边督促儿子好好学习，儿子坐在书桌前却没有行动。右图：父亲和儿子都坐在书桌前专心学习。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "父亲",
+     "doing": "坐在沙发上看电视，同时督促儿子好好学习"
+    },
+    {
+     "panel": 1,
+     "who": "儿子",
+     "doing": "坐在书桌前，没有学习"
+    },
+    {
+     "panel": 2,
+     "who": "父亲",
+     "doing": "坐在书桌前专心学习"
+    },
+    {
+     "panel": 2,
+     "who": "儿子",
+     "doing": "坐在书桌前专心学习"
+    }
+   ],
+   "keyObjects": [
+    "电视机",
+    "沙发",
+    "书桌",
+    "书本"
+   ],
+   "theme": "父母与其只对孩子提要求，不如以身作则，为孩子树立榜样。",
+   "themeEvidence": [
+    "What the above pictures intend to illustrate is that parents can better teach children by example rather than verbal instruction in their daily life.",
+    "与其只提要求，不如做个榜样"
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "左图父亲可能被误读为在玩电脑游戏（slp 参考范文写的是 computer/playing games），但权威范文与视觉转录均为看电视。",
+    "左图儿子可能被误读为在认真学习，实际是未采取行动。",
+    "图中中文标语可能被误读或漏读。"
+   ],
+   "conflicts": [
+    "slp 参考范文称左图父亲坐在电脑前玩游戏（computer, playing games），而 bankEssay/yellowBook 与视觉转录均为看电视（TV set）。"
+   ],
+   "needsReview": [
+    "左图父亲是否抽烟（视觉转录提到香烟，范文未提及）。",
+    "图中是否有时钟等其他物品。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2016-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2017-b": {
+   "essayType": "picture",
+   "panels": 2,
+   "captionTexts": [
+    "我有这么多书！",
+    "我争取今年读完20本书。",
+    "“有书”与“读书”"
+   ],
+   "scene": "两幅漫画左右并置，构成一组对比。左图：室内，一个年轻人双手抱在脑后、惬意地仰躺在一把椅子上，他的面前（身后）是摆满书的书架，书很多，但他手里一本书也没有，神情得意。右图：另一名男子坐在书桌前，桌上只有少量几本书，他正对着打开的书阅读，并给自己定下了今年读20本书的计划，神情认真。画面下方（结尾处）有若干汉字作为题词。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "一个年轻人（男子）",
+     "doing": "双手抱在脑后、仰躺在椅子上，炫耀自己满架的书，得意自满，手里没有书，并不阅读"
+    },
+    {
+     "panel": 2,
+     "who": "另一个年轻人（男子）",
+     "doing": "坐在书桌前低头看书，桌上只有少量书，并下定决心今年读20本书"
+    }
+   ],
+   "keyObjects": [
+    "摆满书的书架",
+    "书",
+    "躺椅",
+    "书桌",
+    "打开的书",
+    "笔",
+    "画面题词“有书”与“读书”"
+   ],
+   "theme": "通过左右两图的鲜明对比，揭示“藏书（拥有书）”与“读书”的区别：书的价值在于被阅读，而非被收藏、摆设或拿来炫耀；拥有大量书籍不等于获得知识，应当踏实地读书。",
+   "themeEvidence": [
+    "Through sharp contrast,the pictures reveal the difference between \"possessing books\" and \"reading books\".",
+    "For some people, books are nothing more than decorations. Their studies are gorgeously decorated and shelves full of books which are used not to read, but to show off or to satisfy their vanity.",
+    "Totally differently,some people, fewer books though they have, regard books as spiritual food and do everything possible to read.",
+    "\"Books are a stepping stone to human progress\", but as books are not equal to knowledge and unread books won't help,we should read a single book carefully instead of merely collecting thousands of books to make progress.",
+    "which say “having(=owing/possessing) books” and “reading books”",
+    "everyone should bear in mind that books should be read and not be boasted."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "左右两图人物可能被误认为同一人（实为两个不同男子，形成对比）",
+    "左图人物未必手持书本：范文/讲义明确“手里一本也没有（with no book in his hands）”，易被背景书架误导为在读书",
+    "右图桌上书本数量少，易被忽略或误读为“满桌书”",
+    "右图人物“今年读20本书”这一数字易漏读、误读（如看成2本或200本）",
+    "画面题词为汉字“有书”与“读书”，易被英文范文的译文（possessing books / reading books）取代而当作原文",
+    "右图中打开的书面上的字迹及桌上文具（笔、笔袋、书包等）细节不清，不可据以推断内容"
+   ],
+   "conflicts": [
+    "范文/讲义以英文引语转述图中人物台词（如 \"What a great number of books I have!\"、Finish reading 20 books this year），图上原文实为中文，范文引语不能当作图上原文字样",
+    "范文（yellowBook/bankEssay）与讲义均未提及画面题词文字，题词“有书”与“读书”仅由讲义（slp）转述与视觉转录同时支持"
+   ],
+   "needsReview": [
+    "右图打开的书面上的具体字迹无法辨认，暂不写入captionTexts",
+    "右图桌面具体书本数量（仅知“少量/几本”）无确切证据",
+    "两图人物的具体身份与年龄，范文称 man、讲义称 youngster，未统一",
+    "左图人物台词“我有这么多书！”仅见视觉转录（两次一致），无讲义或题干佐证，建议单独核对原图文字"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2017-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2018-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "选课进行时",
+    "知识新",
+    "重创新",
+    "有难度",
+    "给分高",
+    "易通过",
+    "作业少",
+    "选课系统"
+   ],
+   "scene": "一名年轻人坐在桌前，面前是一台显示「选课系统」界面的电脑（画面从侧后方观察），屏幕上并列显示两组课程特征：左侧一组为「知识新、重创新、有难度」，右侧一组为「给分高、易通过、作业少」；该学生正在界面两组课程之间权衡、挑选，准备选课。画面中另有若干汉字，意为现在正是选课的时间。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "一名年轻人（大学生）",
+     "doing": "坐在电脑/选课系统前，面对着并列的两组课程特征，正在权衡并挑选自己要选的课程（视觉转录显示其手指着屏幕、神情似在犹豫思考）"
+    }
+   ],
+   "keyObjects": [
+    "笔记本电脑（选课系统界面）",
+    "桌子",
+    "椅子",
+    "屏幕上并列的两组课程特征文字",
+    "选课进行时（汉字提示）"
+   ],
+   "theme": "大学生在选课时避难就易、以「实用」为标准，只看给分高、易通过、作业少的课程，而回避知识新、重创新但有难度的课程；这种功利化的选择与高校选课制度的初衷相违背，阻碍学生构建知识体系与提升个人能力，学生应勇于挑战有难度的课程，学校也应多元评价、改进教学。",
+   "themeEvidence": [
+    "The cartoon reflects a common phenomenon among today's college students, which is actually against the purpose of our course selection system.",
+    "It can be mainly attributed to a social climate which puts too much emphasis on \"utility\".",
+    "However, neither of them is the excuse for students to shrink back from demanding courses and choose easy ones.",
+    "Avoiding demanding courses will prevent them from building knowledge hierarchy and improving personal competence.",
+    "Such a scenario is particularly worth attention for the reason that some students may focus much on the so-called \"ease\", ignoring what they can acquire."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "图中人物易被误读为残疾人（讲义明确提示「非残疾人」，是从侧后方观察的年轻人）。",
+    "屏幕上两组课程特征的左右位置容易颠倒：据讲义与范文，左侧为「知识新、重创新、有难度」，右侧为「给分高、易通过、作业少」，需核对图中实际左右归属。",
+    "「选课进行时」这一汉字提示在两次视觉转录中均未读出，易被漏写或误认成其他文字。",
+    "「知识新、重创新、有难度」内的「重创新」易被误读为「重点新」等，需逐字校对。",
+    "电脑屏幕上内容易被误当作图表题的数据/图例，但本题为图画题，画面文字只是课程特征说明。"
+   ],
+   "conflicts": [
+    "视觉转录（vision.stableTexts）未读出「选课进行时」这行汉字，而 promptTail 结尾与 slp 讲义均明确出现「选课进行时」，应以题干/讲义为准。",
+    "视觉转录只笼统描述为「一个人坐在电脑前，手指着屏幕」，未反映「选课系统」界面与两组课程特征的并列关系；画面描述应以范文/讲义为准。"
+   ],
+   "needsReview": [
+    "「选课系统」四字是否为图中实际印出的界面标题（仅 vision.stableTexts 单次来源提及，范文与讲义未直接引用）。",
+    "两组课程特征文字在画面中的确切位置（左组/右组）与排版顺序。",
+    "「选课进行时」这行字在画面中的具体位置（画面上方、下方或界面内）。",
+    "人物的性别、衣着等外貌细节，以及其手部动作（是否确用手指屏幕）。",
+    "画面中两人格文字之外是否还有其他细小文字（如课程名称、按钮文字）。"
+   ],
+   "evidenceUsed": [
+    "bankEssay",
+    "yellowBook",
+    "slp",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e1-2018-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2020-b": {
+   "essayType": "picture",
+   "panels": 2,
+   "captionTexts": [
+    "尽早完成才放心",
+    "不到最后不动手",
+    "习惯"
+   ],
+   "scene": "两幅漫画左右并置。左图中，一个女孩坐在书桌旁，专注地学习/写作业，脑中想着要尽早完成；右图中，一个男孩悠闲地坐在沙发（或椅子）上，不做功课，告诉自己不到最后不动手。图下方或图中有两个汉字“习惯”。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "女孩",
+     "doing": "坐在书桌旁，专注学习/写作业，想着尽早完成"
+    },
+    {
+     "panel": 2,
+     "who": "男孩",
+     "doing": "悠闲地坐在沙发/椅子上，不做功课，告诉自己不到最后不动手"
+    }
+   ],
+   "keyObjects": [
+    "书桌",
+    "沙发/椅子",
+    "学习用品/作业"
+   ],
+   "theme": "两幅漫画对比了两种截然不同的习惯，强调自律的重要性：自律能让人掌控时间、专注重要之事，保证质量与效率；缺乏自律则容易拖延，最终仓促赶工或错过截止日期，不利于学业进步与职业发展。",
+   "themeEvidence": [
+    "These two cartoons/drawings, apparently/evidently/obviously/clearly/definitely can be associated with two distinct/completely/totally differently habits=attitudes toward(s)learning.",
+    "The two pictures serve as a reminder of the significance of self-discipline, the ability to make ourselves do what we ought to do without being urged by someone else.",
+    "Those who lack self discipline often fail to get their priorities right,easily falling into the bad habit of procrastination.",
+    "In summary, self-discipline brings us lifelong benefits."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "右图男孩的坐具：范文/讲义写“沙发（sofa）”，视觉转录写“椅子（chair）”，易混。",
+    "右图男孩的动作：视觉转录有“双手交叉抱胸”“双手抱头”两种，均与范文“resting his back against a chair lazily”不完全一致，易误读。",
+    "图中汉字“习惯”的位置与数量：讲义称“最后，两个汉字能被注意到”，但视觉转录未给出位置，易漏看或误置。",
+    "左图女孩脑中文字“尽早完成才放心”与右图男孩口中文字“不到最后不动手”易被混淆或错配。"
+   ],
+   "conflicts": [
+    "右图男孩的坐具：范文/讲义为“沙发（sofa）”，vision.runs 为“椅子（chair）”。",
+    "右图男孩的动作：范文为“resting his back against a chair lazily”，vision.runs 为“双手交叉抱胸”或“双手抱头”。"
+   ],
+   "needsReview": [
+    "右图男孩究竟坐在沙发还是椅子上，需以题图原图为准。",
+    "右图男孩的具体动作（靠坐、抱胸、抱头等）需以题图原图为准。",
+    "图中汉字“习惯”的确切位置（图下方还是图中）需以题图原图为准。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2020-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2021-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "爸爸，很多同学觉得学唱戏不好玩。",
+    "你自己不是喜欢吗？那就足够了。"
+   ],
+   "scene": "纯白背景的漫画中，一个穿着美猴王戏服、头戴戏曲头饰、背着棍状道具的小男孩抬头看着身旁的父亲，正在向父亲倾诉；父亲穿着衬衫和长裤，一手插兜、一手抬起做手势，低头温和地回应他。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "小男孩",
+     "doing": "穿着美猴王戏服、头戴戏曲头饰、背着棍状道具，抬头看着父亲，抱怨说很多同学觉得学唱戏不好玩"
+    },
+    {
+     "panel": 1,
+     "who": "父亲",
+     "doing": "穿着衬衫和长裤，一手插兜、一手抬起做手势，低头温和地鼓励儿子，说他自己喜欢就足够了"
+    }
+   ],
+   "keyObjects": [
+    "美猴王戏服",
+    "戏曲头饰",
+    "棍状道具",
+    "对话气泡"
+   ],
+   "theme": "鼓励人们不顾他人看法，坚持追求自己真正热爱的事物与梦想。",
+   "themeEvidence": [
+    "The picture is aimed at inspiring us to chase our passions and dreams regardless of what others may say.",
+    "Instead of giving in to pressure to follow the herd, we should be determined and courageous to stick to what we feel enthusiastic about.",
+    "The father's encouragement, apparently, can be associated to the significance of sticking to one's dream."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "小男孩的戏服容易被误认为普通古装或孙悟空服装，实际是传统戏曲（美猴王）戏服",
+    "图中文字为中文对话，容易被范文的英文译文替代而误当作图上原文",
+    "父亲的手势（一手插兜、一手抬起）容易被误读为其他动作",
+    "小男孩的表情（困惑/失望）在不同转录中描述不一，需注意"
+   ],
+   "conflicts": [
+    "slp 讲义将小男孩的台词转述为“爸爸，好多同学觉得学唱戏不好玩”，vision.stableTexts 为“爸爸，很多同学觉得学唱戏不好玩。”，措辞略有差异",
+    "slp 讲义将父亲台词转述为“你不是自己喜欢吗？那就足够了？”，vision.stableTexts 为“你自己不是喜欢吗？那就足够了。”，标点与措辞略有差异",
+    "slp 参考范文中小男孩台词为“I want to learn the traditional opera, but my friend told me that it is boring.”，与讲义首段练笔及视觉转录的台词内容不一致"
+   ],
+   "needsReview": [
+    "小男孩的表情（困惑/失望）在 slp 首段练笔与 vision 转录中描述不完全一致，建议核对原图",
+    "图中对话气泡的完整文字以 vision.stableTexts 为准，但个别字词（如“很多/好多”）仍需以原图最终确认"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2021-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2022-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "校园讲座",
+    "不是我们专业的，听了也没多大用。",
+    "去听听肯定有好处。"
+   ],
+   "scene": "两名女生站在校园公告栏（讲座海报）前交谈，左侧女生对即将举行的讲座持否定态度，右侧短发女生则持肯定态度。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "左侧女生（长发，戴帽）",
+     "doing": "站在公告栏旁，面向右侧女生说话，认为讲座与专业无关、听了没用"
+    },
+    {
+     "panel": 1,
+     "who": "右侧女生（短发）",
+     "doing": "站在左侧女生对面，面带微笑，认为去听讲座肯定有好处"
+    }
+   ],
+   "keyObjects": [
+    "校园公告栏/讲座海报",
+    "对话气泡"
+   ],
+   "theme": "鼓励我们广泛涉猎不同学科的知识，打破专业壁垒，兼顾知识的广度与深度，以更开阔的视野和跨学科背景应对竞争激烈且不断变化的就业市场。",
+   "themeEvidence": [
+    "The picture is intended to encourage us to acquire knowledge from a wide range of disciplines.",
+    "all-around self-improvement requires us to proactively break down the barriers between our chosen field of study.",
+    "we should place weight on the breadth as well as depth of knowledge."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "左侧女生是否戴帽、发型细节两次视觉转录不完全一致（长发戴帽 vs 长发戴帽人物），易误判人物特征",
+    "背景海报上的正文内容以灰色线条示意，无具体文字，易被误读为有实际文字",
+    "图中中文原文与范文英译表述存在差异，易把范文英译当作图上原文",
+    "两名女生左右位置与各自观点易混淆（左侧否定、右侧肯定）"
+   ],
+   "conflicts": [
+    "范文（yellowBook/bankEssay）将左侧女生观点表述为 dismisses the lecture as nearly worthless because it has nothing to do with their major，与讲义转述的中文原文“不是我们专业的，听了也没多大用。”意思一致，但范文为英译，不能作为图上原文。",
+    "讲义首段练笔中右侧女生台词为“听听肯定有好处。”，而讲义 reference 中写作“It is definitely good to learn something!”，与 stableTexts 的“去听听肯定有好处。”略有出入，以 stableTexts 为准。"
+   ],
+   "needsReview": [
+    "左侧女生是否戴帽、具体发型等人物外貌细节",
+    "背景海报/公告栏上是否有可辨识的具体文字"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2022-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2023-b": {
+   "essayType": "picture",
+   "panels": 1,
+   "captionTexts": [
+    "真好啊，咱们村的龙舟赛越来越热闹了！"
+   ],
+   "scene": "户外河边正在举行龙舟赛，背景有山峦和石桥/城墙，两岸及桥上有许多观众观看，前景有一对老年夫妇在交谈。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "老爷爷",
+     "doing": "拄着拐杖，转头与老奶奶交谈"
+    },
+    {
+     "panel": 1,
+     "who": "老奶奶",
+     "doing": "面带微笑，与老爷爷交谈"
+    },
+    {
+     "panel": 1,
+     "who": "龙舟划手",
+     "doing": "分两队奋力划桨"
+    },
+    {
+     "panel": 1,
+     "who": "桥上及岸边的观众",
+     "doing": "观看比赛并欢呼"
+    }
+   ],
+   "keyObjects": [
+    "龙舟",
+    "船桨",
+    "拐杖",
+    "石桥/城墙",
+    "远山"
+   ],
+   "theme": "公众对中国传统文化与习俗的浓厚兴趣；乡村文化活动既带来欢乐、加深对历史文化的了解，也有助于乡村振兴与传统文化传承。",
+   "themeEvidence": [
+    "The picture demonstrates the public's great interest in traditional Chinese culture and customs.",
+    "Nowadays, many Chinese people participate in various cultural activities either during special festivals or in daily life, from which they not only derive pleasure but also acquire deeper knowledge about their own history and culture.",
+    "Moreover, these activities help provide further impetus for rural revitalization.",
+    "In summary, holding cultural events in the countryside is a commendable and sustainable way both to keep time-honored cultural traditions alive and to facilitate rural development."
+   ],
+   "chart": {
+    "type": null,
+    "title": "",
+    "unit": "",
+    "points": []
+   },
+   "misreadRisks": [
+    "前景两位老人中谁说话易混淆：范文/讲义均指向老奶奶（elderly lady / grandma）说话，老爷爷（spouse / grandpa）为听者。",
+    "图中文字为中文，范文中的英文引语为译文，不能当作图上原文。",
+    "背景高处人群与桥上观众易混，可能被误认为同一处。",
+    "龙舟队伍数量：范文称 two teams，视觉转录未明确队数，需注意。"
+   ],
+   "conflicts": [
+    "范文/讲义称说话者为老奶奶（elderly lady / grandma），而 vision.runs 中一次转录称老爷爷说话、老奶奶听，另一次称老爷爷与老奶奶说话；以范文/讲义为准。",
+    "范文称有两队龙舟划手（two teams），视觉转录未明确队数。"
+   ],
+   "needsReview": [
+    "图中是否明确显示两队龙舟，视觉证据不足。",
+    "背景高处人群是否举旗等细节，两次视觉转录不完全一致。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2023-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2024-b": {
+   "essayType": "hybrid",
+   "panels": 2,
+   "captionTexts": [
+    "市民健身区",
+    "家门口新建的小公园真不错！",
+    "某市近三年公园数量",
+    "2020年",
+    "2021年",
+    "2022年",
+    "406",
+    "532",
+    "670"
+   ],
+   "scene": "左图为公园健身区场景：步道旁有树木、路灯和横幅，几位居民在步道上活动，有人散步、有人跑步，其中一人面带微笑开口说话，旁边有对话气泡；右图为柱状统计图，展示某市近三年公园数量的变化。",
+   "people": [
+    {
+     "panel": 1,
+     "who": "一对年轻夫妇",
+     "doing": "在公园里散步"
+    },
+    {
+     "panel": 1,
+     "who": "两个孩子",
+     "doing": "在公园里跑步"
+    },
+    {
+     "panel": 1,
+     "who": "一位居民",
+     "doing": "看到这一场景后说“家门口新建的小公园真不错！”"
+    }
+   ],
+   "keyObjects": [
+    "公园步道",
+    "树木",
+    "路灯",
+    "横幅",
+    "对话气泡",
+    "柱状统计图"
+   ],
+   "theme": "公园对人们日常生活和城市都很重要，能让人感到快乐、亲近自然、锻炼身体，从而提升生活质量。",
+   "themeEvidence": [
+    "The picture indicates that parks can make people feel happy.",
+    "Parks are of great importance to cities.",
+    "When more parks are built, people will have more opportunities to connect with nature and engage in physical activities.",
+    "To conclude, parks are very important, because they help increase people's quality of life."
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "某市近三年公园数量",
+    "unit": "座",
+    "points": [
+     {
+      "label": "2020年",
+      "value": "406"
+     },
+     {
+      "label": "2021年",
+      "value": "532"
+     },
+     {
+      "label": "2022年",
+      "value": "670"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "左图人物数量与身份易误读：范文只提到一对年轻夫妇散步、两个孩子跑步、一位居民说话，视觉转录中人物数量与动作不完全一致。",
+    "图中细小文字“市民健身区”“家门口新建的小公园真不错！”易漏读或错读。",
+    "右图2021年数据532在范文和讲义中均未出现，仅来自视觉转录，存在误读风险。",
+    "右图单位“（单位：座）”在视觉转录中不稳定，需核对原图。",
+    "左图横幅文字可能被误读为其他标语。"
+   ],
+   "conflicts": [
+    "范文/讲义只提到一对年轻夫妇散步、两个孩子跑步、一位居民说话；视觉转录则识别出更多人物（如右下角短发人物、左侧短发人物、中间短发人物、右侧扎马尾人物），人物数量与身份存在冲突。",
+    "范文/讲义未提及2021年数据532，视觉转录显示2021年为532，需以原图为准。"
+   ],
+   "needsReview": [
+    "右图2021年数据532是否准确，范文和讲义均未提及，仅视觉转录一致。",
+    "右图单位“（单位：座）”是否印在原图上，视觉转录不稳定。",
+    "左图人物具体数量、身份与动作细节，范文与视觉转录不完全一致。",
+    "左图横幅上的文字内容。",
+    "图中原文「（单位：座）」在证据中找不到出处，未采信"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e1-2024-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e1-2025-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "年份",
+    "空调（台）",
+    "洗衣机（台）",
+    "电冰箱（台）",
+    "近年来全国居民平均每百户年末主要耐用消费品拥有量"
+   ],
+   "scene": "一张统计表格，标题为“近年来全国居民平均每百户年末主要耐用消费品拥有量”，表头列出年份以及空调（台）、洗衣机（台）、电冰箱（台）三项指标，表中给出2014、2017、2020、2023四个年份对应的数值。",
+   "people": [],
+   "keyObjects": [
+    "统计表格",
+    "年份",
+    "空调（台）",
+    "洗衣机（台）",
+    "电冰箱（台）"
+   ],
+   "theme": "",
+   "themeEvidence": [],
+   "chart": {
+    "type": "table",
+    "title": "近年来全国居民平均每百户年末主要耐用消费品拥有量",
+    "unit": "台",
+    "points": [
+     {
+      "label": "2014年空调",
+      "value": "75.2台"
+     },
+     {
+      "label": "2014年洗衣机",
+      "value": "83.7台"
+     },
+     {
+      "label": "2014年电冰箱",
+      "value": "85.5台"
+     },
+     {
+      "label": "2017年空调",
+      "value": "96.1台"
+     },
+     {
+      "label": "2017年洗衣机",
+      "value": "91.7台"
+     },
+     {
+      "label": "2017年电冰箱",
+      "value": "95.3台"
+     },
+     {
+      "label": "2020年空调",
+      "value": "117.7台"
+     },
+     {
+      "label": "2020年洗衣机",
+      "value": "96.7台"
+     },
+     {
+      "label": "2020年电冰箱",
+      "value": "101.8台"
+     },
+     {
+      "label": "2023年空调",
+      "value": "145.9台"
+     },
+     {
+      "label": "2023年洗衣机",
+      "value": "98.2台"
+     },
+     {
+      "label": "2023年电冰箱",
+      "value": "103.4台"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "表格中三列指标顺序易混：空调、洗衣机、电冰箱，数值需按列对应，避免张冠李戴。",
+    "年份为2014、2017、2020、2023，间隔不均，易误读为连续年份。",
+    "数值含小数，易漏小数点或错位（如75.2与752）。",
+    "单位“台”为每百户拥有量，易误读为总量。"
+   ],
+   "conflicts": [],
+   "needsReview": [
+    "theme（寓意）缺少范文/讲义解读句支撑，无法确定。",
+    "essayType 依据题干与视觉证据判定为 chart，但缺少范文/讲义佐证。"
+   ],
+   "evidenceUsed": [
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e1-2025-b",
+   "status": "verified-by-prompt",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": false,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e2-2011-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "2008、2009年国内轿车市场部分品牌市场份额示意图",
+    "国产品牌",
+    "日系品牌",
+    "美系品牌",
+    "2008年",
+    "2009年",
+    "0%",
+    "5%",
+    "10%",
+    "15%",
+    "20%",
+    "25%",
+    "30%",
+    "35%",
+    "40%"
+   ],
+   "scene": "一张柱状图，标题为“2008、2009年国内轿车市场部分品牌市场份额示意图”。横轴为2008年与2009年两个年份，纵轴为百分比刻度（0%至40%）。图例区分国产品牌、日系品牌、美系品牌三类，分别以不同柱形显示各年份的市场份额。",
+   "people": [],
+   "keyObjects": [
+    "柱状图",
+    "横轴（2008年、2009年）",
+    "纵轴（百分比刻度）",
+    "图例（国产品牌、日系品牌、美系品牌）"
+   ],
+   "theme": "中国轿车市场仍由日系、国产和美系品牌主导；美系车市场份额略有上升，仍居第三；日系与国产品牌的市场份额发生了明显变化。",
+   "themeEvidence": [
+    "China's auto market was still dominated by Japanese, Chinese and American brands.",
+    "American cars remained the third most popular in the market with a slight increase in market share.",
+    "A noticeable change occurred in Japanese and Chinese brands."
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "2008、2009年国内轿车市场部分品牌市场份额示意图",
+    "unit": "%",
+    "points": [
+     {
+      "label": "2008年 国产品牌",
+      "value": "约26%"
+     },
+     {
+      "label": "2008年 日系品牌",
+      "value": "35%"
+     },
+     {
+      "label": "2008年 美系品牌",
+      "value": "约11%"
+     },
+     {
+      "label": "2009年 国产品牌",
+      "value": "约31%"
+     },
+     {
+      "label": "2009年 日系品牌",
+      "value": "约26%"
+     },
+     {
+      "label": "2009年 美系品牌",
+      "value": "约12%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "国产品牌与日系品牌在2008年和2009年的数值容易互换（2008年日系最高，2009年国产品牌最高）。",
+    "美系品牌数值较小，约11%与约12%容易混淆。",
+    "纵轴刻度为5%一档，柱顶未必正好落在刻度线上，读数可能偏差1%左右。",
+    "图例中三个品牌的排列顺序与柱形分组顺序需对应，避免张冠李戴。"
+   ],
+   "conflicts": [],
+   "needsReview": [
+    "2008年国产品牌、2008年美系品牌、2009年国产品牌、2009年日系品牌、2009年美系品牌的具体数值均来自两次视觉读数一致，但范文未给出具体数字，建议以真题原图最终核对。",
+    "2008年日系品牌35%为两次视觉读数一致，但同样缺少范文或题干数值佐证。"
+   ],
+   "evidenceUsed": [
+    "bankEssay",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2011-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": true,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e2-2012-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "某公司员工工作满意度调查",
+    "满意度",
+    "年龄组",
+    "满意",
+    "不清楚",
+    "不满意",
+    "≤ 40 岁",
+    "41—50 岁",
+    "> 50 岁"
+   ],
+   "scene": "一张标题为「某公司员工工作满意度调查」的数据表格：纵向按年龄分为「≤ 40 岁」「41—50 岁」「> 50 岁」三个年龄组，横向按满意度分为「满意」「不清楚」「不满意」三栏，单元格内填有对应百分比的调查数据（如≤40岁：满意16.7%、不清楚50.0%、不满意33.3%；41—50岁：0.0%、36.0%、64.0%；>50岁：40.0%、50.0%、10.0%）。",
+   "people": [],
+   "keyObjects": [
+    "标题为「某公司员工工作满意度调查」的数据表格",
+    "「满意」「不清楚」「不满意」三栏满意度分类",
+    "「≤ 40 岁」「41—50 岁」「> 50 岁」三个年龄组",
+    "各单元格中的百分比数值"
+   ],
+   "theme": "不同年龄段员工的工作满意度差异显著：41—50岁员工最不满意（无人表示满意、64%不满意），50岁以上员工最满意（40%满意），40岁及以下者居中；这种差异与各年龄段的职业处境有关，而获得持久的工作幸福感需要积极的心态。",
+   "themeEvidence": [
+    "There is a significant difference in job satisfaction by employee age.",
+    "The difference relates to their career situation. Employees at the age from 41 to 50, less energetic than younger crowd and less competent than older professionals, reach a career plateau.",
+    "Employees above 50 years old were most likely to report satisfaction, with 40% of them indicating they were content.",
+    "Employees in the 41-to-50 age group were surely unhappiest: none of them felt satisfied and the percentage of respondents reporting dissatisfaction was as high as 64%.",
+    "It is clear that career troubles will afflict people at all ages. For lasting happiness with our jobs, positive attitude is necessary."
+   ],
+   "chart": {
+    "type": "table",
+    "title": "某公司员工工作满意度调查",
+    "unit": "%",
+    "points": [
+     {
+      "label": "≤ 40 岁-满意",
+      "value": "16.7%"
+     },
+     {
+      "label": "≤ 40 岁-不清楚",
+      "value": "50.0%"
+     },
+     {
+      "label": "≤ 40 岁-不满意",
+      "value": "33.3%"
+     },
+     {
+      "label": "41—50 岁-满意",
+      "value": "0.0%"
+     },
+     {
+      "label": "41—50 岁-不清楚",
+      "value": "36.0%"
+     },
+     {
+      "label": "41—50 岁-不满意",
+      "value": "64.0%"
+     },
+     {
+      "label": "> 50 岁-满意",
+      "value": "40.0%"
+     },
+     {
+      "label": "> 50 岁-不清楚",
+      "value": "50.0%"
+     },
+     {
+      "label": "> 50 岁-不满意",
+      "value": "10.0%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "表格为「满意度×年龄组」交叉表，行列极易读反，须确认横栏是「满意/不清楚/不满意」、纵栏是三个年龄组。",
+    "≤ 40 岁组的「满意16.7%」与「不满意33.3%」数值接近，易互换或误写为3.3%。",
+    "41—50 岁组的「满意0.0%」易被误当成数据缺失或未填，实为零满意率。",
+    "「不清楚」栏在≤ 40 岁组与> 50 岁组均为50.0%，两个相同数值易张冠李戴。",
+    "年龄分段的断点易混：第二组是「41—50 岁」而非「40—50 岁」，第三组是「> 50 岁」而非「≥ 50 岁」。",
+    "百分比数值的百分号与一位小数（如16.7%、64.0%）易被漏写或写成整数。",
+    "扫描页上带有「英语（二）大小作文合集 -3-」「公众号：英语外刊精读笔记」等水印/页眉文字，不属于题图内容，切勿当作图表文字抄入。"
+   ],
+   "conflicts": [
+    "vision.stableTexts 中收录了「英语（二）大小作文合集 -3- 【公众号：英语外刊精读笔记】」「公众号：英语外刊精读笔记」，属页面水印/页眉，非题图内容，未计入 captionTexts。",
+    "视觉转录中第二个 run 的部分数值省略了百分号（如\"16.7\"），与题干、范文及第一个 run 的带「%」读数不一致，按带百分号处理。"
+   ],
+   "needsReview": [
+    "表格首行/首列的表头排版细节（「满意度」是否为横栏总表头、「年龄组」是否为纵栏总表头）两次视觉转录一致，但版式位置无法从文本层确认。",
+    "题图是否存在图号、出处或数据来源等附加说明文字，现有证据中未见。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2012-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e2-2013-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "某高校学生兼职情况",
+    "百分比（%）",
+    "大一",
+    "大二",
+    "大三",
+    "大四"
+   ],
+   "scene": "一张白底柱状图，标题为“某高校学生兼职情况”，纵轴为百分比（%），横轴为大一至大四四个年级，四根柱子分别显示各年级学生兼职比例，数值逐年上升，大四增幅最大。",
+   "people": [],
+   "keyObjects": [
+    "柱状图",
+    "纵轴百分比刻度",
+    "横轴年级标签",
+    "四根数据柱"
+   ],
+   "theme": "高校学生兼职比例逐年上升，大四增幅最大；学生兼职意愿增强主要源于积累实践经验为职业做准备，其次是为获取收入，但需注意平衡兼职与学业。",
+   "themeEvidence": [
+    "The rate of college students taking part-time jobs during school time rises annually from 67.77% in the first year to 88.24% in the final year.",
+    "The biggest increase occurs in the graduation year, with the rate 16% higher than a year ago.",
+    "College students will become increasingly willing to work part-time mainly because of the growing wish to gain practical experience to prepare for their later careers.",
+    "Another motive is obviously the money.",
+    "However, the risk of erosion of study time should be also considered."
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "某高校学生兼职情况",
+    "unit": "%",
+    "points": [
+     {
+      "label": "大一",
+      "value": "67.77%"
+     },
+     {
+      "label": "大二",
+      "value": "71.13%"
+     },
+     {
+      "label": "大三",
+      "value": "71.93%"
+     },
+     {
+      "label": "大四",
+      "value": "88.24%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "纵轴刻度密集（0-100，每10一格），易把柱高读错",
+    "大二71.13%与大三71.93%数值接近，易混淆",
+    "大四88.24%与大一67.77%差距大，易误读为其他数值",
+    "图中可能含公众号水印文字，易被误当作图表标题或图例"
+   ],
+   "conflicts": [],
+   "needsReview": [
+    "图中是否印有“某高校学生兼职情况”以外的副标题或图例说明，视觉未稳定读出",
+    "大四相对大三的增幅，范文称“16% higher”，按数值计算约为16.31个百分点，表述口径需确认"
+   ],
+   "evidenceUsed": [
+    "bankEssay",
+    "yellowBook",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2013-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e2-2014-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "20年间中国城镇人口、乡村人口变化图",
+    "单位（百万）",
+    "1990年",
+    "2000年",
+    "2010年",
+    "城镇人口",
+    "乡村人口"
+   ],
+   "scene": "一幅柱状图（纵轴为人口数，单位：百万），横轴为1990年、2000年、2010年三个年份，每个年份下并排立着两根柱子，分别代表城镇人口（城市居民）与乡村人口（农村居民），图例标注“城镇人口”“乡村人口”，图上方标题为“20年间中国城镇人口、乡村人口变化图”，纵轴标注“单位（百万）”。图中无人物。",
+   "people": [],
+   "keyObjects": [
+    "柱状图",
+    "横轴（1990年、2000年、2010年）",
+    "纵轴（人口数，单位：百万）",
+    "图例：城镇人口／乡村人口",
+    "每个年份并列的两根柱子"
+   ],
+   "theme": "20年间中国人口分布发生显著变化：城镇人口大幅增长、乡村人口明显下降，城乡人口差距缩小，其背后是城镇化推进与城乡经济机会不均等共同作用的结果，大量农村人口（主动或被动）转为城市居民。",
+   "themeEvidence": [
+    "From 1990 to 2010 while moderate increase occurred in total population in China, population distribution experienced a dramatic shift.",
+    "Urban population increased considerably from 300 million to 670 million; contrastingly rural population declined from 820 million to 680 million.",
+    "The population gap narrowed largely because of the joint effects of urbanization and unequal economic opportunities.",
+    "The 20 years' urban sprawl caused millions of peasants to be passively transformed into city residents.",
+    "Many more peasants initiatively chose to leave their hometown.",
+    "Such statistics can be associated with the rapid urbanization of China"
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "20年间中国城镇人口、乡村人口变化图",
+    "unit": "百万",
+    "points": [
+     {
+      "label": "1990年 城镇人口",
+      "value": "300百万（范文：300 million）"
+     },
+     {
+      "label": "1990年 乡村人口",
+      "value": "820百万（范文：820 million；视觉读数为830，讲义练笔为834）"
+     },
+     {
+      "label": "2000年 城镇人口",
+      "value": "460百万（仅视觉读数，两次读数一致）"
+     },
+     {
+      "label": "2000年 乡村人口",
+      "value": "810百万（仅视觉读数，两次读数一致）"
+     },
+     {
+      "label": "2010年 城镇人口",
+      "value": "670百万（范文：670 million；讲义为666 million）"
+     },
+     {
+      "label": "2010年 乡村人口",
+      "value": "680百万（范文：680 million；讲义另有674／660 million）"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "1990年乡村人口数值易混：范文作820 million，视觉两次读到830，讲义练笔作834 million。",
+    "2010年乡村人口数值易混：范文作680 million，视觉读到680，讲义却出现674 million与660 million。",
+    "2010年城镇人口数值易混：范文作670 million，讲义作666 million。",
+    "单位是“百万”而非“亿”，图中数值如830即8.3亿，换算时最易出错。",
+    "镇/乡人口在柱状图中分列同一年份的左右两柱，看图时容易把两组柱子的归属年份弄反。",
+    "2000年的两组数据只在视觉转录中出现，范文与讲义都未提及，容易被忽略或漏记。",
+    "图上存在与题目无关的水印文字（如“公众号：英语外刊精读笔记”“英语（二）大小作文合集”），易被误当作图内标题或图注。"
+   ],
+   "conflicts": [
+    "1990年乡村人口：范文/黄皮书作820 million，slp练笔作834 million，视觉两次读到830——按规则以范文为准取820。",
+    "2010年乡村人口：范文/黄皮书作680 million，视觉读到680，而slp参考范文作660 million、slp练笔作674 million。",
+    "2010年城镇人口：范文/黄皮书作670 million，slp练笔与参考范文作666 million／“a little more than 660”。",
+    "2000年数据（城镇460、乡村810）仅见于视觉转录，未在范文、题干、讲义中出现。"
+   ],
+   "needsReview": [
+    "1990年与2010年乡村人口的图上确切数值（820／830／834 与 680／674／660 需回原图核验）。",
+    "2010年城镇人口的图上确切数值（670 与 666 需核验）。",
+    "2000年两组数值（城镇460、乡村810）缺少范文/题干/讲义佐证，仅两次视觉读数一致，建议复核。",
+    "图中两类柱子各自的颜色或填充样式（本证据未涉及）。",
+    "图上是否还有其他图注或数字刻度说明未被转录。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2014-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2015-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "我国某市居民春节假期花销比例",
+    "新年礼物 40%",
+    "交通 20%",
+    "聚会吃饭 20%",
+    "其他 20%"
+   ],
+   "scene": "画面为一张饼状图（无人物、无背景场景），标题为“我国某市居民春节假期花销比例”，图中把春节假期花销分为四块：新年礼物占比最大，为40%；交通、聚会吃饭、其他三项各占20%。",
+   "people": [],
+   "keyObjects": [
+    "饼状图",
+    "标题“我国某市居民春节假期花销比例”",
+    "四块扇形及其标注（新年礼物40%、交通20%、聚会吃饭20%、其他20%）"
+   ],
+   "theme": "春节期间的钱主要花在人情往来与团聚上（送礼、聚餐、出行），体现出春节作为家人团聚的传统节日、人们重视维系人际关系的文化心理；同时也应理性消费，不盲目攀比挥霍。",
+   "themeEvidence": [
+    "Most spending is used to maintain or facilitate interpersonal relationship.",
+    "This finding is not strange, since the Spring Festival is a Chinese traditional festival for family reunion.",
+    "Developing relationship is beneficial and necessary for a person's fulfillment and investing on people we love is sweet and happy.",
+    "Therefore, we should think rationally before opening our purses. We should remember it is happiness that is the main concern."
+   ],
+   "chart": {
+    "type": "pie",
+    "title": "我国某市居民春节假期花销比例",
+    "unit": "%",
+    "points": [
+     {
+      "label": "新年礼物",
+      "value": "40%"
+     },
+     {
+      "label": "交通",
+      "value": "20%"
+     },
+     {
+      "label": "聚会吃饭",
+      "value": "20%"
+     },
+     {
+      "label": "其他",
+      "value": "20%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "第二大类标签易被看成“旅游”，两次视觉转录均读作“交通”，而范文译作 traveling，两者易混。",
+    "“其他”20%占比无细分说明，易被误当作某一具体消费类别。",
+    "三项均为20%，易相互错位或与40%的新年礼物混淆。",
+    "标题中的“某市”易被忽略，误写成全国居民整体花销。",
+    "饼图无人物、无场景，容易误判为图画作文而虚构人物动作。"
+   ],
+   "conflicts": [
+    "范文/权威参考书把三个主要用途表述为 traveling, New Year's gift giving 和 having dinners with friends or relatives，而两次视觉转录的图中标签为“交通/新年礼物/聚会吃饭”，traveling（旅游）与“交通”不一致。",
+    "范文/参考书只提到三类合计占80%，未提及第四类“其他”20%，也未提及标题中的“某市”限定。"
+   ],
+   "needsReview": [
+    "图中第二块扇形标签究竟是“交通”还是“旅游”，需第三次视觉核对原图。",
+    "标题是否为完整的“我国某市居民春节假期花销比例”，有无其他副标题或年份字样。",
+    "“其他”20%是否在图上另有细分标注或图例说明。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "vision"
+   ],
+   "examId": "e2-2015-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": false,
+    "vision": true
+   }
+  },
+  "e2-2016-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "某高校学生旅游目的调查",
+    "欣赏风景, 37%",
+    "缓解压力, 33%",
+    "广交朋友, 9%",
+    "培养独立能力, 6%",
+    "其他, 15%"
+   ],
+   "scene": "一张饼状图，标题为“某高校学生旅游目的调查”，展示某高校学生旅游目的的比例分布：欣赏风景占37%，缓解压力占33%，广交朋友占9%，培养独立能力占6%，其他占15%。",
+   "people": [],
+   "keyObjects": [
+    "饼状图"
+   ],
+   "theme": "大学生旅游的主要目的是欣赏风景和缓解压力，同时也有交友与培养独立性等诉求；旅游能让人放松身心、接触外部世界，但学生也应赋予旅行更深层的意义。",
+   "themeEvidence": [
+    "The survey reveals that most students go on a journey to enjoy the view as well as to unwind and recharge.",
+    "In my opinion, though it's natural for college students to seek fun and enjoyment, they should attach deeper meaning to travelling."
+   ],
+   "chart": {
+    "type": "pie",
+    "title": "某高校学生旅游目的调查",
+    "unit": "%",
+    "points": [
+     {
+      "label": "欣赏风景",
+      "value": "37%"
+     },
+     {
+      "label": "缓解压力",
+      "value": "33%"
+     },
+     {
+      "label": "广交朋友",
+      "value": "9%"
+     },
+     {
+      "label": "培养独立能力",
+      "value": "6%"
+     },
+     {
+      "label": "其他",
+      "value": "15%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "“广交朋友”与“培养独立能力”两项比例接近（9%与6%），易互换或误读。",
+    "“其他”项占15%，容易被忽略或误记为更小比例。",
+    "“欣赏风景”与“缓解压力”两项比例接近（37%与33%），易混淆。",
+    "图中文字为中文，范文中的英文表述（如 making more friends、fostering greater independence）为译文，不能当作图上原文。"
+   ],
+   "conflicts": [],
+   "needsReview": [],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e2-2016-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2017-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "2013—2015 我国博物馆数量和参观人数",
+    "博物馆数量（家）",
+    "参观人数（十万人次）",
+    "2013 年",
+    "2014 年",
+    "2015 年"
+   ],
+   "scene": "一张折线统计图，标题为“2013—2015 我国博物馆数量和参观人数”。横轴为年份（2013年、2014年、2015年），纵轴为数值刻度（0至10000）。图中有两条折线：一条表示博物馆数量（单位：家），另一条表示参观人数（单位：十万人次）。两条折线均呈上升趋势。",
+   "people": [],
+   "keyObjects": [
+    "折线图",
+    "横轴年份",
+    "纵轴刻度",
+    "两条折线",
+    "数据点标记"
+   ],
+   "theme": "中国博物馆数量与参观人数连年增长，反映文化事业发展与公众精神文化需求提升，同时也带来供给与多样化需求方面的挑战。",
+   "themeEvidence": [
+    "The given chart reveals China's consecutive growth of museums and museum visitors from 2013 to 2015.",
+    "thanks to national endeavor at cultural undertakings, numerous museums have been constructed and opened freely to the public.",
+    "With living-standard improving, the public demand increasingly varied spiritual nutrition, thus visiting museums and galleries has become a willing choice for more people.",
+    "this encouraging sign also presents challenges, like how to address the supply deficiency posed by decelerated growth of museum and people's increasingly diverse need for exhibitions."
+   ],
+   "chart": {
+    "type": "line",
+    "title": "2013—2015 我国博物馆数量和参观人数",
+    "unit": "家 / 十万人次",
+    "points": [
+     {
+      "label": "2013年 博物馆数量",
+      "value": "4165 家"
+     },
+     {
+      "label": "2014年 博物馆数量",
+      "value": "4510 家"
+     },
+     {
+      "label": "2015年 博物馆数量",
+      "value": "4692 家"
+     },
+     {
+      "label": "2013年 参观人数",
+      "value": "6378 十万人次"
+     },
+     {
+      "label": "2014年 参观人数",
+      "value": "7177 十万人次"
+     },
+     {
+      "label": "2015年 参观人数",
+      "value": "7811 十万人次"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "参观人数单位是“十万人次”，易误读为“人次”或“百万人次”。",
+    "博物馆数量与参观人数两条折线数值量级不同，易混淆对应关系。",
+    "2014年博物馆数量增速放缓，易误读为下降。",
+    "图中数据点标记形状（三角形、正方形）易被忽略，影响区分两条折线。"
+   ],
+   "conflicts": [
+    "slp讲义将参观人数数值表述为“637.8 million”“781.1 million”，与图中单位“十万人次”及视觉读数6378、7811不一致；按图中单位“十万人次”理解，6378十万人次即637.8百万人次，数值本身一致，但单位表述不同。"
+   ],
+   "needsReview": [
+    "2014年参观人数视觉读数为7177，slp讲义未给出该年具体数值，需确认是否准确。",
+    "图中两条折线的具体图例标识（哪条对应博物馆数量、哪条对应参观人数）需结合图例进一步确认。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2017-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2018-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "2017年某市消费者选择餐厅时的关注因素",
+    "特色 36.3%",
+    "服务 27.4%",
+    "环境 24.3%",
+    "价格 7.3%",
+    "其他 4.7%"
+   ],
+   "scene": "一张饼状图，标题为“2017年某市消费者选择餐厅时的关注因素”，展示2017年某市消费者选择餐厅时考虑的各因素占比：特色36.3%、服务27.4%、环境24.3%、价格7.3%、其他4.7%。",
+   "people": [],
+   "keyObjects": [
+    "饼状图",
+    "标题“2017年某市消费者选择餐厅时的关注因素”",
+    "各因素占比标签"
+   ],
+   "theme": "随着经济发展和人均可支配收入提高，消费者外出就餐时更看重餐厅特色、服务和环境等带来高品质享受的因素，而不再把价格作为首要考虑；餐饮消费升级趋势将持续，餐饮企业应把握消费者真正需求、提升综合竞争力。",
+   "themeEvidence": [
+    "What the statistics reflect is closely related to our economic development.",
+    "as per capita disposable income has risen, more and more people can afford to dine out, and it is natural that they care more about factors offering high-quality enjoyment rather than that of price, which used to be among their primary concerns.",
+    "Predictably, the catering consumption upgrade will continue, and catering companies should identify what consumers really need and improve their overall competitive power."
+   ],
+   "chart": {
+    "type": "pie",
+    "title": "2017年某市消费者选择餐厅时的关注因素",
+    "unit": "%",
+    "points": [
+     {
+      "label": "特色",
+      "value": "36.3%"
+     },
+     {
+      "label": "服务",
+      "value": "27.4%"
+     },
+     {
+      "label": "环境",
+      "value": "24.3%"
+     },
+     {
+      "label": "价格",
+      "value": "7.3%"
+     },
+     {
+      "label": "其他",
+      "value": "4.7%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "服务占比易被误读为26.8%（范文/参考书数值）或27.4%（讲义与视觉一致数值）",
+    "环境占比易被误读为23.8%（范文/参考书数值）或24.3%（讲义与视觉一致数值）",
+    "价格占比易被误读为8.4%（范文/参考书数值）或7.3%（讲义与视觉一致数值）",
+    "“特色”可能被误读为“特征/特点/特色菜”等不同表述",
+    "饼图各扇区大小接近时，服务与环境、价格与其他容易混淆"
+   ],
+   "conflicts": [
+    "范文/参考书（bankEssay、yellowBook）给出的服务、环境、价格占比分别为26.8%、23.8%、8.4%，与讲义（slp）及两次视觉转录一致读到的27.4%、24.3%、7.3%不一致；按规则以范文/讲义为准，但此处范文与讲义本身冲突，需进一步核定。",
+    "范文/参考书未提及“其他”占比，yellowBook补充为4.7%，与讲义及视觉一致。"
+   ],
+   "needsReview": [
+    "服务、环境、价格三项占比存在两套数值（范文/参考书：26.8%、23.8%、8.4%；讲义与视觉：27.4%、24.3%、7.3%），需以真题原图最终核定。",
+    "图上标题与各标签的准确中文原文需以真题原图最终核定。"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e2-2018-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2019-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "某高校2013年和2018年本科毕业生去向统计",
+    "就业",
+    "升学",
+    "创业",
+    "2013年",
+    "2018年",
+    "80.0%",
+    "70.0%",
+    "60.0%",
+    "50.0%",
+    "40.0%",
+    "30.0%",
+    "20.0%",
+    "10.0%",
+    "0.0%",
+    "68.1%",
+    "60.7%",
+    "26.3%",
+    "34.0%",
+    "1.3%",
+    "2.6%"
+   ],
+   "scene": "一幅白底柱状统计图。纵轴为百分比刻度，从0.0%到80.0%，每10.0%一格；横轴分三组，依次为「就业」「升学」「创业」。每组有两根并排的柱子，分别代表2013年和2018年：就业组为68.1%与60.7%，升学组为26.3%与34.0%，创业组为1.3%与2.6%。图下方（或上方）有标题「某高校2013年和2018年本科毕业生去向统计」，并有「2013年」「2018年」的年份图例。画面中无人物。",
+   "people": [],
+   "keyObjects": [
+    "柱状图（两组并排柱）",
+    "纵轴百分比刻度",
+    "横轴三个类别标签：就业、升学、创业",
+    "图例/年份标注：2013年、2018年",
+    "图表标题"
+   ],
+   "theme": "该数据反映了大学毕业生对毕业后人生道路选择的观念转变：就业比例明显下降，而升学与创业比例上升，说明随着经济与生活水平提高、就业市场竞争加剧以及创业门槛降低，毕业生在毕业后有了更多元的选择。",
+   "themeEvidence": [
+    "The data reflects a shift in graduates' view regarding post-university life.",
+    "On the other hand, with people's living improving, this idea is changing gradually. Owing to less financial stress, graduates are increasingly willing to undertake postgraduate study for higher goals in a world with greater demand for professionals.",
+    "Meanwhile, going self-employed gets more popular as the threshold of starting a business lowers in digital economy.",
+    "Predictably, with economic growth, graduates will enjoy more and diverse options."
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "某高校2013年和2018年本科毕业生去向统计",
+    "unit": "%",
+    "points": [
+     {
+      "label": "就业-2013年",
+      "value": "68.1%"
+     },
+     {
+      "label": "就业-2018年",
+      "value": "60.7%"
+     },
+     {
+      "label": "升学-2013年",
+      "value": "26.3%"
+     },
+     {
+      "label": "升学-2018年",
+      "value": "34.0%"
+     },
+     {
+      "label": "创业-2013年",
+      "value": "1.3%"
+     },
+     {
+      "label": "创业-2018年",
+      "value": "2.6%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "创业两项数值很小（1.3%、2.6%），易被误读为13%、26%",
+    "升学与就业的数值容易互串：就业2013年为68.1%、2018年为60.7%；升学2013年为26.3%、2018年为34.0%",
+    "就业数值是小幅下降（68.1%→60.7%），不是上升，趋势方向易写反",
+    "范文书中把1.3%印作「l.3%」（数字1误作字母l），转录时需还原为1.3%",
+    "纵轴刻度只到80.0%，没有100%刻度，不要臆造100%",
+    "横轴类别顺序为就业→升学→创业，柱组顺序易与图例年份顺序混淆"
+   ],
+   "conflicts": [
+    "slp讲义首段练笔中出现「from 2013 to 2015」，与图表标题、题干及范文的「2013年和2018年」不符，应以2013—2018为准",
+    "slp讲义一处写作升学比例「from 26.3% to 34%」，范文与图中为34.0%，数值一致，仅精度写法不同",
+    "范文/参考书把创业数值印作「l.3%」，视觉转录与题干为1.3%，以1.3%为准"
+   ],
+   "needsReview": [
+    "两次视觉转录中的「号：英语外刊精读笔记」「英语（二）大小作文合集 -10- 【公众号：英语外刊精读笔记】」为页面水印/页眉，非题图内容，已排除在captionTexts之外",
+    "图中是否存在英文辅助标注（如employment/further study等）未见任何证据，暂按无英文标注处理"
+   ],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2019-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2020-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "某高校学生手机阅读目的调查",
+    "学习知识",
+    "59.5%",
+    "消磨时间",
+    "21.3%",
+    "获取信息",
+    "17.0%",
+    "其他",
+    "2.2%"
+   ],
+   "scene": "一幅饼状图，标题为“某高校学生手机阅读目的调查”，展示某高校学生手机阅读目的的四项占比：学习知识59.5%、消磨时间21.3%、获取信息17.0%、其他2.2%。",
+   "people": [],
+   "keyObjects": [
+    "饼状图"
+   ],
+   "theme": "手机阅读已从单纯的消磨时间方式，转变为提升自我、拓展视野的途径。",
+   "themeEvidence": [
+    "The chart indicates that mobile reading, once regarded merely as a way to kill time, has become an approach to improving oneself or expanding one's horizons."
+   ],
+   "chart": {
+    "type": "pie",
+    "title": "某高校学生手机阅读目的调查",
+    "unit": "%",
+    "points": [
+     {
+      "label": "学习知识",
+      "value": "59.5%"
+     },
+     {
+      "label": "消磨时间",
+      "value": "21.3%"
+     },
+     {
+      "label": "获取信息",
+      "value": "17.0%"
+     },
+     {
+      "label": "其他",
+      "value": "2.2%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "“学习知识”与“获取信息”两个目的易混淆，数值59.5%与17.0%易被对调。",
+    "“消磨时间”21.3%与“获取信息”17.0%数值接近，易看错。",
+    "“其他”占比2.2%数值很小，容易被忽略或误读。",
+    "饼图各扇区大小相近时，标签与百分比的对应关系易错位。"
+   ],
+   "conflicts": [
+    "slp 的 reference 首段给出另一组数据（学习58%、搜索信息28%、娱乐12%），与本题图不符，疑为其他年份或示例数据，未采用。",
+    "bankEssay/yellowBook 首段将“消磨时间”表述为 roughly one fifth（约五分之一），与图中21.3%基本吻合，但未给出精确值；精确值以 vision.stableTexts 与 slp 首段练笔为准。"
+   ],
+   "needsReview": [],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e2-2020-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2021-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "某市居民锻炼方式调查",
+    "独自锻炼",
+    "和朋友一起",
+    "和家人一起",
+    "团体活动",
+    "60.0%",
+    "50.0%",
+    "40.0%",
+    "30.0%",
+    "20.0%",
+    "10.0%",
+    "0.0%",
+    "54.3%",
+    "47.7%",
+    "23.9%",
+    "15.8%"
+   ],
+   "scene": "一张柱状图，标题为“某市居民锻炼方式调查”，纵轴为百分比刻度（0.0%至60.0%），横轴列出四种锻炼方式：独自锻炼、和朋友一起、和家人一起、团体活动，各柱分别对应54.3%、47.7%、23.9%、15.8%。",
+   "people": [],
+   "keyObjects": [
+    "柱状图",
+    "纵轴百分比刻度",
+    "横轴锻炼方式分类",
+    "四根数据柱"
+   ],
+   "theme": "某市居民体育锻炼方式存在显著差异：独自锻炼占比最高，其次是与朋友一起，与家人一起和团体活动占比较低；人们更倾向独自锻炼，主要出于灵活与便利。",
+   "themeEvidence": [
+    "According to the chart, over half of the respondents get physical exercise by themselves, while 47.7% do so with friends and 23.9% with family members.",
+    "By comparison, no more than 16% of those questioned play team sports.",
+    "People prefer to take exercise alone rather than with someone else primarily on account of flexibility and convenience.",
+    "所给是一个柱状图，清晰地展示某城市居民在体育锻炼方式方面显著的差异。",
+    "具体来讲，独自锻炼排在第一位，占比54.3%，紧随其后的是与朋友一起运动，占比47.7%。"
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "某市居民锻炼方式调查",
+    "unit": "%",
+    "points": [
+     {
+      "label": "独自锻炼",
+      "value": "54.3%"
+     },
+     {
+      "label": "和朋友一起",
+      "value": "47.7%"
+     },
+     {
+      "label": "和家人一起",
+      "value": "23.9%"
+     },
+     {
+      "label": "团体活动",
+      "value": "15.8%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "“独自锻炼”与“和朋友一起”两根柱高度接近（54.3%与47.7%），易混淆排序。",
+    "“和家人一起”（23.9%）与“团体活动”（15.8%）数值接近，易读错。",
+    "纵轴刻度为0.0%至60.0%，易把百分比误读为人数。",
+    "图中可能带有水印/公众号文字（如“公众号：英语外刊精读笔记”），非题目内容，易被误当作图注。"
+   ],
+   "conflicts": [
+    "slp 首段练笔中把地点写成“in a certain university”，而题干与图表标题为“某市居民”，应以“某市/city”为准。"
+   ],
+   "needsReview": [
+    "图中是否印有“公众号：英语外刊精读笔记”等水印文字，需确认是否属于题图内容。",
+    "图表纵轴是否标注单位“%”或“百分比”，需以原图为准。"
+   ],
+   "evidenceUsed": [
+    "bankEssay",
+    "yellowBook",
+    "slp",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2021-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2022-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "2018—2020 年我国快递业务量变动情况（单位：十亿件）",
+    "总体",
+    "农村",
+    "2018 年",
+    "2019 年",
+    "2020 年"
+   ],
+   "scene": "一张柱状图，横轴为2018年、2019年、2020年三个年份，纵轴为0至90的数值刻度，图例区分“总体”与“农村”两组柱形，展示2018至2020年我国快递业务量的变动情况，单位为十亿件。",
+   "people": [],
+   "keyObjects": [
+    "柱状图",
+    "横轴年份刻度",
+    "纵轴数值刻度",
+    "图例（总体、农村）"
+   ],
+   "theme": "中国快递业务量（尤其是农村地区）快速增长，反映快递业蓬勃发展、电商繁荣与农村基础设施改善，并助力乡村振兴。",
+   "themeEvidence": [
+    "This chart reveals the robust growth of China's express delivery sector.",
+    "It is closely tied to the e-commerce boom.",
+    "the government has made sustained efforts to improve infrastructure in the countryside，which paves the way for the extension of courier services to the vast rural markets.",
+    "by opening up new employment opportunities for rural residents and promoting sales of agricultural produce ，it makes a huge contribution to rural revitalization."
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "2018—2020 年我国快递业务量变动情况",
+    "unit": "十亿件",
+    "points": [
+     {
+      "label": "2018年 总体",
+      "value": "51 十亿件"
+     },
+     {
+      "label": "2018年 农村",
+      "value": "12 十亿件"
+     },
+     {
+      "label": "2019年 总体",
+      "value": "64 十亿件"
+     },
+     {
+      "label": "2019年 农村",
+      "value": "15 十亿件"
+     },
+     {
+      "label": "2020年 总体",
+      "value": "83 十亿件"
+     },
+     {
+      "label": "2020年 农村",
+      "value": "30 十亿件"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "单位是“十亿件”，易被误读为“亿件”或“件”",
+    "2019年总体数值64易被漏读或误读",
+    "2019年农村数值15易被漏读或误读",
+    "“总体”与“农村”两组柱形颜色/位置相近，易混淆对应数值",
+    "图中水印文字“公众号：英语外刊精读笔记”等非题目内容，易被误当作图注"
+   ],
+   "conflicts": [
+    "slp 首段练笔中把单位写成 yuan（如 from 51 billion yuan to 83 billion yuan），与题干及图中单位“十亿件”不符，应以题干/图表为准。",
+    "slp 首段练笔中“从510 亿增至80 亿”与题干单位及图表数值（51→83 十亿件）不一致，疑为笔误。"
+   ],
+   "needsReview": [],
+   "evidenceUsed": [
+    "bankEssay",
+    "yellowBook",
+    "slp",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2022-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2023-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "2012—2021年我国居民健康素养水平",
+    "* 健康素养 (health literacy) 是指个人获取和理解基本健康信息和服务，并运用这些信息和服务做出正确决策，以维护和促进自身健康的能力。健康素养水平指具备基本健康素养的人在总人群 (15—69 岁城乡居民) 中所占的比例。"
+   ],
+   "scene": "一幅折线图，横轴为2012至2021共十个年份，纵轴为百分比，折线自2012年的8.80%逐年上升至2021年的25.40%，2016年后上升明显加快；图下方附有健康素养的定义与说明文字。",
+   "people": [],
+   "keyObjects": [
+    "折线图",
+    "横轴年份（2012—2021）",
+    "纵轴百分比",
+    "数据点",
+    "图下注释文字"
+   ],
+   "theme": "中国居民健康素养水平逐年提升，反映出居民健康意识的增强以及经济、医疗服务和健康知识获取渠道的改善。",
+   "themeEvidence": [
+    "Such statistics, apparently, can be associated with the growing health awareness of Chinese people",
+    "in recent years, China was characterized by the boom and prosperity in economy, which enabled an increasing number of Chinese to enjoy a better life and medical service",
+    "compared with the past years, Chinese people have more accesses to knowledge concerning health literacy"
+   ],
+   "chart": {
+    "type": "line",
+    "title": "2012—2021年我国居民健康素养水平",
+    "unit": "%",
+    "points": [
+     {
+      "label": "2012",
+      "value": "8.80%"
+     },
+     {
+      "label": "2013",
+      "value": "9.48%"
+     },
+     {
+      "label": "2014",
+      "value": "9.79%"
+     },
+     {
+      "label": "2015",
+      "value": "10.25%"
+     },
+     {
+      "label": "2016",
+      "value": "11.58%"
+     },
+     {
+      "label": "2017",
+      "value": "14.18%"
+     },
+     {
+      "label": "2018",
+      "value": "17.06%"
+     },
+     {
+      "label": "2019",
+      "value": "19.17%"
+     },
+     {
+      "label": "2020",
+      "value": "23.15%"
+     },
+     {
+      "label": "2021",
+      "value": "25.40%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "slp讲义首段练笔中把起始年份误写为2020年（应为2012年），易造成年份误读",
+    "slp讲义中把2016年数据11.58%误作'最初五年'的终点，实际2016年为第六个数据点",
+    "折线图各年份数值相近，易将相邻年份的百分比混淆（如2013年9.48%与2014年9.79%）",
+    "图下注释文字字号较小，易漏读或误读'15—69岁城乡居民'等限定信息"
+   ],
+   "conflicts": [
+    "slp讲义首段练笔称'2012到2020年期间'，与题干、范文及视觉转录的'2012—2021年'不符，应以2012—2021年为准",
+    "slp讲义称'在最初的五年中，该比例缓慢上涨，从8.8%增至11.58%'，但11.58%对应2016年（第六个数据点），与'最初五年'表述存在出入"
+   ],
+   "needsReview": [],
+   "evidenceUsed": [
+    "yellowBook",
+    "bankEssay",
+    "slp",
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2023-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": true,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2024-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "某高校劳动实践课学生主要收获调查",
+    "提升了动手能力",
+    "学习了相关知识",
+    "增强了合作能力",
+    "感觉到心情舒畅"
+   ],
+   "scene": "一张白底统计柱状图，标题为“某高校劳动实践课学生主要收获调查”。图中按四项收获类别排出柱体，柱旁/柱上标出百分比数值，纵轴为百分比刻度（0%、20%、40%、60%、80%、100%），数值由高到低依次为：学习了相关知识 91.3%、提升了动手能力 84.8%、感觉到心情舒畅 54.4%、增强了合作能力 32.6%。图中无人物、无场景物件。",
+   "people": [],
+   "keyObjects": [
+    "柱状图（含四个数据柱）",
+    "百分比纵轴（0%—100%）",
+    "各柱上方的百分比数值标注"
+   ],
+   "theme": "劳动实践课能让学生在知识、动手能力、心情体验和合作能力等方面获得多重收获，说明劳动实践对大学生的成长具有重要意义，高校学生有强烈的自我提升愿望。",
+   "themeEvidence": [
+    "Such statistics, apparently, can be associated with the significance of labor practice for youngsters",
+    "college students are characterized by their strong desire to enhance themselves, which enables knowledge and competence to be the main target for them",
+    "compared with other courses, labor practice courses are more interesting, which can bring students a good mood, arouse their passion for labor"
+   ],
+   "chart": {
+    "type": "bar",
+    "title": "某高校劳动实践课学生主要收获调查",
+    "unit": "%",
+    "points": [
+     {
+      "label": "学习了相关知识",
+      "value": "91.3%"
+     },
+     {
+      "label": "提升了动手能力",
+      "value": "84.8%"
+     },
+     {
+      "label": "感觉到心情舒畅",
+      "value": "54.4%"
+     },
+     {
+      "label": "增强了合作能力",
+      "value": "32.6%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "“提升了动手能力”易被误记为“提升了劳动能力”（讲义即如此转写）",
+    "“感觉到心情舒畅”易被误记为“感受到愉快/心情愉快”",
+    "91.3%（知识）与 84.8%（动手能力）两项均很高，排序易颠倒；最高项是“学习了相关知识”而非“提升了动手能力”",
+    "54.4%（心情舒畅）与 32.6%（合作能力）易混淆，最低项是“增强了合作能力”",
+    "柱体为横向还是竖向、四类别的排列顺序易看错",
+    "扫描件上叠加的公众号/讲义水印文字易被误当成题图原有文字"
+   ],
+   "conflicts": [
+    "slp 将 84.8% 对应项写作“提升了劳动能力”，而 promptTail 与两次视觉读取均为“提升了动手能力”，bankEssay 的英文表述 84.8% honed their hands-on skills 亦支持“动手能力”，故采“提升了动手能力”。",
+    "slp 将 54.4% 对应项写作“感受到愉快”（原文误作“感受到偷快”），而 promptTail 与两次视觉读取均为“感觉到心情舒畅”，故采后者。",
+    "vision.runs 之一称其为“横向柱状图”，而 slp 与 bankEssay 称 column/bar chart（通常指竖向柱），柱体方向证据不一致。"
+   ],
+   "needsReview": [
+    "柱状图是竖向还是横向、四个类别的排列先后顺序，需再核对原图。",
+    "视觉转录中的“公众号：英语外刊精读笔记”“英语（二）大小作文合集”“-15-”“【公众号：英语外刊精读笔记】”为扫描件叠加水印，非题图本身内容，已从 captionTexts 中剔除。",
+    "除标题、四项类别名称与百分比数值外，是否还有其他图例或说明性文字，证据不足。"
+   ],
+   "evidenceUsed": [
+    "promptTail",
+    "bankEssay",
+    "slp",
+    "vision"
+   ],
+   "examId": "e2-2024-b",
+   "status": "verified-by-text",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": true,
+    "slp": true,
+    "vision": true
+   }
+  },
+  "e2-2025-b": {
+   "essayType": "chart",
+   "panels": 1,
+   "captionTexts": [
+    "某社区老年人主要日常休闲活动调查",
+    "看电视",
+    "散步",
+    "养花",
+    "阅读",
+    "下棋"
+   ],
+   "scene": "一幅白底柱状图，带网格线，标题为“某社区老年人主要日常休闲活动调查”。图中按类别列出老年人主要日常休闲活动：看电视、散步、养花、阅读、下棋，纵轴以百分比为单位。各活动对应数值依次为：看电视90.8%，散步68.3%，养花34.7%，阅读31.8%，下棋18.4%。画面中无人物。",
+   "people": [],
+   "keyObjects": [
+    "柱状图",
+    "柱子",
+    "网格线",
+    "百分比坐标轴"
+   ],
+   "theme": "",
+   "themeEvidence": [],
+   "chart": {
+    "type": "bar",
+    "title": "某社区老年人主要日常休闲活动调查",
+    "unit": "%",
+    "points": [
+     {
+      "label": "看电视",
+      "value": "90.8%"
+     },
+     {
+      "label": "散步",
+      "value": "68.3%"
+     },
+     {
+      "label": "养花",
+      "value": "34.7%"
+     },
+     {
+      "label": "阅读",
+      "value": "31.8%"
+     },
+     {
+      "label": "下棋",
+      "value": "18.4%"
+     }
+    ]
+   },
+   "misreadRisks": [
+    "标题限定为“某社区老年人”，不是全体老年人或其他年龄段人群。",
+    "“养花”34.7%与“阅读”31.8%数值接近，容易看反。",
+    "“看电视”90.8%为最高值，“散步”68.3%为第二高值，注意排序。",
+    "“下棋”18.4%为最低值，勿与阅读、养花混淆。",
+    "图中单位为百分比（%），不要漏读或误作人数。",
+    "vision转录中的“英语外刊精读笔记”“英语（二）大小作文合集”等为页眉页脚水印，非题图内容。"
+   ],
+   "conflicts": [],
+   "needsReview": [
+    "无yellowBook、bankEssay、slp等范文或讲义解读句，无法依据证据概括theme/寓意。",
+    "图表颜色、柱间距、坐标轴刻度等版式细节未在证据中完整给出，但不影响已核定的类别与数值。"
+   ],
+   "evidenceUsed": [
+    "promptTail",
+    "vision"
+   ],
+   "examId": "e2-2025-b",
+   "status": "verified-by-prompt",
+   "sources": {
+    "yellowBook": false,
+    "bankEssay": false,
+    "slp": false,
+    "vision": true
+   }
+  }
+ }
+}

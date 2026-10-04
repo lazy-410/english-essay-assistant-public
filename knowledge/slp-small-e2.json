@@ -1,0 +1,592 @@
+{
+  "source": "slp-small-e2",
+  "sourceLabel": "26 石雷鹏小作文笔记 - 英语二（整理自：学长小谭）",
+  "totalPages": 58,
+  "scope": "应用文（小作文）· 英语二独有真题。与英语一笔记共有的前六篇精讲/实训（精讲1 辞职道歉、实训1 道歉建议、精讲2 求助描述、实训2 描述建议、精讲3 招募通知、实训3 通知介绍）已收录在 slp-small-e1.json，此处不重复。",
+  "coverage": {
+    "included": ["13 年 号召+鼓动", "14 年 咨询+说明", "16 年 回复+建议", "17 年 受邀+介绍", "21 年 邀请+说明", "23 年 建议+原因", "24 年 说明+征询"],
+    "mergedAsDuplicate": [
+      "18 年 邀请+说明：骨架与 21 年邀请类完全一致（As 身份 + inviting you to participate + is scheduled to），同义词簇已并入 slp-sm-invite-e2-01/02",
+      "19 年 建议+说明：骨架与 23 年建议类一致（I deem that it is advisable for you to + 三益处），已并入 slp-sm-advice-e2-02/03",
+      "20 年 说明+提醒：提醒功能句与 21 年 it is advisable for you to ... in advance 同源，已并入 slp-sm-invite-e2-02",
+      "22 年 邀请+说明：与 21 年同题型同骨架，已并入邀请类条目"
+    ]
+  },
+  "pages": [
+    {
+      "page": 26,
+      "title": "13 年英二：号召+鼓动 · 义卖号召骨架",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "slp-sm-call-e2-01",
+          "source": "slp-small-e2",
+          "page": 26,
+          "origin": "13 年英二：号召+鼓动 · 首段",
+          "derived": true,
+          "letterType": "号召类",
+          "section": "小作文第一段·回忆往届＋号召目的",
+          "originalText": "It's quite pleased to recall the first successful charity sale held by our class last year. Today, I am writing for the purpose of inviting you to participate in the sale this year.",
+          "en": "It's quite pleased to recall {往届活动} held by {主办方} {往届时间}. Today, I am writing for the purpose of inviting you to participate in {本届活动}.",
+          "zh": "很高兴回想起{往届时间}由{主办方}举办的{往届活动}。今天，我写信的目的是邀请你参加{本届活动}。",
+          "slots": ["往届活动", "主办方", "往届时间", "本届活动"],
+          "swappable": ["pleased", "happy", "delighted", "excited", "glad", "participate in", "take part in"],
+          "examples": [
+            {
+              "label": "13 年英二真题（号召+鼓动）",
+              "en": "It's quite pleased to recall the first successful charity sale held by our class last year.",
+              "zh": "很高兴回想起去年我们班举办的第一次成功的慈善义卖。"
+            }
+          ],
+          "notes": ["held by 为过去分词短语作后置定语", "号召类写给同学，语域偏非正式，可用 It's 缩写"]
+        },
+        {
+          "id": "slp-sm-call-e2-02",
+          "source": "slp-small-e2",
+          "page": 26,
+          "origin": "13 年英二：号召+鼓动 · 第二段活动详情",
+          "derived": true,
+          "letterType": "号召类",
+          "section": "小作文第二段·活动详情＋用途说明",
+          "originalText": "To begin with, this sale is scheduled to start at 9:00 on May 20 in the Center of Students' Activities and last (for) approximately 2 hours. In addition, the funds (which are) raised in the sale will be used to help those kids in remote areas, whose families are so impoverished/poor that they cannot afford tuition.",
+          "en": "To begin with, {活动} is scheduled to start at {时间} on {日期} in {地点} and last for approximately {持续时长}. In addition, {所得资源} raised in {活动} will be used to help {受助对象}, whose {对象条件} are so impoverished that {导致的结果}.",
+          "zh": "首先，{活动}计划于{日期}{时间}在{地点}开始，持续约{持续时长}。此外，{活动}筹得的{所得资源}将用于帮助{受助对象}，其{对象条件}如此贫困，以至于{导致的结果}。",
+          "slots": ["活动", "时间", "日期", "地点", "持续时长", "所得资源", "受助对象", "对象条件", "导致的结果"],
+          "swappable": ["is scheduled to", "is planned to", "is arranged to", "is going to", "will", "In addition", "Furthermore", "What is more", "Besides", "Then", "impoverished", "poor"],
+          "examples": [],
+          "notes": ["which are 可省略，直接用过去分词 raised 作后置定语", "so...that... 表程度，与精讲2 的句式一致"]
+        },
+        {
+          "id": "slp-sm-call-e2-03",
+          "source": "slp-small-e2",
+          "page": 26,
+          "origin": "13 年英二：号召+鼓动 · 第二段对比＋三益处",
+          "derived": true,
+          "letterType": "号召类",
+          "section": "小作文第二段·对比示弱＋三益处鼓动",
+          "originalText": "Compared with others, we are not richer, but as warmhearted people, we are willing to do our utmost to help children in need of help. We deem that this help can bring them opportunities of education, inspire their passion for learning, and help them create a promising future.",
+          "en": "Compared with others, we are not richer, but as {自身定位}, we are willing to do our utmost to {承诺行动}. We deem that this help can bring them {益处一}, inspire their {益处二}, and help them {益处三}.",
+          "zh": "与其他人相比，我们并不更富有，但作为{自身定位}，我们愿意尽最大努力{承诺行动}。我们认为这种帮助能带给他们{益处一}，激发他们{益处二}，帮助他们{益处三}。",
+          "slots": ["自身定位", "承诺行动", "益处一", "益处二", "益处三"],
+          "swappable": ["do our utmost", "try our best", "deem", "hold", "reckon", "suppose"],
+          "examples": [],
+          "notes": ["bring / inspire / help 三益处并列，是石雷鹏体系贯穿全书的核心结构", "号召类先示弱再表决心，能增强感染力"]
+        },
+        {
+          "id": "slp-sm-p3-e2-01",
+          "source": "slp-small-e2",
+          "page": 26,
+          "origin": "13 年英二：号召+鼓动 · 尾段一",
+          "derived": true,
+          "letterType": "号召类",
+          "section": "小作文第三段·尾段（期待参与型）",
+          "originalText": "Finally, we are looking forward to your participation and support.",
+          "en": "Finally, we are looking forward to your participation and support.",
+          "zh": "最后，我们期待你的参与和支持。",
+          "slots": [],
+          "swappable": ["Finally", "At last"],
+          "examples": [],
+          "notes": ["号召类专用收尾，直接表达对参与的期待"]
+        },
+        {
+          "id": "slp-sm-p3-e2-02",
+          "source": "slp-small-e2",
+          "page": 26,
+          "origin": "13 年英二：号召+鼓动 · 尾段二",
+          "derived": true,
+          "letterType": "号召类",
+          "section": "小作文第三段·尾段（共同努力型）",
+          "originalText": "Finally, we are convinced that with our shared efforts, this sale will be sucessful again.",
+          "en": "Finally, we are convinced that with our shared efforts, {活动} will be successful again.",
+          "zh": "最后，我们相信在我们共同的努力下，{活动}将再次取得成功。",
+          "slots": ["活动"],
+          "swappable": ["are convinced that", "believe that"],
+          "examples": [],
+          "notes": ["with our shared efforts 意为「在我们共同努力下」", "原文 sucessful 为笔记笔误，应为 successful"]
+        }
+      ],
+      "pageNotes": [],
+      "vocab": [
+        { "en": "charity", "zh": "慈善" },
+        { "en": "sale", "zh": "义卖" },
+        { "en": "funds", "zh": "资金" },
+        { "en": "participate in = take part in", "zh": "参加" }
+      ]
+    },
+    {
+      "page": 29,
+      "title": "14 年英二：咨询+说明 · 自我介绍与请教骨架",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "slp-sm-consult-e2-01",
+          "source": "slp-small-e2",
+          "page": 29,
+          "origin": "14 年英二：咨询+说明 · 首段",
+          "derived": true,
+          "letterType": "咨询类",
+          "section": "小作文第一段·自我介绍＋双目的（介绍＋请教）",
+          "originalText": "As an international student from China who is going to study in your country and share an apartment with you, l am writing for the purpose of introducing myself and asking for (your) advice./suggestions.",
+          "en": "As {自身身份} who is going to {未来行动}, I am writing for the purpose of introducing myself and asking for your advice.",
+          "zh": "作为将要{未来行动}的{自身身份}，我写信的目的是介绍我自己并征求你的建议。",
+          "slots": ["自身身份", "未来行动"],
+          "swappable": ["advice", "suggestions", "an international student from China", "a student"],
+          "examples": [],
+          "notes": ["咨询类首段：自我介绍与请教目的合成一句", "advice 为不可数名词，不能加 s；suggestions 可数"]
+        },
+        {
+          "id": "slp-sm-consult-e2-02",
+          "source": "slp-small-e2",
+          "page": 29,
+          "origin": "14 年英二：咨询+说明 · 第二段说明习惯",
+          "derived": true,
+          "letterType": "咨询类",
+          "section": "小作文第二段·说明自身情况（列举习惯）",
+          "originalText": "To begin with, I maintain several positive living habits, such as going to bed and getting up early, working out regularly, reading in library in spare time./leisure/free.",
+          "en": "To begin with, I maintain several positive {说明对象}, such as {列举一}, {列举二}, and {列举三}.",
+          "zh": "首先，我保持着若干良好的{说明对象}，例如{列举一}、{列举二}、{列举三}。",
+          "slots": ["说明对象", "列举一", "列举二", "列举三"],
+          "swappable": ["To begin with", "First of all", "Above all", "spare time", "leisure time", "free time", "working out", "doing exercise", "doing sports"],
+          "examples": [],
+          "notes": ["such as 后接三项动名词短语并列，保持形式一致"]
+        },
+        {
+          "id": "slp-sm-consult-e2-03",
+          "source": "slp-small-e2",
+          "page": 29,
+          "origin": "14 年英二：咨询+说明 · 第二段请教事项",
+          "derived": true,
+          "letterType": "咨询类",
+          "section": "小作文第二段·对比示弱＋请教具体事项",
+          "originalText": "However, as a Chinese, compared with you, not so familiar with the local life as you Thus, I deem that it is exceedingly necessary for me to consult you about the local transportation, shopping, customs, climat and diets.",
+          "en": "However, as {自身身份}, compared with you, I am not so familiar with {不熟悉领域} as you. Thus, I deem that it is exceedingly necessary for me to consult you about {请教事项}.",
+          "zh": "然而，作为{自身身份}，与你相比，我对{不熟悉领域}不那么熟悉。因此，我认为我非常有必要就{请教事项}向你请教。",
+          "slots": ["自身身份", "不熟悉领域", "请教事项"],
+          "swappable": ["exceedingly", "very", "quite", "particularly", "consult you about", "ask you about"],
+          "examples": [],
+          "notes": ["not so...as... 同级比较的否定形式，用于示弱以引出请教", "原文 climat 为笔记笔误，应为 climate；原句缺 I am，规范应补全"]
+        },
+        {
+          "id": "slp-sm-p3-e2-05",
+          "source": "slp-small-e2",
+          "page": 29,
+          "origin": "14 年英二：咨询+说明 · 尾段",
+          "derived": true,
+          "letterType": "咨询类",
+          "section": "小作文第三段·尾段（致谢＋信心适应型）",
+          "originalText": "Finally, I will be quite grateful if you are so kind to give me some advice/suggestions. Thanks again, and I am convinced that with your help, I will adapt to the life in your country soon after my arrival.",
+          "en": "Finally, I will be quite grateful if you are so kind to give me some advice. Thanks again, and I am convinced that with your help, I will adapt to {适应对象} soon.",
+          "zh": "最后，如果您如此善良给了我一些建议，我将会万分感激。再次感谢，我相信在您的帮助下，我将会很快适应{适应对象}。",
+          "slots": ["适应对象"],
+          "swappable": ["advice", "suggestions", "am convinced that", "believe that"],
+          "examples": [],
+          "notes": ["咨询类专用收尾：先致谢，再表达对未来适应的信心"]
+        }
+      ],
+      "pageNotes": [],
+      "vocab": [
+        { "en": "study abroad", "zh": "出国留学" },
+        { "en": "apartment", "zh": "公寓" },
+        { "en": "living habits", "zh": "生活习惯" },
+        { "en": "working out = doing exercise", "zh": "锻炼" }
+      ]
+    },
+    {
+      "page": 32,
+      "title": "16 年英二：回复+建议 · 致谢与学习建议骨架",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "slp-sm-reply-e2-01",
+          "source": "slp-small-e2",
+          "page": 32,
+          "origin": "16 年英二：回复+建议 · 首段",
+          "derived": true,
+          "letterType": "回复类",
+          "section": "小作文第一段·回复致谢＋分享目的",
+          "originalText": "So pleased to receive your congratulations and thank you very much. Today, I'm writing to share my advice on translation study.",
+          "en": "So pleased to receive your congratulations and thank you very much. Today, I'm writing to share my advice on {分享主题}.",
+          "zh": "很高兴收到你的祝贺，非常感谢。今天，我写信是想分享我关于{分享主题}的建议。",
+          "slots": ["分享主题"],
+          "swappable": ["So", "Quite", "Very", "Exceedingly", "Particularly", "Really", "pleased", "glad", "happy", "excited", "delighted", "to share", "for the purpose of sharing"],
+          "examples": [],
+          "notes": ["回复类首段：先回应对方来信（致谢/祝贺），再交代本信目的"]
+        },
+        {
+          "id": "slp-sm-reply-e2-02",
+          "source": "slp-small-e2",
+          "page": 32,
+          "origin": "16 年英二：回复+建议 · 第二段建议一＋设问",
+          "derived": true,
+          "letterType": "回复类",
+          "section": "小作文第二段·建议一＋自问自答（Why?）",
+          "originalText": "To begin with, if you want to become an excellent translator, it is advisable for you to work harder. Why? Compared with other subjects, translation is more difficult because you need to master or be good at two languages at least.",
+          "en": "To begin with, if you want to {目标}, it is advisable for you to {建议行动}. Why? Compared with {对比对象}, {主题} is more difficult because {原因}.",
+          "zh": "首先，如果你想{目标}，建议你{建议行动}。为什么呢？与{对比对象}相比，{主题}更难，因为{原因}。",
+          "slots": ["目标", "建议行动", "对比对象", "主题", "原因"],
+          "swappable": ["it is advisable for you to", "you are supposed to", "you are well-advised to"],
+          "examples": [],
+          "notes": ["Why? 自问自答句式，能自然引出理由，且增加行文层次"]
+        },
+        {
+          "id": "slp-sm-reply-e2-03",
+          "source": "slp-small-e2",
+          "page": 32,
+          "origin": "16 年英二：回复+建议 · 第二段建议二＋强调句",
+          "derived": true,
+          "letterType": "回复类",
+          "section": "小作文第二段·建议二＋强调句论证",
+          "originalText": "In addition, you are supposed/well-advised to seize every opportunity to practise translation skills since it is constant practice that enables you to accumulate adequate experience.",
+          "en": "In addition, you are supposed to seize every opportunity to {建议行动} since it is {关键要素} that enables you to {获得的收获}.",
+          "zh": "此外，你应该抓住每一个机会{建议行动}，因为正是{关键要素}使你能够{获得的收获}。",
+          "slots": ["建议行动", "关键要素", "获得的收获"],
+          "swappable": ["are supposed to", "are well-advised to", "since", "because", "as"],
+          "examples": [],
+          "notes": ["seize every opportunity to 意为「抓住每个机会」", "内嵌 it is...that... 强调句，突出关键要素"]
+        },
+        {
+          "id": "slp-sm-reply-e2-04",
+          "source": "slp-small-e2",
+          "page": 32,
+          "origin": "16 年英二：回复+建议 · 第二段三益处小结",
+          "derived": true,
+          "letterType": "回复类",
+          "section": "小作文第二段·三益处小结句",
+          "originalText": "In conclusion, practice and efforts can bring/give you confidence, inspire your passion/enthusiasm for learning, and help you make progress every day.",
+          "en": "In conclusion, {关键要素} can bring you {益处一}, inspire your {益处二}, and help you {益处三}.",
+          "zh": "总之，{关键要素}会带给你{益处一}，会激发你{益处二}，并帮你{益处三}。",
+          "slots": ["关键要素", "益处一", "益处二", "益处三"],
+          "swappable": ["bring", "give", "passion", "enthusiasm", "In conclusion", "To conclude"],
+          "examples": [],
+          "notes": ["三益处结构用于段末小结，收束建议部分"]
+        },
+        {
+          "id": "slp-sm-p3-e2-06",
+          "source": "slp-small-e2",
+          "page": 32,
+          "origin": "16 年英二：回复+建议 · 尾段",
+          "derived": true,
+          "letterType": "回复类",
+          "section": "小作文第三段·尾段（信心祝愿型）",
+          "originalText": "Finally, I deem that with your efforts, you will become outstanding in translation (study).",
+          "en": "Finally, I deem that with your efforts, you will become outstanding in {领域}.",
+          "zh": "最后，我相信在你的努力之下，你会在{领域}方面变得优秀。",
+          "slots": ["领域"],
+          "swappable": ["I deem that", "I believe that", "I am convinced that"],
+          "examples": [],
+          "notes": ["with your efforts 引导伴随状语，表达对对方的信心"]
+        }
+      ],
+      "pageNotes": [],
+      "vocab": [
+        { "en": "translation contest", "zh": "翻译比赛" },
+        { "en": "congratulate", "zh": "祝贺" },
+        { "en": "reply", "zh": "回应" }
+      ]
+    },
+    {
+      "page": 35,
+      "title": "17 年英二：受邀+介绍 · 接受邀请与要点介绍骨架",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "slp-sm-accept-e2-01",
+          "source": "slp-small-e2",
+          "page": 35,
+          "origin": "17 年英二：受邀+介绍 · 首段接受邀请",
+          "derived": true,
+          "letterType": "受邀类",
+          "section": "小作文第一段·接受邀请句",
+          "originalText": "I'm quite/very/particularly/exceedingly pleased/delighted/glad/happy to receive your invitation of giving a presentation about Chinese culture and I am willing to accept it.",
+          "en": "I'm quite pleased to receive your invitation of {受邀事项} and I am willing to accept it.",
+          "zh": "我很高兴收到您邀请我{受邀事项}的来信，我愿意接受。",
+          "slots": ["受邀事项"],
+          "swappable": ["quite", "very", "particularly", "exceedingly", "pleased", "delighted", "glad", "happy"],
+          "examples": [],
+          "notes": ["受邀类首段必须明确表态接受，不能含糊"]
+        },
+        {
+          "id": "slp-sm-accept-e2-02",
+          "source": "slp-small-e2",
+          "page": 35,
+          "origin": "17 年英二：受邀+介绍 · 第二段过渡＋要点一",
+          "derived": true,
+          "letterType": "受邀类",
+          "section": "小作文第二段·过渡＋要点一（历史特征型）",
+          "originalText": "Then, let me introduce the key points of my presentation. To begin with, China is characterized by its time-honored history. Thus, I deem that it is advisable for me to introduce the historical and cultural knowledge, such as the Summer Palace, the Forbidden City and he Great Wall for international students.",
+          "en": "Then, let me introduce the key points of my {展示内容}. To begin with, {主题对象} is characterized by {突出特征}. Thus, I deem that it is advisable for me to introduce {介绍内容}, such as {列举一}, {列举二} and {列举三}.",
+          "zh": "接下来，让我介绍一下我{展示内容}的要点。首先，{主题对象}的突出特征是{突出特征}。因此，我认为我应该介绍{介绍内容}，例如{列举一}、{列举二}和{列举三}。",
+          "slots": ["展示内容", "主题对象", "突出特征", "介绍内容", "列举一", "列举二", "列举三"],
+          "swappable": ["is characterized by", "is featured with", "time-honored", "long-standing"],
+          "examples": [
+            {
+              "label": "17 年英二真题（受邀+介绍）",
+              "en": "China is characterized by its time-honored history. Thus, I deem that it is advisable for me to introduce the historical and cultural knowledge, such as the Summer Palace, the Forbidden City and the Great Wall",
+              "zh": "中国的突出特征是其历史悠久。因此，我认为我应该介绍历史文化知识，例如颐和园、故宫和长城。"
+            }
+          ],
+          "notes": ["let me introduce the key points 是介绍类的标准过渡句", "原文 he Great Wall 为笔记笔误，应为 the Great Wall", "推荐理由框架：了解历史、激发文化热爱、欣赏自然风光"]
+        },
+        {
+          "id": "slp-sm-accept-e2-03",
+          "source": "slp-small-e2",
+          "page": 35,
+          "origin": "17 年英二：受邀+介绍 · 第二段要点二",
+          "derived": true,
+          "letterType": "受邀类",
+          "section": "小作文第二段·要点二（对比丰富型）",
+          "originalText": "In addition, compared with other countries, China has a richer variety of customs, such as distinctive wedding ceremonies, operas, and significant festivals. All of these will be included (in my presentation).",
+          "en": "In addition, compared with {对比对象}, {主题对象} has a richer variety of {丰富对象}, such as {列举一}, {列举二}, and {列举三}. All of these will be included.",
+          "zh": "此外，与{对比对象}相比，{主题对象}拥有更加丰富多样的{丰富对象}，例如{列举一}、{列举二}和{列举三}。所有这些都将包含在内。",
+          "slots": ["对比对象", "主题对象", "丰富对象", "列举一", "列举二", "列举三"],
+          "swappable": ["a richer variety of", "a greater diversity of", "distinctive", "unique"],
+          "examples": [],
+          "notes": ["a richer variety of 表「更丰富多样的」，用于突出优势"]
+        },
+        {
+          "id": "slp-sm-p3-e2-07",
+          "source": "slp-small-e2",
+          "page": 35,
+          "origin": "17 年英二：受邀+介绍 · 尾段",
+          "derived": true,
+          "letterType": "受邀类",
+          "section": "小作文第三段·尾段（感谢邀请型）",
+          "originalText": "Finally, I am much grateful for your invitation and looking forward to your reply.",
+          "en": "Finally, I am much grateful for your invitation and looking forward to your reply.",
+          "zh": "最后，我非常感谢您的邀请，并期待您的回复。",
+          "slots": [],
+          "swappable": ["much grateful", "quite grateful", "deeply grateful"],
+          "examples": [],
+          "notes": ["受邀类收尾：再次致谢邀请并期待回复"],
+          "uncertain": ["原页此句因分栏被截断，末尾 looking forward to your reply 依据同页可见部分与译文补全"]
+        }
+      ],
+      "pageNotes": [
+        "备考启示：掌握核心功能句可应对不同命题形式。英语一 17 年推荐景点题与本题内容可复用（历史特征→具体景点→文化价值）"
+      ],
+      "vocab": [
+        { "en": "presentation", "zh": "展示" },
+        { "en": "key points", "zh": "要点" },
+        { "en": "time-honored", "zh": "历史悠久的" }
+      ]
+    },
+    {
+      "page": 56,
+      "title": "24 年英二：说明+征询 · 计划提出与意见征询骨架",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "slp-sm-survey-e2-01",
+          "source": "slp-small-e2",
+          "page": 56,
+          "origin": "24 年英二：说明+征询 · 首段",
+          "derived": true,
+          "letterType": "征询类",
+          "section": "小作文第一段·得知消息＋双目的（说明计划＋征询意见）",
+          "originalText": "So/Quite=Particularly=Exceedingly=Pretty pleased to know/hear that we will make a survey on protecting old houses in Wuzhen Town. Today, I'm writing for the purpose of talking about my plan and asking for your advice(n.建议不可数)/opinion/suggestions.",
+          "en": "So pleased to know that {共同事项}. Today, I'm writing for the purpose of talking about my plan and asking for your advice.",
+          "zh": "很高兴得知{共同事项}。今天，我写信的目的是谈谈我的计划并征求你的建议。",
+          "slots": ["共同事项"],
+          "swappable": ["So", "Quite", "Particularly", "Exceedingly", "Pretty", "know", "hear", "advice", "opinion", "suggestions"],
+          "examples": [],
+          "notes": ["征询类首段：先呼应共同事项，再交代说明与征询两个目的", "advice 为不可数名词"]
+        },
+        {
+          "id": "slp-sm-survey-e2-02",
+          "source": "slp-small-e2",
+          "page": 56,
+          "origin": "24 年英二：说明+征询 · 第二段计划一",
+          "derived": true,
+          "letterType": "征询类",
+          "section": "小作文第二段·计划一（对象选择＋理由）",
+          "originalText": "To begin with/First of all=Above all=Firstly, I deem that/I suppose/hold/reckon that it is advisable for us to conduct/do=make=start this survey among local residents/people/citizens because/since/as/for compared with others, they know more/they are more familiar with details about the situation of old houses there.",
+          "en": "To begin with, I deem that it is advisable for us to conduct {计划行动} among {实施对象} because compared with others, they are more familiar with {优势领域}.",
+          "zh": "首先，我认为我们应该在{实施对象}中开展{计划行动}，因为与其他人相比，他们更了解{优势领域}。",
+          "slots": ["计划行动", "实施对象", "优势领域"],
+          "swappable": ["To begin with", "First of all", "Above all", "Firstly", "I deem that", "I suppose that", "I hold that", "I reckon that", "conduct", "do", "make", "start", "residents", "people", "citizens", "because", "since", "as", "for"],
+          "examples": [],
+          "notes": ["提计划要给理由，用 because compared with others 结构说明选择依据"]
+        },
+        {
+          "id": "slp-sm-survey-e2-03",
+          "source": "slp-small-e2",
+          "page": 56,
+          "origin": "24 年英二：说明+征询 · 第二段计划二",
+          "derived": true,
+          "letterType": "征询类",
+          "section": "小作文第二段·计划二（补充措施＋收益）",
+          "originalText": "In addition, in this survey, we are supposed/well-advised to collect/gather=ask for suggestion/opinions/ideas from architects'/expert's, which can bring us professional insights",
+          "en": "In addition, in this {计划事项}, we are supposed to collect opinions from {咨询对象}, which can bring us {预期收益}.",
+          "zh": "此外，在这次{计划事项}中，我们应该收集{咨询对象}的意见，这能带给我们{预期收益}。",
+          "slots": ["计划事项", "咨询对象", "预期收益"],
+          "swappable": ["are supposed to", "are well-advised to", "collect", "gather", "ask for", "suggestions", "opinions", "ideas"],
+          "examples": [],
+          "notes": ["which 引导定语从句说明该措施的价值"],
+          "uncertain": ["原页此句在页末被截断，professional insights 之后内容未见，本条只提取可见部分"]
+        }
+      ],
+      "pageNotes": [],
+      "vocab": [
+        { "en": "do a survey", "zh": "做调查" },
+        { "en": "put forward", "zh": "提出" },
+        { "en": "ancient town", "zh": "古镇" }
+      ]
+    },
+    {
+      "page": 47,
+      "title": "21 年英二：邀请+说明 · 线上会议邀请骨架",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "slp-sm-invite-e2-01",
+          "source": "slp-small-e2",
+          "page": 47,
+          "origin": "21 年英二：邀请+说明 · 首段身份＋邀请",
+          "derived": true,
+          "letterType": "邀请类",
+          "section": "小作文第一段·身份说明＋邀请（线上活动）",
+          "originalText": "As the chairman of the Student Uniowho is in charge of/responsible for organizing the upcoming online meeting/communication about exchange betwee Chinese and international students, I am writing to invite you/ for the purpose of inviting you to participate/attend.",
+          "en": "As {自身职务} who is in charge of organizing {负责活动}, I am writing for the purpose of inviting you to participate.",
+          "zh": "作为负责组织{负责活动}的{自身职务}，我写信的目的是邀请你参加。",
+          "slots": ["自身职务", "负责活动"],
+          "swappable": ["in charge of", "responsible for", "meeting", "communication", "participate", "attend"],
+          "examples": [],
+          "notes": ["背景构建：组织在线会议需明确具体场景（如学术交流会议）", "身份设计：可设定为学生会主席等组织者角色", "原文 Uniowho、betwee 为笔记笔误，应为 Union who、between"]
+        },
+        {
+          "id": "slp-sm-invite-e2-02",
+          "source": "slp-small-e2",
+          "page": 47,
+          "origin": "21 年英二：邀请+说明 · 第二段时间平台＋准备提醒",
+          "derived": true,
+          "letterType": "邀请类",
+          "section": "小作文第二段·线上活动详情＋准备提醒",
+          "originalText": "To begin with/First=First of all =Above all=First and foremost, this meeting is scheduled to start at 14:00 on May21st via/by Dingding and last for approimately 2 hours. Thus=Therefore=Hence=Accordingly=So=As a result, it is advisable for you to download and install the APP in advance=before the meeting.",
+          "en": "To begin with, {活动} is scheduled to start at {时间} on {日期} via {平台} and last for approximately {持续时长}. Thus, it is advisable for you to {准备事项} in advance.",
+          "zh": "首先，{活动}计划于{日期}{时间}通过{平台}开始，持续约{持续时长}。因此，建议你提前{准备事项}。",
+          "slots": ["活动", "时间", "日期", "平台", "持续时长", "准备事项"],
+          "swappable": ["To begin with", "First", "First of all", "Above all", "First and foremost", "via", "by", "Thus", "Therefore", "Hence", "Accordingly", "So", "As a result", "in advance", "before the meeting"],
+          "examples": [],
+          "notes": ["线上活动必须交代平台（via/by + 平台名）与提前准备事项", "原文 approimately 为笔记笔误，应为 approximately"]
+        },
+        {
+          "id": "slp-sm-invite-e2-03",
+          "source": "slp-small-e2",
+          "page": 47,
+          "origin": "21 年英二：邀请+说明 · 第二段必要性＋三益处",
+          "derived": true,
+          "letterType": "邀请类",
+          "section": "小作文第二段·参加必要性＋三益处",
+          "originalText": "In addition=Additionally=Furthermore=What is more=Moreover, it is excceddingly=very=quite=particularly=really necessary for you to attend this meeting which can bring/give you opportunities to make Chine friends, inspires your passion for campus life, and help you adpt to life in China better.",
+          "en": "In addition, it is exceedingly necessary for you to attend {活动} which can bring you opportunities to {益处一}, inspire your {益处二}, and help you {益处三}.",
+          "zh": "此外，你非常有必要参加{活动}，这能带给你{益处一}的机会，激发你{益处二}，并帮助你更好地{益处三}。",
+          "slots": ["活动", "益处一", "益处二", "益处三"],
+          "swappable": ["In addition", "Additionally", "Furthermore", "What is more", "Moreover", "exceedingly", "very", "quite", "particularly", "really", "bring", "give"],
+          "examples": [],
+          "notes": ["which 引导定语从句修饰 meeting，从句内含三益处并列", "原文 excceddingly、Chine、adpt 为笔记笔误，应为 exceedingly、Chinese、adapt"]
+        },
+        {
+          "id": "slp-sm-p3-e2-03",
+          "source": "slp-small-e2",
+          "page": 47,
+          "origin": "21 年英二：邀请+说明 · 尾段一",
+          "derived": true,
+          "letterType": "邀请类",
+          "section": "小作文第三段·尾段（期待准时参与型）",
+          "originalText": "Finally, we are looking forward to your participation on time/to your favorable reply at your earliest.",
+          "en": "Finally, we are looking forward to your participation on time.",
+          "zh": "最后，我们期待你准时参与。",
+          "slots": [],
+          "swappable": ["your participation on time", "your favorable reply at your earliest"],
+          "examples": [],
+          "notes": ["两种收尾可替换：期待准时参与，或期待尽早回复"]
+        },
+        {
+          "id": "slp-sm-p3-e2-04",
+          "source": "slp-small-e2",
+          "page": 47,
+          "origin": "21 年英二：邀请+说明 · 尾段二",
+          "derived": true,
+          "letterType": "邀请类",
+          "section": "小作文第三段·尾段（欢迎咨询型）",
+          "originalText": "Finally/At last, if you have any other questions/suggestions or demand please feel free to inform me.",
+          "en": "Finally, if you have any other questions or suggestions, please feel free to inform me.",
+          "zh": "最后，如果你有任何其他问题或建议，请随时告知我。",
+          "slots": [],
+          "swappable": ["Finally", "At last", "questions", "suggestions", "demand", "inform", "tell"],
+          "examples": [],
+          "notes": ["feel free to 意为「请随意」，是留出沟通余地的礼貌表达"]
+        }
+      ],
+      "pageNotes": [
+        "背景构建 · 主题选择：应避免敏感内容（如跨国交友），推荐学术交流或学期规划等正式主题",
+        "背景构建 · 主题设计：应确保内容积极正面，符合学术交流定位",
+        "背景构建 · 细节要求：必须包含会议具体信息和参与方式等核心要素"
+      ],
+      "vocab": []
+    },
+    {
+      "page": 53,
+      "title": "23 年英二：建议+原因 · 二选一建议骨架",
+      "kind": "small-essay-typed",
+      "entries": [
+        {
+          "id": "slp-sm-advice-e2-01",
+          "source": "slp-small-e2",
+          "page": 53,
+          "origin": "23 年英二：建议+原因 · 首段",
+          "derived": true,
+          "letterType": "建议类",
+          "section": "小作文第一段·收到咨询＋建议目的",
+          "originalText": "Quite/So/Really/Particularly/Exceedingly pleased/glad/happy/excited/delighted to receive your inquiry and today, I'm writing for the purpose of making a suggestion about which one you should visit/go to.",
+          "en": "Quite pleased to receive your inquiry and today, I'm writing for the purpose of making a suggestion about {咨询事项}.",
+          "zh": "很高兴收到你的咨询，今天我写信的目的是就{咨询事项}提出建议。",
+          "slots": ["咨询事项"],
+          "swappable": ["Quite", "So", "Really", "Particularly", "Exceedingly", "pleased", "glad", "happy", "excited", "delighted", "visit", "go to"],
+          "examples": [],
+          "notes": ["回复咨询类首句：先致意收到咨询，再交代建议目的", "写给朋友语域偏非正式，可用 I'm 缩写"]
+        },
+        {
+          "id": "slp-sm-advice-e2-02",
+          "source": "slp-small-e2",
+          "page": 53,
+          "origin": "23 年英二：建议+原因 · 第二段建议＋理由总起",
+          "derived": true,
+          "letterType": "建议类",
+          "section": "小作文第二段·给出建议＋理由总起（二选一）",
+          "originalText": "I deem that/I hold/reckon/suppose that=I am convinced that you are supposed to/it is advisable/sensible for you to watch/see/visit the art exhibition and there are two reasons.",
+          "en": "I deem that it is advisable for you to {建议选择} and there are two reasons.",
+          "zh": "我认为你应该{建议选择}，理由有两点。",
+          "slots": ["建议选择"],
+          "swappable": ["I deem that", "I hold that", "I reckon that", "I suppose that", "I am convinced that", "you are supposed to", "it is advisable for you to", "it is sensible for you to", "watch", "see", "visit"],
+          "examples": [],
+          "notes": ["二选一类题目必须明确表态选哪个，不能模糊", "there are two reasons 也可写作 for two reasons"]
+        },
+        {
+          "id": "slp-sm-advice-e2-03",
+          "source": "slp-small-e2",
+          "page": 53,
+          "origin": "23 年英二：建议+原因 · 第二段理由一＋三益处",
+          "derived": true,
+          "letterType": "建议类",
+          "section": "小作文第二段·理由一（个人偏好）＋三益处",
+          "originalText": "To begin with/First=First of all=Above all, you are fond of/keen on arts. Thus/Hence=So=Therefore=Accordingly, the/this exhibition can/will/may bring you opportunities/chances to appreciate master's/artists'/celebrities' masterpieces/works, inspire/enjoy your passion/love/enthusiasm for arts, and help you broaden your horizons.",
+          "en": "To begin with, you are fond of {兴趣领域}. Thus, {推荐对象} can bring you opportunities to {益处一}, inspire your passion for {益处二}, and help you {益处三}.",
+          "zh": "首先，你喜爱{兴趣领域}。因此，{推荐对象}能带给你{益处一}的机会，激发你对{益处二}的热情，并帮助你{益处三}。",
+          "slots": ["兴趣领域", "推荐对象", "益处一", "益处二", "益处三"],
+          "swappable": ["To begin with", "First", "First of all", "Above all", "First and foremost", "fond of", "keen on", "passionate for", "Thus", "Hence", "So", "Therefore", "Accordingly", "opportunities", "chances", "masterpieces", "works", "passion", "love", "enthusiasm"],
+          "examples": [
+            {
+              "label": "23 年英二真题（建议+原因）",
+              "en": "To begin with, you are particularly fond of arts. Thus, this art exhibition will bring you opportunities to appreciate masterpieces, inspire your passion for arts, and help you broaden your horizons.",
+              "zh": "首先，你特别喜爱艺术。因此，这次艺术展将带给你欣赏名作的机会，激发你对艺术的热情，并帮助你拓宽视野。"
+            }
+          ],
+          "notes": ["以对方兴趣作为理由一，说服力最强", "bring / inspire / help 三益处并列，全书通用结构"]
+        }
+      ],
+      "pageNotes": [],
+      "vocab": []
+    }
+  ]
+}

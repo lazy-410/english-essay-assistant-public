@@ -1,0 +1,17 @@
+# 文本行尾规范：库内统一 LF
+* text=auto
+
+# 脚本必须保持 LF（CRLF 会破坏 sh/command 在 mac/linux 的执行）
+*.sh text eol=lf
+*.command text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.pem text eol=lf
+
+# Windows 批处理保持 CRLF 更稳
+*.bat text eol=crlf

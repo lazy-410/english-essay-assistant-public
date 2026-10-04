@@ -1,0 +1,2309 @@
+{
+  "meta": {
+    "version": 3,
+    "title": "考研英语作文综合知识库",
+    "source": "考研英语作文.pdf + 石雷鹏考研英语大小作文笔记",
+    "sourcePageCount": 47,
+    "sources": [
+      {
+        "source": "scan-handout",
+        "sourceLabel": "考研英语作文扫描讲义",
+        "totalPages": 47,
+        "scope": "图画作文、图表作文、小作文功能句、书写布局与词汇"
+      },
+      {
+        "source": "slp-big-e1",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语一（整理自：学长小谭）",
+        "totalPages": 70,
+        "scope": "图画作文（图画类大作文）"
+      },
+      {
+        "source": "slp-big-e2",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语二（整理自：学长小谭）",
+        "totalPages": 64,
+        "scope": "图表作文（图表类大作文）"
+      },
+      {
+        "source": "slp-small-e1",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语一（整理自：学长小谭）",
+        "totalPages": 62,
+        "scope": "应用文（小作文）。本文件收录英一英二共有的前六篇精讲/实训以及英一全部独有真题。"
+      },
+      {
+        "source": "slp-small-e2",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语二（整理自：学长小谭）",
+        "totalPages": 58,
+        "scope": "应用文（小作文）· 英语二独有真题。与英语一笔记共有的前六篇精讲/实训（精讲1 辞职道歉、实训1 道歉建议、精讲2 求助描述、实训2 描述建议、精讲3 招募通知、实训3 通知介绍）已收录在 slp-small-e1.json，此处不重复。"
+      }
+    ],
+    "counts": {
+      "pages": 47,
+      "entries": 378,
+      "rawEntries": 220,
+      "slpEntries": 158,
+      "vocab": 207
+    }
+  },
+  "byKind": {
+    "big-essay-opening": [
+      "big-open-p01-01",
+      "big-open-p01-02",
+      "slp-pic-open-e1-01",
+      "slp-pic-open-e1-02",
+      "slp-pic-open-e1-03",
+      "slp-pic-open-e1-04",
+      "slp-pic-open-e1-05",
+      "slp-pic-open-e1-06",
+      "slp-pic-open-e1-07",
+      "slp-pic-body-e1-08",
+      "slp-pic-body-e1-09",
+      "slp-pic-body-e1-10",
+      "slp-pic-body-e1-11",
+      "slp-pic-body-e1-12",
+      "slp-pic-close-e1-04",
+      "slp-pic-close-e1-05",
+      "slp-pic-close-e1-06",
+      "slp-pic-open-e1-08",
+      "slp-pic-open-e1-09",
+      "slp-pic-open-e1-10",
+      "slp-pic-body-e1-13",
+      "slp-pic-body-e1-14",
+      "slp-pic-body-e1-15",
+      "slp-pic-close-e1-07",
+      "slp-pic-open-e1-13",
+      "slp-pic-open-e1-14",
+      "slp-pic-open-e1-15",
+      "slp-pic-body-e1-22",
+      "slp-pic-body-e1-23",
+      "slp-pic-body-e1-24"
+    ],
+    "big-essay-body": [
+      "big-body-p02-01",
+      "big-body-p03-01",
+      "big-body-campus-p11-01",
+      "big-body-health-13-01",
+      "big-body-culture-13-01",
+      "slp-pic-body-e1-01",
+      "slp-pic-body-e1-02",
+      "slp-pic-body-e1-03",
+      "slp-pic-body-e1-04",
+      "slp-pic-body-e1-05",
+      "slp-pic-body-e1-06",
+      "slp-pic-body-e1-07",
+      "slp-pic-close-e1-01",
+      "slp-pic-close-e1-02",
+      "slp-pic-close-e1-03",
+      "slp-pic-open-e1-11",
+      "slp-pic-open-e1-12",
+      "slp-pic-body-e1-16",
+      "slp-pic-body-e1-17",
+      "slp-pic-body-e1-18",
+      "slp-pic-body-e1-19",
+      "slp-pic-body-e1-20",
+      "slp-pic-body-e1-21",
+      "slp-pic-close-e1-08",
+      "slp-pic-close-e1-09",
+      "slp-pic-close-e1-10"
+    ],
+    "transition": [],
+    "big-essay-closing": [
+      "big-close-p05-01",
+      "big-close-p06-01",
+      "big-closing-economy-positive-14-01",
+      "big-closing-economy-negative-14-01",
+      "big-closing-campus-positive-15-01",
+      "big-closing-campus-negative-15-01",
+      "big-closing-environment-positive-16-01",
+      "big-closing-environment-negative-16-01",
+      "big-closing-health-positive-17-01",
+      "big-closing-health-negative-17-01",
+      "big-closing-culture-positive-18-01",
+      "big-closing-culture-negative-18-01"
+    ],
+    "method": [],
+    "chart-essay": [
+      "chart-p09-01",
+      "chart-p09-02",
+      "chart-p10-01",
+      "chart-p10-02",
+      "chart-p12-01",
+      "slp-chart-trend-e2-01",
+      "slp-chart-trend-e2-02",
+      "slp-chart-syntax-e2-01",
+      "slp-chart-syntax-e2-02",
+      "slp-chart-syntax-e2-03",
+      "slp-chart-syntax-e2-04",
+      "slp-chart-syntax-e2-05",
+      "slp-chart-rank-e2-01",
+      "slp-chart-rank-e2-02",
+      "slp-chart-rank-e2-03",
+      "slp-chart-rank-e2-04",
+      "slp-chart-open-e2-01",
+      "slp-chart-open-e2-02",
+      "slp-chart-open-e2-03",
+      "slp-chart-body-e2-01",
+      "slp-chart-body-e2-02",
+      "slp-chart-body-e2-03",
+      "slp-chart-close-e2-01",
+      "slp-chart-close-e2-02",
+      "slp-chart-close-e2-03",
+      "slp-chart-open-e2-04",
+      "slp-chart-open-e2-05",
+      "slp-chart-open-e2-06",
+      "slp-chart-body-e2-04",
+      "slp-chart-body-e2-05",
+      "slp-chart-body-e2-06",
+      "slp-chart-body-e2-07",
+      "slp-chart-close-e2-04",
+      "slp-chart-close-e2-05",
+      "slp-chart-close-e2-06",
+      "slp-chart-close-e2-07",
+      "slp-chart-open-e2-07",
+      "slp-chart-rank-e2-05",
+      "slp-chart-body-e2-08",
+      "slp-chart-body-e2-09",
+      "slp-chart-body-e2-10",
+      "slp-chart-close-e2-08",
+      "slp-chart-close-e2-09",
+      "slp-chart-open-e2-08",
+      "slp-chart-rank-e2-06",
+      "slp-chart-rank-e2-07",
+      "slp-chart-body-e2-11",
+      "slp-chart-body-e2-12",
+      "slp-chart-body-e2-13",
+      "slp-chart-close-e2-10",
+      "slp-chart-body-e2-14",
+      "slp-chart-rank-e2-08"
+    ],
+    "small-essay-para1": [
+      "small-p1-opening-21-01",
+      "small-p1-opening-21-02",
+      "small-p1-opening-21-03",
+      "small-p1-opening-21-04",
+      "small-p1-opening-21-05",
+      "small-p1-opening-21-06",
+      "small-p1-opening-21-07",
+      "small-p1-opening-21-08",
+      "small-p1-opening-21-09",
+      "small-p1-opening-21-10",
+      "small-p1-opening-21-11",
+      "small-p1-opening-21-12",
+      "small-p1-opening-21-13",
+      "small-p1-opening-21-14",
+      "small-p1-opening-21-15",
+      "small-p1-opening-21-16",
+      "small-p1-purpose-22-01",
+      "small-p1-purpose-22-02",
+      "small-p1-purpose-22-03",
+      "small-p1-purpose-22-04",
+      "small-p1-purpose-22-05",
+      "small-p1-purpose-22-06",
+      "small-p1-purpose-22-07",
+      "small-p1-purpose-22-08",
+      "small-p1-purpose-23-09",
+      "small-p1-purpose-23-10",
+      "small-p1-purpose-23-11",
+      "small-p1-purpose-23-12",
+      "small-p1-purpose-23-13",
+      "small-p1-purpose-23-14",
+      "small-p1-purpose-23-15",
+      "small-p1-purpose-24-16",
+      "small-p1-purpose-24-17",
+      "small-p1-purpose-24-18",
+      "small-p1-purpose-24-19",
+      "small-p1-purpose-24-20",
+      "small-p1-purpose-24-21",
+      "small-p1s2-p25-21",
+      "small-p1s2-p25-22",
+      "small-p1s2-p25-23",
+      "small-p1s2-p25-24",
+      "small-p1s2-p25-25",
+      "small-p1s2-p25-26",
+      "slp-sm-p1-e1-01",
+      "slp-sm-p2-e1-01",
+      "slp-sm-p2-e1-02",
+      "slp-sm-p3-e1-01"
+    ],
+    "small-essay-para2": [
+      "small-p1s2-p26-27",
+      "small-p2s1-p26-01",
+      "small-p2s1-p26-02",
+      "small-p2s1-p27-03",
+      "small-p2s1-p27-04",
+      "small-p2s1-p27-05",
+      "small-p2s1-p27-06",
+      "small-p2s1-p27-07",
+      "small-p2s1-p27-08",
+      "small-p2s1-p27-09",
+      "small-p2s1-p27-10",
+      "small-p2s1-p27-11",
+      "small-p2s1-p27-12",
+      "small-p2s1-p27-13",
+      "small-p2s1-p27-14",
+      "small-p2s1-p27-15",
+      "small-p2s1-p27-16",
+      "small-advice-p28-01",
+      "small-advice-p28-02",
+      "small-advice-p28-03",
+      "small-advice-p28-04",
+      "small-advice-p28-05",
+      "small-advice-p28-06",
+      "small-advice-p28-07",
+      "small-p2s3-p28-01",
+      "small-p2s3-p28-02",
+      "small-p2s3-p28-03",
+      "small-p2s3-p29-05",
+      "small-p2s3-p29-06",
+      "small-p2s3-p29-07",
+      "small-p2s4-p29-01",
+      "small-p2s4-p29-02",
+      "small-p2s4-p29-03",
+      "small-p2s4-p29-04",
+      "small-p2s4-p29-05",
+      "small-p2s4-p29-06",
+      "small-p2s4-p29-07",
+      "small-invite-p29-01"
+    ],
+    "small-essay-typed": [
+      "small-invite-p30-02",
+      "small-invite-p30-03",
+      "small-invite-p30-04",
+      "small-invite-p30-05",
+      "small-invite-p30-06",
+      "small-invite-p30-07",
+      "small-p2s3-p30-01",
+      "small-p2s3-p30-02",
+      "small-p2s3-p30-03",
+      "small-p2s3-p30-04",
+      "small-p2s3-p30-05",
+      "small-invite-p31-06",
+      "small-invite-p31-07",
+      "small-invite-p31-s4-01",
+      "small-invite-p31-s4-02",
+      "small-invite-p31-s4-03",
+      "small-invite-p31-s4-04",
+      "small-invite-p31-s4-05",
+      "small-invite-p31-s4-06",
+      "small-invite-p31-s4-07",
+      "small-apology-p31-01",
+      "small-apology-p31-02",
+      "small-apology-p32-03",
+      "small-apology-p32-04",
+      "small-apology-p32-05",
+      "small-apology-p32-06",
+      "small-apology-p32-07",
+      "small-apology-p32-s3-01",
+      "small-apology-p32-s3-02",
+      "small-apology-p32-s3-03",
+      "small-apology-p32-s3-04",
+      "small-apology-p32-s3-05",
+      "small-apology-p32-s3-06",
+      "small-apology-p33-s3-07",
+      "small-apology-p33-s4-01",
+      "small-apology-p33-s4-02",
+      "small-apology-p33-s4-03",
+      "small-apology-p33-s4-04",
+      "small-apology-p33-s4-05",
+      "small-apology-p33-s4-06",
+      "small-apology-p33-s4-07",
+      "small-congrats-p33-s2-01",
+      "small-congrats-p34-s2-02",
+      "small-congrats-p34-s2-03",
+      "small-congrats-p34-s2-04",
+      "small-congrats-p34-s2-05",
+      "small-congrats-p34-s2-06",
+      "small-congrats-p34-s2-07",
+      "small-congrats-p34-s3-01",
+      "small-congrats-p34-s3-02",
+      "small-congrats-p34-s3-03",
+      "small-congrats-p34-s3-04",
+      "small-congrats-p34-s3-05",
+      "small-congrats-p34-s3-06",
+      "small-congrats-p35-01",
+      "small-congrats-p35-02",
+      "small-congrats-p35-03",
+      "small-congrats-p35-04",
+      "small-congrats-p35-05",
+      "small-congrats-p35-06",
+      "small-congrats-p35-07",
+      "small-congrats-p35-08",
+      "small-intro-p35-09",
+      "small-intro-p36-01",
+      "small-intro-p36-02",
+      "small-intro-p36-03",
+      "small-intro-p36-04",
+      "small-intro-p36-05",
+      "small-intro-p36-06",
+      "small-intro-p36-07",
+      "small-intro-p36-08",
+      "small-intro-p36-09",
+      "small-intro-p36-10",
+      "small-intro-p36-11",
+      "small-intro-p37-01",
+      "small-intro-p37-02",
+      "small-notice-p38-01",
+      "small-notice-p38-02",
+      "small-notice-p38-03",
+      "small-notice-p38-04",
+      "small-notice-p38-05",
+      "small-notice-p38-06",
+      "small-notice-p38-07",
+      "small-notice-p38-08",
+      "small-notice-p38-09",
+      "small-notice-p38-10",
+      "small-notice-p39-01",
+      "small-notice-p39-02",
+      "small-notice-p39-03",
+      "small-notice-p39-04",
+      "small-notice-p39-05",
+      "small-notice-p39-06",
+      "small-notice-p39-07",
+      "small-notice-p39-08",
+      "small-p3-p39-09",
+      "small-p3-p39-10",
+      "small-p3-p39-11",
+      "small-p3-p39-12",
+      "slp-sm-p1-e1-02",
+      "slp-sm-p2-e1-03",
+      "slp-sm-p2-e1-04",
+      "slp-sm-p3-e1-02",
+      "slp-sm-p1-e1-03",
+      "slp-sm-p2-e1-05",
+      "slp-sm-p2-e1-06",
+      "slp-sm-p2-e1-07",
+      "slp-sm-p3-e1-03",
+      "slp-sm-notice-e1-01",
+      "slp-sm-notice-e1-02",
+      "slp-sm-notice-e1-03",
+      "slp-sm-notice-e1-04",
+      "slp-sm-invite-e1-01",
+      "slp-sm-invite-e1-02",
+      "slp-sm-invite-e1-03",
+      "slp-sm-p3-e1-04",
+      "slp-sm-p3-e1-05",
+      "slp-sm-advice-e1-01",
+      "slp-sm-advice-e1-02",
+      "slp-sm-recom-e1-01",
+      "slp-sm-recom-e1-02",
+      "slp-sm-notice-e1-05",
+      "slp-sm-notice-e1-06",
+      "slp-sm-spot-e1-01",
+      "slp-sm-spot-e1-02",
+      "slp-sm-reply-e1-01",
+      "slp-sm-reply-e1-02",
+      "slp-sm-p3-e1-06",
+      "slp-sm-call-e2-01",
+      "slp-sm-call-e2-02",
+      "slp-sm-call-e2-03",
+      "slp-sm-p3-e2-01",
+      "slp-sm-p3-e2-02",
+      "slp-sm-consult-e2-01",
+      "slp-sm-consult-e2-02",
+      "slp-sm-consult-e2-03",
+      "slp-sm-p3-e2-05",
+      "slp-sm-reply-e2-01",
+      "slp-sm-reply-e2-02",
+      "slp-sm-reply-e2-03",
+      "slp-sm-reply-e2-04",
+      "slp-sm-p3-e2-06",
+      "slp-sm-accept-e2-01",
+      "slp-sm-accept-e2-02",
+      "slp-sm-accept-e2-03",
+      "slp-sm-p3-e2-07",
+      "slp-sm-survey-e2-01",
+      "slp-sm-survey-e2-02",
+      "slp-sm-survey-e2-03",
+      "slp-sm-invite-e2-01",
+      "slp-sm-invite-e2-02",
+      "slp-sm-invite-e2-03",
+      "slp-sm-p3-e2-03",
+      "slp-sm-p3-e2-04",
+      "slp-sm-advice-e2-01",
+      "slp-sm-advice-e2-02",
+      "slp-sm-advice-e2-03"
+    ],
+    "small-essay-para3": [
+      "small-p3-p40-05",
+      "small-p3-p40-06",
+      "small-p3-p40-07",
+      "small-p3-p40-08",
+      "small-p3-p40-09",
+      "small-p3-p40-10",
+      "small-p3-p40-11",
+      "small-p3-p40-12",
+      "small-p3-p40-13",
+      "small-p3-p40-14",
+      "small-p3-p40-15",
+      "small-p3-p40-16",
+      "small-p3-p40-17",
+      "small-p3-p40-18",
+      "small-p3-p40-19",
+      "small-p3-p40-20",
+      "small-p3-p40-21"
+    ],
+    "layout": [],
+    "vocab": []
+  },
+  "bySlot": {
+    "图片描述句": [
+      "big-open-p01-01"
+    ],
+    "题目相关词": [
+      "big-open-p01-01",
+      "big-open-p01-02",
+      "big-body-p02-01",
+      "big-body-p03-01",
+      "big-close-p05-01",
+      "big-close-p06-01",
+      "chart-p09-01",
+      "chart-p09-02",
+      "chart-p10-01",
+      "chart-p10-02",
+      "big-body-campus-p11-01",
+      "chart-p12-01",
+      "big-body-health-13-01",
+      "big-body-culture-13-01",
+      "big-closing-economy-positive-14-01",
+      "big-closing-economy-negative-14-01",
+      "big-closing-campus-positive-15-01",
+      "big-closing-campus-negative-15-01",
+      "big-closing-environment-positive-16-01",
+      "big-closing-environment-negative-16-01",
+      "big-closing-health-positive-17-01",
+      "big-closing-health-negative-17-01",
+      "big-closing-culture-positive-18-01",
+      "big-closing-culture-negative-18-01",
+      "small-p1-purpose-22-01",
+      "small-p1-purpose-22-03",
+      "small-p1-purpose-22-05",
+      "small-p1-purpose-22-06",
+      "small-p1-purpose-22-07",
+      "small-p1-purpose-22-08",
+      "small-p1-purpose-23-09",
+      "small-p1-purpose-23-10",
+      "small-p1-purpose-23-11",
+      "small-p1-purpose-23-12",
+      "small-p1-purpose-23-13",
+      "small-p1-purpose-23-14",
+      "small-p1-purpose-23-15",
+      "small-p1-purpose-24-16",
+      "small-p1-purpose-24-17",
+      "small-p1-purpose-24-18",
+      "small-p1-purpose-24-19",
+      "small-p1-purpose-24-20",
+      "small-p1-purpose-24-21",
+      "small-p1s2-p25-21",
+      "small-p1s2-p25-22",
+      "small-p1s2-p25-23",
+      "small-p1s2-p25-24",
+      "small-p1s2-p25-25",
+      "small-p1s2-p25-26",
+      "small-p1s2-p26-27",
+      "small-advice-p28-01",
+      "small-advice-p28-02",
+      "small-advice-p28-03",
+      "small-advice-p28-04",
+      "small-advice-p28-05",
+      "small-advice-p28-06",
+      "small-advice-p28-07",
+      "small-p2s3-p29-06",
+      "small-p2s3-p29-07",
+      "small-p2s4-p29-06",
+      "small-p2s4-p29-07",
+      "small-invite-p29-01",
+      "small-invite-p30-02",
+      "small-invite-p30-03",
+      "small-invite-p30-04",
+      "small-invite-p30-05",
+      "small-invite-p30-06",
+      "small-invite-p30-07",
+      "small-p2s3-p30-01",
+      "small-p2s3-p30-02",
+      "small-p2s3-p30-03",
+      "small-p2s3-p30-04",
+      "small-p2s3-p30-05",
+      "small-invite-p31-06",
+      "small-invite-p31-07",
+      "small-invite-p31-s4-01",
+      "small-invite-p31-s4-02",
+      "small-invite-p31-s4-03",
+      "small-invite-p31-s4-04",
+      "small-invite-p31-s4-05",
+      "small-invite-p31-s4-06",
+      "small-invite-p31-s4-07",
+      "small-apology-p31-01",
+      "small-apology-p31-02",
+      "small-apology-p32-03",
+      "small-apology-p32-04",
+      "small-apology-p32-05",
+      "small-apology-p32-06",
+      "small-apology-p32-07",
+      "small-apology-p32-s3-02",
+      "small-apology-p32-s3-03",
+      "small-apology-p32-s3-04",
+      "small-apology-p32-s3-05",
+      "small-apology-p33-s3-07",
+      "small-apology-p33-s4-01",
+      "small-apology-p33-s4-02",
+      "small-apology-p33-s4-03",
+      "small-apology-p33-s4-04",
+      "small-apology-p33-s4-05",
+      "small-apology-p33-s4-06",
+      "small-apology-p33-s4-07",
+      "small-congrats-p33-s2-01",
+      "small-congrats-p34-s2-02",
+      "small-congrats-p34-s2-03",
+      "small-congrats-p34-s2-04",
+      "small-congrats-p34-s2-05",
+      "small-congrats-p34-s2-06",
+      "small-congrats-p34-s2-07",
+      "small-congrats-p34-s3-01",
+      "small-congrats-p34-s3-02",
+      "small-congrats-p34-s3-03",
+      "small-congrats-p34-s3-04",
+      "small-congrats-p34-s3-05",
+      "small-congrats-p34-s3-06",
+      "small-congrats-p35-01",
+      "small-congrats-p35-02",
+      "small-congrats-p35-03",
+      "small-congrats-p35-04",
+      "small-congrats-p35-05",
+      "small-congrats-p35-06",
+      "small-congrats-p35-07",
+      "small-congrats-p35-08",
+      "small-intro-p35-09",
+      "small-intro-p36-01",
+      "small-intro-p36-02",
+      "small-intro-p36-03",
+      "small-intro-p36-04",
+      "small-intro-p36-05",
+      "small-intro-p36-06",
+      "small-intro-p37-02",
+      "small-notice-p38-01",
+      "small-notice-p38-02",
+      "small-notice-p38-03",
+      "small-notice-p38-04",
+      "small-notice-p38-05",
+      "small-notice-p38-06",
+      "small-notice-p38-07",
+      "small-notice-p38-08",
+      "small-notice-p38-10",
+      "small-notice-p39-01",
+      "small-notice-p39-03",
+      "small-notice-p39-04",
+      "small-notice-p39-05",
+      "small-notice-p39-06",
+      "small-notice-p39-07",
+      "small-notice-p39-08",
+      "small-p3-p39-11",
+      "small-p3-p39-12",
+      "small-p3-p40-05",
+      "small-p3-p40-06",
+      "small-p3-p40-07",
+      "small-p3-p40-08",
+      "small-p3-p40-10",
+      "small-p3-p40-11",
+      "small-p3-p40-12",
+      "small-p3-p40-18",
+      "small-p3-p40-19",
+      "small-p3-p40-21"
+    ],
+    "对象A": [
+      "chart-p09-01",
+      "chart-p09-02",
+      "chart-p10-01",
+      "slp-chart-syntax-e2-01",
+      "slp-chart-rank-e2-02",
+      "slp-chart-rank-e2-04",
+      "slp-chart-open-e2-01",
+      "slp-chart-open-e2-02",
+      "slp-chart-body-e2-03",
+      "slp-chart-open-e2-04",
+      "slp-chart-open-e2-05",
+      "slp-chart-body-e2-05",
+      "slp-chart-rank-e2-05",
+      "slp-chart-body-e2-10",
+      "slp-chart-rank-e2-06",
+      "slp-chart-body-e2-12",
+      "slp-chart-rank-e2-08"
+    ],
+    "数字A": [
+      "chart-p09-01",
+      "chart-p09-02"
+    ],
+    "对象B": [
+      "chart-p09-01",
+      "slp-chart-syntax-e2-01",
+      "slp-chart-rank-e2-03",
+      "slp-chart-rank-e2-04",
+      "slp-chart-open-e2-01",
+      "slp-chart-open-e2-03",
+      "slp-chart-body-e2-02",
+      "slp-chart-body-e2-03",
+      "slp-chart-open-e2-04",
+      "slp-chart-open-e2-06",
+      "slp-chart-rank-e2-05",
+      "slp-chart-rank-e2-07",
+      "slp-chart-body-e2-13",
+      "slp-chart-rank-e2-08"
+    ],
+    "数字B": [
+      "chart-p09-01"
+    ],
+    "起始年份": [
+      "chart-p10-01",
+      "chart-p10-02",
+      "slp-chart-trend-e2-01",
+      "slp-chart-syntax-e2-01",
+      "slp-chart-syntax-e2-02",
+      "slp-chart-syntax-e2-03",
+      "slp-chart-syntax-e2-04",
+      "slp-chart-open-e2-01",
+      "slp-chart-open-e2-03",
+      "slp-chart-open-e2-04"
+    ],
+    "结束年份": [
+      "chart-p10-01",
+      "chart-p10-02",
+      "slp-chart-trend-e2-01",
+      "slp-chart-trend-e2-02",
+      "slp-chart-syntax-e2-01",
+      "slp-chart-syntax-e2-02",
+      "slp-chart-syntax-e2-03",
+      "slp-chart-open-e2-01",
+      "slp-chart-open-e2-02",
+      "slp-chart-open-e2-03",
+      "slp-chart-open-e2-04"
+    ],
+    "[动词 ing 形式，比如 putting]": [
+      "small-advice-p28-01"
+    ],
+    "[题目相关短语或者词]": [
+      "small-advice-p28-01",
+      "small-advice-p28-02",
+      "small-advice-p28-03",
+      "small-advice-p28-04",
+      "small-advice-p28-05",
+      "small-advice-p28-06",
+      "small-advice-p28-07"
+    ],
+    "[动词 ing，比如 cultivating]": [
+      "small-advice-p28-02"
+    ],
+    "[建议行动，动词短语]": [
+      "small-advice-p28-03",
+      "small-advice-p28-04",
+      "small-advice-p28-05",
+      "small-advice-p28-06",
+      "small-advice-p28-07"
+    ],
+    "[要做的事]": [
+      "small-p2s3-p28-01",
+      "small-p2s3-p28-02",
+      "small-p2s3-p28-03",
+      "small-p2s3-p29-05",
+      "small-p2s3-p29-06",
+      "small-p2s3-p29-07",
+      "small-p2s4-p29-01",
+      "small-p2s4-p29-02",
+      "small-p2s4-p29-03",
+      "small-p2s4-p29-04",
+      "small-p2s4-p29-05",
+      "small-p2s4-p29-06",
+      "small-p2s4-p29-07",
+      "small-p2s3-p30-01",
+      "small-p2s3-p30-02",
+      "small-p2s3-p30-03",
+      "small-p2s3-p30-04",
+      "small-p2s3-p30-05",
+      "small-invite-p31-06",
+      "small-invite-p31-07"
+    ],
+    "[好处是什么]": [
+      "small-p2s4-p29-01",
+      "small-p2s4-p29-02",
+      "small-p2s4-p29-03",
+      "small-p2s4-p29-04",
+      "small-p2s4-p29-05",
+      "small-p2s4-p29-06",
+      "small-p2s4-p29-07",
+      "small-invite-p31-s4-01",
+      "small-invite-p31-s4-02",
+      "small-invite-p31-s4-03",
+      "small-invite-p31-s4-04",
+      "small-invite-p31-s4-05",
+      "small-invite-p31-s4-07"
+    ],
+    "[受邀行动，比如 take part in]": [
+      "small-invite-p29-01"
+    ],
+    "[参加收获]": [
+      "small-invite-p29-01",
+      "small-invite-p30-02",
+      "small-invite-p30-03",
+      "small-invite-p30-04",
+      "small-invite-p30-05",
+      "small-invite-p30-07"
+    ],
+    "[时间地点信息]": [
+      "small-invite-p30-02"
+    ],
+    "[受邀行动，动词短语]": [
+      "small-invite-p30-03",
+      "small-invite-p30-04",
+      "small-invite-p30-05",
+      "small-invite-p30-06",
+      "small-invite-p30-07"
+    ],
+    "[参加相关短语]": [
+      "small-invite-p30-06"
+    ],
+    "[邀请带来的好处]": [
+      "small-p2s3-p30-02",
+      "small-p2s3-p30-03",
+      "small-p2s3-p30-05",
+      "small-invite-p31-06"
+    ],
+    "[邀请相关能力或品质]": [
+      "small-p2s3-p30-04"
+    ],
+    "[邀请相关短语]": [
+      "small-invite-p31-07"
+    ],
+    "[邀请收获]": [
+      "small-invite-p31-s4-02"
+    ],
+    "[好处之一]": [
+      "small-invite-p31-s4-06"
+    ],
+    "[好处之二]": [
+      "small-invite-p31-s4-06"
+    ],
+    "[过失行为]": [
+      "small-apology-p31-01",
+      "small-apology-p31-02",
+      "small-apology-p32-03",
+      "small-apology-p32-04",
+      "small-apology-p32-05",
+      "small-apology-p32-06",
+      "small-apology-p32-07",
+      "small-p3-p40-16",
+      "small-p3-p40-17"
+    ],
+    "[产生的影响]": [
+      "small-apology-p31-01",
+      "small-apology-p31-02",
+      "small-apology-p32-05",
+      "small-apology-p32-07",
+      "small-apology-p32-s3-06"
+    ],
+    "[客观原因]": [
+      "small-apology-p32-s3-01",
+      "small-apology-p32-s3-02",
+      "small-apology-p32-s3-03",
+      "small-apology-p32-s3-06"
+    ],
+    "[主观原因]": [
+      "small-apology-p32-s3-03"
+    ],
+    "[本应做到的事]": [
+      "small-apology-p32-s3-04"
+    ],
+    "[主观原因，例如 my carelessness]": [
+      "small-apology-p32-s3-05"
+    ],
+    "[教训，例如 I must be more cautious with {题目相关词}]": [
+      "small-apology-p33-s3-07"
+    ],
+    "[补救措施]": [
+      "small-apology-p33-s4-01",
+      "small-apology-p33-s4-02",
+      "small-apology-p33-s4-03",
+      "small-apology-p33-s4-04",
+      "small-apology-p33-s4-05",
+      "small-apology-p33-s4-06",
+      "small-apology-p33-s4-07"
+    ],
+    "[需要挽回的方面，例如 your trust]": [
+      "small-apology-p33-s4-04"
+    ],
+    "[优秀品质或能力]": [
+      "small-congrats-p33-s2-01"
+    ],
+    "[取得的成就]": [
+      "small-congrats-p34-s2-02",
+      "small-congrats-p34-s2-03"
+    ],
+    "[品质或能力]": [
+      "small-congrats-p34-s2-02",
+      "small-congrats-p34-s2-04"
+    ],
+    "[具体表现]": [
+      "small-congrats-p34-s2-04"
+    ],
+    "[付出或过程]": [
+      "small-congrats-p34-s2-05"
+    ],
+    "[品质或努力过程]": [
+      "small-congrats-p34-s2-06"
+    ],
+    "[受众对象]": [
+      "small-congrats-p34-s2-07",
+      "small-intro-p36-02",
+      "small-intro-p36-10"
+    ],
+    "[关键努力]": [
+      "small-congrats-p34-s3-01"
+    ],
+    "[良好习惯]": [
+      "small-congrats-p34-s3-02"
+    ],
+    "[长期坚持的行为]": [
+      "small-congrats-p34-s3-03"
+    ],
+    "[积极行为]": [
+      "small-congrats-p34-s3-04"
+    ],
+    "[具体做法]": [
+      "small-congrats-p34-s3-05"
+    ],
+    "[相关价值]": [
+      "small-congrats-p34-s3-05"
+    ],
+    "[其他任务或责任]": [
+      "small-congrats-p34-s3-06"
+    ],
+    "[学习到的能力或品质]": [
+      "small-congrats-p35-01"
+    ],
+    "[未来行动]": [
+      "small-congrats-p35-02"
+    ],
+    "[下一阶段目标]": [
+      "small-congrats-p35-02"
+    ],
+    "[未来发展方向]": [
+      "small-congrats-p35-03"
+    ],
+    "[未来收获或成就]": [
+      "small-congrats-p35-04"
+    ],
+    "[未来成长]": [
+      "small-congrats-p35-05"
+    ],
+    "[未来挑战或目标]": [
+      "small-congrats-p35-06"
+    ],
+    "[长期目标]": [
+      "small-congrats-p35-07"
+    ],
+    "[更高层次的成就]": [
+      "small-congrats-p35-08"
+    ],
+    "[介绍对象或概念]": [
+      "small-intro-p35-09"
+    ],
+    "[核心特点]": [
+      "small-intro-p35-09"
+    ],
+    "[概括性定义]": [
+      "small-intro-p36-01"
+    ],
+    "[重点方面]": [
+      "small-intro-p36-01"
+    ],
+    "[功能或作用]": [
+      "small-intro-p36-02"
+    ],
+    "[具体益处]": [
+      "small-intro-p36-02"
+    ],
+    "[要素 1]": [
+      "small-intro-p36-03",
+      "small-notice-p38-10"
+    ],
+    "[要素 2]": [
+      "small-intro-p36-03",
+      "small-notice-p38-10"
+    ],
+    "[主要内容]": [
+      "small-intro-p36-04"
+    ],
+    "[总体目标]": [
+      "small-intro-p36-04"
+    ],
+    "[角色定位]": [
+      "small-intro-p36-05"
+    ],
+    "[应用场景]": [
+      "small-intro-p36-05"
+    ],
+    "[简要描述]": [
+      "small-intro-p36-06"
+    ],
+    "[对比对象]": [
+      "small-intro-p36-06"
+    ],
+    "[日常习惯 1]": [
+      "small-intro-p36-07"
+    ],
+    "[日常习惯 2]": [
+      "small-intro-p36-07"
+    ],
+    "[生活相关优点，如 a balanced and healthy lifestyle]": [
+      "small-intro-p36-07"
+    ],
+    "[作息习惯，如 get up early]": [
+      "small-intro-p36-08"
+    ],
+    "[学习/锻炼习惯，如 set aside time for regular exercise]": [
+      "small-intro-p36-08"
+    ],
+    "[状态，如 energetic and focused]": [
+      "small-intro-p36-08"
+    ],
+    "[学习习惯 1]": [
+      "small-intro-p36-09"
+    ],
+    "[兴趣习惯 2]": [
+      "small-intro-p36-09"
+    ],
+    "[生活方式优点，如 a positive and self disciplined lifestyle]": [
+      "small-intro-p36-09"
+    ],
+    "[方面 1]": [
+      "small-intro-p36-10"
+    ],
+    "[具体收获 1]": [
+      "small-intro-p36-10"
+    ],
+    "[方面 2]": [
+      "small-intro-p36-11"
+    ],
+    "[具体作用 2]": [
+      "small-intro-p36-11"
+    ],
+    "[特定群体]": [
+      "small-intro-p36-11"
+    ],
+    "[方面 3]": [
+      "small-intro-p37-01"
+    ],
+    "[整体功能]": [
+      "small-intro-p37-01"
+    ],
+    "[突出优点]": [
+      "small-intro-p37-02"
+    ],
+    "[适用领域]": [
+      "small-intro-p37-02"
+    ],
+    "[时间信息]": [
+      "small-notice-p38-01"
+    ],
+    "[参加对象]": [
+      "small-notice-p38-01",
+      "small-notice-p38-02",
+      "small-notice-p38-04",
+      "small-notice-p38-09",
+      "small-notice-p39-02",
+      "small-notice-p39-03",
+      "small-notice-p39-07",
+      "small-notice-p39-08"
+    ],
+    "[地点信息]": [
+      "small-notice-p38-02"
+    ],
+    "[起始时间]": [
+      "small-notice-p38-03"
+    ],
+    "[结束时间]": [
+      "small-notice-p38-03"
+    ],
+    "[主要环节]": [
+      "small-notice-p38-03"
+    ],
+    "[活动主题或内容]": [
+      "small-notice-p38-05"
+    ],
+    "[目标问题]": [
+      "small-notice-p38-05"
+    ],
+    "[主办单位]": [
+      "small-notice-p38-06"
+    ],
+    "[协办单位]": [
+      "small-notice-p38-06"
+    ],
+    "[内容 1]": [
+      "small-notice-p38-07"
+    ],
+    "[内容 2]": [
+      "small-notice-p38-07"
+    ],
+    "[内容 3]": [
+      "small-notice-p38-07"
+    ],
+    "[形式 1]": [
+      "small-notice-p38-08"
+    ],
+    "[形式 2]": [
+      "small-notice-p38-08"
+    ],
+    "[预期效果]": [
+      "small-notice-p38-08"
+    ],
+    "[重点环节 1]": [
+      "small-notice-p38-09"
+    ],
+    "[重点环节 2]": [
+      "small-notice-p38-09"
+    ],
+    "[具体安排，如 group discussion or Q and A]": [
+      "small-notice-p39-01"
+    ],
+    "[环节，如 free communication]": [
+      "small-notice-p39-02"
+    ],
+    "[具体收获]": [
+      "small-notice-p39-02"
+    ],
+    "[注意事项或要求]": [
+      "small-notice-p39-03"
+    ],
+    "[携带物品或准备事项]": [
+      "small-notice-p39-04"
+    ],
+    "[纪律或安全要求]": [
+      "small-notice-p39-05"
+    ],
+    "[通知渠道]": [
+      "small-notice-p39-07"
+    ],
+    "[期待动作]": [
+      "small-p3-p39-09",
+      "small-p3-p39-10",
+      "small-p3-p39-11",
+      "small-p3-p39-12"
+    ],
+    "[时间节点]": [
+      "small-p3-p39-09",
+      "small-p3-p39-12",
+      "small-p3-p40-15"
+    ],
+    "[对象]": [
+      "small-p3-p39-10"
+    ],
+    "图画载体": [
+      "slp-pic-open-e1-01",
+      "slp-pic-open-e1-05"
+    ],
+    "环境": [
+      "slp-pic-open-e1-02",
+      "slp-pic-open-e1-09",
+      "slp-pic-open-e1-12",
+      "slp-pic-open-e1-14"
+    ],
+    "主体": [
+      "slp-pic-open-e1-02",
+      "slp-pic-open-e1-03",
+      "slp-pic-body-e1-03",
+      "slp-pic-open-e1-06",
+      "slp-pic-open-e1-07",
+      "slp-pic-open-e1-09",
+      "slp-pic-open-e1-10"
+    ],
+    "伴随动作": [
+      "slp-pic-open-e1-02",
+      "slp-pic-open-e1-07",
+      "slp-pic-open-e1-09"
+    ],
+    "周围事物": [
+      "slp-pic-open-e1-02"
+    ],
+    "周围事物状态": [
+      "slp-pic-open-e1-02"
+    ],
+    "正面状态": [
+      "slp-pic-open-e1-03"
+    ],
+    "原环境": [
+      "slp-pic-open-e1-03"
+    ],
+    "负面变化": [
+      "slp-pic-open-e1-03"
+    ],
+    "新环境": [
+      "slp-pic-open-e1-03"
+    ],
+    "伴随细节": [
+      "slp-pic-open-e1-03"
+    ],
+    "文字说明内容": [
+      "slp-pic-open-e1-04",
+      "slp-pic-open-e1-08",
+      "slp-pic-open-e1-13"
+    ],
+    "背景主体": [
+      "slp-pic-body-e1-01",
+      "slp-chart-body-e2-09",
+      "slp-chart-body-e2-12"
+    ],
+    "突出特征": [
+      "slp-pic-body-e1-01",
+      "slp-sm-p2-e1-05",
+      "slp-sm-accept-e2-02"
+    ],
+    "现实对应群体": [
+      "slp-pic-body-e1-01",
+      "slp-pic-body-e1-08",
+      "slp-pic-body-e1-13",
+      "slp-pic-body-e1-22"
+    ],
+    "现实群体": [
+      "slp-pic-body-e1-02",
+      "slp-pic-body-e1-09",
+      "slp-pic-body-e1-16",
+      "slp-pic-body-e1-23"
+    ],
+    "现象行为": [
+      "slp-pic-body-e1-02"
+    ],
+    "列举一": [
+      "slp-pic-body-e1-02",
+      "slp-pic-body-e1-09",
+      "slp-pic-close-e1-05",
+      "slp-pic-close-e1-10",
+      "slp-sm-consult-e2-02",
+      "slp-sm-accept-e2-02",
+      "slp-sm-accept-e2-03"
+    ],
+    "列举二": [
+      "slp-pic-body-e1-02",
+      "slp-pic-body-e1-09",
+      "slp-pic-close-e1-05",
+      "slp-pic-close-e1-10",
+      "slp-sm-consult-e2-02",
+      "slp-sm-accept-e2-02",
+      "slp-sm-accept-e2-03"
+    ],
+    "列举三": [
+      "slp-pic-body-e1-02",
+      "slp-pic-body-e1-09",
+      "slp-pic-close-e1-05",
+      "slp-sm-consult-e2-02",
+      "slp-sm-accept-e2-02",
+      "slp-sm-accept-e2-03"
+    ],
+    "片面关注对象": [
+      "slp-pic-body-e1-03",
+      "slp-pic-body-e1-24"
+    ],
+    "被忽略的重要事物": [
+      "slp-pic-body-e1-03",
+      "slp-pic-body-e1-24"
+    ],
+    "根本原因": [
+      "slp-pic-body-e1-04"
+    ],
+    "受影响群体": [
+      "slp-pic-body-e1-04",
+      "slp-chart-body-e2-02",
+      "slp-chart-body-e2-05",
+      "slp-chart-body-e2-06",
+      "slp-chart-body-e2-09"
+    ],
+    "产生的后果": [
+      "slp-pic-body-e1-04"
+    ],
+    "核心品质": [
+      "slp-pic-body-e1-05",
+      "slp-pic-body-e1-06",
+      "slp-pic-body-e1-14"
+    ],
+    "比喻对象": [
+      "slp-pic-body-e1-05"
+    ],
+    "比喻结果": [
+      "slp-pic-body-e1-05"
+    ],
+    "受益群体": [
+      "slp-pic-body-e1-06",
+      "slp-chart-close-e2-08",
+      "slp-sm-p2-e1-05"
+    ],
+    "益处一": [
+      "slp-pic-body-e1-06",
+      "slp-pic-body-e1-12",
+      "slp-chart-close-e2-09",
+      "slp-chart-close-e2-10",
+      "slp-sm-invite-e1-02",
+      "slp-sm-spot-e1-02",
+      "slp-sm-call-e2-03",
+      "slp-sm-reply-e2-04",
+      "slp-sm-invite-e2-03",
+      "slp-sm-advice-e2-03"
+    ],
+    "益处二": [
+      "slp-pic-body-e1-06",
+      "slp-pic-body-e1-12",
+      "slp-chart-close-e2-09",
+      "slp-chart-close-e2-10",
+      "slp-sm-invite-e1-02",
+      "slp-sm-spot-e1-02",
+      "slp-sm-call-e2-03",
+      "slp-sm-reply-e2-04",
+      "slp-sm-invite-e2-03",
+      "slp-sm-advice-e2-03"
+    ],
+    "益处三": [
+      "slp-pic-body-e1-06",
+      "slp-pic-body-e1-12",
+      "slp-chart-close-e2-09",
+      "slp-chart-close-e2-10",
+      "slp-sm-invite-e1-02",
+      "slp-sm-spot-e1-02",
+      "slp-sm-call-e2-03",
+      "slp-sm-reply-e2-04",
+      "slp-sm-invite-e2-03",
+      "slp-sm-advice-e2-03"
+    ],
+    "负面因素": [
+      "slp-pic-body-e1-07"
+    ],
+    "图画意象": [
+      "slp-pic-body-e1-07"
+    ],
+    "受害对象": [
+      "slp-pic-body-e1-07",
+      "slp-pic-body-e1-11",
+      "slp-pic-body-e1-21"
+    ],
+    "社会行动": [
+      "slp-pic-close-e1-01",
+      "slp-pic-close-e1-07"
+    ],
+    "行动主体": [
+      "slp-pic-close-e1-02",
+      "slp-chart-close-e2-01",
+      "slp-chart-close-e2-04"
+    ],
+    "具体建议": [
+      "slp-pic-close-e1-02"
+    ],
+    "对象": [
+      "slp-pic-close-e1-03",
+      "slp-pic-body-e1-09",
+      "slp-sm-notice-e1-05"
+    ],
+    "应牢记的道理": [
+      "slp-pic-close-e1-03",
+      "slp-pic-close-e1-07"
+    ],
+    "身上事物": [
+      "slp-pic-open-e1-06"
+    ],
+    "部位": [
+      "slp-pic-open-e1-06"
+    ],
+    "主要动作": [
+      "slp-pic-open-e1-07"
+    ],
+    "比较对象": [
+      "slp-pic-open-e1-07"
+    ],
+    "参照对象": [
+      "slp-pic-open-e1-07"
+    ],
+    "图中人物": [
+      "slp-pic-body-e1-08"
+    ],
+    "人物特征": [
+      "slp-pic-body-e1-08"
+    ],
+    "表面事物": [
+      "slp-pic-body-e1-10"
+    ],
+    "真正重要的事物": [
+      "slp-pic-body-e1-10"
+    ],
+    "负面行为": [
+      "slp-pic-body-e1-11"
+    ],
+    "正面行为": [
+      "slp-pic-body-e1-12"
+    ],
+    "核心事物": [
+      "slp-pic-close-e1-04",
+      "slp-pic-body-e1-15",
+      "slp-pic-body-e1-18",
+      "slp-pic-body-e1-19",
+      "slp-pic-body-e1-21",
+      "slp-pic-close-e1-09",
+      "slp-chart-body-e2-11",
+      "slp-chart-body-e2-14",
+      "slp-sm-p2-e1-05"
+    ],
+    "比喻意象": [
+      "slp-pic-close-e1-04",
+      "slp-pic-body-e1-15"
+    ],
+    "美好结果": [
+      "slp-pic-close-e1-04"
+    ],
+    "自身身份": [
+      "slp-pic-close-e1-05",
+      "slp-pic-close-e1-07",
+      "slp-pic-close-e1-08",
+      "slp-chart-close-e2-09",
+      "slp-chart-close-e2-10",
+      "slp-sm-p1-e1-03",
+      "slp-sm-advice-e1-01",
+      "slp-sm-consult-e2-01",
+      "slp-sm-consult-e2-03"
+    ],
+    "行动一": [
+      "slp-pic-close-e1-05"
+    ],
+    "行动二": [
+      "slp-pic-close-e1-05"
+    ],
+    "最终收获": [
+      "slp-pic-close-e1-06"
+    ],
+    "表情或身上细节": [
+      "slp-pic-open-e1-09"
+    ],
+    "当前状态": [
+      "slp-pic-open-e1-10"
+    ],
+    "后续行动": [
+      "slp-pic-open-e1-10",
+      "slp-pic-body-e1-15"
+    ],
+    "正面行为一": [
+      "slp-pic-body-e1-13"
+    ],
+    "负面状态": [
+      "slp-pic-body-e1-13"
+    ],
+    "正面行为二": [
+      "slp-pic-body-e1-13"
+    ],
+    "正面结果": [
+      "slp-pic-body-e1-14"
+    ],
+    "举例人物": [
+      "slp-pic-body-e1-15"
+    ],
+    "人物身份": [
+      "slp-pic-body-e1-15"
+    ],
+    "转折时点": [
+      "slp-pic-body-e1-15"
+    ],
+    "同类群体": [
+      "slp-pic-body-e1-15"
+    ],
+    "个人行动": [
+      "slp-pic-close-e1-07"
+    ],
+    "矛盾概念A": [
+      "slp-pic-open-e1-11"
+    ],
+    "矛盾词一": [
+      "slp-pic-open-e1-11"
+    ],
+    "矛盾词二": [
+      "slp-pic-open-e1-11"
+    ],
+    "主体群体": [
+      "slp-pic-open-e1-12",
+      "slp-pic-open-e1-14",
+      "slp-pic-open-e1-15"
+    ],
+    "伴随动作一": [
+      "slp-pic-open-e1-12"
+    ],
+    "伴随动作二": [
+      "slp-pic-open-e1-12"
+    ],
+    "表面状态": [
+      "slp-pic-open-e1-12"
+    ],
+    "缺失行为": [
+      "slp-pic-open-e1-12"
+    ],
+    "耗时对象": [
+      "slp-pic-body-e1-16"
+    ],
+    "行为一": [
+      "slp-pic-body-e1-16"
+    ],
+    "行为二": [
+      "slp-pic-body-e1-16"
+    ],
+    "行为三": [
+      "slp-pic-body-e1-16"
+    ],
+    "沉溺对象": [
+      "slp-pic-body-e1-17"
+    ],
+    "被忽略对象": [
+      "slp-pic-body-e1-17"
+    ],
+    "正面作用": [
+      "slp-pic-body-e1-18"
+    ],
+    "受影响对象": [
+      "slp-pic-body-e1-18"
+    ],
+    "负面结果": [
+      "slp-pic-body-e1-18"
+    ],
+    "正面益处": [
+      "slp-pic-body-e1-20"
+    ],
+    "被消除的障碍": [
+      "slp-pic-body-e1-20"
+    ],
+    "建议行为": [
+      "slp-pic-close-e1-08"
+    ],
+    "本质定位": [
+      "slp-pic-close-e1-09"
+    ],
+    "负面对象": [
+      "slp-pic-close-e1-10"
+    ],
+    "汉字数量": [
+      "slp-pic-open-e1-13"
+    ],
+    "选项数量": [
+      "slp-pic-open-e1-14"
+    ],
+    "选项一": [
+      "slp-pic-open-e1-14"
+    ],
+    "选项二": [
+      "slp-pic-open-e1-14"
+    ],
+    "选项三": [
+      "slp-pic-open-e1-14"
+    ],
+    "选项四": [
+      "slp-pic-open-e1-14"
+    ],
+    "选择对象": [
+      "slp-pic-open-e1-15"
+    ],
+    "发生时点": [
+      "slp-pic-body-e1-23"
+    ],
+    "机构主体": [
+      "slp-pic-body-e1-24",
+      "slp-chart-close-e2-08"
+    ],
+    "数据主体": [
+      "slp-chart-trend-e2-01",
+      "slp-chart-trend-e2-02",
+      "slp-chart-syntax-e2-01",
+      "slp-chart-syntax-e2-02",
+      "slp-chart-syntax-e2-03",
+      "slp-chart-syntax-e2-04",
+      "slp-chart-syntax-e2-05",
+      "slp-chart-rank-e2-01",
+      "slp-chart-open-e2-01",
+      "slp-chart-open-e2-02",
+      "slp-chart-open-e2-03",
+      "slp-chart-open-e2-04",
+      "slp-chart-body-e2-07",
+      "slp-chart-open-e2-07",
+      "slp-chart-rank-e2-05",
+      "slp-chart-open-e2-08",
+      "slp-chart-body-e2-13",
+      "slp-chart-rank-e2-08"
+    ],
+    "起始数值": [
+      "slp-chart-trend-e2-01",
+      "slp-chart-syntax-e2-05",
+      "slp-chart-open-e2-02",
+      "slp-chart-open-e2-03",
+      "slp-chart-open-e2-05",
+      "slp-chart-open-e2-06"
+    ],
+    "峰值": [
+      "slp-chart-trend-e2-01",
+      "slp-chart-syntax-e2-04",
+      "slp-chart-open-e2-03"
+    ],
+    "年份": [
+      "slp-chart-trend-e2-02"
+    ],
+    "数值": [
+      "slp-chart-trend-e2-02"
+    ],
+    "起始数值A": [
+      "slp-chart-syntax-e2-01"
+    ],
+    "起始数值B": [
+      "slp-chart-syntax-e2-01"
+    ],
+    "结束数值A": [
+      "slp-chart-syntax-e2-01"
+    ],
+    "结束数值B": [
+      "slp-chart-syntax-e2-01"
+    ],
+    "变化幅度": [
+      "slp-chart-syntax-e2-02"
+    ],
+    "结束数值": [
+      "slp-chart-syntax-e2-02",
+      "slp-chart-syntax-e2-05",
+      "slp-chart-open-e2-02",
+      "slp-chart-open-e2-05",
+      "slp-chart-open-e2-06"
+    ],
+    "时间段": [
+      "slp-chart-syntax-e2-05"
+    ],
+    "数量": [
+      "slp-chart-rank-e2-01"
+    ],
+    "数值A": [
+      "slp-chart-rank-e2-02",
+      "slp-chart-rank-e2-05",
+      "slp-chart-rank-e2-06",
+      "slp-chart-rank-e2-08"
+    ],
+    "数值B": [
+      "slp-chart-rank-e2-03",
+      "slp-chart-rank-e2-05"
+    ],
+    "对象C": [
+      "slp-chart-rank-e2-03",
+      "slp-chart-open-e2-04",
+      "slp-chart-open-e2-06",
+      "slp-chart-rank-e2-05",
+      "slp-chart-rank-e2-07",
+      "slp-chart-body-e2-13",
+      "slp-chart-rank-e2-08"
+    ],
+    "数值C": [
+      "slp-chart-rank-e2-03",
+      "slp-chart-rank-e2-05"
+    ],
+    "对象D": [
+      "slp-chart-rank-e2-03",
+      "slp-chart-rank-e2-05"
+    ],
+    "数值D": [
+      "slp-chart-rank-e2-03",
+      "slp-chart-rank-e2-05",
+      "slp-chart-rank-e2-07",
+      "slp-chart-rank-e2-08"
+    ],
+    "倍数": [
+      "slp-chart-rank-e2-04"
+    ],
+    "图表类型": [
+      "slp-chart-open-e2-01",
+      "slp-chart-open-e2-04",
+      "slp-chart-open-e2-07"
+    ],
+    "中间数值": [
+      "slp-chart-open-e2-02"
+    ],
+    "现象概括": [
+      "slp-chart-body-e2-01"
+    ],
+    "原因一特征": [
+      "slp-chart-body-e2-02"
+    ],
+    "产生的行为": [
+      "slp-chart-body-e2-02",
+      "slp-chart-body-e2-05",
+      "slp-chart-body-e2-10"
+    ],
+    "举例": [
+      "slp-chart-body-e2-02",
+      "slp-chart-body-e2-05"
+    ],
+    "对比劣势": [
+      "slp-chart-body-e2-03",
+      "slp-sm-p2-e1-07"
+    ],
+    "原因二": [
+      "slp-chart-body-e2-03"
+    ],
+    "结果趋势": [
+      "slp-chart-body-e2-03"
+    ],
+    "关注对象": [
+      "slp-chart-close-e2-01",
+      "slp-chart-close-e2-04"
+    ],
+    "改进目标": [
+      "slp-chart-close-e2-02"
+    ],
+    "展望对象": [
+      "slp-chart-close-e2-03",
+      "slp-chart-close-e2-06"
+    ],
+    "平稳数值": [
+      "slp-chart-open-e2-06"
+    ],
+    "领域": [
+      "slp-chart-body-e2-04",
+      "slp-sm-p3-e2-06"
+    ],
+    "优势特征": [
+      "slp-chart-body-e2-05"
+    ],
+    "外部因素": [
+      "slp-chart-body-e2-06"
+    ],
+    "相关产品": [
+      "slp-chart-body-e2-06"
+    ],
+    "范围": [
+      "slp-chart-body-e2-07",
+      "slp-chart-open-e2-07",
+      "slp-chart-rank-e2-08"
+    ],
+    "提升对象": [
+      "slp-chart-close-e2-05"
+    ],
+    "关键要素": [
+      "slp-chart-close-e2-07",
+      "slp-sm-reply-e2-03",
+      "slp-sm-reply-e2-04"
+    ],
+    "受益主体": [
+      "slp-chart-close-e2-07"
+    ],
+    "目标": [
+      "slp-chart-close-e2-07",
+      "slp-sm-notice-e1-06",
+      "slp-sm-reply-e2-02"
+    ],
+    "补充发现": [
+      "slp-chart-rank-e2-05"
+    ],
+    "现象": [
+      "slp-chart-body-e2-08"
+    ],
+    "群体": [
+      "slp-chart-body-e2-08",
+      "slp-chart-body-e2-12",
+      "slp-chart-body-e2-13"
+    ],
+    "客观条件": [
+      "slp-chart-body-e2-09"
+    ],
+    "产生的益处一": [
+      "slp-chart-body-e2-09"
+    ],
+    "产生的益处二": [
+      "slp-chart-body-e2-09"
+    ],
+    "对比群体": [
+      "slp-chart-body-e2-10"
+    ],
+    "优势一": [
+      "slp-chart-body-e2-10"
+    ],
+    "优势二": [
+      "slp-chart-body-e2-10"
+    ],
+    "优势三": [
+      "slp-chart-body-e2-10"
+    ],
+    "指导内容": [
+      "slp-chart-close-e2-08"
+    ],
+    "个人主体": [
+      "slp-chart-close-e2-08"
+    ],
+    "平衡对象一": [
+      "slp-chart-close-e2-08"
+    ],
+    "平衡对象二": [
+      "slp-chart-close-e2-08"
+    ],
+    "主张行为": [
+      "slp-chart-close-e2-09"
+    ],
+    "时间范围": [
+      "slp-chart-open-e2-08"
+    ],
+    "地点范围": [
+      "slp-chart-open-e2-08"
+    ],
+    "数值BC": [
+      "slp-chart-rank-e2-07",
+      "slp-chart-rank-e2-08"
+    ],
+    "相关群体": [
+      "slp-chart-body-e2-11"
+    ],
+    "习俗行为": [
+      "slp-chart-body-e2-12"
+    ],
+    "行为目的": [
+      "slp-chart-body-e2-12"
+    ],
+    "原状态": [
+      "slp-chart-body-e2-13"
+    ],
+    "新行为": [
+      "slp-chart-body-e2-13"
+    ],
+    "个人偏好行为": [
+      "slp-chart-close-e2-10"
+    ],
+    "群体身份": [
+      "slp-chart-body-e2-14"
+    ],
+    "回忆时间段": [
+      "slp-sm-p1-e1-01",
+      "slp-sm-p1-e1-02"
+    ],
+    "过往经历": [
+      "slp-sm-p1-e1-01",
+      "slp-sm-p1-e1-02"
+    ],
+    "写作目的": [
+      "slp-sm-p1-e1-01",
+      "slp-sm-p1-e1-03"
+    ],
+    "原因": [
+      "slp-sm-p1-e1-01",
+      "slp-sm-reply-e2-02"
+    ],
+    "帮助来源": [
+      "slp-sm-p2-e1-01",
+      "slp-sm-p2-e1-03"
+    ],
+    "获得的收获": [
+      "slp-sm-p2-e1-01",
+      "slp-sm-reply-e2-03"
+    ],
+    "自身条件": [
+      "slp-sm-p2-e1-02"
+    ],
+    "对比对象": [
+      "slp-sm-p2-e1-02",
+      "slp-sm-reply-e2-02",
+      "slp-sm-accept-e2-03"
+    ],
+    "无法达成的事": [
+      "slp-sm-p2-e1-02"
+    ],
+    "真实偏好": [
+      "slp-sm-p2-e1-02"
+    ],
+    "当前事项": [
+      "slp-sm-p2-e1-02"
+    ],
+    "不宜继续的事": [
+      "slp-sm-p2-e1-02"
+    ],
+    "过失行为": [
+      "slp-sm-p1-e1-02"
+    ],
+    "经历类型": [
+      "slp-sm-p2-e1-03"
+    ],
+    "地点": [
+      "slp-sm-p2-e1-03",
+      "slp-sm-invite-e1-03",
+      "slp-sm-call-e2-02"
+    ],
+    "发现过失": [
+      "slp-sm-p2-e1-04"
+    ],
+    "发现时点": [
+      "slp-sm-p2-e1-04"
+    ],
+    "解决方案": [
+      "slp-sm-p2-e1-04"
+    ],
+    "身份补充说明": [
+      "slp-sm-p1-e1-03"
+    ],
+    "意图": [
+      "slp-sm-p1-e1-03"
+    ],
+    "获得的益处": [
+      "slp-sm-p2-e1-05"
+    ],
+    "倡议行动": [
+      "slp-sm-p2-e1-06"
+    ],
+    "帮助对象": [
+      "slp-sm-p2-e1-06"
+    ],
+    "来源地": [
+      "slp-sm-p2-e1-06"
+    ],
+    "对象条件": [
+      "slp-sm-p2-e1-06",
+      "slp-sm-call-e2-02"
+    ],
+    "程度": [
+      "slp-sm-p2-e1-06"
+    ],
+    "导致的结果": [
+      "slp-sm-p2-e1-06",
+      "slp-sm-call-e2-02"
+    ],
+    "承诺行动": [
+      "slp-sm-p2-e1-07",
+      "slp-sm-call-e2-03"
+    ],
+    "感谢对象": [
+      "slp-sm-p3-e1-03"
+    ],
+    "活动": [
+      "slp-sm-notice-e1-01",
+      "slp-sm-notice-e1-03",
+      "slp-sm-invite-e1-03",
+      "slp-sm-p3-e1-04",
+      "slp-sm-recom-e1-01",
+      "slp-sm-call-e2-02",
+      "slp-sm-p3-e2-02",
+      "slp-sm-invite-e2-02",
+      "slp-sm-invite-e2-03"
+    ],
+    "主办方": [
+      "slp-sm-notice-e1-01",
+      "slp-sm-call-e2-01"
+    ],
+    "介绍内容": [
+      "slp-sm-notice-e1-02",
+      "slp-sm-accept-e2-02"
+    ],
+    "招募对象": [
+      "slp-sm-notice-e1-02"
+    ],
+    "开始日期": [
+      "slp-sm-notice-e1-03"
+    ],
+    "持续时长": [
+      "slp-sm-notice-e1-03",
+      "slp-sm-invite-e1-03",
+      "slp-sm-call-e2-02",
+      "slp-sm-invite-e2-02"
+    ],
+    "熟悉对象": [
+      "slp-sm-notice-e1-04"
+    ],
+    "能力要求一": [
+      "slp-sm-notice-e1-04"
+    ],
+    "能力要求二": [
+      "slp-sm-notice-e1-04"
+    ],
+    "自身职务": [
+      "slp-sm-invite-e1-01",
+      "slp-sm-invite-e2-01"
+    ],
+    "负责事项": [
+      "slp-sm-invite-e1-01"
+    ],
+    "受邀角色": [
+      "slp-sm-invite-e1-01"
+    ],
+    "代表群体": [
+      "slp-sm-invite-e1-02"
+    ],
+    "感谢事由": [
+      "slp-sm-invite-e1-02"
+    ],
+    "对方贡献": [
+      "slp-sm-invite-e1-02"
+    ],
+    "时间": [
+      "slp-sm-invite-e1-03",
+      "slp-sm-recom-e1-01",
+      "slp-sm-call-e2-02",
+      "slp-sm-invite-e2-02"
+    ],
+    "日期": [
+      "slp-sm-invite-e1-03",
+      "slp-sm-call-e2-02",
+      "slp-sm-invite-e2-02"
+    ],
+    "关注机构": [
+      "slp-sm-advice-e1-01"
+    ],
+    "改进对象": [
+      "slp-sm-advice-e1-01"
+    ],
+    "需求对象": [
+      "slp-sm-advice-e1-02"
+    ],
+    "描述对象": [
+      "slp-sm-advice-e1-02"
+    ],
+    "改进措施": [
+      "slp-sm-advice-e1-02"
+    ],
+    "实施动作": [
+      "slp-sm-advice-e1-02"
+    ],
+    "推荐作品": [
+      "slp-sm-recom-e1-01"
+    ],
+    "特色内容": [
+      "slp-sm-recom-e1-02"
+    ],
+    "关键主题": [
+      "slp-sm-recom-e1-02"
+    ],
+    "身份": [
+      "slp-sm-notice-e1-05"
+    ],
+    "学校": [
+      "slp-sm-notice-e1-05"
+    ],
+    "藏书类型": [
+      "slp-sm-notice-e1-06"
+    ],
+    "先进设施": [
+      "slp-sm-notice-e1-06"
+    ],
+    "姓氏": [
+      "slp-sm-spot-e1-01"
+    ],
+    "城市": [
+      "slp-sm-spot-e1-01",
+      "slp-sm-spot-e1-02"
+    ],
+    "城市特色": [
+      "slp-sm-spot-e1-02"
+    ],
+    "景点一": [
+      "slp-sm-spot-e1-02"
+    ],
+    "景点二": [
+      "slp-sm-spot-e1-02"
+    ],
+    "景点三": [
+      "slp-sm-spot-e1-02"
+    ],
+    "姓名": [
+      "slp-sm-reply-e1-01"
+    ],
+    "项目名称": [
+      "slp-sm-reply-e1-01"
+    ],
+    "受助对象": [
+      "slp-sm-reply-e1-02",
+      "slp-sm-call-e2-02"
+    ],
+    "参与群体": [
+      "slp-sm-reply-e1-02"
+    ],
+    "项目": [
+      "slp-sm-p3-e1-06"
+    ],
+    "往届活动": [
+      "slp-sm-call-e2-01"
+    ],
+    "往届时间": [
+      "slp-sm-call-e2-01"
+    ],
+    "本届活动": [
+      "slp-sm-call-e2-01"
+    ],
+    "所得资源": [
+      "slp-sm-call-e2-02"
+    ],
+    "自身定位": [
+      "slp-sm-call-e2-03"
+    ],
+    "未来行动": [
+      "slp-sm-consult-e2-01"
+    ],
+    "说明对象": [
+      "slp-sm-consult-e2-02"
+    ],
+    "不熟悉领域": [
+      "slp-sm-consult-e2-03"
+    ],
+    "请教事项": [
+      "slp-sm-consult-e2-03"
+    ],
+    "适应对象": [
+      "slp-sm-p3-e2-05"
+    ],
+    "分享主题": [
+      "slp-sm-reply-e2-01"
+    ],
+    "建议行动": [
+      "slp-sm-reply-e2-02",
+      "slp-sm-reply-e2-03"
+    ],
+    "主题": [
+      "slp-sm-reply-e2-02"
+    ],
+    "受邀事项": [
+      "slp-sm-accept-e2-01"
+    ],
+    "展示内容": [
+      "slp-sm-accept-e2-02"
+    ],
+    "主题对象": [
+      "slp-sm-accept-e2-02",
+      "slp-sm-accept-e2-03"
+    ],
+    "丰富对象": [
+      "slp-sm-accept-e2-03"
+    ],
+    "共同事项": [
+      "slp-sm-survey-e2-01"
+    ],
+    "计划行动": [
+      "slp-sm-survey-e2-02"
+    ],
+    "实施对象": [
+      "slp-sm-survey-e2-02"
+    ],
+    "优势领域": [
+      "slp-sm-survey-e2-02"
+    ],
+    "计划事项": [
+      "slp-sm-survey-e2-03"
+    ],
+    "咨询对象": [
+      "slp-sm-survey-e2-03"
+    ],
+    "预期收益": [
+      "slp-sm-survey-e2-03"
+    ],
+    "负责活动": [
+      "slp-sm-invite-e2-01"
+    ],
+    "平台": [
+      "slp-sm-invite-e2-02"
+    ],
+    "准备事项": [
+      "slp-sm-invite-e2-02"
+    ],
+    "咨询事项": [
+      "slp-sm-advice-e2-01"
+    ],
+    "建议选择": [
+      "slp-sm-advice-e2-02"
+    ],
+    "兴趣领域": [
+      "slp-sm-advice-e2-03"
+    ],
+    "推荐对象": [
+      "slp-sm-advice-e2-03"
+    ]
+  },
+  "byLetterType": {
+    "推荐类": [
+      "small-p1s2-p25-21",
+      "slp-sm-recom-e1-01",
+      "slp-sm-recom-e1-02",
+      "slp-sm-spot-e1-01",
+      "slp-sm-spot-e1-02"
+    ],
+    "投诉类": [
+      "small-p1s2-p25-22"
+    ],
+    "祝贺类": [
+      "small-p1s2-p25-23",
+      "small-p1s2-p25-24",
+      "small-congrats-p33-s2-01",
+      "small-congrats-p34-s2-02",
+      "small-congrats-p34-s2-03",
+      "small-congrats-p34-s2-04",
+      "small-congrats-p34-s2-05",
+      "small-congrats-p34-s2-06",
+      "small-congrats-p34-s2-07",
+      "small-congrats-p34-s3-01",
+      "small-congrats-p34-s3-02",
+      "small-congrats-p34-s3-03",
+      "small-congrats-p34-s3-04",
+      "small-congrats-p34-s3-05",
+      "small-congrats-p34-s3-06",
+      "small-congrats-p35-01",
+      "small-congrats-p35-02",
+      "small-congrats-p35-03",
+      "small-congrats-p35-04",
+      "small-congrats-p35-05",
+      "small-congrats-p35-06",
+      "small-congrats-p35-07",
+      "small-congrats-p35-08"
+    ],
+    "公告类": [
+      "small-p1s2-p25-25"
+    ],
+    "通知类": [
+      "small-p1s2-p25-26",
+      "small-p1s2-p26-27",
+      "small-p2s1-p27-15",
+      "small-notice-p38-01",
+      "small-notice-p38-02",
+      "small-notice-p38-03",
+      "small-notice-p38-04",
+      "small-notice-p38-05",
+      "small-notice-p38-06",
+      "small-notice-p38-07",
+      "small-notice-p38-08",
+      "small-notice-p38-09",
+      "small-notice-p38-10",
+      "small-notice-p39-01",
+      "small-notice-p39-02",
+      "small-notice-p39-03",
+      "small-notice-p39-04",
+      "small-notice-p39-05",
+      "small-notice-p39-06",
+      "small-notice-p39-07",
+      "small-notice-p39-08",
+      "slp-sm-notice-e1-01",
+      "slp-sm-notice-e1-02",
+      "slp-sm-notice-e1-03",
+      "slp-sm-notice-e1-04",
+      "slp-sm-notice-e1-05",
+      "slp-sm-notice-e1-06"
+    ],
+    "建议类": [
+      "small-advice-p28-01",
+      "small-advice-p28-02",
+      "small-advice-p28-03",
+      "small-advice-p28-04",
+      "small-advice-p28-05",
+      "small-advice-p28-06",
+      "small-advice-p28-07",
+      "slp-sm-advice-e1-01",
+      "slp-sm-advice-e1-02",
+      "slp-sm-advice-e2-01",
+      "slp-sm-advice-e2-02",
+      "slp-sm-advice-e2-03"
+    ],
+    "邀请类": [
+      "small-invite-p29-01",
+      "small-invite-p30-02",
+      "small-invite-p30-03",
+      "small-invite-p30-04",
+      "small-invite-p30-05",
+      "small-invite-p30-06",
+      "small-invite-p30-07",
+      "small-p2s3-p30-01",
+      "small-p2s3-p30-02",
+      "small-p2s3-p30-03",
+      "small-p2s3-p30-04",
+      "small-p2s3-p30-05",
+      "small-invite-p31-06",
+      "small-invite-p31-07",
+      "small-invite-p31-s4-01",
+      "small-invite-p31-s4-02",
+      "small-invite-p31-s4-03",
+      "small-invite-p31-s4-04",
+      "small-invite-p31-s4-05",
+      "small-invite-p31-s4-06",
+      "small-invite-p31-s4-07",
+      "slp-sm-invite-e1-01",
+      "slp-sm-invite-e1-02",
+      "slp-sm-invite-e1-03",
+      "slp-sm-p3-e1-04",
+      "slp-sm-p3-e1-05",
+      "slp-sm-invite-e2-01",
+      "slp-sm-invite-e2-02",
+      "slp-sm-invite-e2-03",
+      "slp-sm-p3-e2-03",
+      "slp-sm-p3-e2-04"
+    ],
+    "道歉类": [
+      "small-apology-p31-01",
+      "small-apology-p31-02",
+      "small-apology-p32-03",
+      "small-apology-p32-04",
+      "small-apology-p32-05",
+      "small-apology-p32-06",
+      "small-apology-p32-07",
+      "small-apology-p32-s3-01",
+      "small-apology-p32-s3-02",
+      "small-apology-p32-s3-03",
+      "small-apology-p32-s3-04",
+      "small-apology-p32-s3-05",
+      "small-apology-p32-s3-06",
+      "small-apology-p33-s3-07",
+      "small-apology-p33-s4-01",
+      "small-apology-p33-s4-02",
+      "small-apology-p33-s4-03",
+      "small-apology-p33-s4-04",
+      "small-apology-p33-s4-05",
+      "small-apology-p33-s4-06",
+      "small-apology-p33-s4-07",
+      "slp-sm-p1-e1-02",
+      "slp-sm-p2-e1-03",
+      "slp-sm-p2-e1-04",
+      "slp-sm-p3-e1-02"
+    ],
+    "介绍类": [
+      "small-intro-p35-09",
+      "small-intro-p36-01",
+      "small-intro-p36-02",
+      "small-intro-p36-03",
+      "small-intro-p36-04",
+      "small-intro-p36-05",
+      "small-intro-p36-06",
+      "small-intro-p36-07",
+      "small-intro-p36-08",
+      "small-intro-p36-09",
+      "small-intro-p36-10",
+      "small-intro-p36-11",
+      "small-intro-p37-01",
+      "small-intro-p37-02"
+    ],
+    "求助类": [
+      "slp-sm-p1-e1-03",
+      "slp-sm-p2-e1-05",
+      "slp-sm-p2-e1-06",
+      "slp-sm-p2-e1-07",
+      "slp-sm-p3-e1-03"
+    ],
+    "回复类": [
+      "slp-sm-reply-e1-01",
+      "slp-sm-reply-e1-02",
+      "slp-sm-p3-e1-06",
+      "slp-sm-reply-e2-01",
+      "slp-sm-reply-e2-02",
+      "slp-sm-reply-e2-03",
+      "slp-sm-reply-e2-04",
+      "slp-sm-p3-e2-06"
+    ],
+    "号召类": [
+      "slp-sm-call-e2-01",
+      "slp-sm-call-e2-02",
+      "slp-sm-call-e2-03",
+      "slp-sm-p3-e2-01",
+      "slp-sm-p3-e2-02"
+    ],
+    "咨询类": [
+      "slp-sm-consult-e2-01",
+      "slp-sm-consult-e2-02",
+      "slp-sm-consult-e2-03",
+      "slp-sm-p3-e2-05"
+    ],
+    "受邀类": [
+      "slp-sm-accept-e2-01",
+      "slp-sm-accept-e2-02",
+      "slp-sm-accept-e2-03",
+      "slp-sm-p3-e2-07"
+    ],
+    "征询类": [
+      "slp-sm-survey-e2-01",
+      "slp-sm-survey-e2-02",
+      "slp-sm-survey-e2-03"
+    ]
+  }
+}

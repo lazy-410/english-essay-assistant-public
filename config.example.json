@@ -1,0 +1,32 @@
+{
+  "deepseek": {
+    "apiKey": "",
+    "baseUrl": "https://api.deepseek.com",
+    "modelReasoning": "deepseek-v4-flash",
+    "modelFast": "deepseek-v4-flash",
+    "temperature": 0.3,
+    "timeoutMs": 240000,
+    "maxRetries": 2
+  },
+  "vision": {
+    "apiKey": "",
+    "model": "qwen3.7-plus",
+    "enabled": true
+  },
+  "ocr": {
+    "backend": "windows",
+    "cloud": {
+      "provider": "baidu",
+      "apiKey": "",
+      "secretKey": ""
+    }
+  },
+  "server": {
+    "port": 7654,
+    "openBrowser": true,
+    "licenseUrl": ""
+  },
+  "study": {
+    "examType": null
+  }
+}

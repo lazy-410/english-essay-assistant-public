@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">考研英语作文助手</string>
+    <string name="starting">正在启动…</string>
+    <string name="start_failed">启动失败，请检查日志后重试</string>
+    <string name="retry">重试</string>
+    <string name="view_log">查看日志</string>
+    <string name="hide_log">收起日志</string>
+    <string name="log_empty">暂无日志</string>
+
+    <!-- 启动页 -->
+    <string name="splash_subtitle">本地服务启动中，请稍候</string>
+    <string name="splash_unpacking">正在准备运行资源…</string>
+    <string name="splash_waiting">正在等待本地服务就绪…</string>
+
+    <!-- 激活页 -->
+    <string name="activate_title">激活软件</string>
+    <string name="activate_desc">首次使用需要激活码。激活码与本机绑定，一个激活码可在你本人的手机上使用。</string>
+    <string name="activate_code_label">激活码</string>
+    <string name="activate_code_hint">粘贴作者发给你的激活码</string>
+    <string name="activate_action">激活</string>
+    <string name="activate_checking">正在校验激活码…</string>
+    <string name="activate_ok">激活成功</string>
+    <string name="activate_device">本机设备名：%1$s</string>
+
+    <!-- 底部页签 -->
+    <string name="tab_write">写作</string>
+    <string name="tab_review">批改</string>
+    <string name="tab_exams">题库</string>
+    <string name="tab_study">学习</string>
+    <string name="tab_sheet">答题卡</string>
+    <string name="action_settings">设置</string>
+
+    <!-- 占位页 -->
+
+    <!-- 设置页 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_section_study">备考方向</string>
+    <string name="settings_study_desc">决定范文风格、题库范围与背诵计划。</string>
+    <string name="settings_exam_e1">英语一</string>
+    <string name="settings_exam_e2">英语二</string>
+    <string name="settings_study_unchosen">尚未选择</string>
+    <string name="settings_section_ai">DeepSeek（作文生成与批改）</string>
+    <string name="settings_key_label">API Key</string>
+    <string name="settings_key_hint">粘贴 DeepSeek API Key</string>
+    <string name="settings_key_keep">留空表示不修改；已配置 %1$s</string>
+    <string name="settings_key_none">尚未配置 Key，作文生成会降级为本地兜底稿</string>
+    <string name="settings_model_reasoning">深度模型（写作文用）</string>
+    <string name="settings_model_fast">快速模型（校对/轻任务用）</string>
+    <string name="settings_save">保存</string>
+    <string name="settings_saved">已保存</string>
+    <string name="settings_test">测试连接</string>
+    <string name="settings_testing">正在测试…</string>
+    <string name="settings_section_vision">千问视觉（题目识别）</string>
+    <string name="settings_vision_desc">拍照/相册识别题面走这个模型；不配置时只能手动输入题干。</string>
+    <string name="settings_vision_model">视觉模型</string>
+    <string name="settings_section_help">使用说明</string>
+    <string name="settings_help_desc">功能介绍、生成链说明与常见问题</string>
+    <string name="settings_section_about">关于</string>
+    <string name="settings_version">版本 %1$s</string>
+    <string name="settings_license_activated">已激活（%1$s）</string>
+    <string name="settings_license_not_activated">未激活</string>
+    <string name="settings_license_reactivate">重新输入激活码</string>
+    <string name="settings_cloud_on">云端校验已开启</string>
+    <string name="settings_cloud_off">纯离线激活</string>
+    <string name="settings_kb_stats">知识库：骨架 %1$d · 变体 %2$d · 真题范文 %3$d</string>
+    <string name="settings_runtime">本地服务：%1$s</string>
+
+    <!-- 通用 -->
+    <string name="net_error">网络请求失败：%1$s</string>
+    <string name="web_title_help">使用说明</string>
+
+    <!-- 各页签规划（B1 占位页展示，B2/B3/B4 完成后移除） -->
+
+    <!-- 设置页动态文案 -->
+    <string name="vision_key_none">尚未配置视觉 Key</string>
+    <string name="save_failed">保存失败：%1$s</string>
+    <string name="save_nothing">没有需要保存的改动</string>
+    <string name="study_saved">备考方向已保存：%1$s</string>
+    <string name="test_ok">连接正常 · %1$s</string>
+    <string name="test_failed">连接失败：%1$s</string>
+    <string name="vision_test_ok">识别正常 · %1$s</string>
+    <string name="vision_test_failed">识别失败：%1$s</string>
+    <string name="close">关闭</string>
+    <string name="activate_cloud_on">已连接云端校验，激活码与设备绑定后即可使用。</string>
+    <string name="activate_cloud_off">当前为纯离线激活，激活码在本机校验后立即可用。</string>
+    <string name="activate_need_code">请输入激活码</string>
+    <string name="license_permanent">永久</string>
+
+    <!-- 答题卡页 -->
+    <string name="sheet_status_idle">等待生成预览</string>
+    <string name="sheet_status_rendering">正在生成预览…</string>
+    <string name="sheet_status_lines">已用 %1$d 行 / 共 %2$d 行</string>
+    <string name="sheet_status_overflow">内容超出 %1$d 行，请精简后再导出</string>
+    <string name="sheet_empty">还没有内容。可在写作页点「送答题卡」，或直接在下方填写作文。</string>
+    <string name="sheet_export_pdf">导出 PDF</string>
+    <string name="sheet_export_png">导出 PNG</string>
+    <string name="sheet_label_template">答题卡区域</string>
+    <string name="sheet_label_font">手写字体</string>
+    <string name="sheet_label_color">颜色</string>
+    <string name="sheet_label_style">格式</string>
+    <string name="sheet_label_kind">体裁</string>
+    <string name="sheet_label_size">字号：%1$d</string>
+    <string name="sheet_label_slant">倾斜：%1$d</string>
+    <string name="sheet_label_baseline">基线偏移：%1$d</string>
+    <string name="sheet_label_essay">作文内容</string>
+    <string name="sheet_essay_hint">空行分段；写作页点「送答题卡」可自动带入</string>
+    <string name="sheet_label_salutation">称呼（书信）</string>
+    <string name="sheet_label_signature">落款（书信）</string>
+    <string name="sheet_label_title">标题（通知）</string>
+    <string name="sheet_label_date">日期（通知）</string>
+    <string name="sheet_color_black">黑</string>
+    <string name="sheet_color_red">红</string>
+    <string name="sheet_color_blue">蓝</string>
+    <string name="sheet_color_darkgray">深灰</string>
+    <string name="sheet_style_block">齐头式</string>
+    <string name="sheet_style_indent">缩进式</string>
+    <string name="sheet_kind_letter">书信</string>
+    <string name="sheet_kind_notice">通知</string>
+    <string name="sheet_preset_exam">模拟考场</string>
+    <string name="sheet_preset_copybook">红字字帖</string>
+    <string name="sheet_render">重新渲染</string>
+    <string name="sheet_need_essay">请先填写作文内容</string>
+    <string name="sheet_export_failed">导出失败：%1$s</string>
+    <string name="sheet_load_failed">预览加载失败：%1$s</string>
+    <string name="sheet_render_failed">生成失败：%1$s</string>
+    <string name="sheet_font_recommended">推荐 · %1$s</string>
+    <string name="sheet_png_ready">已生成 PNG，正在打开保存面板</string>
+
+    <!-- 写作页 -->
+    <string name="write_section_question">作文题目</string>
+    <string name="write_question_hint">粘贴或输入题干（可含图表说明）</string>
+    <string name="write_photo">拍照</string>
+    <string name="write_gallery">相册</string>
+    <string name="write_paste_image">贴图</string>
+    <string name="write_from_bank">题库</string>
+    <string name="write_analyzing">正在识别题面…</string>
+    <string name="write_recognized">识别完成（%1$s）</string>
+    <string name="write_recognized_ocr">识别完成（本地 OCR）</string>
+    <string name="write_recognize_none">没有识别到文字，可手动补充题干</string>
+    <string name="write_conflict">识别冲突，请核对题干后再生成</string>
+    <string name="write_generate">开始生成</string>
+    <string name="write_generating">正在生成…</string>
+    <string name="write_step">当前步骤：%1$s</string>
+    <string name="write_round">已用轮次：%1$d</string>
+    <string name="write_cancel">取消</string>
+    <string name="write_cancelled">已取消生成</string>
+    <string name="write_failed">生成失败：%1$s</string>
+    <string name="write_need_question">请先输入题干或拍照识别</string>
+    <string name="write_need_vision">拍照识别需要先在「设置 → 千问视觉」配置模型</string>
+    <string name="write_image_failed">读取图片失败：%1$s</string>
+    <string name="write_clipboard_empty">剪贴板里没有可用图片或文本</string>
+    <string name="write_last_result">上次生成：%1$d 词</string>
+    <string name="write_open_result">查看结果</string>
+    <string name="write_key_missing">还没配置 DeepSeek Key，生成会降级为本地兜底稿。点此去设置。</string>
+
+    <!-- 生成结果页 -->
+    <string name="result_title">生成结果</string>
+    <string name="result_words">词数：%1$d / %2$d</string>
+    <string name="result_checks_ok">语言检查全部通过</string>
+    <string name="result_checks_warn">%1$d 项检查提示</string>
+    <string name="result_engine">生成引擎：%1$s</string>
+    <string name="result_calls">模型调用 %1$d 次 · 用时 %2$s</string>
+    <string name="result_fallback">有 %1$d 处兜底内容，请重点核对</string>
+    <string name="result_ai_error">模型调用异常：%1$s</string>
+    <string name="result_section_essay">作文全文</string>
+    <string name="result_source_switch">显示逐句来源</string>
+    <string name="result_section_skeletons">本次用到的模板句</string>
+    <string name="result_mark_all">全部标记掌握</string>
+    <string name="result_marked">已标记掌握</string>
+    <string name="result_section_review">行文复盘</string>
+    <string name="result_review_ai">含 AI 深化</string>
+    <string name="result_review_go">生成复盘</string>
+    <string name="result_reviewing">正在分析…</string>
+    <string name="result_review_failed">复盘失败：%1$s</string>
+    <string name="result_copy">复制全文</string>
+    <string name="result_to_sheet">送答题卡</string>
+    <string name="result_regen">重新生成</string>
+    <string name="result_empty">结果为空</string>
+    <string name="result_paragraph">第 %1$d 段</string>
+    <string name="result_no_skeleton">本次未用模板句</string>
+    <string name="result_to_sheet_done">已带入答题卡页</string>
+    <string name="review_notes">提示：%1$s</string>
+    <string name="review_ai_title">AI 讲评</string>
+    <string name="review_fallback_title">本地分析</string>
+    <string name="mark_failed">标记失败：%1$s</string>
+
+    <!-- 写作页补充 -->
+    <string name="write_interrupted">生成中断，请重试</string>
+    <string name="write_log_engine">引擎 %1$s</string>
+    <string name="write_conflicts">识别冲突：%1$s</string>
+    <string name="write_fallback_ocr">当前为离线文字提取，不含画面与图表解读。配置视觉模型后可获得完整识别效果。</string>
+    <string name="write_fallback_vision">画面理解未完成（%1$s），题干按题面文字生成，如有缺漏请对照原图补全。</string>
+    <string name="write_cleaning">正在清洗文本…</string>
+    <string name="write_clean_failed">文本清洗失败，已按原文填入：%1$s</string>
+    <string name="app_not_activated">软件未激活，请到「设置 → 授权」完成激活</string>
+
+    <!-- 结果页：模板句 -->
+    <string name="result_skeleton_count">用过 %1$d 次</string>
+    <string name="result_mark_result">已标记 %1$d 句模板，未匹配 %2$d 句</string>
+    <string name="result_unknown">未知原因</string>
+    <string name="result_copy_done">已复制全文</string>
+    <string name="result_no_review">暂无复盘内容</string>
+    <string name="review_track">题型轨道：%1$s</string>
+    <string name="review_words_total">全文 %1$d 词</string>
+    <string name="review_paragraph_purpose">段落作用：%1$s</string>
+    <string name="review_role_unknown">句子功能未判定</string>
+    <string name="review_pitfalls">易写错的地方：%1$s</string>
+
+    <!-- 批改页：上传与校对 -->
+    <string name="rv_section_photo">作文照片</string>
+    <string name="rv_photo_hint">正面平铺、光线均匀地拍完整篇；也可以直接手动输入。</string>
+    <string name="rv_manual_input">手动输入</string>
+    <string name="rv_manual_hint">直接在校对框里输入你写的作文即可批改</string>
+    <string name="rv_section_proof">校对文本</string>
+    <string name="rv_text_hint">识别结果（可直接修改）</string>
+    <string name="rv_restore_raw">恢复识别原文</string>
+    <string name="rv_exam_none">自由模式（未指定真题）</string>
+    <string name="rv_exam_mode">真题模式：%1$s</string>
+    <string name="rv_pick_action">选择真题</string>
+    <string name="rv_pick_clear">清除</string>
+    <string name="rv_category_label">题型</string>
+    <string name="rv_question_label">题干（可选，填了字数与数字校验更准）</string>
+    <string name="rv_section_options">批改选项</string>
+    <string name="rv_ai_deepen">AI 深化讲解（多一次模型调用）</string>
+    <string name="rv_ai_grammar">AI 复核语法（离线漏判由模型补）</string>
+    <string name="rv_analyze">确认文本并开始批改</string>
+    <string name="rv_analyzing">正在按讲义规则批改…</string>
+    <string name="rv_ocr_running">正在识别手写作文…</string>
+    <string name="rv_ocr_ok">识别完成（%1$s）。%2$s</string>
+    <string name="rv_ocr_low">识别质量较低（%1$s，可辨认字符 %2$d%%）。%3$s</string>
+    <string name="rv_ocr_low_note">下面很可能与你写的内容差别很大，请改成你实际写的作文再继续。</string>
+    <string name="rv_ocr_failed">识别失败：%1$s</string>
+    <string name="rv_rotate_note">已把照片旋转 %1$d° 后识别</string>
+    <string name="rv_vision_note">未能使用视觉模型（%1$s），手写转写建议在「设置 → 千问视觉」配置 Key。</string>
+    <string name="rv_detected">自动判定为 %1$s%2$s｜依据：%3$s</string>
+    <string name="rv_detected_unsure">（置信度较低，请确认）</string>
+    <string name="rv_words">%1$d 词</string>
+    <string name="rv_need_text">请先填写或识别作文内容。</string>
+    <string name="rv_failed">批改失败：%1$s</string>
+    <string name="rv_clipboard_text">已把剪贴板文本填入校对框</string>
+
+    <!-- 真题选择器 -->
+    <string name="rv_pick_title">按条件筛选真题</string>
+    <string name="rv_pick_subject">科目</string>
+    <string name="rv_pick_year">年份</string>
+    <string name="rv_pick_section">卷别</string>
+    <string name="rv_pick_type">类型</string>
+    <string name="rv_pick_count">共 %1$d 题</string>
+    <string name="rv_pick_empty">没有符合条件的真题</string>
+    <string name="rv_pick_failed">题库加载失败：%1$s</string>
+    <string name="rv_pick_has_essay">有范文</string>
+
+    <!-- 批改结果页 -->
+    <string name="rr_score_note">按内容、结构、语言、格式四项分别估算，用于定位问题，不等同真实阅卷分数。</string>
+    <string name="rr_score_total">分项估分 %1$d–%2$d / %3$d 分</string>
+    <string name="rr_dim">%1$s：%2$d–%3$d / %4$d 分</string>
+    <string name="rr_counts">语法 %1$d · 必改 %2$d · 建议 %3$d · 结构 %4$d</string>
+    <string name="rr_gains">得分点：%1$s</string>
+    <string name="rr_losses">失分点：%1$s</string>
+    <string name="rr_none">暂无</string>
+    <string name="rr_compare_title">与范文对比</string>
+    <string name="rr_compare_words">字数：你 %1$d 词 · 范文 %2$d 词（%3$s）</string>
+    <string name="rr_compare_paragraphs">段落：你 %1$d 段 · 范文 %2$d 段</string>
+    <string name="rr_gap_equal">与范文字数相当</string>
+    <string name="rr_gap_less">比范文少 %1$d 词</string>
+    <string name="rr_gap_more">比范文多 %1$d 词</string>
+    <string name="rr_missing_modules">范文用到、你没用的模块：%1$s</string>
+    <string name="rr_modules_ok">范文覆盖的模块你都写到了</string>
+    <string name="rr_notable_words">范文用到、你没用的表达：%1$s</string>
+    <string name="rr_sev_required">必改</string>
+    <string name="rr_sev_suggested">建议</string>
+    <string name="rr_sev_structure">结构</string>
+    <string name="rr_group_title">%1$s项 · %2$d 条</string>
+    <string name="rr_quote">原文：%1$s</string>
+    <string name="rr_fix">改为：%1$s</string>
+    <string name="rr_slots">需替换：%1$s</string>
+    <string name="rr_basis">修改依据：%1$s</string>
+    <string name="rr_ai_why">｜AI 补充：%1$s</string>
+    <string name="rr_accept">采纳</string>
+    <string name="rr_ignore">忽略</string>
+    <string name="rr_accepted">已采纳</string>
+    <string name="rr_ignored">已忽略</string>
+    <string name="rr_cannot_auto">该项需要自己动笔修改，无法自动替换</string>
+    <string name="rr_needs_fill">含占位符，需填入本题内容后再写进终稿</string>
+    <string name="rr_page">讲义 P%1$d</string>
+    <string name="rr_final_title">终稿</string>
+    <string name="rr_final_none">尚未采纳任何修改项。</string>
+    <string name="rr_final_need_manual">以下 %1$d 项需要你自己动笔：</string>
+    <string name="rr_final_template">套用：%1$s</string>
+    <string name="rr_apply_failed">生成终稿失败：%1$s</string>
+    <string name="rr_copy">复制终稿</string>
+    <string name="rr_copy_done">终稿已复制</string>
+    <string name="rr_pdf">导出 PDF</string>
+    <string name="rr_pdf_ready">批改报告已生成，请选择分享方式</string>
+    <string name="rr_pdf_busy">正在生成批改报告…</string>
+    <string name="rr_pdf_failed">导出失败：%1$s</string>
+    <string name="rr_to_sheet">送答题卡</string>
+    <string name="rr_again">重新批改</string>
+    <string name="rr_empty">还没有批改结果</string>
+    <string name="rr_result_title">批改结果</string>
+
+    <!-- 题库页 -->
+    <string name="ex_keyword_hint">关键词（题干或年份）</string>
+    <string name="ex_only_with_essay">只看有范文</string>
+    <string name="ex_reset">重置</string>
+    <string name="ex_search">搜索</string>
+    <string name="ex_failed">检索失败：%1$s</string>
+    <string name="ex_stat_total">真题总数</string>
+    <string name="ex_stat_essay">参考范文</string>
+    <string name="ex_stat_e1">英语一</string>
+    <string name="ex_stat_e2">英语二</string>
+    <string name="ex_stat_picture">图画作文</string>
+    <string name="ex_stat_chart">图表/混合</string>
+
+    <!-- 真题详情 -->
+    <string name="ex_detail_image">真题题图</string>
+    <string name="ex_detail_directions">题目要求</string>
+    <string name="ex_detail_prompt">补充题干</string>
+    <string name="ex_detail_requirements">写作任务</string>
+    <string name="ex_detail_model">范文</string>
+    <string name="ex_detail_model_show">展开</string>
+    <string name="ex_detail_model_hide">收起</string>
+    <string name="ex_detail_model_empty">这道题暂无范文。</string>
+    <string name="ex_detail_sources">出处</string>
+    <string name="ex_detail_has_model">有范文</string>
+    <string name="ex_detail_no_model">无范文</string>
+    <string name="ex_detail_copy_question">复制题干</string>
+    <string name="ex_detail_copy_done">题干已复制</string>
+    <string name="ex_detail_practice">去练习</string>
+    <string name="ex_detail_review">去批改</string>
+    <string name="ex_detail_analysis_pdf">导出行文精讲</string>
+    <string name="ex_detail_pdf_busy">正在生成行文精讲…</string>
+    <string name="ex_detail_pdf_ready">行文精讲已生成，请选择分享方式</string>
+    <string name="ex_detail_failed">详情加载失败：%1$s</string>
+    <string name="ex_detail_image_failed">题图加载失败（可稍后重试）</string>
+    <string name="ex_practice_applied">已带入写作页（含原题图）</string>
+    <string name="ex_review_applied">已带入批改页（真题模式）</string>
+
+    <!-- 学习页：四个子页 -->
+    <string name="study_tab_cards">背诵卡片</string>
+    <string name="study_tab_dict">模板字典</string>
+    <string name="study_tab_analysis">行文解析</string>
+    <string name="study_tab_modules">模块组装</string>
+
+    <!-- 学习页 · 背诵卡片 -->
+    <string name="sc_title">%1$s背诵卡片（已掌握 %2$d%%）</string>
+    <string name="sc_summary">已掌握 %1$d · 待复习 %2$d · 未开始 %3$d</string>
+    <string name="sc_unit">第 %1$d / %2$d 单元</string>
+    <string name="sc_prev_unit">上一单元</string>
+    <string name="sc_next_unit">下一单元</string>
+    <string name="sc_section_plan">学习计划</string>
+    <string name="sc_daily_hint">每日卡片数</string>
+    <string name="sc_include_optional">含选修轨道</string>
+    <string name="sc_include_extended">含拓展轨道</string>
+    <string name="sc_save_plan">保存计划</string>
+    <string name="sc_plan_saved">计划已更新</string>
+    <string name="sc_print">导出卡片 PDF</string>
+    <string name="sc_pdf_busy">正在生成卡片 PDF…</string>
+    <string name="sc_pdf_ready">卡片已生成，请选择分享方式</string>
+    <string name="sc_today">今日卡片（%1$d 张）</string>
+    <string name="sc_none">这个单元没有卡片。</string>
+    <string name="sc_zh_missing">（讲义未收录中文译文）</string>
+    <string name="sc_status_mastered">已掌握</string>
+    <string name="sc_status_review">待复习</string>
+    <string name="sc_status_new">未开始</string>
+    <string name="sc_mark_mastered">掌握</string>
+    <string name="sc_mark_review">待复习</string>
+    <string name="sc_failed">加载失败：%1$s</string>
+
+    <!-- 学习页 · 模板字典 -->
+    <string name="sd_search_hint">输入英文或中文关键词</string>
+    <string name="sd_count">共 %1$d 条</string>
+    <string name="sd_empty">没有匹配的词条。</string>
+    <string name="sd_copied">已复制该表达</string>
+
+    <!-- 学习页 · 行文解析 -->
+    <string name="sa_none">还没有选题，先挑一道真题。</string>
+    <string name="sa_pick">选择真题</string>
+    <string name="sa_pdf">导出精讲 PDF</string>
+    <string name="sa_ai">叠加 AI 深化讲解</string>
+    <string name="sa_hint">选一道真题后，这里会按段落给出讲义模块与逐句功能说明。</string>
+    <string name="sa_busy">正在生成行文解析…</string>
+    <string name="sa_empty">这道题暂无解析内容。</string>
+    <string name="sa_failed">解析失败：%1$s</string>
+    <string name="sa_module">模块：%1$s（%2$d 词）</string>
+
+    <!-- 学习页 · 模块组装 -->
+    <string name="sm_track_hint">写作轨道</string>
+    <string name="sm_loading">正在加载模块…</string>
+    <string name="sm_count">本轨道共 %1$d 句模板</string>
+    <string name="sm_empty">该模块暂无模板句。</string>
+    <string name="sm_copied">已复制该句</string>
+</resources>

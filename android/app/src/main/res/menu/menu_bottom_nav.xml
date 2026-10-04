@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_write" android:icon="@drawable/ic_write" android:title="@string/tab_write" />
+    <item android:id="@+id/nav_review" android:icon="@drawable/ic_review" android:title="@string/tab_review" />
+    <item android:id="@+id/nav_exams" android:icon="@drawable/ic_exams" android:title="@string/tab_exams" />
+    <item android:id="@+id/nav_study" android:icon="@drawable/ic_study" android:title="@string/tab_study" />
+    <item android:id="@+id/nav_sheet" android:icon="@drawable/ic_sheet" android:title="@string/tab_sheet" />
+</menu>

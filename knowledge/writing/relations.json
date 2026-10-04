@@ -1,0 +1,2381 @@
+{
+  "meta": {
+    "version": 2,
+    "title": "写作知识库 V2",
+    "generatedAt": "deterministic",
+    "sources": [
+      {
+        "source": "scan-handout",
+        "sourceLabel": "考研英语作文扫描讲义",
+        "totalPages": 47,
+        "scope": "扫描讲义"
+      },
+      {
+        "source": "slp-big-e1",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语一",
+        "totalPages": 70,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-big-e2",
+        "sourceLabel": "26 石雷鹏大作文笔记 - 英语二",
+        "totalPages": 64,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e1",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语一",
+        "totalPages": 62,
+        "scope": "石雷鹏笔记"
+      },
+      {
+        "source": "slp-small-e2",
+        "sourceLabel": "26 石雷鹏小作文笔记 - 英语二",
+        "totalPages": 58,
+        "scope": "石雷鹏笔记"
+      }
+    ],
+    "counts": {
+      "pages": 82,
+      "methods": 131,
+      "warnings": 23,
+      "entries": 378,
+      "skeletons": 378,
+      "productionSkeletons": 372,
+      "variants": 1103,
+      "examples": 189,
+      "structuredExamples": 39,
+      "catalogExamples": 139,
+      "slpEntries": 158
+    }
+  },
+  "relations": {
+    "conflictGroups": {
+      "chart:body:description:dynamic:neutral": [
+        "sk-slp-chart-trend-e2-01",
+        "sk-slp-chart-trend-e2-02",
+        "sk-slp-chart-syntax-e2-01",
+        "sk-slp-chart-syntax-e2-02",
+        "sk-slp-chart-syntax-e2-03",
+        "sk-slp-chart-syntax-e2-04",
+        "sk-slp-chart-syntax-e2-05"
+      ],
+      "chart:body:description:general:neutral": [
+        "sk-slp-chart-body-e2-01",
+        "sk-slp-chart-body-e2-04",
+        "sk-slp-chart-body-e2-07",
+        "sk-slp-chart-body-e2-08"
+      ],
+      "chart:body:description:static:neutral": [
+        "sk-slp-chart-rank-e2-01",
+        "sk-slp-chart-rank-e2-02",
+        "sk-slp-chart-rank-e2-03",
+        "sk-slp-chart-rank-e2-04",
+        "sk-slp-chart-body-e2-11",
+        "sk-slp-chart-body-e2-14"
+      ],
+      "chart:body:reason:general:neutral": [
+        "sk-slp-chart-body-e2-02",
+        "sk-slp-chart-body-e2-03",
+        "sk-slp-chart-body-e2-05",
+        "sk-slp-chart-body-e2-06",
+        "sk-slp-chart-body-e2-09",
+        "sk-slp-chart-body-e2-10"
+      ],
+      "chart:body:reason:static:neutral": [
+        "sk-slp-chart-body-e2-12",
+        "sk-slp-chart-body-e2-13"
+      ],
+      "chart:closing:closing:general:neutral": [
+        "sk-chart-p12-01",
+        "sk-slp-chart-close-e2-01",
+        "sk-slp-chart-close-e2-02",
+        "sk-slp-chart-close-e2-03",
+        "sk-slp-chart-close-e2-04",
+        "sk-slp-chart-close-e2-05",
+        "sk-slp-chart-close-e2-06",
+        "sk-slp-chart-close-e2-07",
+        "sk-slp-chart-close-e2-08",
+        "sk-slp-chart-close-e2-09"
+      ],
+      "chart:closing:closing:static:positive": [
+        "sk-slp-chart-close-e2-10"
+      ],
+      "chart:opening:description:dynamic:neutral": [
+        "sk-chart-p10-01",
+        "sk-chart-p10-02"
+      ],
+      "chart:opening:description:general:neutral": [
+        "sk-slp-chart-open-e2-01",
+        "sk-slp-chart-open-e2-02",
+        "sk-slp-chart-open-e2-03",
+        "sk-slp-chart-open-e2-04",
+        "sk-slp-chart-open-e2-05",
+        "sk-slp-chart-open-e2-06",
+        "sk-slp-chart-open-e2-07",
+        "sk-slp-chart-rank-e2-05"
+      ],
+      "chart:opening:description:static:neutral": [
+        "sk-chart-p09-01",
+        "sk-chart-p09-02",
+        "sk-slp-chart-open-e2-08",
+        "sk-slp-chart-rank-e2-06",
+        "sk-slp-chart-rank-e2-07",
+        "sk-slp-chart-rank-e2-08"
+      ],
+      "picture:body:advice:double:negative": [
+        "sk-slp-pic-body-e1-12"
+      ],
+      "picture:body:description:double:negative": [
+        "sk-slp-pic-body-e1-09"
+      ],
+      "picture:body:description:general:neutral": [
+        "sk-slp-pic-body-e1-02",
+        "sk-slp-pic-body-e1-16",
+        "sk-slp-pic-body-e1-23"
+      ],
+      "picture:body:description:single:neutral": [
+        "sk-slp-pic-body-e1-13"
+      ],
+      "picture:body:development:double:negative": [
+        "sk-slp-pic-body-e1-08"
+      ],
+      "picture:body:development:general:negative": [
+        "sk-big-body-p03-01",
+        "sk-slp-pic-body-e1-21"
+      ],
+      "picture:body:development:general:neutral": [
+        "sk-big-body-health-13-01",
+        "sk-big-body-culture-13-01",
+        "sk-slp-pic-body-e1-01",
+        "sk-slp-pic-body-e1-04",
+        "sk-slp-pic-body-e1-18",
+        "sk-slp-pic-body-e1-19",
+        "sk-slp-pic-body-e1-22"
+      ],
+      "picture:body:development:general:positive": [
+        "sk-big-body-p02-01",
+        "sk-big-body-campus-p11-01",
+        "sk-slp-pic-body-e1-20"
+      ],
+      "picture:body:development:single:neutral": [
+        "sk-slp-pic-body-e1-14"
+      ],
+      "picture:body:reason:double:negative": [
+        "sk-slp-pic-body-e1-10"
+      ],
+      "picture:body:reason:general:neutral": [
+        "sk-slp-pic-body-e1-03",
+        "sk-slp-pic-body-e1-17",
+        "sk-slp-pic-body-e1-24"
+      ],
+      "picture:body:warning:double:negative": [
+        "sk-slp-pic-body-e1-11"
+      ],
+      "picture:closing:closing:double:negative": [
+        "sk-slp-pic-close-e1-04",
+        "sk-slp-pic-close-e1-05",
+        "sk-slp-pic-close-e1-06"
+      ],
+      "picture:closing:closing:general:negative": [
+        "sk-big-close-p06-01",
+        "sk-big-closing-economy-negative-14-01",
+        "sk-big-closing-campus-negative-15-01",
+        "sk-big-closing-environment-negative-16-01",
+        "sk-big-closing-health-negative-17-01",
+        "sk-big-closing-culture-negative-18-01",
+        "sk-slp-pic-body-e1-07",
+        "sk-slp-pic-close-e1-10"
+      ],
+      "picture:closing:closing:general:neutral": [
+        "sk-slp-pic-body-e1-05",
+        "sk-slp-pic-close-e1-01",
+        "sk-slp-pic-close-e1-02",
+        "sk-slp-pic-close-e1-03",
+        "sk-slp-pic-close-e1-08",
+        "sk-slp-pic-close-e1-09"
+      ],
+      "picture:closing:closing:general:positive": [
+        "sk-big-close-p05-01",
+        "sk-big-closing-economy-positive-14-01",
+        "sk-big-closing-campus-positive-15-01",
+        "sk-big-closing-environment-positive-16-01",
+        "sk-big-closing-health-positive-17-01",
+        "sk-big-closing-culture-positive-18-01",
+        "sk-slp-pic-body-e1-06"
+      ],
+      "picture:closing:closing:single:neutral": [
+        "sk-slp-pic-body-e1-15",
+        "sk-slp-pic-close-e1-07"
+      ],
+      "picture:opening:description:double:negative": [
+        "sk-slp-pic-open-e1-06",
+        "sk-slp-pic-open-e1-07"
+      ],
+      "picture:opening:description:general:neutral": [
+        "sk-slp-pic-open-e1-02",
+        "sk-slp-pic-open-e1-04",
+        "sk-slp-pic-open-e1-11",
+        "sk-slp-pic-open-e1-12",
+        "sk-slp-pic-open-e1-13",
+        "sk-slp-pic-open-e1-14"
+      ],
+      "picture:opening:description:single:neutral": [
+        "sk-slp-pic-open-e1-08",
+        "sk-slp-pic-open-e1-09"
+      ],
+      "picture:opening:introduction:double:negative": [
+        "sk-slp-pic-open-e1-05"
+      ],
+      "picture:opening:introduction:general:neutral": [
+        "sk-big-open-p01-01",
+        "sk-big-open-p01-02",
+        "sk-slp-pic-open-e1-01",
+        "sk-slp-pic-open-e1-03",
+        "sk-slp-pic-open-e1-15"
+      ],
+      "picture:opening:introduction:single:neutral": [
+        "sk-slp-pic-open-e1-10"
+      ],
+      "small:body:advice:general:neutral": [
+        "sk-small-advice-p28-01",
+        "sk-small-advice-p28-02",
+        "sk-small-advice-p28-03",
+        "sk-small-advice-p28-04",
+        "sk-small-advice-p28-05",
+        "sk-small-advice-p28-06",
+        "sk-small-advice-p28-07",
+        "sk-slp-sm-p2-e1-04",
+        "sk-slp-sm-p2-e1-06",
+        "sk-slp-sm-reply-e2-02",
+        "sk-slp-sm-reply-e2-03",
+        "sk-slp-sm-survey-e2-03",
+        "sk-slp-sm-advice-e2-02"
+      ],
+      "small:body:closing:general:neutral": [
+        "sk-slp-sm-p2-e1-01",
+        "sk-slp-sm-p2-e1-03"
+      ],
+      "small:body:closing:general:positive": [
+        "sk-slp-sm-invite-e1-02"
+      ],
+      "small:body:description:general:neutral": [
+        "sk-slp-sm-advice-e1-02",
+        "sk-slp-sm-notice-e1-06"
+      ],
+      "small:body:development:general:neutral": [
+        "sk-small-p2s1-p26-01",
+        "sk-small-p2s1-p26-02",
+        "sk-small-p2s1-p27-03",
+        "sk-small-p2s1-p27-04",
+        "sk-small-p2s1-p27-05",
+        "sk-small-p2s1-p27-06",
+        "sk-small-p2s1-p27-07",
+        "sk-small-p2s1-p27-08",
+        "sk-small-p2s1-p27-09",
+        "sk-small-p2s1-p27-10",
+        "sk-small-p2s1-p27-11",
+        "sk-small-p2s1-p27-12",
+        "sk-small-p2s1-p27-13",
+        "sk-small-p2s1-p27-14",
+        "sk-small-p2s1-p27-15",
+        "sk-small-p2s1-p27-16",
+        "sk-small-p2s3-p28-01",
+        "sk-small-p2s3-p28-02",
+        "sk-small-p2s3-p28-03",
+        "sk-small-p2s3-p29-05",
+        "sk-small-p2s3-p29-06",
+        "sk-small-p2s3-p29-07",
+        "sk-small-p2s4-p29-01",
+        "sk-small-p2s4-p29-02",
+        "sk-small-p2s4-p29-03",
+        "sk-small-p2s4-p29-04",
+        "sk-small-p2s4-p29-05",
+        "sk-small-p2s4-p29-06",
+        "sk-small-p2s4-p29-07",
+        "sk-small-invite-p29-01",
+        "sk-small-invite-p30-02",
+        "sk-small-invite-p30-03",
+        "sk-small-invite-p30-04",
+        "sk-small-invite-p30-05",
+        "sk-small-invite-p30-06",
+        "sk-small-invite-p30-07",
+        "sk-small-p2s3-p30-01",
+        "sk-small-p2s3-p30-02",
+        "sk-small-p2s3-p30-03",
+        "sk-small-p2s3-p30-04",
+        "sk-small-p2s3-p30-05",
+        "sk-small-invite-p31-06",
+        "sk-small-invite-p31-07",
+        "sk-small-invite-p31-s4-01",
+        "sk-small-invite-p31-s4-02",
+        "sk-small-invite-p31-s4-03",
+        "sk-small-invite-p31-s4-04",
+        "sk-small-invite-p31-s4-05",
+        "sk-small-invite-p31-s4-06",
+        "sk-small-invite-p31-s4-07",
+        "sk-small-apology-p31-01",
+        "sk-small-apology-p31-02",
+        "sk-small-apology-p32-03",
+        "sk-small-apology-p32-04",
+        "sk-small-apology-p32-05",
+        "sk-small-apology-p32-06",
+        "sk-small-apology-p32-07",
+        "sk-small-apology-p32-s3-01",
+        "sk-small-apology-p32-s3-02",
+        "sk-small-apology-p32-s3-03",
+        "sk-small-apology-p32-s3-04",
+        "sk-small-apology-p32-s3-05",
+        "sk-small-apology-p32-s3-06",
+        "sk-small-apology-p33-s3-07",
+        "sk-small-apology-p33-s4-01",
+        "sk-small-apology-p33-s4-02",
+        "sk-small-apology-p33-s4-03",
+        "sk-small-apology-p33-s4-04",
+        "sk-small-apology-p33-s4-05",
+        "sk-small-apology-p33-s4-06",
+        "sk-small-apology-p33-s4-07",
+        "sk-small-congrats-p33-s2-01",
+        "sk-small-congrats-p34-s2-02",
+        "sk-small-congrats-p34-s2-03",
+        "sk-small-congrats-p34-s2-04",
+        "sk-small-congrats-p34-s2-05",
+        "sk-small-congrats-p34-s2-06",
+        "sk-small-congrats-p34-s2-07",
+        "sk-small-congrats-p34-s3-01",
+        "sk-small-congrats-p34-s3-02",
+        "sk-small-congrats-p34-s3-03",
+        "sk-small-congrats-p34-s3-04",
+        "sk-small-congrats-p34-s3-05",
+        "sk-small-congrats-p34-s3-06",
+        "sk-small-congrats-p35-01",
+        "sk-small-congrats-p35-02",
+        "sk-small-congrats-p35-03",
+        "sk-small-congrats-p35-04",
+        "sk-small-congrats-p35-05",
+        "sk-small-congrats-p35-06",
+        "sk-small-congrats-p35-07",
+        "sk-small-congrats-p35-08",
+        "sk-small-intro-p35-09",
+        "sk-small-intro-p36-01",
+        "sk-small-intro-p36-02",
+        "sk-small-intro-p36-03",
+        "sk-small-intro-p36-04",
+        "sk-small-intro-p36-05",
+        "sk-small-intro-p36-06",
+        "sk-small-intro-p36-07",
+        "sk-small-intro-p36-08",
+        "sk-small-intro-p36-09",
+        "sk-small-intro-p36-10",
+        "sk-small-intro-p36-11",
+        "sk-small-intro-p37-01",
+        "sk-small-intro-p37-02",
+        "sk-small-notice-p38-01",
+        "sk-small-notice-p38-02",
+        "sk-small-notice-p38-03",
+        "sk-small-notice-p38-04",
+        "sk-small-notice-p38-05",
+        "sk-small-notice-p38-06",
+        "sk-small-notice-p38-07",
+        "sk-small-notice-p38-08",
+        "sk-small-notice-p38-09",
+        "sk-small-notice-p38-10",
+        "sk-small-notice-p39-01",
+        "sk-small-notice-p39-02",
+        "sk-small-notice-p39-03",
+        "sk-small-notice-p39-04",
+        "sk-small-notice-p39-05",
+        "sk-small-notice-p39-06",
+        "sk-small-notice-p39-07",
+        "sk-small-notice-p39-08",
+        "sk-slp-sm-p2-e1-05",
+        "sk-slp-sm-p2-e1-07",
+        "sk-slp-sm-notice-e1-03",
+        "sk-slp-sm-notice-e1-04",
+        "sk-slp-sm-invite-e1-03",
+        "sk-slp-sm-reply-e1-02",
+        "sk-slp-sm-call-e2-02",
+        "sk-slp-sm-consult-e2-02",
+        "sk-slp-sm-consult-e2-03",
+        "sk-slp-sm-accept-e2-02",
+        "sk-slp-sm-accept-e2-03",
+        "sk-slp-sm-invite-e2-02"
+      ],
+      "small:body:development:general:positive": [
+        "sk-slp-sm-spot-e1-02",
+        "sk-slp-sm-call-e2-03",
+        "sk-slp-sm-reply-e2-04",
+        "sk-slp-sm-invite-e2-03"
+      ],
+      "small:body:reason:general:neutral": [
+        "sk-slp-sm-p2-e1-02",
+        "sk-slp-sm-survey-e2-02"
+      ],
+      "small:body:reason:general:positive": [
+        "sk-slp-sm-recom-e1-02",
+        "sk-slp-sm-advice-e2-03"
+      ],
+      "small:closing:closing:general:neutral": [
+        "sk-small-p3-p39-09",
+        "sk-small-p3-p39-10",
+        "sk-small-p3-p39-11",
+        "sk-small-p3-p39-12",
+        "sk-small-p3-p40-05",
+        "sk-small-p3-p40-06",
+        "sk-small-p3-p40-07",
+        "sk-small-p3-p40-08",
+        "sk-small-p3-p40-09",
+        "sk-small-p3-p40-10",
+        "sk-small-p3-p40-11",
+        "sk-small-p3-p40-12",
+        "sk-small-p3-p40-13",
+        "sk-small-p3-p40-14",
+        "sk-small-p3-p40-15",
+        "sk-small-p3-p40-16",
+        "sk-small-p3-p40-17",
+        "sk-small-p3-p40-18",
+        "sk-small-p3-p40-19",
+        "sk-small-p3-p40-20",
+        "sk-small-p3-p40-21",
+        "sk-slp-sm-p3-e1-01",
+        "sk-slp-sm-p3-e1-02",
+        "sk-slp-sm-p3-e1-03",
+        "sk-slp-sm-p3-e1-04",
+        "sk-slp-sm-p3-e1-05",
+        "sk-slp-sm-p3-e1-06",
+        "sk-slp-sm-p3-e2-01",
+        "sk-slp-sm-p3-e2-02",
+        "sk-slp-sm-p3-e2-05",
+        "sk-slp-sm-p3-e2-06",
+        "sk-slp-sm-p3-e2-07",
+        "sk-slp-sm-p3-e2-03",
+        "sk-slp-sm-p3-e2-04"
+      ],
+      "small:opening:advice:general:neutral": [
+        "sk-slp-sm-advice-e1-01",
+        "sk-slp-sm-advice-e2-01"
+      ],
+      "small:opening:closing:general:neutral": [
+        "sk-slp-sm-reply-e2-01"
+      ],
+      "small:opening:introduction:general:neutral": [
+        "sk-small-p1-opening-21-01",
+        "sk-small-p1-opening-21-02",
+        "sk-small-p1-opening-21-03",
+        "sk-small-p1-opening-21-04",
+        "sk-small-p1-opening-21-05",
+        "sk-small-p1-opening-21-06",
+        "sk-small-p1-opening-21-07",
+        "sk-small-p1-opening-21-08",
+        "sk-small-p1-opening-21-09",
+        "sk-small-p1-opening-21-10",
+        "sk-small-p1-opening-21-11",
+        "sk-small-p1-opening-21-12",
+        "sk-small-p1-opening-21-13",
+        "sk-small-p1-opening-21-14",
+        "sk-small-p1-opening-21-15",
+        "sk-small-p1-opening-21-16",
+        "sk-small-p1-purpose-22-01",
+        "sk-small-p1-purpose-22-02",
+        "sk-small-p1-purpose-22-03",
+        "sk-small-p1-purpose-22-04",
+        "sk-small-p1-purpose-22-05",
+        "sk-small-p1-purpose-22-06",
+        "sk-small-p1-purpose-22-07",
+        "sk-small-p1-purpose-22-08",
+        "sk-small-p1-purpose-23-09",
+        "sk-small-p1-purpose-23-10",
+        "sk-small-p1-purpose-23-11",
+        "sk-small-p1-purpose-23-12",
+        "sk-small-p1-purpose-23-13",
+        "sk-small-p1-purpose-23-14",
+        "sk-small-p1-purpose-23-15",
+        "sk-small-p1-purpose-24-16",
+        "sk-small-p1-purpose-24-17",
+        "sk-small-p1-purpose-24-18",
+        "sk-small-p1-purpose-24-19",
+        "sk-small-p1-purpose-24-20",
+        "sk-small-p1-purpose-24-21",
+        "sk-small-p1s2-p25-21",
+        "sk-small-p1s2-p25-22",
+        "sk-small-p1s2-p25-23",
+        "sk-small-p1s2-p25-24",
+        "sk-small-p1s2-p25-25",
+        "sk-small-p1s2-p25-26",
+        "sk-small-p1s2-p26-27",
+        "sk-slp-sm-p1-e1-01",
+        "sk-slp-sm-p1-e1-02",
+        "sk-slp-sm-p1-e1-03",
+        "sk-slp-sm-notice-e1-01",
+        "sk-slp-sm-notice-e1-02",
+        "sk-slp-sm-invite-e1-01",
+        "sk-slp-sm-recom-e1-01",
+        "sk-slp-sm-notice-e1-05",
+        "sk-slp-sm-spot-e1-01",
+        "sk-slp-sm-reply-e1-01",
+        "sk-slp-sm-call-e2-01",
+        "sk-slp-sm-consult-e2-01",
+        "sk-slp-sm-accept-e2-01",
+        "sk-slp-sm-survey-e2-01",
+        "sk-slp-sm-invite-e2-01"
+      ]
+    },
+    "skeletonToVariants": {
+      "sk-big-open-p01-01": [],
+      "sk-big-open-p01-02": [],
+      "sk-big-body-p02-01": [
+        "var-big-body-p02-01-01"
+      ],
+      "sk-big-body-p03-01": [
+        "var-big-body-p03-01-01"
+      ],
+      "sk-big-close-p05-01": [
+        "var-big-close-p05-01-01",
+        "var-big-close-p05-01-02",
+        "var-big-close-p05-01-03"
+      ],
+      "sk-big-close-p06-01": [
+        "var-big-close-p06-01-01",
+        "var-big-close-p06-01-02",
+        "var-big-close-p06-01-03",
+        "var-big-close-p06-01-04"
+      ],
+      "sk-chart-p09-01": [],
+      "sk-chart-p09-02": [],
+      "sk-chart-p10-01": [
+        "var-chart-p10-01-01"
+      ],
+      "sk-chart-p10-02": [
+        "var-chart-p10-02-01"
+      ],
+      "sk-big-body-campus-p11-01": [
+        "var-big-body-campus-p11-01-01",
+        "var-big-body-campus-p11-01-02",
+        "var-big-body-campus-p11-01-03",
+        "var-big-body-campus-p11-01-04",
+        "var-big-body-campus-p11-01-05"
+      ],
+      "sk-chart-p12-01": [],
+      "sk-big-body-health-13-01": [
+        "var-big-body-health-13-01-01",
+        "var-big-body-health-13-01-02",
+        "var-big-body-health-13-01-03",
+        "var-big-body-health-13-01-04",
+        "var-big-body-health-13-01-05",
+        "var-big-body-health-13-01-06"
+      ],
+      "sk-big-body-culture-13-01": [
+        "var-big-body-culture-13-01-01",
+        "var-big-body-culture-13-01-02",
+        "var-big-body-culture-13-01-03",
+        "var-big-body-culture-13-01-04",
+        "var-big-body-culture-13-01-05",
+        "var-big-body-culture-13-01-06",
+        "var-big-body-culture-13-01-07"
+      ],
+      "sk-big-closing-economy-positive-14-01": [
+        "var-big-closing-economy-positive-14-01-01",
+        "var-big-closing-economy-positive-14-01-02",
+        "var-big-closing-economy-positive-14-01-03",
+        "var-big-closing-economy-positive-14-01-04",
+        "var-big-closing-economy-positive-14-01-05",
+        "var-big-closing-economy-positive-14-01-06",
+        "var-big-closing-economy-positive-14-01-07",
+        "var-big-closing-economy-positive-14-01-08"
+      ],
+      "sk-big-closing-economy-negative-14-01": [
+        "var-big-closing-economy-negative-14-01-01",
+        "var-big-closing-economy-negative-14-01-02",
+        "var-big-closing-economy-negative-14-01-03",
+        "var-big-closing-economy-negative-14-01-04",
+        "var-big-closing-economy-negative-14-01-05",
+        "var-big-closing-economy-negative-14-01-06",
+        "var-big-closing-economy-negative-14-01-07",
+        "var-big-closing-economy-negative-14-01-08"
+      ],
+      "sk-big-closing-campus-positive-15-01": [
+        "var-big-closing-campus-positive-15-01-01",
+        "var-big-closing-campus-positive-15-01-02",
+        "var-big-closing-campus-positive-15-01-03",
+        "var-big-closing-campus-positive-15-01-04",
+        "var-big-closing-campus-positive-15-01-05",
+        "var-big-closing-campus-positive-15-01-06",
+        "var-big-closing-campus-positive-15-01-07",
+        "var-big-closing-campus-positive-15-01-08"
+      ],
+      "sk-big-closing-campus-negative-15-01": [
+        "var-big-closing-campus-negative-15-01-01",
+        "var-big-closing-campus-negative-15-01-02",
+        "var-big-closing-campus-negative-15-01-03",
+        "var-big-closing-campus-negative-15-01-04",
+        "var-big-closing-campus-negative-15-01-05",
+        "var-big-closing-campus-negative-15-01-06",
+        "var-big-closing-campus-negative-15-01-07",
+        "var-big-closing-campus-negative-15-01-08"
+      ],
+      "sk-big-closing-environment-positive-16-01": [
+        "var-big-closing-environment-positive-16-01-01",
+        "var-big-closing-environment-positive-16-01-02",
+        "var-big-closing-environment-positive-16-01-03",
+        "var-big-closing-environment-positive-16-01-04",
+        "var-big-closing-environment-positive-16-01-05",
+        "var-big-closing-environment-positive-16-01-06",
+        "var-big-closing-environment-positive-16-01-07",
+        "var-big-closing-environment-positive-16-01-08"
+      ],
+      "sk-big-closing-environment-negative-16-01": [
+        "var-big-closing-environment-negative-16-01-01",
+        "var-big-closing-environment-negative-16-01-02",
+        "var-big-closing-environment-negative-16-01-03",
+        "var-big-closing-environment-negative-16-01-04",
+        "var-big-closing-environment-negative-16-01-05",
+        "var-big-closing-environment-negative-16-01-06",
+        "var-big-closing-environment-negative-16-01-07",
+        "var-big-closing-environment-negative-16-01-08"
+      ],
+      "sk-big-closing-health-positive-17-01": [
+        "var-big-closing-health-positive-17-01-01",
+        "var-big-closing-health-positive-17-01-02",
+        "var-big-closing-health-positive-17-01-03",
+        "var-big-closing-health-positive-17-01-04",
+        "var-big-closing-health-positive-17-01-05",
+        "var-big-closing-health-positive-17-01-06",
+        "var-big-closing-health-positive-17-01-07",
+        "var-big-closing-health-positive-17-01-08"
+      ],
+      "sk-big-closing-health-negative-17-01": [
+        "var-big-closing-health-negative-17-01-01",
+        "var-big-closing-health-negative-17-01-02",
+        "var-big-closing-health-negative-17-01-03",
+        "var-big-closing-health-negative-17-01-04",
+        "var-big-closing-health-negative-17-01-05",
+        "var-big-closing-health-negative-17-01-06",
+        "var-big-closing-health-negative-17-01-07",
+        "var-big-closing-health-negative-17-01-08"
+      ],
+      "sk-big-closing-culture-positive-18-01": [
+        "var-big-closing-culture-positive-18-01-01",
+        "var-big-closing-culture-positive-18-01-02",
+        "var-big-closing-culture-positive-18-01-03",
+        "var-big-closing-culture-positive-18-01-04",
+        "var-big-closing-culture-positive-18-01-05",
+        "var-big-closing-culture-positive-18-01-06",
+        "var-big-closing-culture-positive-18-01-07",
+        "var-big-closing-culture-positive-18-01-08"
+      ],
+      "sk-big-closing-culture-negative-18-01": [
+        "var-big-closing-culture-negative-18-01-01",
+        "var-big-closing-culture-negative-18-01-02",
+        "var-big-closing-culture-negative-18-01-03",
+        "var-big-closing-culture-negative-18-01-04",
+        "var-big-closing-culture-negative-18-01-05",
+        "var-big-closing-culture-negative-18-01-06",
+        "var-big-closing-culture-negative-18-01-07",
+        "var-big-closing-culture-negative-18-01-08"
+      ],
+      "sk-small-p1-opening-21-01": [],
+      "sk-small-p1-opening-21-02": [],
+      "sk-small-p1-opening-21-03": [],
+      "sk-small-p1-opening-21-04": [],
+      "sk-small-p1-opening-21-05": [],
+      "sk-small-p1-opening-21-06": [],
+      "sk-small-p1-opening-21-07": [],
+      "sk-small-p1-opening-21-08": [],
+      "sk-small-p1-opening-21-09": [],
+      "sk-small-p1-opening-21-10": [],
+      "sk-small-p1-opening-21-11": [],
+      "sk-small-p1-opening-21-12": [],
+      "sk-small-p1-opening-21-13": [],
+      "sk-small-p1-opening-21-14": [],
+      "sk-small-p1-opening-21-15": [],
+      "sk-small-p1-opening-21-16": [],
+      "sk-small-p1-purpose-22-01": [],
+      "sk-small-p1-purpose-22-02": [],
+      "sk-small-p1-purpose-22-03": [],
+      "sk-small-p1-purpose-22-04": [],
+      "sk-small-p1-purpose-22-05": [],
+      "sk-small-p1-purpose-22-06": [],
+      "sk-small-p1-purpose-22-07": [],
+      "sk-small-p1-purpose-22-08": [],
+      "sk-small-p1-purpose-23-09": [],
+      "sk-small-p1-purpose-23-10": [],
+      "sk-small-p1-purpose-23-11": [],
+      "sk-small-p1-purpose-23-12": [],
+      "sk-small-p1-purpose-23-13": [],
+      "sk-small-p1-purpose-23-14": [],
+      "sk-small-p1-purpose-23-15": [],
+      "sk-small-p1-purpose-24-16": [],
+      "sk-small-p1-purpose-24-17": [],
+      "sk-small-p1-purpose-24-18": [],
+      "sk-small-p1-purpose-24-19": [],
+      "sk-small-p1-purpose-24-20": [],
+      "sk-small-p1-purpose-24-21": [],
+      "sk-small-p1s2-p25-21": [],
+      "sk-small-p1s2-p25-22": [],
+      "sk-small-p1s2-p25-23": [],
+      "sk-small-p1s2-p25-24": [],
+      "sk-small-p1s2-p25-25": [],
+      "sk-small-p1s2-p25-26": [],
+      "sk-small-p1s2-p26-27": [],
+      "sk-small-p2s1-p26-01": [],
+      "sk-small-p2s1-p26-02": [],
+      "sk-small-p2s1-p27-03": [],
+      "sk-small-p2s1-p27-04": [],
+      "sk-small-p2s1-p27-05": [],
+      "sk-small-p2s1-p27-06": [],
+      "sk-small-p2s1-p27-07": [],
+      "sk-small-p2s1-p27-08": [],
+      "sk-small-p2s1-p27-09": [],
+      "sk-small-p2s1-p27-10": [],
+      "sk-small-p2s1-p27-11": [],
+      "sk-small-p2s1-p27-12": [],
+      "sk-small-p2s1-p27-13": [],
+      "sk-small-p2s1-p27-14": [],
+      "sk-small-p2s1-p27-15": [],
+      "sk-small-p2s1-p27-16": [],
+      "sk-small-advice-p28-01": [],
+      "sk-small-advice-p28-02": [],
+      "sk-small-advice-p28-03": [],
+      "sk-small-advice-p28-04": [],
+      "sk-small-advice-p28-05": [],
+      "sk-small-advice-p28-06": [],
+      "sk-small-advice-p28-07": [],
+      "sk-small-p2s3-p28-01": [],
+      "sk-small-p2s3-p28-02": [],
+      "sk-small-p2s3-p28-03": [],
+      "sk-small-p2s3-p29-05": [],
+      "sk-small-p2s3-p29-06": [],
+      "sk-small-p2s3-p29-07": [],
+      "sk-small-p2s4-p29-01": [],
+      "sk-small-p2s4-p29-02": [],
+      "sk-small-p2s4-p29-03": [],
+      "sk-small-p2s4-p29-04": [],
+      "sk-small-p2s4-p29-05": [],
+      "sk-small-p2s4-p29-06": [],
+      "sk-small-p2s4-p29-07": [],
+      "sk-small-invite-p29-01": [],
+      "sk-small-invite-p30-02": [],
+      "sk-small-invite-p30-03": [],
+      "sk-small-invite-p30-04": [],
+      "sk-small-invite-p30-05": [],
+      "sk-small-invite-p30-06": [],
+      "sk-small-invite-p30-07": [],
+      "sk-small-p2s3-p30-01": [],
+      "sk-small-p2s3-p30-02": [],
+      "sk-small-p2s3-p30-03": [],
+      "sk-small-p2s3-p30-04": [],
+      "sk-small-p2s3-p30-05": [],
+      "sk-small-invite-p31-06": [],
+      "sk-small-invite-p31-07": [],
+      "sk-small-invite-p31-s4-01": [],
+      "sk-small-invite-p31-s4-02": [],
+      "sk-small-invite-p31-s4-03": [],
+      "sk-small-invite-p31-s4-04": [],
+      "sk-small-invite-p31-s4-05": [],
+      "sk-small-invite-p31-s4-06": [],
+      "sk-small-invite-p31-s4-07": [],
+      "sk-small-apology-p31-01": [],
+      "sk-small-apology-p31-02": [],
+      "sk-small-apology-p32-03": [],
+      "sk-small-apology-p32-04": [],
+      "sk-small-apology-p32-05": [],
+      "sk-small-apology-p32-06": [],
+      "sk-small-apology-p32-07": [],
+      "sk-small-apology-p32-s3-01": [],
+      "sk-small-apology-p32-s3-02": [],
+      "sk-small-apology-p32-s3-03": [],
+      "sk-small-apology-p32-s3-04": [],
+      "sk-small-apology-p32-s3-05": [],
+      "sk-small-apology-p32-s3-06": [],
+      "sk-small-apology-p33-s3-07": [],
+      "sk-small-apology-p33-s4-01": [],
+      "sk-small-apology-p33-s4-02": [],
+      "sk-small-apology-p33-s4-03": [],
+      "sk-small-apology-p33-s4-04": [],
+      "sk-small-apology-p33-s4-05": [],
+      "sk-small-apology-p33-s4-06": [],
+      "sk-small-apology-p33-s4-07": [],
+      "sk-small-congrats-p33-s2-01": [],
+      "sk-small-congrats-p34-s2-02": [],
+      "sk-small-congrats-p34-s2-03": [],
+      "sk-small-congrats-p34-s2-04": [],
+      "sk-small-congrats-p34-s2-05": [],
+      "sk-small-congrats-p34-s2-06": [],
+      "sk-small-congrats-p34-s2-07": [],
+      "sk-small-congrats-p34-s3-01": [],
+      "sk-small-congrats-p34-s3-02": [],
+      "sk-small-congrats-p34-s3-03": [],
+      "sk-small-congrats-p34-s3-04": [],
+      "sk-small-congrats-p34-s3-05": [],
+      "sk-small-congrats-p34-s3-06": [],
+      "sk-small-congrats-p35-01": [],
+      "sk-small-congrats-p35-02": [],
+      "sk-small-congrats-p35-03": [],
+      "sk-small-congrats-p35-04": [],
+      "sk-small-congrats-p35-05": [],
+      "sk-small-congrats-p35-06": [],
+      "sk-small-congrats-p35-07": [],
+      "sk-small-congrats-p35-08": [],
+      "sk-small-intro-p35-09": [],
+      "sk-small-intro-p36-01": [],
+      "sk-small-intro-p36-02": [],
+      "sk-small-intro-p36-03": [],
+      "sk-small-intro-p36-04": [],
+      "sk-small-intro-p36-05": [],
+      "sk-small-intro-p36-06": [],
+      "sk-small-intro-p36-07": [],
+      "sk-small-intro-p36-08": [],
+      "sk-small-intro-p36-09": [],
+      "sk-small-intro-p36-10": [],
+      "sk-small-intro-p36-11": [],
+      "sk-small-intro-p37-01": [],
+      "sk-small-intro-p37-02": [],
+      "sk-small-notice-p38-01": [],
+      "sk-small-notice-p38-02": [],
+      "sk-small-notice-p38-03": [],
+      "sk-small-notice-p38-04": [],
+      "sk-small-notice-p38-05": [],
+      "sk-small-notice-p38-06": [],
+      "sk-small-notice-p38-07": [],
+      "sk-small-notice-p38-08": [],
+      "sk-small-notice-p38-09": [],
+      "sk-small-notice-p38-10": [],
+      "sk-small-notice-p39-01": [],
+      "sk-small-notice-p39-02": [],
+      "sk-small-notice-p39-03": [],
+      "sk-small-notice-p39-04": [],
+      "sk-small-notice-p39-05": [],
+      "sk-small-notice-p39-06": [],
+      "sk-small-notice-p39-07": [],
+      "sk-small-notice-p39-08": [],
+      "sk-small-p3-p39-09": [],
+      "sk-small-p3-p39-10": [],
+      "sk-small-p3-p39-11": [],
+      "sk-small-p3-p39-12": [],
+      "sk-small-p3-p40-05": [],
+      "sk-small-p3-p40-06": [],
+      "sk-small-p3-p40-07": [],
+      "sk-small-p3-p40-08": [],
+      "sk-small-p3-p40-09": [],
+      "sk-small-p3-p40-10": [],
+      "sk-small-p3-p40-11": [],
+      "sk-small-p3-p40-12": [],
+      "sk-small-p3-p40-13": [],
+      "sk-small-p3-p40-14": [],
+      "sk-small-p3-p40-15": [],
+      "sk-small-p3-p40-16": [],
+      "sk-small-p3-p40-17": [],
+      "sk-small-p3-p40-18": [],
+      "sk-small-p3-p40-19": [],
+      "sk-small-p3-p40-20": [],
+      "sk-small-p3-p40-21": [],
+      "sk-slp-pic-open-e1-01": [
+        "var-slp-pic-open-e1-01-01",
+        "var-slp-pic-open-e1-01-02",
+        "var-slp-pic-open-e1-01-03",
+        "var-slp-pic-open-e1-01-04",
+        "var-slp-pic-open-e1-01-05",
+        "var-slp-pic-open-e1-01-06"
+      ],
+      "sk-slp-pic-open-e1-02": [
+        "var-slp-pic-open-e1-02-01",
+        "var-slp-pic-open-e1-02-02"
+      ],
+      "sk-slp-pic-open-e1-03": [
+        "var-slp-pic-open-e1-03-01",
+        "var-slp-pic-open-e1-03-02"
+      ],
+      "sk-slp-pic-open-e1-04": [
+        "var-slp-pic-open-e1-04-01",
+        "var-slp-pic-open-e1-04-02",
+        "var-slp-pic-open-e1-04-03",
+        "var-slp-pic-open-e1-04-04",
+        "var-slp-pic-open-e1-04-05",
+        "var-slp-pic-open-e1-04-06",
+        "var-slp-pic-open-e1-04-07",
+        "var-slp-pic-open-e1-04-08",
+        "var-slp-pic-open-e1-04-09",
+        "var-slp-pic-open-e1-04-10"
+      ],
+      "sk-slp-pic-body-e1-01": [
+        "var-slp-pic-body-e1-01-01",
+        "var-slp-pic-body-e1-01-02",
+        "var-slp-pic-body-e1-01-03",
+        "var-slp-pic-body-e1-01-04",
+        "var-slp-pic-body-e1-01-05",
+        "var-slp-pic-body-e1-01-06",
+        "var-slp-pic-body-e1-01-07",
+        "var-slp-pic-body-e1-01-08"
+      ],
+      "sk-slp-pic-body-e1-02": [
+        "var-slp-pic-body-e1-02-01",
+        "var-slp-pic-body-e1-02-02",
+        "var-slp-pic-body-e1-02-03",
+        "var-slp-pic-body-e1-02-04",
+        "var-slp-pic-body-e1-02-05"
+      ],
+      "sk-slp-pic-body-e1-03": [
+        "var-slp-pic-body-e1-03-01",
+        "var-slp-pic-body-e1-03-02",
+        "var-slp-pic-body-e1-03-03",
+        "var-slp-pic-body-e1-03-04",
+        "var-slp-pic-body-e1-03-05",
+        "var-slp-pic-body-e1-03-06",
+        "var-slp-pic-body-e1-03-07",
+        "var-slp-pic-body-e1-03-08",
+        "var-slp-pic-body-e1-03-09",
+        "var-slp-pic-body-e1-03-10",
+        "var-slp-pic-body-e1-03-11"
+      ],
+      "sk-slp-pic-body-e1-04": [
+        "var-slp-pic-body-e1-04-01",
+        "var-slp-pic-body-e1-04-02",
+        "var-slp-pic-body-e1-04-03",
+        "var-slp-pic-body-e1-04-04"
+      ],
+      "sk-slp-pic-body-e1-05": [
+        "var-slp-pic-body-e1-05-01",
+        "var-slp-pic-body-e1-05-02",
+        "var-slp-pic-body-e1-05-03",
+        "var-slp-pic-body-e1-05-04",
+        "var-slp-pic-body-e1-05-05"
+      ],
+      "sk-slp-pic-body-e1-06": [
+        "var-slp-pic-body-e1-06-01",
+        "var-slp-pic-body-e1-06-02",
+        "var-slp-pic-body-e1-06-03",
+        "var-slp-pic-body-e1-06-04"
+      ],
+      "sk-slp-pic-body-e1-07": [
+        "var-slp-pic-body-e1-07-01",
+        "var-slp-pic-body-e1-07-02",
+        "var-slp-pic-body-e1-07-03",
+        "var-slp-pic-body-e1-07-04",
+        "var-slp-pic-body-e1-07-05"
+      ],
+      "sk-slp-pic-close-e1-01": [
+        "var-slp-pic-close-e1-01-01",
+        "var-slp-pic-close-e1-01-02",
+        "var-slp-pic-close-e1-01-03",
+        "var-slp-pic-close-e1-01-04",
+        "var-slp-pic-close-e1-01-05",
+        "var-slp-pic-close-e1-01-06"
+      ],
+      "sk-slp-pic-close-e1-02": [
+        "var-slp-pic-close-e1-02-01",
+        "var-slp-pic-close-e1-02-02",
+        "var-slp-pic-close-e1-02-03",
+        "var-slp-pic-close-e1-02-04",
+        "var-slp-pic-close-e1-02-05",
+        "var-slp-pic-close-e1-02-06"
+      ],
+      "sk-slp-pic-close-e1-03": [
+        "var-slp-pic-close-e1-03-01",
+        "var-slp-pic-close-e1-03-02",
+        "var-slp-pic-close-e1-03-03",
+        "var-slp-pic-close-e1-03-04",
+        "var-slp-pic-close-e1-03-05"
+      ],
+      "sk-slp-pic-open-e1-05": [
+        "var-slp-pic-open-e1-05-01",
+        "var-slp-pic-open-e1-05-02",
+        "var-slp-pic-open-e1-05-03",
+        "var-slp-pic-open-e1-05-04",
+        "var-slp-pic-open-e1-05-05",
+        "var-slp-pic-open-e1-05-06"
+      ],
+      "sk-slp-pic-open-e1-06": [
+        "var-slp-pic-open-e1-06-01",
+        "var-slp-pic-open-e1-06-02",
+        "var-slp-pic-open-e1-06-03",
+        "var-slp-pic-open-e1-06-04"
+      ],
+      "sk-slp-pic-open-e1-07": [
+        "var-slp-pic-open-e1-07-01",
+        "var-slp-pic-open-e1-07-02",
+        "var-slp-pic-open-e1-07-03",
+        "var-slp-pic-open-e1-07-04"
+      ],
+      "sk-slp-pic-body-e1-08": [
+        "var-slp-pic-body-e1-08-01",
+        "var-slp-pic-body-e1-08-02",
+        "var-slp-pic-body-e1-08-03",
+        "var-slp-pic-body-e1-08-04",
+        "var-slp-pic-body-e1-08-05",
+        "var-slp-pic-body-e1-08-06"
+      ],
+      "sk-slp-pic-body-e1-09": [
+        "var-slp-pic-body-e1-09-01",
+        "var-slp-pic-body-e1-09-02",
+        "var-slp-pic-body-e1-09-03",
+        "var-slp-pic-body-e1-09-04"
+      ],
+      "sk-slp-pic-body-e1-10": [
+        "var-slp-pic-body-e1-10-01",
+        "var-slp-pic-body-e1-10-02",
+        "var-slp-pic-body-e1-10-03",
+        "var-slp-pic-body-e1-10-04",
+        "var-slp-pic-body-e1-10-05",
+        "var-slp-pic-body-e1-10-06",
+        "var-slp-pic-body-e1-10-07",
+        "var-slp-pic-body-e1-10-08",
+        "var-slp-pic-body-e1-10-09"
+      ],
+      "sk-slp-pic-body-e1-11": [
+        "var-slp-pic-body-e1-11-01",
+        "var-slp-pic-body-e1-11-02",
+        "var-slp-pic-body-e1-11-03",
+        "var-slp-pic-body-e1-11-04"
+      ],
+      "sk-slp-pic-body-e1-12": [
+        "var-slp-pic-body-e1-12-01",
+        "var-slp-pic-body-e1-12-02",
+        "var-slp-pic-body-e1-12-03",
+        "var-slp-pic-body-e1-12-04"
+      ],
+      "sk-slp-pic-close-e1-04": [
+        "var-slp-pic-close-e1-04-01",
+        "var-slp-pic-close-e1-04-02",
+        "var-slp-pic-close-e1-04-03",
+        "var-slp-pic-close-e1-04-04"
+      ],
+      "sk-slp-pic-close-e1-05": [
+        "var-slp-pic-close-e1-05-01",
+        "var-slp-pic-close-e1-05-02",
+        "var-slp-pic-close-e1-05-03",
+        "var-slp-pic-close-e1-05-04",
+        "var-slp-pic-close-e1-05-05",
+        "var-slp-pic-close-e1-05-06"
+      ],
+      "sk-slp-pic-close-e1-06": [
+        "var-slp-pic-close-e1-06-01",
+        "var-slp-pic-close-e1-06-02",
+        "var-slp-pic-close-e1-06-03",
+        "var-slp-pic-close-e1-06-04",
+        "var-slp-pic-close-e1-06-05"
+      ],
+      "sk-slp-pic-open-e1-08": [
+        "var-slp-pic-open-e1-08-01",
+        "var-slp-pic-open-e1-08-02",
+        "var-slp-pic-open-e1-08-03",
+        "var-slp-pic-open-e1-08-04",
+        "var-slp-pic-open-e1-08-05"
+      ],
+      "sk-slp-pic-open-e1-09": [
+        "var-slp-pic-open-e1-09-01",
+        "var-slp-pic-open-e1-09-02",
+        "var-slp-pic-open-e1-09-03",
+        "var-slp-pic-open-e1-09-04",
+        "var-slp-pic-open-e1-09-05",
+        "var-slp-pic-open-e1-09-06"
+      ],
+      "sk-slp-pic-open-e1-10": [
+        "var-slp-pic-open-e1-10-01",
+        "var-slp-pic-open-e1-10-02",
+        "var-slp-pic-open-e1-10-03",
+        "var-slp-pic-open-e1-10-04"
+      ],
+      "sk-slp-pic-body-e1-13": [
+        "var-slp-pic-body-e1-13-01",
+        "var-slp-pic-body-e1-13-02",
+        "var-slp-pic-body-e1-13-03",
+        "var-slp-pic-body-e1-13-04"
+      ],
+      "sk-slp-pic-body-e1-14": [
+        "var-slp-pic-body-e1-14-01",
+        "var-slp-pic-body-e1-14-02",
+        "var-slp-pic-body-e1-14-03"
+      ],
+      "sk-slp-pic-body-e1-15": [
+        "var-slp-pic-body-e1-15-01",
+        "var-slp-pic-body-e1-15-02",
+        "var-slp-pic-body-e1-15-03",
+        "var-slp-pic-body-e1-15-04",
+        "var-slp-pic-body-e1-15-05"
+      ],
+      "sk-slp-pic-close-e1-07": [
+        "var-slp-pic-close-e1-07-01",
+        "var-slp-pic-close-e1-07-02",
+        "var-slp-pic-close-e1-07-03",
+        "var-slp-pic-close-e1-07-04",
+        "var-slp-pic-close-e1-07-05",
+        "var-slp-pic-close-e1-07-06",
+        "var-slp-pic-close-e1-07-07"
+      ],
+      "sk-slp-pic-open-e1-11": [
+        "var-slp-pic-open-e1-11-01",
+        "var-slp-pic-open-e1-11-02",
+        "var-slp-pic-open-e1-11-03",
+        "var-slp-pic-open-e1-11-04",
+        "var-slp-pic-open-e1-11-05"
+      ],
+      "sk-slp-pic-open-e1-12": [
+        "var-slp-pic-open-e1-12-01",
+        "var-slp-pic-open-e1-12-02",
+        "var-slp-pic-open-e1-12-03",
+        "var-slp-pic-open-e1-12-04",
+        "var-slp-pic-open-e1-12-05",
+        "var-slp-pic-open-e1-12-06"
+      ],
+      "sk-slp-pic-body-e1-16": [
+        "var-slp-pic-body-e1-16-01",
+        "var-slp-pic-body-e1-16-02",
+        "var-slp-pic-body-e1-16-03",
+        "var-slp-pic-body-e1-16-04",
+        "var-slp-pic-body-e1-16-05",
+        "var-slp-pic-body-e1-16-06",
+        "var-slp-pic-body-e1-16-07"
+      ],
+      "sk-slp-pic-body-e1-17": [
+        "var-slp-pic-body-e1-17-01",
+        "var-slp-pic-body-e1-17-02"
+      ],
+      "sk-slp-pic-body-e1-18": [
+        "var-slp-pic-body-e1-18-01",
+        "var-slp-pic-body-e1-18-02",
+        "var-slp-pic-body-e1-18-03",
+        "var-slp-pic-body-e1-18-04"
+      ],
+      "sk-slp-pic-body-e1-19": [
+        "var-slp-pic-body-e1-19-01",
+        "var-slp-pic-body-e1-19-02",
+        "var-slp-pic-body-e1-19-03"
+      ],
+      "sk-slp-pic-body-e1-20": [
+        "var-slp-pic-body-e1-20-01",
+        "var-slp-pic-body-e1-20-02",
+        "var-slp-pic-body-e1-20-03",
+        "var-slp-pic-body-e1-20-04",
+        "var-slp-pic-body-e1-20-05"
+      ],
+      "sk-slp-pic-body-e1-21": [
+        "var-slp-pic-body-e1-21-01",
+        "var-slp-pic-body-e1-21-02",
+        "var-slp-pic-body-e1-21-03"
+      ],
+      "sk-slp-pic-close-e1-08": [
+        "var-slp-pic-close-e1-08-01",
+        "var-slp-pic-close-e1-08-02",
+        "var-slp-pic-close-e1-08-03",
+        "var-slp-pic-close-e1-08-04",
+        "var-slp-pic-close-e1-08-05",
+        "var-slp-pic-close-e1-08-06",
+        "var-slp-pic-close-e1-08-07",
+        "var-slp-pic-close-e1-08-08"
+      ],
+      "sk-slp-pic-close-e1-09": [
+        "var-slp-pic-close-e1-09-01",
+        "var-slp-pic-close-e1-09-02",
+        "var-slp-pic-close-e1-09-03",
+        "var-slp-pic-close-e1-09-04",
+        "var-slp-pic-close-e1-09-05"
+      ],
+      "sk-slp-pic-close-e1-10": [
+        "var-slp-pic-close-e1-10-01",
+        "var-slp-pic-close-e1-10-02"
+      ],
+      "sk-slp-pic-open-e1-13": [
+        "var-slp-pic-open-e1-13-01",
+        "var-slp-pic-open-e1-13-02",
+        "var-slp-pic-open-e1-13-03"
+      ],
+      "sk-slp-pic-open-e1-14": [
+        "var-slp-pic-open-e1-14-01",
+        "var-slp-pic-open-e1-14-02",
+        "var-slp-pic-open-e1-14-03",
+        "var-slp-pic-open-e1-14-04",
+        "var-slp-pic-open-e1-14-05"
+      ],
+      "sk-slp-pic-open-e1-15": [
+        "var-slp-pic-open-e1-15-01",
+        "var-slp-pic-open-e1-15-02",
+        "var-slp-pic-open-e1-15-03",
+        "var-slp-pic-open-e1-15-04",
+        "var-slp-pic-open-e1-15-05"
+      ],
+      "sk-slp-pic-body-e1-22": [
+        "var-slp-pic-body-e1-22-01",
+        "var-slp-pic-body-e1-22-02",
+        "var-slp-pic-body-e1-22-03",
+        "var-slp-pic-body-e1-22-04",
+        "var-slp-pic-body-e1-22-05"
+      ],
+      "sk-slp-pic-body-e1-23": [
+        "var-slp-pic-body-e1-23-01",
+        "var-slp-pic-body-e1-23-02",
+        "var-slp-pic-body-e1-23-03"
+      ],
+      "sk-slp-pic-body-e1-24": [
+        "var-slp-pic-body-e1-24-01",
+        "var-slp-pic-body-e1-24-02",
+        "var-slp-pic-body-e1-24-03",
+        "var-slp-pic-body-e1-24-04",
+        "var-slp-pic-body-e1-24-05",
+        "var-slp-pic-body-e1-24-06",
+        "var-slp-pic-body-e1-24-07"
+      ],
+      "sk-slp-chart-trend-e2-01": [
+        "var-slp-chart-trend-e2-01-01",
+        "var-slp-chart-trend-e2-01-02",
+        "var-slp-chart-trend-e2-01-03",
+        "var-slp-chart-trend-e2-01-04",
+        "var-slp-chart-trend-e2-01-05"
+      ],
+      "sk-slp-chart-trend-e2-02": [
+        "var-slp-chart-trend-e2-02-01",
+        "var-slp-chart-trend-e2-02-02",
+        "var-slp-chart-trend-e2-02-03",
+        "var-slp-chart-trend-e2-02-04",
+        "var-slp-chart-trend-e2-02-05"
+      ],
+      "sk-slp-chart-syntax-e2-01": [
+        "var-slp-chart-syntax-e2-01-01",
+        "var-slp-chart-syntax-e2-01-02",
+        "var-slp-chart-syntax-e2-01-03",
+        "var-slp-chart-syntax-e2-01-04",
+        "var-slp-chart-syntax-e2-01-05",
+        "var-slp-chart-syntax-e2-01-06",
+        "var-slp-chart-syntax-e2-01-07"
+      ],
+      "sk-slp-chart-syntax-e2-02": [
+        "var-slp-chart-syntax-e2-02-01",
+        "var-slp-chart-syntax-e2-02-02",
+        "var-slp-chart-syntax-e2-02-03",
+        "var-slp-chart-syntax-e2-02-04",
+        "var-slp-chart-syntax-e2-02-05"
+      ],
+      "sk-slp-chart-syntax-e2-03": [
+        "var-slp-chart-syntax-e2-03-01",
+        "var-slp-chart-syntax-e2-03-02"
+      ],
+      "sk-slp-chart-syntax-e2-04": [
+        "var-slp-chart-syntax-e2-04-01",
+        "var-slp-chart-syntax-e2-04-02",
+        "var-slp-chart-syntax-e2-04-03",
+        "var-slp-chart-syntax-e2-04-04",
+        "var-slp-chart-syntax-e2-04-05",
+        "var-slp-chart-syntax-e2-04-06"
+      ],
+      "sk-slp-chart-syntax-e2-05": [
+        "var-slp-chart-syntax-e2-05-01",
+        "var-slp-chart-syntax-e2-05-02",
+        "var-slp-chart-syntax-e2-05-03",
+        "var-slp-chart-syntax-e2-05-04",
+        "var-slp-chart-syntax-e2-05-05"
+      ],
+      "sk-slp-chart-rank-e2-01": [
+        "var-slp-chart-rank-e2-01-01",
+        "var-slp-chart-rank-e2-01-02",
+        "var-slp-chart-rank-e2-01-03",
+        "var-slp-chart-rank-e2-01-04"
+      ],
+      "sk-slp-chart-rank-e2-02": [
+        "var-slp-chart-rank-e2-02-01",
+        "var-slp-chart-rank-e2-02-02",
+        "var-slp-chart-rank-e2-02-03",
+        "var-slp-chart-rank-e2-02-04",
+        "var-slp-chart-rank-e2-02-05",
+        "var-slp-chart-rank-e2-02-06",
+        "var-slp-chart-rank-e2-02-07",
+        "var-slp-chart-rank-e2-02-08"
+      ],
+      "sk-slp-chart-rank-e2-03": [
+        "var-slp-chart-rank-e2-03-01",
+        "var-slp-chart-rank-e2-03-02",
+        "var-slp-chart-rank-e2-03-03",
+        "var-slp-chart-rank-e2-03-04",
+        "var-slp-chart-rank-e2-03-05"
+      ],
+      "sk-slp-chart-rank-e2-04": [
+        "var-slp-chart-rank-e2-04-01",
+        "var-slp-chart-rank-e2-04-02",
+        "var-slp-chart-rank-e2-04-03"
+      ],
+      "sk-slp-chart-open-e2-01": [
+        "var-slp-chart-open-e2-01-01",
+        "var-slp-chart-open-e2-01-02",
+        "var-slp-chart-open-e2-01-03",
+        "var-slp-chart-open-e2-01-04",
+        "var-slp-chart-open-e2-01-05",
+        "var-slp-chart-open-e2-01-06",
+        "var-slp-chart-open-e2-01-07",
+        "var-slp-chart-open-e2-01-08",
+        "var-slp-chart-open-e2-01-09",
+        "var-slp-chart-open-e2-01-10",
+        "var-slp-chart-open-e2-01-11",
+        "var-slp-chart-open-e2-01-12",
+        "var-slp-chart-open-e2-01-13",
+        "var-slp-chart-open-e2-01-14",
+        "var-slp-chart-open-e2-01-15",
+        "var-slp-chart-open-e2-01-16"
+      ],
+      "sk-slp-chart-open-e2-02": [
+        "var-slp-chart-open-e2-02-01",
+        "var-slp-chart-open-e2-02-02",
+        "var-slp-chart-open-e2-02-03",
+        "var-slp-chart-open-e2-02-04",
+        "var-slp-chart-open-e2-02-05",
+        "var-slp-chart-open-e2-02-06",
+        "var-slp-chart-open-e2-02-07",
+        "var-slp-chart-open-e2-02-08",
+        "var-slp-chart-open-e2-02-09",
+        "var-slp-chart-open-e2-02-10",
+        "var-slp-chart-open-e2-02-11",
+        "var-slp-chart-open-e2-02-12",
+        "var-slp-chart-open-e2-02-13"
+      ],
+      "sk-slp-chart-open-e2-03": [
+        "var-slp-chart-open-e2-03-01",
+        "var-slp-chart-open-e2-03-02",
+        "var-slp-chart-open-e2-03-03",
+        "var-slp-chart-open-e2-03-04",
+        "var-slp-chart-open-e2-03-05",
+        "var-slp-chart-open-e2-03-06",
+        "var-slp-chart-open-e2-03-07",
+        "var-slp-chart-open-e2-03-08"
+      ],
+      "sk-slp-chart-body-e2-01": [
+        "var-slp-chart-body-e2-01-01",
+        "var-slp-chart-body-e2-01-02",
+        "var-slp-chart-body-e2-01-03",
+        "var-slp-chart-body-e2-01-04",
+        "var-slp-chart-body-e2-01-05",
+        "var-slp-chart-body-e2-01-06",
+        "var-slp-chart-body-e2-01-07",
+        "var-slp-chart-body-e2-01-08",
+        "var-slp-chart-body-e2-01-09",
+        "var-slp-chart-body-e2-01-10",
+        "var-slp-chart-body-e2-01-11",
+        "var-slp-chart-body-e2-01-12",
+        "var-slp-chart-body-e2-01-13",
+        "var-slp-chart-body-e2-01-14",
+        "var-slp-chart-body-e2-01-15",
+        "var-slp-chart-body-e2-01-16"
+      ],
+      "sk-slp-chart-body-e2-02": [
+        "var-slp-chart-body-e2-02-01",
+        "var-slp-chart-body-e2-02-02",
+        "var-slp-chart-body-e2-02-03",
+        "var-slp-chart-body-e2-02-04",
+        "var-slp-chart-body-e2-02-05",
+        "var-slp-chart-body-e2-02-06",
+        "var-slp-chart-body-e2-02-07",
+        "var-slp-chart-body-e2-02-08",
+        "var-slp-chart-body-e2-02-09",
+        "var-slp-chart-body-e2-02-10",
+        "var-slp-chart-body-e2-02-11",
+        "var-slp-chart-body-e2-02-12",
+        "var-slp-chart-body-e2-02-13"
+      ],
+      "sk-slp-chart-body-e2-03": [
+        "var-slp-chart-body-e2-03-01",
+        "var-slp-chart-body-e2-03-02",
+        "var-slp-chart-body-e2-03-03"
+      ],
+      "sk-slp-chart-close-e2-01": [
+        "var-slp-chart-close-e2-01-01",
+        "var-slp-chart-close-e2-01-02",
+        "var-slp-chart-close-e2-01-03",
+        "var-slp-chart-close-e2-01-04",
+        "var-slp-chart-close-e2-01-05",
+        "var-slp-chart-close-e2-01-06",
+        "var-slp-chart-close-e2-01-07",
+        "var-slp-chart-close-e2-01-08",
+        "var-slp-chart-close-e2-01-09",
+        "var-slp-chart-close-e2-01-10",
+        "var-slp-chart-close-e2-01-11",
+        "var-slp-chart-close-e2-01-12",
+        "var-slp-chart-close-e2-01-13"
+      ],
+      "sk-slp-chart-close-e2-02": [
+        "var-slp-chart-close-e2-02-01",
+        "var-slp-chart-close-e2-02-02",
+        "var-slp-chart-close-e2-02-03",
+        "var-slp-chart-close-e2-02-04",
+        "var-slp-chart-close-e2-02-05",
+        "var-slp-chart-close-e2-02-06"
+      ],
+      "sk-slp-chart-close-e2-03": [
+        "var-slp-chart-close-e2-03-01",
+        "var-slp-chart-close-e2-03-02",
+        "var-slp-chart-close-e2-03-03"
+      ],
+      "sk-slp-chart-open-e2-04": [
+        "var-slp-chart-open-e2-04-01",
+        "var-slp-chart-open-e2-04-02",
+        "var-slp-chart-open-e2-04-03",
+        "var-slp-chart-open-e2-04-04",
+        "var-slp-chart-open-e2-04-05",
+        "var-slp-chart-open-e2-04-06",
+        "var-slp-chart-open-e2-04-07",
+        "var-slp-chart-open-e2-04-08",
+        "var-slp-chart-open-e2-04-09",
+        "var-slp-chart-open-e2-04-10",
+        "var-slp-chart-open-e2-04-11",
+        "var-slp-chart-open-e2-04-12",
+        "var-slp-chart-open-e2-04-13"
+      ],
+      "sk-slp-chart-open-e2-05": [
+        "var-slp-chart-open-e2-05-01",
+        "var-slp-chart-open-e2-05-02",
+        "var-slp-chart-open-e2-05-03",
+        "var-slp-chart-open-e2-05-04",
+        "var-slp-chart-open-e2-05-05",
+        "var-slp-chart-open-e2-05-06",
+        "var-slp-chart-open-e2-05-07",
+        "var-slp-chart-open-e2-05-08",
+        "var-slp-chart-open-e2-05-09",
+        "var-slp-chart-open-e2-05-10"
+      ],
+      "sk-slp-chart-open-e2-06": [
+        "var-slp-chart-open-e2-06-01",
+        "var-slp-chart-open-e2-06-02",
+        "var-slp-chart-open-e2-06-03",
+        "var-slp-chart-open-e2-06-04",
+        "var-slp-chart-open-e2-06-05",
+        "var-slp-chart-open-e2-06-06"
+      ],
+      "sk-slp-chart-body-e2-04": [
+        "var-slp-chart-body-e2-04-01",
+        "var-slp-chart-body-e2-04-02",
+        "var-slp-chart-body-e2-04-03",
+        "var-slp-chart-body-e2-04-04",
+        "var-slp-chart-body-e2-04-05"
+      ],
+      "sk-slp-chart-body-e2-05": [
+        "var-slp-chart-body-e2-05-01",
+        "var-slp-chart-body-e2-05-02",
+        "var-slp-chart-body-e2-05-03",
+        "var-slp-chart-body-e2-05-04",
+        "var-slp-chart-body-e2-05-05",
+        "var-slp-chart-body-e2-05-06"
+      ],
+      "sk-slp-chart-body-e2-06": [
+        "var-slp-chart-body-e2-06-01",
+        "var-slp-chart-body-e2-06-02",
+        "var-slp-chart-body-e2-06-03",
+        "var-slp-chart-body-e2-06-04",
+        "var-slp-chart-body-e2-06-05",
+        "var-slp-chart-body-e2-06-06",
+        "var-slp-chart-body-e2-06-07",
+        "var-slp-chart-body-e2-06-08",
+        "var-slp-chart-body-e2-06-09"
+      ],
+      "sk-slp-chart-body-e2-07": [
+        "var-slp-chart-body-e2-07-01",
+        "var-slp-chart-body-e2-07-02",
+        "var-slp-chart-body-e2-07-03"
+      ],
+      "sk-slp-chart-close-e2-04": [
+        "var-slp-chart-close-e2-04-01",
+        "var-slp-chart-close-e2-04-02",
+        "var-slp-chart-close-e2-04-03"
+      ],
+      "sk-slp-chart-close-e2-05": [
+        "var-slp-chart-close-e2-05-01",
+        "var-slp-chart-close-e2-05-02",
+        "var-slp-chart-close-e2-05-03",
+        "var-slp-chart-close-e2-05-04",
+        "var-slp-chart-close-e2-05-05"
+      ],
+      "sk-slp-chart-close-e2-06": [
+        "var-slp-chart-close-e2-06-01",
+        "var-slp-chart-close-e2-06-02",
+        "var-slp-chart-close-e2-06-03"
+      ],
+      "sk-slp-chart-close-e2-07": [
+        "var-slp-chart-close-e2-07-01",
+        "var-slp-chart-close-e2-07-02"
+      ],
+      "sk-slp-chart-open-e2-07": [
+        "var-slp-chart-open-e2-07-01",
+        "var-slp-chart-open-e2-07-02",
+        "var-slp-chart-open-e2-07-03"
+      ],
+      "sk-slp-chart-rank-e2-05": [
+        "var-slp-chart-rank-e2-05-01",
+        "var-slp-chart-rank-e2-05-02",
+        "var-slp-chart-rank-e2-05-03",
+        "var-slp-chart-rank-e2-05-04",
+        "var-slp-chart-rank-e2-05-05"
+      ],
+      "sk-slp-chart-body-e2-08": [
+        "var-slp-chart-body-e2-08-01",
+        "var-slp-chart-body-e2-08-02"
+      ],
+      "sk-slp-chart-body-e2-09": [
+        "var-slp-chart-body-e2-09-01",
+        "var-slp-chart-body-e2-09-02",
+        "var-slp-chart-body-e2-09-03",
+        "var-slp-chart-body-e2-09-04"
+      ],
+      "sk-slp-chart-body-e2-10": [
+        "var-slp-chart-body-e2-10-01",
+        "var-slp-chart-body-e2-10-02",
+        "var-slp-chart-body-e2-10-03",
+        "var-slp-chart-body-e2-10-04",
+        "var-slp-chart-body-e2-10-05"
+      ],
+      "sk-slp-chart-close-e2-08": [
+        "var-slp-chart-close-e2-08-01",
+        "var-slp-chart-close-e2-08-02",
+        "var-slp-chart-close-e2-08-03",
+        "var-slp-chart-close-e2-08-04",
+        "var-slp-chart-close-e2-08-05"
+      ],
+      "sk-slp-chart-close-e2-09": [
+        "var-slp-chart-close-e2-09-01",
+        "var-slp-chart-close-e2-09-02",
+        "var-slp-chart-close-e2-09-03",
+        "var-slp-chart-close-e2-09-04",
+        "var-slp-chart-close-e2-09-05"
+      ],
+      "sk-slp-chart-open-e2-08": [
+        "var-slp-chart-open-e2-08-01",
+        "var-slp-chart-open-e2-08-02",
+        "var-slp-chart-open-e2-08-03",
+        "var-slp-chart-open-e2-08-04",
+        "var-slp-chart-open-e2-08-05",
+        "var-slp-chart-open-e2-08-06",
+        "var-slp-chart-open-e2-08-07",
+        "var-slp-chart-open-e2-08-08",
+        "var-slp-chart-open-e2-08-09",
+        "var-slp-chart-open-e2-08-10",
+        "var-slp-chart-open-e2-08-11",
+        "var-slp-chart-open-e2-08-12",
+        "var-slp-chart-open-e2-08-13",
+        "var-slp-chart-open-e2-08-14"
+      ],
+      "sk-slp-chart-rank-e2-06": [
+        "var-slp-chart-rank-e2-06-01",
+        "var-slp-chart-rank-e2-06-02"
+      ],
+      "sk-slp-chart-rank-e2-07": [
+        "var-slp-chart-rank-e2-07-01",
+        "var-slp-chart-rank-e2-07-02",
+        "var-slp-chart-rank-e2-07-03",
+        "var-slp-chart-rank-e2-07-04"
+      ],
+      "sk-slp-chart-body-e2-11": [
+        "var-slp-chart-body-e2-11-01",
+        "var-slp-chart-body-e2-11-02",
+        "var-slp-chart-body-e2-11-03",
+        "var-slp-chart-body-e2-11-04",
+        "var-slp-chart-body-e2-11-05"
+      ],
+      "sk-slp-chart-body-e2-12": [
+        "var-slp-chart-body-e2-12-01",
+        "var-slp-chart-body-e2-12-02",
+        "var-slp-chart-body-e2-12-03",
+        "var-slp-chart-body-e2-12-04",
+        "var-slp-chart-body-e2-12-05",
+        "var-slp-chart-body-e2-12-06",
+        "var-slp-chart-body-e2-12-07",
+        "var-slp-chart-body-e2-12-08",
+        "var-slp-chart-body-e2-12-09",
+        "var-slp-chart-body-e2-12-10",
+        "var-slp-chart-body-e2-12-11"
+      ],
+      "sk-slp-chart-body-e2-13": [
+        "var-slp-chart-body-e2-13-01",
+        "var-slp-chart-body-e2-13-02",
+        "var-slp-chart-body-e2-13-03",
+        "var-slp-chart-body-e2-13-04",
+        "var-slp-chart-body-e2-13-05",
+        "var-slp-chart-body-e2-13-06",
+        "var-slp-chart-body-e2-13-07",
+        "var-slp-chart-body-e2-13-08"
+      ],
+      "sk-slp-chart-close-e2-10": [
+        "var-slp-chart-close-e2-10-01",
+        "var-slp-chart-close-e2-10-02",
+        "var-slp-chart-close-e2-10-03",
+        "var-slp-chart-close-e2-10-04",
+        "var-slp-chart-close-e2-10-05",
+        "var-slp-chart-close-e2-10-06"
+      ],
+      "sk-slp-chart-body-e2-14": [
+        "var-slp-chart-body-e2-14-01",
+        "var-slp-chart-body-e2-14-02",
+        "var-slp-chart-body-e2-14-03",
+        "var-slp-chart-body-e2-14-04"
+      ],
+      "sk-slp-chart-rank-e2-08": [
+        "var-slp-chart-rank-e2-08-01",
+        "var-slp-chart-rank-e2-08-02",
+        "var-slp-chart-rank-e2-08-03",
+        "var-slp-chart-rank-e2-08-04",
+        "var-slp-chart-rank-e2-08-05",
+        "var-slp-chart-rank-e2-08-06"
+      ],
+      "sk-slp-sm-p1-e1-01": [
+        "var-slp-sm-p1-e1-01-01",
+        "var-slp-sm-p1-e1-01-02",
+        "var-slp-sm-p1-e1-01-03",
+        "var-slp-sm-p1-e1-01-04",
+        "var-slp-sm-p1-e1-01-05",
+        "var-slp-sm-p1-e1-01-06",
+        "var-slp-sm-p1-e1-01-07",
+        "var-slp-sm-p1-e1-01-08",
+        "var-slp-sm-p1-e1-01-09",
+        "var-slp-sm-p1-e1-01-10",
+        "var-slp-sm-p1-e1-01-11",
+        "var-slp-sm-p1-e1-01-12",
+        "var-slp-sm-p1-e1-01-13",
+        "var-slp-sm-p1-e1-01-14",
+        "var-slp-sm-p1-e1-01-15",
+        "var-slp-sm-p1-e1-01-16",
+        "var-slp-sm-p1-e1-01-17",
+        "var-slp-sm-p1-e1-01-18"
+      ],
+      "sk-slp-sm-p2-e1-01": [
+        "var-slp-sm-p2-e1-01-01",
+        "var-slp-sm-p2-e1-01-02",
+        "var-slp-sm-p2-e1-01-03",
+        "var-slp-sm-p2-e1-01-04",
+        "var-slp-sm-p2-e1-01-05"
+      ],
+      "sk-slp-sm-p2-e1-02": [
+        "var-slp-sm-p2-e1-02-01",
+        "var-slp-sm-p2-e1-02-02",
+        "var-slp-sm-p2-e1-02-03",
+        "var-slp-sm-p2-e1-02-04",
+        "var-slp-sm-p2-e1-02-05",
+        "var-slp-sm-p2-e1-02-06",
+        "var-slp-sm-p2-e1-02-07",
+        "var-slp-sm-p2-e1-02-08",
+        "var-slp-sm-p2-e1-02-09",
+        "var-slp-sm-p2-e1-02-10",
+        "var-slp-sm-p2-e1-02-11",
+        "var-slp-sm-p2-e1-02-12",
+        "var-slp-sm-p2-e1-02-13",
+        "var-slp-sm-p2-e1-02-14",
+        "var-slp-sm-p2-e1-02-15",
+        "var-slp-sm-p2-e1-02-16",
+        "var-slp-sm-p2-e1-02-17",
+        "var-slp-sm-p2-e1-02-18",
+        "var-slp-sm-p2-e1-02-19",
+        "var-slp-sm-p2-e1-02-20",
+        "var-slp-sm-p2-e1-02-21",
+        "var-slp-sm-p2-e1-02-22",
+        "var-slp-sm-p2-e1-02-23",
+        "var-slp-sm-p2-e1-02-24",
+        "var-slp-sm-p2-e1-02-25",
+        "var-slp-sm-p2-e1-02-26",
+        "var-slp-sm-p2-e1-02-27"
+      ],
+      "sk-slp-sm-p3-e1-01": [
+        "var-slp-sm-p3-e1-01-01",
+        "var-slp-sm-p3-e1-01-02"
+      ],
+      "sk-slp-sm-p1-e1-02": [
+        "var-slp-sm-p1-e1-02-01",
+        "var-slp-sm-p1-e1-02-02",
+        "var-slp-sm-p1-e1-02-03",
+        "var-slp-sm-p1-e1-02-04",
+        "var-slp-sm-p1-e1-02-05",
+        "var-slp-sm-p1-e1-02-06",
+        "var-slp-sm-p1-e1-02-07",
+        "var-slp-sm-p1-e1-02-08",
+        "var-slp-sm-p1-e1-02-09",
+        "var-slp-sm-p1-e1-02-10",
+        "var-slp-sm-p1-e1-02-11",
+        "var-slp-sm-p1-e1-02-12",
+        "var-slp-sm-p1-e1-02-13",
+        "var-slp-sm-p1-e1-02-14",
+        "var-slp-sm-p1-e1-02-15",
+        "var-slp-sm-p1-e1-02-16",
+        "var-slp-sm-p1-e1-02-17",
+        "var-slp-sm-p1-e1-02-18",
+        "var-slp-sm-p1-e1-02-19",
+        "var-slp-sm-p1-e1-02-20",
+        "var-slp-sm-p1-e1-02-21"
+      ],
+      "sk-slp-sm-p2-e1-03": [
+        "var-slp-sm-p2-e1-03-01",
+        "var-slp-sm-p2-e1-03-02",
+        "var-slp-sm-p2-e1-03-03",
+        "var-slp-sm-p2-e1-03-04",
+        "var-slp-sm-p2-e1-03-05",
+        "var-slp-sm-p2-e1-03-06"
+      ],
+      "sk-slp-sm-p2-e1-04": [
+        "var-slp-sm-p2-e1-04-01",
+        "var-slp-sm-p2-e1-04-02",
+        "var-slp-sm-p2-e1-04-03",
+        "var-slp-sm-p2-e1-04-04",
+        "var-slp-sm-p2-e1-04-05",
+        "var-slp-sm-p2-e1-04-06",
+        "var-slp-sm-p2-e1-04-07"
+      ],
+      "sk-slp-sm-p3-e1-02": [
+        "var-slp-sm-p3-e1-02-01",
+        "var-slp-sm-p3-e1-02-02"
+      ],
+      "sk-slp-sm-p1-e1-03": [
+        "var-slp-sm-p1-e1-03-01",
+        "var-slp-sm-p1-e1-03-02",
+        "var-slp-sm-p1-e1-03-03",
+        "var-slp-sm-p1-e1-03-04",
+        "var-slp-sm-p1-e1-03-05"
+      ],
+      "sk-slp-sm-p2-e1-05": [
+        "var-slp-sm-p2-e1-05-01",
+        "var-slp-sm-p2-e1-05-02",
+        "var-slp-sm-p2-e1-05-03",
+        "var-slp-sm-p2-e1-05-04",
+        "var-slp-sm-p2-e1-05-05",
+        "var-slp-sm-p2-e1-05-06",
+        "var-slp-sm-p2-e1-05-07",
+        "var-slp-sm-p2-e1-05-08",
+        "var-slp-sm-p2-e1-05-09"
+      ],
+      "sk-slp-sm-p2-e1-06": [
+        "var-slp-sm-p2-e1-06-01",
+        "var-slp-sm-p2-e1-06-02",
+        "var-slp-sm-p2-e1-06-03",
+        "var-slp-sm-p2-e1-06-04",
+        "var-slp-sm-p2-e1-06-05"
+      ],
+      "sk-slp-sm-p2-e1-07": [
+        "var-slp-sm-p2-e1-07-01",
+        "var-slp-sm-p2-e1-07-02",
+        "var-slp-sm-p2-e1-07-03",
+        "var-slp-sm-p2-e1-07-04"
+      ],
+      "sk-slp-sm-p3-e1-03": [
+        "var-slp-sm-p3-e1-03-01",
+        "var-slp-sm-p3-e1-03-02"
+      ],
+      "sk-slp-sm-notice-e1-01": [
+        "var-slp-sm-notice-e1-01-01",
+        "var-slp-sm-notice-e1-01-02",
+        "var-slp-sm-notice-e1-01-03"
+      ],
+      "sk-slp-sm-notice-e1-02": [
+        "var-slp-sm-notice-e1-02-01",
+        "var-slp-sm-notice-e1-02-02",
+        "var-slp-sm-notice-e1-02-03",
+        "var-slp-sm-notice-e1-02-04"
+      ],
+      "sk-slp-sm-notice-e1-03": [
+        "var-slp-sm-notice-e1-03-01",
+        "var-slp-sm-notice-e1-03-02",
+        "var-slp-sm-notice-e1-03-03"
+      ],
+      "sk-slp-sm-notice-e1-04": [
+        "var-slp-sm-notice-e1-04-01",
+        "var-slp-sm-notice-e1-04-02",
+        "var-slp-sm-notice-e1-04-03",
+        "var-slp-sm-notice-e1-04-04"
+      ],
+      "sk-slp-sm-invite-e1-01": [
+        "var-slp-sm-invite-e1-01-01",
+        "var-slp-sm-invite-e1-01-02",
+        "var-slp-sm-invite-e1-01-03",
+        "var-slp-sm-invite-e1-01-04",
+        "var-slp-sm-invite-e1-01-05"
+      ],
+      "sk-slp-sm-invite-e1-02": [
+        "var-slp-sm-invite-e1-02-01",
+        "var-slp-sm-invite-e1-02-02",
+        "var-slp-sm-invite-e1-02-03",
+        "var-slp-sm-invite-e1-02-04",
+        "var-slp-sm-invite-e1-02-05",
+        "var-slp-sm-invite-e1-02-06",
+        "var-slp-sm-invite-e1-02-07",
+        "var-slp-sm-invite-e1-02-08"
+      ],
+      "sk-slp-sm-invite-e1-03": [
+        "var-slp-sm-invite-e1-03-01",
+        "var-slp-sm-invite-e1-03-02",
+        "var-slp-sm-invite-e1-03-03",
+        "var-slp-sm-invite-e1-03-04"
+      ],
+      "sk-slp-sm-p3-e1-04": [
+        "var-slp-sm-p3-e1-04-01",
+        "var-slp-sm-p3-e1-04-02"
+      ],
+      "sk-slp-sm-p3-e1-05": [
+        "var-slp-sm-p3-e1-05-01",
+        "var-slp-sm-p3-e1-05-02"
+      ],
+      "sk-slp-sm-advice-e1-01": [
+        "var-slp-sm-advice-e1-01-01",
+        "var-slp-sm-advice-e1-01-02",
+        "var-slp-sm-advice-e1-01-03"
+      ],
+      "sk-slp-sm-advice-e1-02": [
+        "var-slp-sm-advice-e1-02-01",
+        "var-slp-sm-advice-e1-02-02",
+        "var-slp-sm-advice-e1-02-03",
+        "var-slp-sm-advice-e1-02-04",
+        "var-slp-sm-advice-e1-02-05",
+        "var-slp-sm-advice-e1-02-06",
+        "var-slp-sm-advice-e1-02-07",
+        "var-slp-sm-advice-e1-02-08"
+      ],
+      "sk-slp-sm-recom-e1-01": [
+        "var-slp-sm-recom-e1-01-01",
+        "var-slp-sm-recom-e1-01-02",
+        "var-slp-sm-recom-e1-01-03",
+        "var-slp-sm-recom-e1-01-04",
+        "var-slp-sm-recom-e1-01-05",
+        "var-slp-sm-recom-e1-01-06"
+      ],
+      "sk-slp-sm-recom-e1-02": [
+        "var-slp-sm-recom-e1-02-01",
+        "var-slp-sm-recom-e1-02-02",
+        "var-slp-sm-recom-e1-02-03",
+        "var-slp-sm-recom-e1-02-04",
+        "var-slp-sm-recom-e1-02-05",
+        "var-slp-sm-recom-e1-02-06",
+        "var-slp-sm-recom-e1-02-07",
+        "var-slp-sm-recom-e1-02-08"
+      ],
+      "sk-slp-sm-notice-e1-05": [
+        "var-slp-sm-notice-e1-05-01",
+        "var-slp-sm-notice-e1-05-02",
+        "var-slp-sm-notice-e1-05-03",
+        "var-slp-sm-notice-e1-05-04",
+        "var-slp-sm-notice-e1-05-05",
+        "var-slp-sm-notice-e1-05-06"
+      ],
+      "sk-slp-sm-notice-e1-06": [
+        "var-slp-sm-notice-e1-06-01",
+        "var-slp-sm-notice-e1-06-02",
+        "var-slp-sm-notice-e1-06-03",
+        "var-slp-sm-notice-e1-06-04",
+        "var-slp-sm-notice-e1-06-05",
+        "var-slp-sm-notice-e1-06-06",
+        "var-slp-sm-notice-e1-06-07",
+        "var-slp-sm-notice-e1-06-08"
+      ],
+      "sk-slp-sm-spot-e1-01": [
+        "var-slp-sm-spot-e1-01-01",
+        "var-slp-sm-spot-e1-01-02",
+        "var-slp-sm-spot-e1-01-03",
+        "var-slp-sm-spot-e1-01-04",
+        "var-slp-sm-spot-e1-01-05",
+        "var-slp-sm-spot-e1-01-06",
+        "var-slp-sm-spot-e1-01-07",
+        "var-slp-sm-spot-e1-01-08"
+      ],
+      "sk-slp-sm-spot-e1-02": [
+        "var-slp-sm-spot-e1-02-01",
+        "var-slp-sm-spot-e1-02-02",
+        "var-slp-sm-spot-e1-02-03",
+        "var-slp-sm-spot-e1-02-04",
+        "var-slp-sm-spot-e1-02-05",
+        "var-slp-sm-spot-e1-02-06",
+        "var-slp-sm-spot-e1-02-07"
+      ],
+      "sk-slp-sm-reply-e1-01": [
+        "var-slp-sm-reply-e1-01-01",
+        "var-slp-sm-reply-e1-01-02",
+        "var-slp-sm-reply-e1-01-03",
+        "var-slp-sm-reply-e1-01-04"
+      ],
+      "sk-slp-sm-reply-e1-02": [
+        "var-slp-sm-reply-e1-02-01",
+        "var-slp-sm-reply-e1-02-02",
+        "var-slp-sm-reply-e1-02-03",
+        "var-slp-sm-reply-e1-02-04",
+        "var-slp-sm-reply-e1-02-05",
+        "var-slp-sm-reply-e1-02-06",
+        "var-slp-sm-reply-e1-02-07",
+        "var-slp-sm-reply-e1-02-08",
+        "var-slp-sm-reply-e1-02-09",
+        "var-slp-sm-reply-e1-02-10"
+      ],
+      "sk-slp-sm-p3-e1-06": [
+        "var-slp-sm-p3-e1-06-01",
+        "var-slp-sm-p3-e1-06-02",
+        "var-slp-sm-p3-e1-06-03",
+        "var-slp-sm-p3-e1-06-04",
+        "var-slp-sm-p3-e1-06-05",
+        "var-slp-sm-p3-e1-06-06",
+        "var-slp-sm-p3-e1-06-07",
+        "var-slp-sm-p3-e1-06-08"
+      ],
+      "sk-slp-sm-call-e2-01": [
+        "var-slp-sm-call-e2-01-01",
+        "var-slp-sm-call-e2-01-02",
+        "var-slp-sm-call-e2-01-03",
+        "var-slp-sm-call-e2-01-04",
+        "var-slp-sm-call-e2-01-05",
+        "var-slp-sm-call-e2-01-06",
+        "var-slp-sm-call-e2-01-07"
+      ],
+      "sk-slp-sm-call-e2-02": [
+        "var-slp-sm-call-e2-02-01",
+        "var-slp-sm-call-e2-02-02",
+        "var-slp-sm-call-e2-02-03",
+        "var-slp-sm-call-e2-02-04",
+        "var-slp-sm-call-e2-02-05",
+        "var-slp-sm-call-e2-02-06",
+        "var-slp-sm-call-e2-02-07",
+        "var-slp-sm-call-e2-02-08",
+        "var-slp-sm-call-e2-02-09",
+        "var-slp-sm-call-e2-02-10",
+        "var-slp-sm-call-e2-02-11",
+        "var-slp-sm-call-e2-02-12"
+      ],
+      "sk-slp-sm-call-e2-03": [
+        "var-slp-sm-call-e2-03-01",
+        "var-slp-sm-call-e2-03-02",
+        "var-slp-sm-call-e2-03-03",
+        "var-slp-sm-call-e2-03-04",
+        "var-slp-sm-call-e2-03-05",
+        "var-slp-sm-call-e2-03-06"
+      ],
+      "sk-slp-sm-p3-e2-01": [
+        "var-slp-sm-p3-e2-01-01",
+        "var-slp-sm-p3-e2-01-02"
+      ],
+      "sk-slp-sm-p3-e2-02": [
+        "var-slp-sm-p3-e2-02-01",
+        "var-slp-sm-p3-e2-02-02"
+      ],
+      "sk-slp-sm-consult-e2-01": [
+        "var-slp-sm-consult-e2-01-01",
+        "var-slp-sm-consult-e2-01-02",
+        "var-slp-sm-consult-e2-01-03",
+        "var-slp-sm-consult-e2-01-04"
+      ],
+      "sk-slp-sm-consult-e2-02": [
+        "var-slp-sm-consult-e2-02-01",
+        "var-slp-sm-consult-e2-02-02",
+        "var-slp-sm-consult-e2-02-03",
+        "var-slp-sm-consult-e2-02-04",
+        "var-slp-sm-consult-e2-02-05",
+        "var-slp-sm-consult-e2-02-06",
+        "var-slp-sm-consult-e2-02-07",
+        "var-slp-sm-consult-e2-02-08",
+        "var-slp-sm-consult-e2-02-09"
+      ],
+      "sk-slp-sm-consult-e2-03": [
+        "var-slp-sm-consult-e2-03-01",
+        "var-slp-sm-consult-e2-03-02",
+        "var-slp-sm-consult-e2-03-03",
+        "var-slp-sm-consult-e2-03-04",
+        "var-slp-sm-consult-e2-03-05",
+        "var-slp-sm-consult-e2-03-06"
+      ],
+      "sk-slp-sm-p3-e2-05": [
+        "var-slp-sm-p3-e2-05-01",
+        "var-slp-sm-p3-e2-05-02",
+        "var-slp-sm-p3-e2-05-03",
+        "var-slp-sm-p3-e2-05-04"
+      ],
+      "sk-slp-sm-reply-e2-01": [
+        "var-slp-sm-reply-e2-01-01",
+        "var-slp-sm-reply-e2-01-02",
+        "var-slp-sm-reply-e2-01-03",
+        "var-slp-sm-reply-e2-01-04",
+        "var-slp-sm-reply-e2-01-05",
+        "var-slp-sm-reply-e2-01-06",
+        "var-slp-sm-reply-e2-01-07",
+        "var-slp-sm-reply-e2-01-08",
+        "var-slp-sm-reply-e2-01-09",
+        "var-slp-sm-reply-e2-01-10",
+        "var-slp-sm-reply-e2-01-11",
+        "var-slp-sm-reply-e2-01-12",
+        "var-slp-sm-reply-e2-01-13"
+      ],
+      "sk-slp-sm-reply-e2-02": [
+        "var-slp-sm-reply-e2-02-01",
+        "var-slp-sm-reply-e2-02-02",
+        "var-slp-sm-reply-e2-02-03"
+      ],
+      "sk-slp-sm-reply-e2-03": [
+        "var-slp-sm-reply-e2-03-01",
+        "var-slp-sm-reply-e2-03-02",
+        "var-slp-sm-reply-e2-03-03",
+        "var-slp-sm-reply-e2-03-04",
+        "var-slp-sm-reply-e2-03-05"
+      ],
+      "sk-slp-sm-reply-e2-04": [
+        "var-slp-sm-reply-e2-04-01",
+        "var-slp-sm-reply-e2-04-02",
+        "var-slp-sm-reply-e2-04-03",
+        "var-slp-sm-reply-e2-04-04",
+        "var-slp-sm-reply-e2-04-05",
+        "var-slp-sm-reply-e2-04-06"
+      ],
+      "sk-slp-sm-p3-e2-06": [
+        "var-slp-sm-p3-e2-06-01",
+        "var-slp-sm-p3-e2-06-02",
+        "var-slp-sm-p3-e2-06-03"
+      ],
+      "sk-slp-sm-accept-e2-01": [
+        "var-slp-sm-accept-e2-01-01",
+        "var-slp-sm-accept-e2-01-02",
+        "var-slp-sm-accept-e2-01-03",
+        "var-slp-sm-accept-e2-01-04",
+        "var-slp-sm-accept-e2-01-05",
+        "var-slp-sm-accept-e2-01-06",
+        "var-slp-sm-accept-e2-01-07",
+        "var-slp-sm-accept-e2-01-08"
+      ],
+      "sk-slp-sm-accept-e2-02": [
+        "var-slp-sm-accept-e2-02-01",
+        "var-slp-sm-accept-e2-02-02",
+        "var-slp-sm-accept-e2-02-03",
+        "var-slp-sm-accept-e2-02-04"
+      ],
+      "sk-slp-sm-accept-e2-03": [
+        "var-slp-sm-accept-e2-03-01",
+        "var-slp-sm-accept-e2-03-02",
+        "var-slp-sm-accept-e2-03-03",
+        "var-slp-sm-accept-e2-03-04"
+      ],
+      "sk-slp-sm-p3-e2-07": [
+        "var-slp-sm-p3-e2-07-01",
+        "var-slp-sm-p3-e2-07-02",
+        "var-slp-sm-p3-e2-07-03"
+      ],
+      "sk-slp-sm-survey-e2-01": [
+        "var-slp-sm-survey-e2-01-01",
+        "var-slp-sm-survey-e2-01-02",
+        "var-slp-sm-survey-e2-01-03",
+        "var-slp-sm-survey-e2-01-04",
+        "var-slp-sm-survey-e2-01-05",
+        "var-slp-sm-survey-e2-01-06",
+        "var-slp-sm-survey-e2-01-07",
+        "var-slp-sm-survey-e2-01-08",
+        "var-slp-sm-survey-e2-01-09",
+        "var-slp-sm-survey-e2-01-10"
+      ],
+      "sk-slp-sm-survey-e2-02": [
+        "var-slp-sm-survey-e2-02-01",
+        "var-slp-sm-survey-e2-02-02",
+        "var-slp-sm-survey-e2-02-03",
+        "var-slp-sm-survey-e2-02-04",
+        "var-slp-sm-survey-e2-02-05",
+        "var-slp-sm-survey-e2-02-06",
+        "var-slp-sm-survey-e2-02-07",
+        "var-slp-sm-survey-e2-02-08",
+        "var-slp-sm-survey-e2-02-09",
+        "var-slp-sm-survey-e2-02-10",
+        "var-slp-sm-survey-e2-02-11",
+        "var-slp-sm-survey-e2-02-12",
+        "var-slp-sm-survey-e2-02-13",
+        "var-slp-sm-survey-e2-02-14",
+        "var-slp-sm-survey-e2-02-15",
+        "var-slp-sm-survey-e2-02-16",
+        "var-slp-sm-survey-e2-02-17",
+        "var-slp-sm-survey-e2-02-18",
+        "var-slp-sm-survey-e2-02-19"
+      ],
+      "sk-slp-sm-survey-e2-03": [
+        "var-slp-sm-survey-e2-03-01",
+        "var-slp-sm-survey-e2-03-02",
+        "var-slp-sm-survey-e2-03-03",
+        "var-slp-sm-survey-e2-03-04",
+        "var-slp-sm-survey-e2-03-05",
+        "var-slp-sm-survey-e2-03-06",
+        "var-slp-sm-survey-e2-03-07",
+        "var-slp-sm-survey-e2-03-08"
+      ],
+      "sk-slp-sm-invite-e2-01": [
+        "var-slp-sm-invite-e2-01-01",
+        "var-slp-sm-invite-e2-01-02",
+        "var-slp-sm-invite-e2-01-03",
+        "var-slp-sm-invite-e2-01-04",
+        "var-slp-sm-invite-e2-01-05",
+        "var-slp-sm-invite-e2-01-06"
+      ],
+      "sk-slp-sm-invite-e2-02": [
+        "var-slp-sm-invite-e2-02-01",
+        "var-slp-sm-invite-e2-02-02",
+        "var-slp-sm-invite-e2-02-03",
+        "var-slp-sm-invite-e2-02-04",
+        "var-slp-sm-invite-e2-02-05",
+        "var-slp-sm-invite-e2-02-06",
+        "var-slp-sm-invite-e2-02-07",
+        "var-slp-sm-invite-e2-02-08",
+        "var-slp-sm-invite-e2-02-09",
+        "var-slp-sm-invite-e2-02-10",
+        "var-slp-sm-invite-e2-02-11",
+        "var-slp-sm-invite-e2-02-12",
+        "var-slp-sm-invite-e2-02-13",
+        "var-slp-sm-invite-e2-02-14",
+        "var-slp-sm-invite-e2-02-15"
+      ],
+      "sk-slp-sm-invite-e2-03": [
+        "var-slp-sm-invite-e2-03-01",
+        "var-slp-sm-invite-e2-03-02",
+        "var-slp-sm-invite-e2-03-03",
+        "var-slp-sm-invite-e2-03-04",
+        "var-slp-sm-invite-e2-03-05",
+        "var-slp-sm-invite-e2-03-06",
+        "var-slp-sm-invite-e2-03-07",
+        "var-slp-sm-invite-e2-03-08",
+        "var-slp-sm-invite-e2-03-09",
+        "var-slp-sm-invite-e2-03-10",
+        "var-slp-sm-invite-e2-03-11",
+        "var-slp-sm-invite-e2-03-12"
+      ],
+      "sk-slp-sm-p3-e2-03": [
+        "var-slp-sm-p3-e2-03-01",
+        "var-slp-sm-p3-e2-03-02"
+      ],
+      "sk-slp-sm-p3-e2-04": [
+        "var-slp-sm-p3-e2-04-01",
+        "var-slp-sm-p3-e2-04-02",
+        "var-slp-sm-p3-e2-04-03",
+        "var-slp-sm-p3-e2-04-04",
+        "var-slp-sm-p3-e2-04-05",
+        "var-slp-sm-p3-e2-04-06",
+        "var-slp-sm-p3-e2-04-07"
+      ],
+      "sk-slp-sm-advice-e2-01": [
+        "var-slp-sm-advice-e2-01-01",
+        "var-slp-sm-advice-e2-01-02",
+        "var-slp-sm-advice-e2-01-03",
+        "var-slp-sm-advice-e2-01-04",
+        "var-slp-sm-advice-e2-01-05",
+        "var-slp-sm-advice-e2-01-06",
+        "var-slp-sm-advice-e2-01-07",
+        "var-slp-sm-advice-e2-01-08",
+        "var-slp-sm-advice-e2-01-09",
+        "var-slp-sm-advice-e2-01-10",
+        "var-slp-sm-advice-e2-01-11",
+        "var-slp-sm-advice-e2-01-12"
+      ],
+      "sk-slp-sm-advice-e2-02": [
+        "var-slp-sm-advice-e2-02-01",
+        "var-slp-sm-advice-e2-02-02",
+        "var-slp-sm-advice-e2-02-03",
+        "var-slp-sm-advice-e2-02-04",
+        "var-slp-sm-advice-e2-02-05",
+        "var-slp-sm-advice-e2-02-06",
+        "var-slp-sm-advice-e2-02-07",
+        "var-slp-sm-advice-e2-02-08",
+        "var-slp-sm-advice-e2-02-09",
+        "var-slp-sm-advice-e2-02-10",
+        "var-slp-sm-advice-e2-02-11"
+      ],
+      "sk-slp-sm-advice-e2-03": [
+        "var-slp-sm-advice-e2-03-01",
+        "var-slp-sm-advice-e2-03-02",
+        "var-slp-sm-advice-e2-03-03",
+        "var-slp-sm-advice-e2-03-04",
+        "var-slp-sm-advice-e2-03-05",
+        "var-slp-sm-advice-e2-03-06",
+        "var-slp-sm-advice-e2-03-07",
+        "var-slp-sm-advice-e2-03-08",
+        "var-slp-sm-advice-e2-03-09",
+        "var-slp-sm-advice-e2-03-10",
+        "var-slp-sm-advice-e2-03-11",
+        "var-slp-sm-advice-e2-03-12",
+        "var-slp-sm-advice-e2-03-13",
+        "var-slp-sm-advice-e2-03-14",
+        "var-slp-sm-advice-e2-03-15",
+        "var-slp-sm-advice-e2-03-16",
+        "var-slp-sm-advice-e2-03-17",
+        "var-slp-sm-advice-e2-03-18",
+        "var-slp-sm-advice-e2-03-19",
+        "var-slp-sm-advice-e2-03-20"
+      ]
+    },
+    "exampleToSkeletons": {
+      "ex-big-body-campus-p11-01-01": [
+        "sk-big-body-campus-p11-01"
+      ],
+      "ex-small-p1-purpose-22-01-01": [
+        "sk-small-p1-purpose-22-01"
+      ],
+      "ex-small-p1-purpose-22-03-01": [
+        "sk-small-p1-purpose-22-03"
+      ],
+      "ex-small-p1-purpose-22-05-01": [
+        "sk-small-p1-purpose-22-05"
+      ],
+      "ex-small-p1-purpose-22-06-01": [
+        "sk-small-p1-purpose-22-06"
+      ],
+      "ex-small-p1-purpose-22-07-01": [
+        "sk-small-p1-purpose-22-07"
+      ],
+      "ex-small-p1-purpose-22-08-01": [
+        "sk-small-p1-purpose-22-08"
+      ],
+      "ex-small-p1-purpose-23-09-01": [
+        "sk-small-p1-purpose-23-09"
+      ],
+      "ex-small-p1-purpose-23-10-01": [
+        "sk-small-p1-purpose-23-10"
+      ],
+      "ex-small-p1-purpose-23-11-01": [
+        "sk-small-p1-purpose-23-11"
+      ],
+      "ex-small-p1-purpose-23-12-01": [
+        "sk-small-p1-purpose-23-12"
+      ],
+      "ex-small-p1-purpose-23-13-01": [
+        "sk-small-p1-purpose-23-13"
+      ],
+      "ex-small-p1-purpose-23-14-01": [
+        "sk-small-p1-purpose-23-14"
+      ],
+      "ex-small-p1-purpose-24-16-01": [
+        "sk-small-p1-purpose-24-16"
+      ],
+      "ex-small-p1-purpose-24-17-01": [
+        "sk-small-p1-purpose-24-17"
+      ],
+      "ex-small-p1-purpose-24-18-01": [
+        "sk-small-p1-purpose-24-18"
+      ],
+      "ex-small-p1-purpose-24-19-01": [
+        "sk-small-p1-purpose-24-19"
+      ],
+      "ex-small-p1-purpose-24-20-01": [
+        "sk-small-p1-purpose-24-20"
+      ],
+      "ex-small-p1s2-p25-21-01": [
+        "sk-small-p1s2-p25-21"
+      ],
+      "ex-small-p1s2-p25-22-01": [
+        "sk-small-p1s2-p25-22"
+      ],
+      "ex-small-p1s2-p25-23-01": [
+        "sk-small-p1s2-p25-23"
+      ],
+      "ex-small-p1s2-p25-24-01": [
+        "sk-small-p1s2-p25-24"
+      ],
+      "ex-small-p1s2-p25-25-01": [
+        "sk-small-p1s2-p25-25"
+      ],
+      "ex-small-p1s2-p25-26-01": [
+        "sk-small-p1s2-p25-26"
+      ],
+      "ex-small-p1s2-p26-27-01": [
+        "sk-small-p1s2-p26-27"
+      ],
+      "ex-slp-pic-open-e1-02-01": [
+        "sk-slp-pic-open-e1-02"
+      ],
+      "ex-slp-pic-open-e1-04-01": [
+        "sk-slp-pic-open-e1-04"
+      ],
+      "ex-slp-pic-body-e1-15-01": [
+        "sk-slp-pic-body-e1-15"
+      ],
+      "ex-slp-chart-open-e2-01-01": [
+        "sk-slp-chart-open-e2-01"
+      ],
+      "ex-slp-chart-open-e2-04-01": [
+        "sk-slp-chart-open-e2-04"
+      ],
+      "ex-slp-chart-rank-e2-05-01": [
+        "sk-slp-chart-rank-e2-05"
+      ],
+      "ex-slp-chart-rank-e2-08-01": [
+        "sk-slp-chart-rank-e2-08"
+      ],
+      "ex-slp-sm-p1-e1-01-01": [
+        "sk-slp-sm-p1-e1-01"
+      ],
+      "ex-slp-sm-p1-e1-03-01": [
+        "sk-slp-sm-p1-e1-03"
+      ],
+      "ex-slp-sm-invite-e1-01-01": [
+        "sk-slp-sm-invite-e1-01"
+      ],
+      "ex-slp-sm-recom-e1-02-01": [
+        "sk-slp-sm-recom-e1-02"
+      ],
+      "ex-slp-sm-call-e2-01-01": [
+        "sk-slp-sm-call-e2-01"
+      ],
+      "ex-slp-sm-accept-e2-02-01": [
+        "sk-slp-sm-accept-e2-02"
+      ],
+      "ex-slp-sm-advice-e2-03-01": [
+        "sk-slp-sm-advice-e2-03"
+      ],
+      "ex-coverage-slp-small-e1-40": [],
+      "ex-coverage-slp-small-e1-41": [],
+      "ex-coverage-slp-small-e1-42": [],
+      "ex-coverage-slp-small-e1-43": [],
+      "ex-coverage-slp-small-e1-44": [],
+      "ex-coverage-slp-small-e1-45": [],
+      "ex-coverage-slp-small-e1-46": [],
+      "ex-coverage-slp-small-e2-47": [],
+      "ex-coverage-slp-small-e2-48": [],
+      "ex-coverage-slp-small-e2-49": [],
+      "ex-coverage-slp-small-e2-50": [],
+      "ex-catalog-1-3236e79fb3e9": [],
+      "ex-catalog-2-3236e79fb3e9": [],
+      "ex-catalog-3-3236e79fb3e9": [],
+      "ex-catalog-4-3236e79fb3e9": [],
+      "ex-catalog-5-3236e79fb3e9": [],
+      "ex-catalog-9-3236e79fb3e9": [],
+      "ex-catalog-13-3236e79fb3e9": [],
+      "ex-catalog-14-3236e79fb3e9": [],
+      "ex-catalog-17-3236e79fb3e9": [],
+      "ex-catalog-20-3236e79fb3e9": [],
+      "ex-catalog-21-3236e79fb3e9": [],
+      "ex-catalog-24-3236e79fb3e9": [],
+      "ex-catalog-25-3236e79fb3e9": [],
+      "ex-catalog-27-3236e79fb3e9": [],
+      "ex-catalog-28-3236e79fb3e9": [],
+      "ex-catalog-29-3236e79fb3e9": [],
+      "ex-catalog-31-3236e79fb3e9": [],
+      "ex-catalog-32-3236e79fb3e9": [],
+      "ex-catalog-33-3236e79fb3e9": [],
+      "ex-catalog-35-3236e79fb3e9": [],
+      "ex-catalog-36-3236e79fb3e9": [],
+      "ex-catalog-37-3236e79fb3e9": [],
+      "ex-catalog-39-3236e79fb3e9": [],
+      "ex-catalog-40-3236e79fb3e9": [],
+      "ex-catalog-41-3236e79fb3e9": [],
+      "ex-catalog-43-3236e79fb3e9": [],
+      "ex-catalog-44-3236e79fb3e9": [],
+      "ex-catalog-45-3236e79fb3e9": [],
+      "ex-catalog-47-3236e79fb3e9": [],
+      "ex-catalog-48-3236e79fb3e9": [],
+      "ex-catalog-49-3236e79fb3e9": [],
+      "ex-catalog-51-3236e79fb3e9": [],
+      "ex-catalog-52-3236e79fb3e9": [],
+      "ex-catalog-53-3236e79fb3e9": [],
+      "ex-catalog-55-3236e79fb3e9": [],
+      "ex-catalog-56-3236e79fb3e9": [],
+      "ex-catalog-57-3236e79fb3e9": [],
+      "ex-catalog-59-3236e79fb3e9": [],
+      "ex-catalog-60-3236e79fb3e9": [],
+      "ex-catalog-61-3236e79fb3e9": [],
+      "ex-catalog-63-3236e79fb3e9": [],
+      "ex-catalog-64-3236e79fb3e9": [],
+      "ex-catalog-65-3236e79fb3e9": [],
+      "ex-catalog-67-3236e79fb3e9": [],
+      "ex-catalog-68-3236e79fb3e9": [],
+      "ex-catalog-69-3236e79fb3e9": [],
+      "ex-catalog-11-3236e79fb3e9": [],
+      "ex-catalog-15-3236e79fb3e9": [],
+      "ex-catalog-18-3236e79fb3e9": [],
+      "ex-catalog-22-3236e79fb3e9": [],
+      "ex-catalog-26-3236e79fb3e9": [],
+      "ex-catalog-30-3236e79fb3e9": [],
+      "ex-catalog-34-3236e79fb3e9": [],
+      "ex-catalog-38-3236e79fb3e9": [],
+      "ex-catalog-42-3236e79fb3e9": [],
+      "ex-catalog-46-3236e79fb3e9": [],
+      "ex-catalog-50-3236e79fb3e9": [],
+      "ex-catalog-54-3236e79fb3e9": [],
+      "ex-catalog-58-3236e79fb3e9": [],
+      "ex-catalog-62-3236e79fb3e9": [],
+      "ex-catalog-7-3236e79fb3e9": [],
+      "ex-catalog-10-3236e79fb3e9": [],
+      "ex-catalog-12-3236e79fb3e9": [],
+      "ex-catalog-23-3236e79fb3e9": [],
+      "ex-catalog-6-3236e79fb3e9": [],
+      "ex-catalog-16-3236e79fb3e9": [],
+      "ex-catalog-19-3236e79fb3e9": []
+    }
+  }
+}

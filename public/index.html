@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>考研英语作文辅助助手</title>
+<link rel="stylesheet" href="/style.css?v=4">
+</head>
+<body>
+
+<header class="top">
+  <h1>考研英语作文辅助助手<span>知识来源：考研英语作文.pdf</span></h1>
+  <nav class="tabs">
+    <button data-view="write" class="active">写作文</button>
+    <button data-view="review">批改作文</button>
+    <button data-view="exams">真题题库</button>
+    <button data-view="hand">答题卡排版</button>
+    <button data-view="kb">知识库</button>
+    <button data-view="set">设置</button>
+    <a class="manual-link" href="/manual.html" target="_blank" rel="noopener" aria-label="在新标签页打开使用说明">使用说明</a>
+  </nav>
+  <div class="header-right">
+    <span class="exam-chip" id="examChip" hidden></span>
+    <div class="status-chip" id="status"><span class="dot"></span><span id="statusText">检查中…</span></div>
+  </div>
+</header>
+
+<div class="exam-gate" id="examGate" hidden>
+  <div class="exam-gate-card">
+    <h2>先选择你的备考方向</h2>
+    <p class="dim">选择后，知识库只显示你需要背的内容，进度条也能真正背满。之后可以在「设置」里随时切换。</p>
+    <div class="exam-gate-options" id="examGateOptions"></div>
+  </div>
+</div>
+
+<main>
+
+  <!-- ========== 写作文 ========== -->
+  <section class="view active" id="view-write">
+    <div class="card">
+      <h2>第一步 · 输入题目</h2>
+      <div class="row" style="margin-bottom:12px">
+        <button class="btn ghost sm" id="btnPickImg">上传题目照片</button>
+        <button class="btn ghost sm mobile-only" id="btnCamWrite">拍一张</button>
+        <input type="file" id="fileImg" accept="image/png,image/jpeg,image/bmp" hidden>
+        <input type="file" id="camWrite" accept="image/*" capture="environment" hidden>
+        <span class="dim small">支持拍照、从相册选图或直接粘贴图片，也可以手动输入题目</span>
+      </div>
+      <div class="drop" id="drop">
+        把题目图片拖到这里或点上方按钮选择；也可以直接把题目粘贴到下方输入框
+        <div id="preview"></div>
+      </div>
+      <div id="ocrBox"></div>
+      <h3>题目文本</h3>
+      <textarea id="question" placeholder="识别结果会填到这里，也可以直接手动输入题目。例如：给你的英国朋友 Jack 写一封邮件，邀请他参加我们即将举行的、以本校学习和校园生活为主题的线上会议。"></textarea>
+      <div class="row" style="margin-top:12px">
+        <button class="btn" id="btnCompose">开始解析并生成作文</button>
+        <button class="btn ghost" id="btnClassifyOnly">只做题型判定</button>
+      </div>
+      <div id="progress"></div>
+      <div id="composeErr"></div>
+    </div>
+
+    <div id="steps"></div>
+    <div id="result"></div>
+  </section>
+
+  <!-- ========== 真题题库 ========== -->
+  <!-- ========== 批改作文 ========== -->
+  <section class="view" id="view-review">
+    <div class="card">
+      <div class="spread">
+        <div>
+          <h2>批改作文</h2>
+          <div class="dim small">拍照上传你写的作文 → 校对识别结果 → 确认后按讲义规则批改。每条修改都会给出讲义依据。</div>
+        </div>
+        <ol class="review-steps" id="reviewSteps">
+          <li class="active" data-step="1">1 上传识别</li>
+          <li data-step="2">2 校对确认</li>
+          <li data-step="3">3 批改结果</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- 步骤 1 -->
+    <div class="card review-panel active" id="reviewStep1">
+      <h3>第一步 · 上传作文照片</h3>
+      <div class="row" style="margin-bottom:12px">
+        <button class="btn ghost sm" id="btnRvPick">选择作文照片</button>
+        <button class="btn ghost sm mobile-only" id="btnCamReview">拍一张</button>
+        <input type="file" id="rvFile" accept="image/png,image/jpeg,image/bmp" hidden>
+        <input type="file" id="camReview" accept="image/*" capture="environment" hidden>
+        <span class="dim small">支持拍照、从相册选图或粘贴图片；也可跳过识别直接手动输入作文</span>
+      </div>
+      <div class="drop" id="rvDrop">
+        把作文照片拖到这里或点上方按钮选择
+        <div id="rvPreview"></div>
+      </div>
+      <div class="row" id="rvRotateBar" hidden style="margin-top:10px">
+        <span class="dim small">照片方向会自动检测。若识别效果不好，可手动旋转后重试：</span>
+        <button class="btn ghost sm" data-rotate="-90">↺ 左转 90°</button>
+        <button class="btn ghost sm" data-rotate="90">↻ 右转 90°</button>
+        <span class="dim small" id="rvRotateHint"></span>
+      </div>
+      <div class="row" style="margin-top:12px">
+        <button class="btn" id="btnRvOcr" disabled>开始识别</button>
+        <button class="btn ghost" id="btnRvManual">跳过识别，手动输入</button>
+      </div>
+      <div id="rvOcrBox"></div>
+      <div id="rvErr1"></div>
+    </div>
+
+    <!-- 步骤 2 -->
+    <div class="card review-panel" id="reviewStep2">
+      <div class="spread">
+        <h3 style="margin:0">第二步 · 校对识别结果</h3>
+        <button class="btn ghost sm" id="btnRvBack1">返回重新上传</button>
+      </div>
+      <div class="warn-box small" style="margin-top:10px">
+        识别可能有错字或断词。<strong>请先核对下面的文本</strong>，改成你实际写的内容，再点「确认文本并开始批改」。批改只会在你确认之后进行。
+      </div>
+      <div class="err-box small" id="rvLowQuality" hidden></div>
+      <h4>作文文本（空行分段）</h4>
+      <textarea id="rvText" style="min-height:230px" placeholder="识别结果会填到这里，也可以直接手动输入你的作文。"></textarea>
+      <div class="row" style="margin-top:10px">
+        <span class="dim small" id="rvWordCount">0 词</span>
+        <span class="spacer" style="flex:1"></span>
+        <button class="btn ghost sm" id="btnRvRestoreRaw" hidden>还原为原始识别文本</button>
+      </div>
+      <h4 style="margin-top:16px">这篇写的是哪道题</h4>
+      <div class="subtabs rv-mode-tabs" role="tablist">
+        <button class="active" data-rv-mode="exam" role="tab">对照真题批改</button>
+        <button data-rv-mode="free" role="tab">不指定真题</button>
+      </div>
+
+      <div class="rv-mode-panel active" id="rvModeExam">
+        <div class="dim small" style="margin:10px 0">选定真题后会自动带入官方题干、图表数据与范文，字数与数字校验最准，也便于估分。</div>
+        <div class="row">
+          <label>考试
+            <select id="rvExamType">
+              <option value="e2">英语二</option>
+              <option value="e1">英语一</option>
+            </select>
+          </label>
+          <label>类型
+            <select id="rvSection">
+              <option value="big">大作文</option>
+              <option value="small">小作文</option>
+            </select>
+          </label>
+          <label>年份 <select id="rvYear" style="min-width:110px"></select></label>
+          <label style="flex:1;min-width:200px">题目 <select id="rvExamId" style="width:100%"></select></label>
+        </div>
+        <div id="rvExamInfo" class="dim small" style="margin-top:8px"></div>
+      </div>
+
+      <div class="rv-mode-panel" id="rvModeFree">
+        <div class="row" style="margin-top:10px">
+          <label>作文类型
+            <select id="rvCategory">
+              <option value="图表作文">图表作文（英语二大作文）</option>
+              <option value="大作文">图画作文（英语一大作文）</option>
+              <option value="小作文">小作文（应用文）</option>
+            </select>
+          </label>
+          <label style="flex:1;min-width:220px">题干（可选，填了字数与数字校验更准）
+            <input type="text" id="rvQuestion" placeholder="例如：Write an essay based on the table. You should write at least 150 words." style="width:100%">
+          </label>
+        </div>
+        <div id="rvDetection" class="dim small" style="margin-top:8px"></div>
+      </div>
+      <div class="row" style="margin-top:14px">
+        <button class="btn" id="btnRvAnalyze">确认文本并开始批改</button>
+        <label class="dim small"><input type="checkbox" id="rvAi"> AI 深化改写建议</label>
+        <label class="dim small"><input type="checkbox" id="rvAiGrammar"> AI 复核语法（补充规则未覆盖的错误）</label>
+      </div>
+      <div id="rvErr2"></div>
+    </div>
+
+    <!-- 步骤 3 -->
+    <div class="review-panel" id="reviewStep3">
+      <div class="card">
+        <div class="spread">
+          <h3 style="margin:0">第三步 · 批改结果</h3>
+          <div class="row">
+            <button class="btn ghost sm" id="btnRvBack2">返回修改文本</button>
+            <button class="btn ghost sm" id="btnRvPrint">导出批改报告 PDF</button>
+          </div>
+        </div>
+        <div id="rvGrade"></div>
+      </div>
+      <div id="rvScore"></div>
+      <div id="rvCompare"></div>
+      <div id="rvIssues"></div>
+      <div class="card" id="rvFinalCard">
+        <div class="spread">
+          <h3 style="margin:0">修改前后对比</h3>
+          <span class="dim small" id="rvAcceptedCount">已采纳 0 项</span>
+        </div>
+        <div class="dim small" style="margin-top:6px">采纳上面的修改项后，这里会显示应用结果。结构类建议需要你自己动笔补写。</div>
+        <div class="review-diff" id="rvDiff"></div>
+        <div class="row" style="margin-top:12px">
+          <button class="btn sm" id="btnRvCopyFinal">复制终稿</button>
+          <button class="btn ghost sm" id="btnRvToSheet">送入答题卡排版</button>
+        </div>
+        <div id="rvErr3"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-exams">
+    <div class="card">
+      <div class="spread"><div><h2>真题题库</h2><div class="dim small">按年份、科目和题型检索历年真题，支持直接练习。</div></div><button class="btn ghost sm" id="btnExamRandom">随机一题</button></div>
+      <div class="stats exam-stats" id="examStats">加载中…</div>
+    </div>
+    <div class="card exam-filters">
+      <div class="row">
+        <label>科目 <select id="examSubject"><option value="">全部科目</option></select></label>
+        <label>年份 <select id="examYear"><option value="">全部年份</option></select></label>
+        <label>作文 <select id="examEssaySize"><option value="">大小作文</option><option value="big">大作文</option><option value="small">小作文</option></select></label>
+        <label>作文类型 <select id="examEssayType"><option value="">全部类型</option></select></label>
+        <label>范文 <select id="examHasModel"><option value="">有无范文</option><option value="yes">有范文</option><option value="no">无范文</option></select></label>
+        <label class="exam-keyword">关键词 <input id="examKeyword" type="text" placeholder="搜索题干、主题、标签"></label>
+        <button class="btn sm" id="btnExamSearch">筛选</button>
+      </div>
+    </div>
+    <div class="exam-layout">
+      <div class="card exam-list-card"><div class="spread"><h2>题目列表</h2><span id="examCount" class="dim small"></span></div><div id="examList" class="exam-list"><div class="dim small">加载中…</div></div></div>
+      <article class="card exam-detail-card" id="examDetail"><div class="empty-state">选择一道题查看详情。</div></article>
+    </div>
+  </section>
+
+  <!-- ========== 答题卡排版 ========== -->
+  <section class="view" id="view-hand">
+    <div class="card">
+      <h2>答题卡排版</h2>
+      <div class="dim small" style="margin-bottom:14px">完整保留原答题卡边框、上下警示语、Section 标题、题号与横线；用于模拟考场和字帖临摹。</div>
+      <div class="row hw-controls">
+        <label>答题卡区域
+          <select id="hwTemplate"><option value="">加载中…</option></select>
+        </label>
+        <label class="hw-font-control">字体
+          <select id="hwFont"><option value="">加载中…</option></select>
+        </label>
+        <label>颜色
+          <select id="hwColor">
+            <option value="black">黑色</option>
+            <option value="red">红色</option>
+            <option value="blue">蓝色</option>
+            <option value="darkgray">深灰色</option>
+          </select>
+        </label>
+        <label>字号
+          <input type="number" id="hwSize" value="17" min="12" max="28" step="0.5">
+        </label>
+        <label>倾斜（度）
+          <input type="number" id="hwSlant" value="0" min="0" max="15" step="1">
+        </label>
+        <label>基线微调
+          <input type="number" id="hwBaseline" value="0" min="-4" max="4" step="0.5">
+        </label>
+        <label>排版格式
+          <select id="hwStyle">
+            <option value="block">齐头式（讲义推荐）</option>
+            <option value="indent">缩进式</option>
+          </select>
+        </label>
+        <label>文体
+          <select id="hwKind">
+            <option value="letter">书信 / 邮件</option>
+            <option value="notice">通知 / 公告</option>
+          </select>
+        </label>
+      </div>
+      <div id="hwFontSample" class="hw-font-sample">Practice makes progress. The quick brown fox jumps over the lazy dog.</div>
+      <div class="row hw-actions" style="margin-top:12px">
+        <button class="btn ghost sm" id="btnHwExamPreset">模拟考场</button>
+        <button class="btn ghost sm" id="btnHwCopybookPreset">红字字帖</button>
+        <button class="btn sm" id="btnHwRender">生成预览</button>
+        <button class="btn ghost sm" id="btnHwPdf">下载 PDF</button>
+        <button class="btn ghost sm" id="btnHwPng">下载 PNG</button>
+      </div>
+      <div id="hwHint" class="dim small" style="margin-top:10px">先在「写作文」页生成作文，这里会自动带入；也可以直接编辑下方文本。</div>
+      <div id="hwErr"></div>
+      <h3>作文内容（每段一行，空行分段）</h3>
+      <textarea id="hwText" style="min-height:150px" placeholder="Dear Jack,&#10;&#10;第一段内容…&#10;&#10;第二段内容…"></textarea>
+      <div class="row" style="margin-top:10px">
+        <label>称呼 <input type="text" id="hwSalutation" placeholder="Dear Jack," style="width:180px"></label>
+        <label>落款 <input type="text" id="hwSignature" placeholder="Yours sincerely, / Li Ming" style="width:230px"></label>
+      </div>
+      <div id="hwNoticeFields" class="row" style="margin-top:10px; display:none">
+        <label>标题 <input type="text" id="hwTitle" value="Notice" style="width:150px"></label>
+        <label>日期 <input type="text" id="hwDate" placeholder="June 15, 2026" style="width:180px"></label>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>预览</h2>
+      <div id="hwLineStatus" class="hw-line-status dim small">生成预览后显示行数占用情况。</div>
+      <div class="hw-wrap hw-sheet" id="hwPreview"><div class="dim" style="text-align:center;padding:40px">点「生成预览」查看效果</div></div>
+    </div>
+
+    <div class="card">
+      <h2>卷面要点（讲义 p41 / p42 / p43）</h2>
+      <div id="hwTips" class="dim">加载中…</div>
+    </div>
+  </section>
+
+  <!-- ========== 知识库 ========== -->
+  <!-- ========== 工具（移动端「工具」Tab 的中转页；宽屏顶部导航仍可直达各功能） ========== -->
+  <section class="view" id="view-tools">
+    <div class="card tools-head">
+      <h2>更多功能</h2>
+      <div class="dim small">高频功能都在底部主栏；其余工具集中在这里。</div>
+    </div>
+    <button class="tool-card" data-goto="kb">
+      <b>知识库</b>
+      <span>写作方法 · 模板 · 词汇 · 真题范文 · 学习卡片与进度</span>
+    </button>
+    <button class="tool-card" data-goto="hand">
+      <b>答题卡排版</b>
+      <span>把作文排成带横线/格子的答题卡稿，下载 PDF / PNG 或分享</span>
+    </button>
+    <a class="tool-card" href="/manual.html" target="_blank" rel="noopener" aria-label="在新标签页打开使用说明">
+      <b>使用说明</b>
+      <span>完整功能手册（新窗口打开）</span>
+    </a>
+  </section>
+
+  <section class="view" id="view-kb">
+    <div class="card">
+      <div class="spread">
+        <div>
+          <h2>知识库</h2>
+          <div class="stats" id="kbStats">加载中…</div>
+        </div>
+        <div class="subtabs" role="tablist" aria-label="知识库视图">
+          <button class="active" data-kb-view="dictionary" role="tab">模板字典</button>
+          <button data-kb-view="cards" role="tab">学习卡片</button>
+          <button data-kb-view="analysis" role="tab">行文解析</button>
+          <button data-kb-view="modules" role="tab">模块组装</button>
+          <button data-kb-view="practice" role="tab">组装演练 <span id="practiceCount" class="count">0</span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="kb-panel active" id="kb-dictionary">
+      <div class="card">
+        <h2>模板检索</h2>
+        <div class="row">
+          <input type="text" id="kbKeyword" placeholder="搜索中英文、板块名…" style="flex:1;min-width:200px">
+          <select id="kbKind"><option value="">全部分类</option></select>
+          <select id="kbLetterType"><option value="">全部题型</option></select>
+          <button class="btn sm" id="btnKbSearch">搜索</button>
+        </div>
+        <div class="dim small kb-legend">
+          <span class="tag slot">红色 = 题目相关词（必须替换）</span>
+          <span class="tag swap">蓝色 = 次级占位符</span>
+        </div>
+        <div class="kb-list" id="kbList"></div>
+      </div>
+    </div>
+
+    <div class="kb-panel" id="kb-cards">
+      <div class="card">
+        <div class="spread kb-toolbar">
+          <div>
+            <h2>按学习进度背模板</h2>
+            <div class="dim small">按写作顺序切分成学习单元，进度保存在本机服务端，换浏览器也不会丢。</div>
+          </div>
+          <div class="row">
+            <label>每天背
+              <select id="cardDaily">
+                <option value="5">5 张</option>
+                <option value="8" selected>8 张</option>
+                <option value="12">12 张</option>
+                <option value="16">16 张</option>
+                <option value="20">20 张</option>
+              </select>
+            </label>
+            <button class="btn ghost sm" id="btnCardPrint">导出打印 PDF</button>
+          </div>
+        </div>
+        <div class="study-progress">
+          <div class="study-bar"><div class="study-bar-fill" id="cardBarFill"></div></div>
+          <div class="row study-meta">
+            <span id="cardSummary" class="dim small">加载中…</span>
+            <span class="spacer"></span>
+            <label class="dim small"><input type="checkbox" id="cardHideZh"> 自测模式（隐藏中文）</label>
+            <label class="dim small"><input type="checkbox" id="cardExtended"> 纳入拓展题型</label>
+            <button class="btn ghost sm" id="btnCardReset">重置进度</button>
+          </div>
+          <div id="cardScopeNote" class="dim small" style="margin-top:6px"></div>
+        </div>
+        <div class="row study-filters">
+          <label>轨道 <select id="cardTrack"><option value="">全部轨道</option></select></label>
+          <label>模块 <select id="cardModule"><option value="">全部模块</option></select></label>
+          <label>状态
+            <select id="cardStatus">
+              <option value="">全部状态</option>
+              <option value="new">未学</option>
+              <option value="review">需复习</option>
+              <option value="mastered">已掌握</option>
+            </select>
+          </label>
+          <label>单元 <select id="cardUnit"></select></label>
+        </div>
+        <div id="cardErr"></div>
+      </div>
+      <div id="cardList" class="card-list"><div class="card dim small">加载中…</div></div>
+    </div>
+
+    <div class="kb-panel" id="kb-analysis">
+      <div class="card">
+        <div class="spread kb-toolbar">
+          <div>
+            <h2>真题行文解析</h2>
+            <div class="dim small">逐句说明这句承担什么功能、为什么放在这个位置、对应讲义哪一页。</div>
+          </div>
+          <div class="row">
+            <label>题目 <select id="analysisExam" style="min-width:230px"></select></label>
+            <label class="dim small"><input type="checkbox" id="analysisAi"> AI 深化讲解</label>
+            <button class="btn ghost sm" id="btnAnalysisPrint">导出精讲 PDF</button>
+          </div>
+        </div>
+        <div id="analysisErr"></div>
+      </div>
+      <div id="analysisBody"><div class="card dim small">请选择一道真题。</div></div>
+    </div>
+
+    <div class="kb-panel" id="kb-modules">
+      <div class="card">
+        <div class="spread kb-toolbar">
+          <div>
+            <h2>按写作轨道组装模板</h2>
+            <div class="dim small" id="moduleTrackDescription">按模块顺序选句，加入右侧练习稿。</div>
+          </div>
+          <div class="row">
+            <label>轨道
+              <select id="moduleTrack">
+                <option value="chart">图表作文</option>
+                <option value="picture">图画作文</option>
+                <option value="small">小作文</option>
+              </select>
+            </label>
+            <label id="moduleLetterTypeWrap" hidden>题型
+              <select id="moduleLetterType"><option value="">全部题型</option></select>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="assembly-layout">
+        <div id="moduleList" class="module-list"><div class="card dim small">请选择轨道。</div></div>
+        <aside class="card draft-aside">
+          <div class="spread"><h2>练习稿</h2><span id="moduleDraftCount" class="tag">0 句</span></div>
+          <div id="moduleDraftSummary" class="dim small">尚未选句。</div>
+          <button class="btn sm full" id="btnOpenPractice">进入组装演练</button>
+        </aside>
+      </div>
+    </div>
+
+    <div class="kb-panel" id="kb-practice">
+      <div class="practice-layout">
+        <div>
+          <div class="card">
+            <div class="spread">
+              <div><h2>句子编排</h2><div class="dim small">调整顺序、替换或删除；练习稿仅保存在当前浏览器会话。</div></div>
+              <button class="btn ghost sm" id="btnBackModules">返回模块组装选句</button>
+            </div>
+            <div id="practiceSentences" class="practice-sentences"></div>
+          </div>
+          <div class="card">
+            <h2>占位符填写</h2>
+            <div id="practiceFills" class="fill-grid"></div>
+          </div>
+        </div>
+        <aside class="card preview-aside">
+          <div class="spread"><h2>实时预览</h2><span id="practiceWords" class="tag">0 词</span></div>
+          <div id="practiceWarnings"></div>
+          <div id="practicePreview" class="essay practice-preview"></div>
+          <button class="btn full" id="btnCopyPractice">复制纯文本</button>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 设置 ========== -->
+  <section class="view" id="view-set">
+    <div class="card">
+      <h2>备考方向</h2>
+      <div class="dim small">决定知识库显示范围与进度口径。两个方向的背诵进度分别保存，切换不会丢。</div>
+      <div class="row" style="margin-top:12px">
+        <label>我考
+          <select id="cfgExamType">
+            <option value="">尚未选择</option>
+            <option value="e1">英语一</option>
+            <option value="e2">英语二</option>
+          </select>
+        </label>
+        <button class="btn sm" id="btnSaveExamType">保存方向</button>
+      </div>
+      <div id="examTypeNote" class="dim small" style="margin-top:8px"></div>
+      <div id="examTypeMsg"></div>
+    </div>
+
+    <div class="card">
+      <h2>DeepSeek API</h2>
+      <div class="row">
+        <label style="flex:1;min-width:260px">API Key
+          <input type="password" id="cfgKey" placeholder="留空表示不修改" style="width:100%">
+        </label>
+      </div>
+      <div class="dim small" id="cfgKeyMask" style="margin-top:6px"></div>
+      <div class="row" style="margin-top:12px">
+        <label>判断类模型
+          <select id="cfgModelR">
+            <option value="deepseek-v4-flash">deepseek-v4-flash（推荐）</option>
+            <option value="deepseek-v4-pro">deepseek-v4-pro</option>
+          </select>
+        </label>
+        <label>润色类模型
+          <select id="cfgModelF">
+            <option value="deepseek-v4-flash">deepseek-v4-flash（推荐）</option>
+            <option value="deepseek-v4-pro">deepseek-v4-pro</option>
+          </select>
+        </label>
+      </div>
+      <div class="row" style="margin-top:14px">
+        <button class="btn" id="btnSaveCfg">保存</button>
+        <button class="btn ghost" id="btnTestCfg">测试连通性</button>
+        <button class="btn ghost" id="btnClearKey">清除 Key</button>
+      </div>
+      <div id="cfgMsg"></div>
+    </div>
+
+    <div class="card">
+      <h2>图片识别（千问视觉）</h2>
+      <p class="dim small" style="margin-top:2px">
+        题图理解、图表读数、题面文字转录与手写作文转写全部由千问视觉模型完成。
+        图片方向不正确时模型会自行纠正阅读方向，无需手动旋转。
+      </p>
+      <div class="row" style="margin-top:6px">
+        <label style="flex:1;min-width:260px">DashScope API Key
+          <input type="password" id="cfgVisionKey" placeholder="留空表示不修改" style="width:100%">
+        </label>
+        <label>识别模型
+          <select id="cfgVisionModel">
+            <option value="qwen3.7-plus">qwen3.7-plus (推荐，性价比高)</option>
+            <option value="qwen3.8-max">qwen3.8-max (旗舰)</option>
+            <option value="qwen3.7-flash">qwen3.7-flash (极速)</option>
+          </select>
+        </label>
+      </div>
+      <div class="dim small" id="cfgVisionKeyMask" style="margin-top:6px"></div>
+      <div class="row" style="margin-top:12px">
+        <button class="btn" id="btnSaveVisionCfg">保存识别设置</button>
+        <button class="btn ghost" id="btnTestVisionCfg">测试连通性</button>
+        <button class="btn ghost" id="btnClearVisionKey">清除 Key</button>
+      </div>
+      <div id="visionCfgMsg"></div>
+    </div>
+  </section>
+
+</main>
+
+<nav class="app-tabbar" aria-label="主导航">
+  <button data-view="write" class="active">写作文</button>
+  <button data-view="review">批改</button>
+  <button data-view="exams">题库</button>
+  <button data-view="tools">工具</button>
+  <button data-view="set">设置</button>
+</nav>
+
+<script type="module" src="/app.js?v=4"></script>
+</body>
+</html>
